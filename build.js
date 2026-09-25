@@ -87,7 +87,7 @@ function markdown(md) {
     }
     let m;
     if (/^\s*```/.test(line)) { flush(); code = []; }
-    else if (/^\|/.test(line)) { flushPara(); flushList(); flushQuote(); table.push(line.trim()); }
+    else if (/^\s*\|/.test(line)) { flushPara(); flushList(); flushQuote(); table.push(line.trim()); }
     else if ((m = line.match(/^(#{1,4})\s+(.*)$/))) { flush(); const n = m[1].length; out.push(`<h${n}>${inline(m[2])}</h${n}>`); }
     else if ((m = line.match(/^>\s?(.*)$/))) { flushPara(); flushList(); flushTable(); quote.push(m[1]); }
     else if (list && (m = line.match(/^\s{2,}(?:\d+\.|[-*])\s+(.*)$/))) {

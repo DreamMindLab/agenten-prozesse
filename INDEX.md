@@ -21,7 +21,7 @@
 | Prozess | Wofür | Stichworte | Status |
 |---|---|---|---|
 | [Newsletter](prozesse/newsletter.md) | Einzelne E-Mail an die Liste: eine Idee, 3 Betreffzeilen, Preheader, ein klarer CTA. | Newsletter, einzelne E-Mail, Mailing, Rundmail, wöchentliche Mail, E-Mail an die Liste | fertig v1 |
-| [SEO-Blogartikel](prozesse/seo-blogartikel.md) | Suchmaschinen- & GEO-optimierter Artikel inkl. Struktur. | Blog, Artikel, SEO, GEO, Ranking | entwurf |
+| [SEO-Blogartikel](prozesse/seo-blogartikel.md) | Artikel, der die Suchintention trifft, eigene Erfahrung einbringt und für Google und KI-Antworten zitierbar ist. | Blog, Blogartikel, Artikel, SEO, GEO, Ranking, Suchmaschinenoptimierung, Fachartikel, Ratgeber, KI-Suche | fertig v1 |
 | [Copywriting](prozesse/copywriting.md) | Verkaufsstarke Texte auf Basis echter Kundensprache: Headlines, Angebotstexte, Sales Copy. | Werbetext, Sales Copy, Headline, Hook, Verkaufstext, Angebotstext, Produktbeschreibung, Überschrift | fertig v1 |
 | [Landingpage erstellen](prozesse/landingpage.md) | Landingpage mit einem Ziel: Copy, Aufbau, Umsetzung als fertige Seite. | Landingpage, Sales Page, Verkaufsseite, Opt-in-Seite, Funnel-Seite, Anmeldeseite, Webinar-Seite, Lead-Magnet-Seite | fertig v1 |
 
@@ -29,8 +29,8 @@
 
 | Prozess | Wofür | Stichworte | Status |
 |---|---|---|---|
-| [Marketing ohne Budget](prozesse/marketing-kostenlos.md) | Organische Reichweite und Kunden gewinnen, ohne Geld auszugeben. | kostenloses Marketing, organisch, Guerilla, Empfehlungen, Kooperationen, Reichweite | entwurf |
-| [Video-Marketing](prozesse/video-marketing.md) | Video-Strategie: Plattformen, Formate, Distribution, Auswertung. | Videostrategie, Video-Content, Videoplan | entwurf |
+| [Marketing ohne Budget](prozesse/marketing-kostenlos.md) | Kunden gewinnen mit Zeit statt Geld: passende Kanäle wählen, günstig testen, auf den Gewinner konzentrieren. | kostenloses Marketing, organisch, Guerilla, Empfehlungen, Kooperationen, Reichweite ohne Werbung, Akquise, Neukunden ohne Budget, Google Unternehmensprofil | fertig v1 |
+| [Video-Marketing](prozesse/video-marketing.md) | 90-Tage-Videostrategie: Ziele pro Stufe, Plattformen, Formate, ein Video → viele Clips, Messung. | Videostrategie, Video-Content, Videoplan, Video-Marketing-Strategie, YouTube-Strategie, Video-Funnel, Repurposing | fertig v1 |
 | [E-Mail-Marketing](prozesse/e-mail-marketing.md) | E-Mail-Sequenzen, die verkaufen: Willkommensstrecke, Verkaufskampagne, rechtssicher und zustellbar. | E-Mail-Sequenz, Autoresponder, Willkommensstrecke, Welcome-Sequenz, Funnel-Mails, Lead-Nurturing, Verkaufsmails, Launch-Mails, E-Mail-Liste | fertig v1 |
 
 ## Werbung

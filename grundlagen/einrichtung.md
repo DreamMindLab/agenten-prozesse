@@ -47,7 +47,7 @@ Jeder Prozess nennt unter **Werkzeuge**, was er braucht. Prüfe vor dem Start, o
 
 ## Werkzeuge im Einzelnen
 
-### HyperFrames-Kit (für: Reel)
+### HyperFrames-Kit (für: Reel, Verkaufsvideo)
 
 Voraussetzungen: Node.js 22+, Git, ffmpeg inkl. ffprobe, Chrome oder Chromium.
 
@@ -63,6 +63,18 @@ Erfolgreich, wenn `npm test` durchläuft. Dann zum Test das Demo rendern: `npm r
 
 Das Kit enthält Skills für Codex (`.agents/skills/`), u. a. `short-form-edit` und `hyperframes`. Lies deren `SKILL.md`, bevor du damit ein Reel baust. Eigene Projekte liegen in `video-projects/<name>/`.
 
+### video-use (für: Verkaufsvideo mit Aufnahme, Testimonial) – optional
+
+Schneidet vorhandene Aufnahmen (Füllwörter, Pausen, Untertitel). Nur installieren, wenn der Nutzer Rohmaterial liefert. Benötigt ffmpeg und einen ElevenLabs-Key (für die Transkription).
+
+```
+git clone https://github.com/browser-use/video-use ~/tools/video-use
+cd ~/tools/video-use
+uv sync   # oder: pip install -e .
+```
+
+Danach `install.md` und `SKILL.md` im Repo lesen und den Skill bei dir registrieren.
+
 ### Playwright + Chromium (für: Post, Karussell, Landingpage)
 
 HTML → PNG/PDF rendern und Seiten auf Handybreite prüfen.
@@ -72,7 +84,7 @@ npm install -g playwright
 npx playwright install chromium
 ```
 
-### ffmpeg (für: Reel)
+### ffmpeg (für: Reel, Verkaufsvideo)
 
 Über den Paketmanager des Systems (`apt install ffmpeg`, `brew install ffmpeg`). Prüfen mit `ffmpeg -version` und `ffprobe -version`.
 
@@ -80,7 +92,7 @@ npx playwright install chromium
 
 Key erforderlich → Nutzer fragen. Account und Key: `https://cloud.higgsfield.ai`. Doku: `https://docs.higgsfield.ai`. Abrechnung über Guthaben, stoppt bei 0.
 
-### ElevenLabs (für: Reel mit Stimme) – kostenpflichtig
+### ElevenLabs (für: Reel und Verkaufsvideo mit Stimme) – kostenpflichtig
 
 Key erforderlich → Nutzer fragen. Key unter `https://elevenlabs.io/app/settings/api-keys`. Ohne Key: Reel ohne Stimme (nur Text).
 

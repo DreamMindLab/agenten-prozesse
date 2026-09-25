@@ -20,7 +20,7 @@
 
 | Prozess | Wofür | Stichworte | Status |
 |---|---|---|---|
-| [Newsletter](prozesse/newsletter.md) | E-Mail mit 3 Betreffzeilen, Preheader und klarem CTA. | Newsletter, einzelne E-Mail, Mailing | entwurf |
+| [Newsletter](prozesse/newsletter.md) | Einzelne E-Mail an die Liste: eine Idee, 3 Betreffzeilen, Preheader, ein klarer CTA. | Newsletter, einzelne E-Mail, Mailing, Rundmail, wöchentliche Mail, E-Mail an die Liste | fertig v1 |
 | [SEO-Blogartikel](prozesse/seo-blogartikel.md) | Suchmaschinen- & GEO-optimierter Artikel inkl. Struktur. | Blog, Artikel, SEO, GEO, Ranking | entwurf |
 | [Copywriting](prozesse/copywriting.md) | Verkaufsstarke Texte auf Basis echter Kundensprache: Headlines, Angebotstexte, Sales Copy. | Werbetext, Sales Copy, Headline, Hook, Verkaufstext, Angebotstext, Produktbeschreibung, Überschrift | fertig v1 |
 | [Landingpage erstellen](prozesse/landingpage.md) | Landingpage mit einem Ziel: Copy, Aufbau, Umsetzung als fertige Seite. | Landingpage, Sales Page, Verkaufsseite, Opt-in-Seite, Funnel-Seite, Anmeldeseite, Webinar-Seite, Lead-Magnet-Seite | fertig v1 |
@@ -37,9 +37,9 @@
 
 | Prozess | Wofür | Stichworte | Status |
 |---|---|---|---|
-| [Ad-Texte (Meta/Google)](prozesse/ad-texte.md) | Anzeigentexte mit Hook, Nutzen und Call-to-Action. | Anzeige, Meta Ads, Facebook Ads, Google Ads, Werbetext | entwurf |
+| [Ad-Texte (Meta/Google)](prozesse/ad-texte.md) | Anzeigentexte für Meta (Facebook/Instagram) und Google-Suchanzeigen: verschiedene Ansätze, richtlinienkonform, mit Zeichenlimits. | Anzeige, Meta Ads, Facebook Ads, Instagram Ads, Google Ads, Suchanzeige, Werbetext, Anzeigentext, Ad Copy, RSA | fertig v1 |
 | [Ad-Creative (Bild)](prozesse/ad-creative-bild.md) | Werbebild passend zu CI und Botschaft. | Werbebild, Creative, Anzeigenbild, Banner | entwurf |
-| [Verkaufsvideo](prozesse/verkaufsvideo.md) | Skript für Pitch-, Content- oder Testimonial-Video inkl. Hook. | VSL, Pitch-Video, Testimonial, Sales Video | entwurf |
+| [Verkaufsvideo](prozesse/verkaufsvideo.md) | Skript und Produktion für Pitch-Video (VSL), kurzes Verkaufsvideo für Ads oder Testimonial-Schnitt. | VSL, Video Sales Letter, Pitch-Video, Verkaufsvideo, Testimonial-Video, Kundenstimme, Sales Video, Video-Anzeige | fertig v1 |
 
 ## Video & Audio
 

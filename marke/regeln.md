@@ -13,6 +13,8 @@ beschreibung: Budgets, Freigaben und No-Gos.
 
 ## Werkzeuge & Zugänge
 
+- Company OS (CRM, Aufgaben, Pipeline, Kundencockpit): Zugang für Hermes (API / Export / Browser): 
+- Darf Hermes im Company OS Aufgaben anlegen? (ja/nein): 
 - E-Mail-Tool (z. B. Brevo, Klaviyo, Mailchimp, KIT): 
 - Absender-Domain und Absendername für E-Mails: 
 - Landingpage: Builder (z. B. Webflow, WordPress, Systeme.io) oder eigene HTML-Seite + Hosting: 

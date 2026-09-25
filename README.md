@@ -34,7 +34,7 @@ Auf der gebauten Website gibt es zusätzlich `llms.txt` und `prozesse.json`.
 2. Darunter die Abschnitte: Ziel, Benötigte Inputs, Werkzeuge, Schritt-für-Schritt (die letzten beiden Schritte sind immer **Quality Check (Loop)** und **Foundation-Agent**), Output-Format. Vorlage: `prozesse/social-media-post.md`.
 3. `node build.js` ausführen (aktualisiert `INDEX.md`), committen, pushen.
 
-Icons: `megaphone`, `layers`, `sparkles`, `calendar`, `mail`, `file-text`, `target`, `image`, `video`, `users`, `play`, `mic`, `pen`, `layout`, `gift`, `trending`, `send`, `search`, `calculator`, `workflow`.
+Icons: `megaphone`, `layers`, `sparkles`, `calendar`, `mail`, `file-text`, `target`, `image`, `video`, `users`, `play`, `mic`, `pen`, `layout`, `gift`, `trending`, `send`, `search`, `calculator`, `workflow`, `chart`.
 
 ## Lokal ansehen
 

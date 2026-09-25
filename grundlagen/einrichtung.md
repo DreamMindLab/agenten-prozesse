@@ -47,7 +47,7 @@ Jeder Prozess nennt unter **Werkzeuge**, was er braucht. Prüfe vor dem Start, o
 
 ## Werkzeuge im Einzelnen
 
-### HyperFrames-Kit (für: Reel, Verkaufsvideo)
+### HyperFrames-Kit (für: Reel, Verkaufsvideo, YouTube, Podcast)
 
 Voraussetzungen: Node.js 22+, Git, ffmpeg inkl. ffprobe, Chrome oder Chromium.
 
@@ -92,7 +92,7 @@ npx playwright install chromium
 
 Key erforderlich → Nutzer fragen. Account und Key: `https://cloud.higgsfield.ai`. Doku: `https://docs.higgsfield.ai`. Abrechnung über Guthaben, stoppt bei 0.
 
-### ElevenLabs (für: Reel und Verkaufsvideo mit Stimme) – kostenpflichtig
+### ElevenLabs (für: Reel, Verkaufsvideo, YouTube, Podcast) – kostenpflichtig
 
 Key erforderlich → Nutzer fragen. Key unter `https://elevenlabs.io/app/settings/api-keys`. Ohne Key: Reel ohne Stimme (nur Text).
 

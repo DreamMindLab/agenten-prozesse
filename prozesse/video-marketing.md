@@ -29,7 +29,7 @@ Was die Daten sagen:
 
 ## Werkzeuge
 
-- Produktionsprozesse: `prozesse/reel-kurzvideo.md`, `prozesse/youtube-video.md` (sobald fertig), `prozesse/verkaufsvideo.md`
+- Produktionsprozesse: `prozesse/reel-kurzvideo.md`, `prozesse/youtube-video.md`, `prozesse/verkaufsvideo.md`
 - Clips aus langen Videos: HyperFrames-Kit (`short-form-edit`) oder `video-use`
 - Einrichtung: `grundlagen/einrichtung.md`
 

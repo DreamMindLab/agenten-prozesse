@@ -45,8 +45,8 @@
 
 | Prozess | Wofür | Stichworte | Status |
 |---|---|---|---|
-| [YouTube-Video](prozesse/youtube-video.md) | Vollständige Produktion: Skript, Thumbnail, Beschreibung, Tags, Shorts. | YouTube, Thumbnail, Video-Skript, Long-Form | entwurf |
-| [Podcast-Episode](prozesse/podcast-episode.md) | Skript plus Vertonung – sprechfertig. | Podcast, Audio, Vertonung, Stimmklon | entwurf |
+| [YouTube-Video](prozesse/youtube-video.md) | Vollständige Produktion eines YouTube-Videos: Titel und Thumbnail zuerst, Skript, Schnitt, Beschreibung, Kapitel, Shorts. | YouTube, YouTube-Video, Thumbnail, Video-Skript, Long-Form, YouTube-Titel, Kapitel, Tutorial-Video | fertig v1 |
+| [Podcast-Episode](prozesse/podcast-episode.md) | Sprechfertige Episode: Skript oder Interview-Leitfaden, Vertonung (eigene Stimme oder Stimmklon), Shownotes, Clips. | Podcast, Podcast-Folge, Episode, Audio, Vertonung, Stimmklon, Interview, Shownotes, Video-Podcast | fertig v1 |
 
 ## Strategie & Recherche
 

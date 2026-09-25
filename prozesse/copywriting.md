@@ -4,7 +4,7 @@ kategorie: Text & Copy
 icon: pen
 beschreibung: Verkaufsstarke Texte auf Basis echter Kundensprache: Headlines, Angebotstexte, Sales Copy.
 status: fertig
-version: 1
+version: 2
 reihenfolge: 22
 stichworte: Werbetext, Sales Copy, Headline, Hook, Verkaufstext, Angebotstext, Produktbeschreibung, Überschrift
 ---
@@ -72,6 +72,7 @@ Dieser Prozess ist auch der **Kern für Landingpage, E-Mail-Marketing und Ads**:
    - **Kann man es überprüfen?** (Zahl, Zeitraum, konkretes Ergebnis statt „besser“, „einfach“)
    - **Kann das nur dieses Angebot sagen?** (Würde der Satz auch auf der Seite der Konkurrenz stehen können → umschreiben)
    Aussagen mit drei Nein umschreiben.
+   Danach den **Persona-Test** aus `grundlagen/themen-und-verstaendlichkeit.md`, Baustein 4, auf den ganzen Text anwenden (Lesen aus Sicht der Zielperson: Was verstehe ich nicht sofort, wo steige ich aus, welche Frage bleibt offen?) und überarbeiten.
 10. **Quality Check (Loop).** Vorgehen: `grundlagen/qualitaet-und-lernen.md`. Kriterien:
     - [ ] Der Text zielt auf genau einen Leser und genau eine Handlung (Schritt 2).
     - [ ] Dominantes Verlangen, Bewusstseinsstufe und Marktreife sind benannt, und Einstieg und Headline passen dazu.
@@ -82,6 +83,7 @@ Dieser Prozess ist auch der **Kern für Landingpage, E-Mail-Marketing und Ads**:
     - [ ] Die 3 wichtigsten Einwände werden beantwortet (bei Texten, die um Geld bitten).
     - [ ] Jede Behauptung über Ergebnisse ist durch `marke/angebot.md` oder den Nutzer belegt.
     - [ ] Keine Sätze über ca. 20 Wörter, keine unerklärten Fachbegriffe.
+    - [ ] Persona-Test (Schritt 9) ohne offenen Befund.
     - [ ] Genau eine Handlungsaufforderung, klar formuliert (Verb + Ergebnis, z. B. „Checkliste holen“ statt „Absenden“).
     - [ ] Harte Kriterien aus `grundlagen/qualitaet-und-lernen.md` erfüllt.
 11. **Foundation-Agent.** Vorgehen: `grundlagen/qualitaet-und-lernen.md`. Zusätzlich: Die gesammelte Kundensprache aus Schritt 3 in deinem Gedächtnis speichern (wiederverwendbar). Sind darunter starke Formulierungen, die in `marke/zielgruppe.md` fehlen, schick sie dem Nutzer als Vorschlag zum Einfügen.

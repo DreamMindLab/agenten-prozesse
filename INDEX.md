@@ -22,7 +22,7 @@
 |---|---|---|---|
 | [Newsletter](prozesse/newsletter.md) | Einzelne E-Mail an die Liste: eine Idee, 3 Betreffzeilen, Preheader, ein klarer CTA. | Newsletter, einzelne E-Mail, Mailing, Rundmail, wöchentliche Mail, E-Mail an die Liste | fertig v1 |
 | [SEO-Blogartikel](prozesse/seo-blogartikel.md) | Artikel, der die Suchintention trifft, eigene Erfahrung einbringt und für Google und KI-Antworten zitierbar ist. | Blog, Blogartikel, Artikel, SEO, GEO, Ranking, Suchmaschinenoptimierung, Fachartikel, Ratgeber, KI-Suche | fertig v2 |
-| [Copywriting](prozesse/copywriting.md) | Verkaufsstarke Texte auf Basis echter Kundensprache: Headlines, Angebotstexte, Sales Copy. | Werbetext, Sales Copy, Headline, Hook, Verkaufstext, Angebotstext, Produktbeschreibung, Überschrift | fertig v1 |
+| [Copywriting](prozesse/copywriting.md) | Verkaufsstarke Texte auf Basis echter Kundensprache: Headlines, Angebotstexte, Sales Copy. | Werbetext, Sales Copy, Headline, Hook, Verkaufstext, Angebotstext, Produktbeschreibung, Überschrift | fertig v2 |
 | [Landingpage erstellen](prozesse/landingpage.md) | Landingpage mit einem Ziel: Copy, Aufbau, Umsetzung als fertige Seite. | Landingpage, Sales Page, Verkaufsseite, Opt-in-Seite, Funnel-Seite, Anmeldeseite, Webinar-Seite, Lead-Magnet-Seite | fertig v1 |
 
 ## Marketing

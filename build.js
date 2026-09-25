@@ -8,7 +8,7 @@ const ROOT = __dirname;
 const SRC = path.join(ROOT, 'prozesse');
 const OUT = path.join(ROOT, '_site');
 const BASE_URL = (process.env.BASE_URL || '').replace(/\/$/, '');
-const KATEGORIEN = ['Social Media', 'Text & SEO', 'Werbung', 'Video & Audio', 'Strategie'];
+const KATEGORIEN = ['Social Media', 'Text & Copy', 'Marketing', 'Werbung', 'Video & Audio', 'Strategie & Recherche', 'Business'];
 
 const ICONS = {
   megaphone: '<path d="m3 11 18-5v12L3 14v-3z"/><path d="M11.6 16.8a3 3 0 1 1-5.8-1.6"/>',
@@ -22,6 +22,14 @@ const ICONS = {
   video: '<path d="m22 8-6 4 6 4V8z"/><rect x="2" y="6" width="14" height="12" rx="2"/>',
   users: '<path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M22 21v-2a4 4 0 0 0-3-3.9M16 3.1a4 4 0 0 1 0 7.8"/>',
   play: '<rect x="2" y="4" width="20" height="16" rx="4"/><path d="m10 9 5 3-5 3z"/>',
+  pen: '<path d="M12 20h9"/><path d="M16.5 3.5a2.1 2.1 0 0 1 3 3L7 19l-4 1 1-4z"/>',
+  layout: '<rect x="3" y="3" width="18" height="18" rx="2"/><path d="M3 9h18M9 21V9"/>',
+  gift: '<rect x="3" y="8" width="18" height="4" rx="1"/><path d="M12 8v13M19 12v9H5v-9"/><path d="M7.5 8a2.5 2.5 0 0 1 0-5C11 3 12 8 12 8s1-5 4.5-5a2.5 2.5 0 0 1 0 5"/>',
+  trending: '<path d="m22 7-8.5 8.5-5-5L2 17"/><path d="M16 7h6v6"/>',
+  send: '<path d="M22 2 11 13"/><path d="M22 2 15 22l-4-9-9-4z"/>',
+  search: '<circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/>',
+  calculator: '<rect x="4" y="2" width="16" height="20" rx="2"/><path d="M8 6h8M8 14h.01M12 14h.01M16 14h.01M8 18h.01M12 18h.01M16 18h.01"/>',
+  workflow: '<rect x="3" y="3" width="8" height="8" rx="2"/><path d="M7 11v4a2 2 0 0 0 2 2h4"/><rect x="13" y="13" width="8" height="8" rx="2"/>',
   mic: '<rect x="9" y="2" width="6" height="12" rx="3"/><path d="M19 10v2a7 7 0 0 1-14 0v-2M12 19v3"/>',
 };
 const icon = (name) =>
@@ -185,6 +193,7 @@ fs.writeFileSync(path.join(OUT, 'prozesse.json'), JSON.stringify({
   prozesse: prozesse.map((p) => ({
     slug: p.slug, titel: p.titel, kategorie: p.kategorie, beschreibung: p.beschreibung,
     status: p.status || 'entwurf',
+    stichworte: (p.stichworte || '').split(',').map((w) => w.trim()).filter(Boolean),
     html: url(`prozesse/${p.slug}/`), markdown: url(`prozesse/${p.slug}.md`),
   })),
 }, null, 2));
@@ -196,7 +205,7 @@ fs.writeFileSync(path.join(OUT, 'llms.txt'), `# Agenten-Prozesse
 
 ## So nutzt du diese Seite
 
-1. Bestimme anhand der Anfrage das passende Format aus der Liste unten.
+1. Bestimme anhand der Anfrage und der Stichworte das passende Format aus der Liste unten.
 2. Lade den Prozess als Markdown (Link unten) und befolge die Schritte exakt in der angegebenen Reihenfolge.
 3. Fehlen Inputs aus "Benötigte Inputs", frage beim Nutzer nach, bevor du startest.
 4. Arbeite vor der Auslieferung den Qualitätscheck ab und liefere im beschriebenen Output-Format.
@@ -207,7 +216,17 @@ Maschinenlesbarer Index: ${url('prozesse.json')}
 
 ${kategorien.map((k) => {
   const items = prozesse.filter((p) => p.kategorie === k);
-  return items.length ? `## ${k}\n\n${items.map((p) => `- [${p.titel}](${url(`prozesse/${p.slug}.md`)}): ${p.beschreibung}${p.status && p.status !== 'fertig' ? ` (Status: ${p.status})` : ''}`).join('\n')}\n` : '';
+  return items.length ? `## ${k}\n\n${items.map((p) => `- [${p.titel}](${url(`prozesse/${p.slug}.md`)}): ${p.beschreibung}${p.stichworte ? ` Stichworte: ${p.stichworte}.` : ''}${p.status && p.status !== 'fertig' ? ` (Status: ${p.status})` : ''}`).join('\n')}\n` : '';
+}).filter(Boolean).join('\n')}`);
+
+// Index im Repo selbst: Agenten, die das (private) Repo lesen, brauchen keine Website.
+fs.writeFileSync(path.join(ROOT, 'INDEX.md'), `# Prozess-Index
+
+> Automatisch erzeugt von \`node build.js\`, nicht von Hand bearbeiten. Anleitung: [AGENTS.md](AGENTS.md)
+
+${kategorien.map((k) => {
+  const items = prozesse.filter((p) => p.kategorie === k);
+  return items.length ? `## ${k}\n\n| Prozess | Wofür | Stichworte | Status |\n|---|---|---|---|\n${items.map((p) => `| [${p.titel}](prozesse/${p.slug}.md) | ${p.beschreibung} | ${p.stichworte || ''} | ${p.status || 'entwurf'} |`).join('\n')}\n` : '';
 }).filter(Boolean).join('\n')}`);
 
 fs.writeFileSync(path.join(OUT, '.nojekyll'), '');

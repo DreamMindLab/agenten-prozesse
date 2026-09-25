@@ -4,7 +4,8 @@ kategorie: Social Media
 icon: megaphone
 beschreibung: Einzelpost für Instagram & LinkedIn: Hook, Mehrwert, CTA.
 status: entwurf
-reihenfolge: 1
+reihenfolge: 10
+stichworte: Instagram-Post, LinkedIn-Post, Posting, Caption
 ---
 
 > **Platzhalter.** Dieser Prozess ist noch nicht ausgearbeitet. Inhalte folgen.

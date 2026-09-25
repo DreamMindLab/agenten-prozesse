@@ -4,9 +4,13 @@ Eine Seite mit Buttons für jedes Content-/Marketing-Format. Jeder Button führt
 
 ## Für KI-Agenten
 
-- Einstieg: `llms.txt` (Anleitung + Liste aller Prozesse)
-- Index: `prozesse.json`
-- Jeder Prozess als reines Markdown: `prozesse/<slug>.md`
+Solange das Repo privat ist, liest der Agent direkt aus dem Repo (kein Website-Zugriff nötig):
+
+- Anleitung: [AGENTS.md](AGENTS.md)
+- Übersicht aller Prozesse: [INDEX.md](INDEX.md) (wird von `node build.js` erzeugt)
+- Jeder Prozess: `prozesse/<slug>.md`
+
+Auf der gebauten Website gibt es zusätzlich `llms.txt` und `prozesse.json`.
 
 ## Neuen Prozess anlegen / bearbeiten
 
@@ -20,13 +24,14 @@ Eine Seite mit Buttons für jedes Content-/Marketing-Format. Jeder Button führt
    beschreibung: Ein Satz, was rauskommt.
    status: entwurf        # oder: fertig
    reihenfolge: 13
+   stichworte: LinkedIn-Artikel, Fachartikel   # hilft dem Agenten bei der Zuordnung
    ---
    ```
 
 2. Darunter die Abschnitte: Ziel, Benötigte Inputs, Schritt-für-Schritt, Qualitätscheck, Output-Format.
-3. Pushen auf `main` – die Seite baut sich automatisch (GitHub Pages).
+3. `node build.js` ausführen (aktualisiert `INDEX.md`), committen, pushen.
 
-Icons: `megaphone`, `layers`, `sparkles`, `calendar`, `mail`, `file-text`, `target`, `image`, `video`, `users`, `play`, `mic`.
+Icons: `megaphone`, `layers`, `sparkles`, `calendar`, `mail`, `file-text`, `target`, `image`, `video`, `users`, `play`, `mic`, `pen`, `layout`, `gift`, `trending`, `send`, `search`, `calculator`, `workflow`.
 
 ## Lokal ansehen
 
@@ -35,6 +40,7 @@ node build.js
 python3 -m http.server -d _site
 ```
 
-## Einmalig einrichten
+## Website veröffentlichen (später, nach GitHub-Upgrade)
 
-GitHub → Settings → Pages → Source: **GitHub Actions**.
+1. GitHub → Settings → Pages → Source: **GitHub Actions**.
+2. In `.github/workflows/pages.yml` den Auslöser `push: { branches: [main] }` wieder aktivieren.

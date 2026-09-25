@@ -4,7 +4,8 @@ kategorie: Social Media
 icon: layers
 beschreibung: Mehrseitiges Karussell: Hook-Slide, Mehrwert-Slides, CTA.
 status: entwurf
-reihenfolge: 2
+reihenfolge: 11
+stichworte: Carousel, Slides, Swipe-Post
 ---
 
 > **Platzhalter.** Dieser Prozess ist noch nicht ausgearbeitet. Inhalte folgen.

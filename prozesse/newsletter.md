@@ -1,10 +1,11 @@
 ---
 titel: Newsletter
-kategorie: Text & SEO
+kategorie: Text & Copy
 icon: mail
 beschreibung: E-Mail mit 3 Betreffzeilen, Preheader und klarem CTA.
 status: entwurf
-reihenfolge: 5
+reihenfolge: 20
+stichworte: Newsletter, einzelne E-Mail, Mailing
 ---
 
 > **Platzhalter.** Dieser Prozess ist noch nicht ausgearbeitet. Inhalte folgen.

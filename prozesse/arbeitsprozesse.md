@@ -1,11 +1,11 @@
 ---
-titel: YouTube-Video
-kategorie: Video & Audio
-icon: play
-beschreibung: Vollständige Produktion: Skript, Thumbnail, Beschreibung, Tags, Shorts.
+titel: Arbeitsprozesse
+kategorie: Business
+icon: workflow
+beschreibung: Abläufe dokumentieren, als SOP festhalten und automatisieren.
 status: entwurf
-reihenfolge: 50
-stichworte: YouTube, Thumbnail, Video-Skript, Long-Form
+reihenfolge: 71
+stichworte: SOP, Workflow, Automatisierung, Prozessbeschreibung, Checkliste
 ---
 
 > **Platzhalter.** Dieser Prozess ist noch nicht ausgearbeitet. Inhalte folgen.

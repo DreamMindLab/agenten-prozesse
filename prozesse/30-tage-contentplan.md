@@ -1,10 +1,11 @@
 ---
 titel: 30-Tage-Contentplan
-kategorie: Strategie
+kategorie: Strategie & Recherche
 icon: calendar
 beschreibung: Kompletter Themenplan mit Posts, Formaten und Posting-Zeiten.
 status: entwurf
-reihenfolge: 4
+reihenfolge: 60
+stichworte: Contentplan, Redaktionsplan, Themenplan, Posting-Plan
 ---
 
 > **Platzhalter.** Dieser Prozess ist noch nicht ausgearbeitet. Inhalte folgen.

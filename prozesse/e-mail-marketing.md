@@ -1,11 +1,11 @@
 ---
-titel: YouTube-Video
-kategorie: Video & Audio
-icon: play
-beschreibung: Vollständige Produktion: Skript, Thumbnail, Beschreibung, Tags, Shorts.
+titel: E-Mail-Marketing
+kategorie: Marketing
+icon: send
+beschreibung: Liste aufbauen, Sequenzen und Automationen, die verkaufen.
 status: entwurf
-reihenfolge: 50
-stichworte: YouTube, Thumbnail, Video-Skript, Long-Form
+reihenfolge: 32
+stichworte: E-Mail-Sequenz, Autoresponder, Funnel-Mails, Lead-Nurturing, Liste
 ---
 
 > **Platzhalter.** Dieser Prozess ist noch nicht ausgearbeitet. Inhalte folgen.

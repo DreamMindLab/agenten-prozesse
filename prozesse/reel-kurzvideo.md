@@ -4,7 +4,8 @@ kategorie: Social Media
 icon: sparkles
 beschreibung: Reel-Skript mit Hook in den ersten 3 Sekunden.
 status: entwurf
-reihenfolge: 3
+reihenfolge: 12
+stichworte: Reel, TikTok, Short, Kurzvideo-Skript
 ---
 
 > **Platzhalter.** Dieser Prozess ist noch nicht ausgearbeitet. Inhalte folgen.

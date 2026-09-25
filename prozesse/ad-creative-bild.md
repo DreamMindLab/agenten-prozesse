@@ -4,7 +4,8 @@ kategorie: Werbung
 icon: image
 beschreibung: Werbebild passend zu CI und Botschaft.
 status: entwurf
-reihenfolge: 8
+reihenfolge: 41
+stichworte: Werbebild, Creative, Anzeigenbild, Banner
 ---
 
 > **Platzhalter.** Dieser Prozess ist noch nicht ausgearbeitet. Inhalte folgen.

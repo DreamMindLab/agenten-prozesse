@@ -4,7 +4,8 @@ kategorie: Werbung
 icon: target
 beschreibung: Anzeigentexte mit Hook, Nutzen und Call-to-Action.
 status: entwurf
-reihenfolge: 7
+reihenfolge: 40
+stichworte: Anzeige, Meta Ads, Facebook Ads, Google Ads, Werbetext
 ---
 
 > **Platzhalter.** Dieser Prozess ist noch nicht ausgearbeitet. Inhalte folgen.

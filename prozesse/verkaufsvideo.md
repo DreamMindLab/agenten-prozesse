@@ -4,7 +4,8 @@ kategorie: Werbung
 icon: video
 beschreibung: Skript für Pitch-, Content- oder Testimonial-Video inkl. Hook.
 status: entwurf
-reihenfolge: 9
+reihenfolge: 42
+stichworte: VSL, Pitch-Video, Testimonial, Sales Video
 ---
 
 > **Platzhalter.** Dieser Prozess ist noch nicht ausgearbeitet. Inhalte folgen.

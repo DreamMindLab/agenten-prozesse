@@ -1,11 +1,11 @@
 ---
-titel: YouTube-Video
-kategorie: Video & Audio
-icon: play
-beschreibung: Vollständige Produktion: Skript, Thumbnail, Beschreibung, Tags, Shorts.
+titel: Copywriting
+kategorie: Text & Copy
+icon: pen
+beschreibung: Verkaufsstarke Texte: Headlines, Hooks, Angebote, Sales Copy.
 status: entwurf
-reihenfolge: 50
-stichworte: YouTube, Thumbnail, Video-Skript, Long-Form
+reihenfolge: 22
+stichworte: Werbetext, Sales Copy, Headline, Hook, Verkaufstext
 ---
 
 > **Platzhalter.** Dieser Prozess ist noch nicht ausgearbeitet. Inhalte folgen.

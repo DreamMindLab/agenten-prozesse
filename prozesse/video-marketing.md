@@ -1,11 +1,11 @@
 ---
-titel: YouTube-Video
-kategorie: Video & Audio
-icon: play
-beschreibung: Vollständige Produktion: Skript, Thumbnail, Beschreibung, Tags, Shorts.
+titel: Video-Marketing
+kategorie: Marketing
+icon: trending
+beschreibung: Video-Strategie: Plattformen, Formate, Distribution, Auswertung.
 status: entwurf
-reihenfolge: 50
-stichworte: YouTube, Thumbnail, Video-Skript, Long-Form
+reihenfolge: 31
+stichworte: Videostrategie, Video-Content, Videoplan
 ---
 
 > **Platzhalter.** Dieser Prozess ist noch nicht ausgearbeitet. Inhalte folgen.

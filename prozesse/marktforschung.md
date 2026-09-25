@@ -1,11 +1,11 @@
 ---
-titel: YouTube-Video
-kategorie: Video & Audio
-icon: play
-beschreibung: Vollständige Produktion: Skript, Thumbnail, Beschreibung, Tags, Shorts.
+titel: Marktforschung
+kategorie: Strategie & Recherche
+icon: search
+beschreibung: Zielgruppe, Wettbewerb, Nachfrage und Preise analysieren.
 status: entwurf
-reihenfolge: 50
-stichworte: YouTube, Thumbnail, Video-Skript, Long-Form
+reihenfolge: 61
+stichworte: Marktanalyse, Wettbewerbsanalyse, Zielgruppe, Avatar, Nische
 ---
 
 > **Platzhalter.** Dieser Prozess ist noch nicht ausgearbeitet. Inhalte folgen.

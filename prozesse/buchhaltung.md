@@ -1,11 +1,11 @@
 ---
-titel: YouTube-Video
-kategorie: Video & Audio
-icon: play
-beschreibung: Vollständige Produktion: Skript, Thumbnail, Beschreibung, Tags, Shorts.
+titel: Buchhaltung
+kategorie: Business
+icon: calculator
+beschreibung: Belege, Rechnungen und Auswertungen vorbereiten und ordnen.
 status: entwurf
-reihenfolge: 50
-stichworte: YouTube, Thumbnail, Video-Skript, Long-Form
+reihenfolge: 70
+stichworte: Rechnung, Belege, Ausgaben, Steuer, EÜR, Umsatzsteuer
 ---
 
 > **Platzhalter.** Dieser Prozess ist noch nicht ausgearbeitet. Inhalte folgen.

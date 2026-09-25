@@ -1,0 +1,15 @@
+name: Prüfen
+
+on: [push, pull_request]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - run: node build.js
+      - name: INDEX.md aktuell?
+        run: git diff --exit-code INDEX.md || (echo "INDEX.md ist veraltet – lokal 'node build.js' ausführen und committen." && exit 1)

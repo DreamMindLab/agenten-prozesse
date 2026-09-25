@@ -4,7 +4,8 @@ kategorie: Video & Audio
 icon: mic
 beschreibung: Skript plus Vertonung – sprechfertig.
 status: entwurf
-reihenfolge: 12
+reihenfolge: 51
+stichworte: Podcast, Audio, Vertonung, Stimmklon
 ---
 
 > **Platzhalter.** Dieser Prozess ist noch nicht ausgearbeitet. Inhalte folgen.

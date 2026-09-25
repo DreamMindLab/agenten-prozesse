@@ -1,8 +1,8 @@
 name: Seite veröffentlichen
 
+# Nur manuell: GitHub Pages für private Repos braucht einen bezahlten Plan.
+# Nach dem Upgrade wieder aktivieren mit:  push: { branches: [main] }
 on:
-  push:
-    branches: [main]
   workflow_dispatch:
 
 permissions:

@@ -1,11 +1,11 @@
 ---
-titel: YouTube-Video
-kategorie: Video & Audio
-icon: play
-beschreibung: Vollständige Produktion: Skript, Thumbnail, Beschreibung, Tags, Shorts.
+titel: Landingpage erstellen
+kategorie: Text & Copy
+icon: layout
+beschreibung: Konvertierende Seite: Struktur, Copy und Umsetzung.
 status: entwurf
-reihenfolge: 50
-stichworte: YouTube, Thumbnail, Video-Skript, Long-Form
+reihenfolge: 23
+stichworte: Landingpage, Sales Page, Verkaufsseite, Opt-in-Seite, Funnel-Seite
 ---
 
 > **Platzhalter.** Dieser Prozess ist noch nicht ausgearbeitet. Inhalte folgen.

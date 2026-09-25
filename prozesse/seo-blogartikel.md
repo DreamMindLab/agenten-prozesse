@@ -1,10 +1,11 @@
 ---
 titel: SEO-Blogartikel
-kategorie: Text & SEO
+kategorie: Text & Copy
 icon: file-text
 beschreibung: Suchmaschinen- & GEO-optimierter Artikel inkl. Struktur.
 status: entwurf
-reihenfolge: 6
+reihenfolge: 21
+stichworte: Blog, Artikel, SEO, GEO, Ranking
 ---
 
 > **Platzhalter.** Dieser Prozess ist noch nicht ausgearbeitet. Inhalte folgen.

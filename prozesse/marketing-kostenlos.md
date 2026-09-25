@@ -1,10 +1,11 @@
 ---
-titel: Recruiting-Marketing
-kategorie: Werbung
-icon: users
-beschreibung: Stellen-Ads, Posts & Reels zur Mitarbeitergewinnung.
+titel: Marketing ohne Budget
+kategorie: Marketing
+icon: gift
+beschreibung: Organische Reichweite und Kunden gewinnen, ohne Geld auszugeben.
 status: entwurf
-reihenfolge: 10
+reihenfolge: 30
+stichworte: kostenloses Marketing, organisch, Guerilla, Empfehlungen, Kooperationen, Reichweite
 ---
 
 > **Platzhalter.** Dieser Prozess ist noch nicht ausgearbeitet. Inhalte folgen.

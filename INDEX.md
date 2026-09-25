@@ -38,7 +38,7 @@
 | Prozess | Wofür | Stichworte | Status |
 |---|---|---|---|
 | [Ad-Texte (Meta/Google)](prozesse/ad-texte.md) | Anzeigentexte für Meta (Facebook/Instagram) und Google-Suchanzeigen: verschiedene Ansätze, richtlinienkonform, mit Zeichenlimits. | Anzeige, Meta Ads, Facebook Ads, Instagram Ads, Google Ads, Suchanzeige, Werbetext, Anzeigentext, Ad Copy, RSA | fertig v1 |
-| [Ad-Creative (Bild)](prozesse/ad-creative-bild.md) | Werbebild passend zu CI und Botschaft. | Werbebild, Creative, Anzeigenbild, Banner | entwurf |
+| [Ad-Creative (Bild)](prozesse/ad-creative-bild.md) | Werbebilder für Meta-Anzeigen: ein eigenes Bildkonzept pro Ansatz, in allen Formaten, sicher lesbar. | Werbebild, Creative, Anzeigenbild, Banner, Static Ad, Bildanzeige, Ad-Grafik, Meta Creative | fertig v1 |
 | [Verkaufsvideo](prozesse/verkaufsvideo.md) | Skript und Produktion für Pitch-Video (VSL), kurzes Verkaufsvideo für Ads oder Testimonial-Schnitt. | VSL, Video Sales Letter, Pitch-Video, Verkaufsvideo, Testimonial-Video, Kundenstimme, Sales Video, Video-Anzeige | fertig v1 |
 
 ## Video & Audio
@@ -52,8 +52,8 @@
 
 | Prozess | Wofür | Stichworte | Status |
 |---|---|---|---|
-| [30-Tage-Contentplan](prozesse/30-tage-contentplan.md) | Kompletter Themenplan mit Posts, Formaten und Posting-Zeiten. | Contentplan, Redaktionsplan, Themenplan, Posting-Plan | entwurf |
-| [Marktforschung](prozesse/marktforschung.md) | Zielgruppe, Wettbewerb, Nachfrage und Preise analysieren. | Marktanalyse, Wettbewerbsanalyse, Zielgruppe, Avatar, Nische | entwurf |
+| [30-Tage-Contentplan](prozesse/30-tage-contentplan.md) | Monatsplan für Instagram und LinkedIn: Themen-Säulen, Formate, Hooks, Termine – realistisch für die verfügbare Kapazität. | Contentplan, Redaktionsplan, Themenplan, Posting-Plan, Content-Kalender, Monatsplan, Content-Strategie | fertig v1 |
+| [Marktforschung](prozesse/marktforschung.md) | Zielgruppe, Wettbewerb, Nachfrage und Preise mit belegten Quellen analysieren – für eine konkrete Entscheidung. | Marktanalyse, Wettbewerbsanalyse, Konkurrenzanalyse, Zielgruppe, Avatar, Nische, Kundeninterview, Preisrecherche, Nachfrage prüfen | fertig v1 |
 
 ## Business
 

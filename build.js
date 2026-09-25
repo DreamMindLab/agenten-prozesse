@@ -129,6 +129,7 @@ function page({ title, description, body, depth }) {
 <meta name="description" content="${esc(description)}">
 <link rel="alternate" type="application/json" href="${up}prozesse.json" title="Prozess-Index (JSON)">
 <link rel="alternate" type="text/plain" href="${up}llms.txt" title="Anleitung für KI-Agenten">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,600;12..96,700&family=Source+Sans+3:wght@400;600;700&display=swap">
 <style>${CSS}</style>
 </head>
 <body>
@@ -311,4 +312,72 @@ ${kategorien.map((k) => {
 }).filter(Boolean).join('\n')}`);
 
 fs.writeFileSync(path.join(OUT, '.nojekyll'), '');
+
+// Vorschau: alle Inhalte in einer Datei, Navigation per #anker (für die private Vorschau auf claude.ai)
+const ansichtId = (pfad) => pfad.startsWith('prozesse/') ? pfad.slice(9, -3) : pfad.slice(0, -3).replace('/', '-');
+const verlinken = (html) => html.replace(/<code>((?:prozesse|grundlagen|marke)\/[a-z0-9-]+\.md)<\/code>/g,
+  (m, pfad) => `<a class="ref" href="#${ansichtId(pfad)}"><code>${pfad}</code></a>`);
+const REPO = 'https://github.com/DreamMindLab/agenten-prozesse';
+const vorschauStart = `<section class="view" id="view-start">
+<header>
+  <p class="eyebrow">DreamMindLab · ${prozesse.length} Prozesse</p>
+  <h1>Agenten-Prozesse</h1>
+  <p class="lead">Wähle ein Format. Jeder Button öffnet den genauen Schritt-für-Schritt-Prozess, dem Hermes beim Erstellen folgt.</p>
+</header>
+<aside class="agent-note"><strong>Vorschau.</strong> Hermes liest dieselben Inhalte als Markdown direkt aus dem Repo: <a href="${REPO}">DreamMindLab/agenten-prozesse</a> (privat, Login nötig).</aside>
+${ZUSATZ.map((g) => `<section>
+<h2>${esc(g.titel)} <span class="hint">${esc(g.hinweis)}</span></h2>
+<div class="chips">
+${g.seiten.map((z) => `<a class="chip" href="#${ansichtId(z.pfad)}">${esc(z.titel)}</a>`).join('\n')}
+</div>
+</section>`).join('\n')}
+${sections.replace(/href="prozesse\/([a-z0-9-]+)\/"/g, 'href="#$1"')}
+</section>`;
+const vorschauProzesse = prozesse.map((p) => `<section class="view prozess" id="view-${p.slug}" hidden>
+<nav><a href="#start">← Alle Prozesse</a></nav>
+<header>
+  <p class="eyebrow">${esc(p.kategorie)}${p.version ? ` · v${esc(p.version)}` : ''} ${statusBadge(p.status)}</p>
+  <h1><span class="icon">${icon(p.icon)}</span>${esc(p.titel)}</h1>
+  <p class="lead">${esc(p.beschreibung)}</p>
+</header>
+<aside class="agent-note"><strong>Datei im Repo:</strong> <a href="${REPO}/blob/main/prozesse/${p.slug}.md"><code>prozesse/${p.slug}.md</code></a> · Stichworte: ${esc(p.stichworte || '–')}</aside>
+<article>
+${verlinken(markdown(p.body))}
+</article>
+</section>`).join('\n');
+const vorschauZusatz = ZUSATZ.flatMap((g) => g.seiten.map((z) => `<section class="view prozess" id="view-${ansichtId(z.pfad)}" hidden>
+<nav><a href="#start">← Übersicht</a></nav>
+<header>
+  <p class="eyebrow">${esc(g.titel)}</p>
+  <h1>${esc(z.titel)}</h1>
+  ${z.beschreibung ? `<p class="lead">${esc(z.beschreibung)}</p>` : ''}
+</header>
+<article>
+${verlinken(markdown(z.body))}
+</article>
+</section>`)).join('\n');
+fs.writeFileSync(path.join(OUT, 'vorschau.html'), `<title>Agenten-Prozesse</title>
+${'<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,600;12..96,700&family=Source+Sans+3:wght@400;600;700&display=swap">'}
+<style>${CSS}
+main{max-width:1080px}
+.view.prozess{max-width:760px;margin:0 auto}
+</style>
+<main>
+${vorschauStart}
+${vorschauProzesse}
+${vorschauZusatz}
+</main>
+<script>
+(function () {
+  function zeige() {
+    var id = (location.hash || '').slice(1) || 'start';
+    var ziel = document.getElementById('view-' + id) || document.getElementById('view-start');
+    document.querySelectorAll('.view').forEach(function (v) { v.hidden = v !== ziel; });
+    window.scrollTo(0, 0);
+  }
+  window.addEventListener('hashchange', zeige);
+  zeige();
+})();
+</script>
+`);
 console.log(`${prozesse.length} Prozesse → ${path.relative(ROOT, OUT)}/`);

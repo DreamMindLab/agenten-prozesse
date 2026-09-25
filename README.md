@@ -43,6 +43,10 @@ node build.js
 python3 -m http.server -d _site
 ```
 
+## Vorschau als eine Datei
+
+`node build.js` erzeugt zusätzlich `_site/vorschau.html`: alle Prozesse in einer Datei, Navigation per Klick. Genutzt für die private Vorschau auf claude.ai.
+
 ## Website veröffentlichen (später, nach GitHub-Upgrade)
 
 1. GitHub → Settings → Pages → Source: **GitHub Actions**.

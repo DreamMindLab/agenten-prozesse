@@ -4,7 +4,7 @@ kategorie: Text & Copy
 icon: file-text
 beschreibung: Artikel, der die Suchintention trifft, eigene Erfahrung einbringt und für Google und KI-Antworten zitierbar ist.
 status: fertig
-version: 1
+version: 2
 reihenfolge: 21
 stichworte: Blog, Blogartikel, Artikel, SEO, GEO, Ranking, Suchmaschinenoptimierung, Fachartikel, Ratgeber, KI-Suche
 ---
@@ -23,7 +23,7 @@ Warum das so streng ist:
 - **Ziel des Artikels:** Sichtbarkeit, Anfragen (Lead-Magnet, Erstgespräch) oder Unterstützung eines Angebots.
 - **Eigenes Material des Nutzers:** Erfahrungen, Kundenfälle, Zahlen, Beispiele, Meinung, Screenshots. Mindestens 2 davon, siehe Schritt 4.
 - **Website:** CMS (z. B. WordPress), vorhandene Artikel (für interne Links und um Doppelungen zu vermeiden), Autor.
-- Aus dem Repo, immer lesen: alle Dateien in `marke/`
+- Aus dem Repo, immer lesen: alle Dateien in `marke/`, `grundlagen/themen-und-verstaendlichkeit.md` (Baustein 4)
 - Aus deinem Gedächtnis: gespeicherte Regeln, bereits geschriebene Artikel und ihre Suchbegriffe.
 
 ## Werkzeuge
@@ -56,6 +56,7 @@ Warum das so streng ist:
    - **Zitierbar machen:** Konkrete Zahlen **mit Quelle**, Zitate von glaubwürdigen Quellen **mit Namen**, Quellenangaben verlinken. In einer Princeton-Studie zu generativen Suchmaschinen (GEO, 2024) steigerten genau diese drei Techniken die Sichtbarkeit in KI-Antworten am stärksten, um bis zu rund 40 % (Laborvergleich mit 10.000 Suchanfragen; Höchstwert, kein Durchschnitt).
    - Keine Füllsätze, keine Wiederholung derselben Aussage, keine Keyword-Häufung. Den Suchbegriff natürlich in H1, Einstieg und ein bis zwei H2 verwenden.
    - Eigene Erfahrung in der Ich-/Wir-Form sichtbar machen (Schritt 4).
+   - **Verständlichkeits-Check** nach Baustein 4 aus `grundlagen/themen-und-verstaendlichkeit.md` (Langformat): Persona-Test, Fachbegriffe beim ersten Auftreten erklärt, jeder abstrakte Punkt mit Beispiel. Dann überarbeiten.
 8. **On-Page-Elemente.**
    - **Title** (Titel im Suchergebnis): max. ca. 60 Zeichen, Suchbegriff vorne, Nutzen erkennbar.
    - **Meta-Beschreibung:** ca. 140–160 Zeichen, beantwortet „Warum klicken?“. Kein Rankingfaktor, aber entscheidend für die Klickrate.
@@ -75,6 +76,7 @@ Warum das so streng ist:
     - [ ] Die Kernantwort steht in den ersten 2–3 Sätzen; jeder H2-Abschnitt beginnt mit einer direkten Antwort.
     - [ ] Jede Zahl und jedes Zitat hat eine verlinkte Quelle; nichts erfunden.
     - [ ] Keine Füllsätze, keine Wiederholungen, keine Keyword-Häufung.
+    - [ ] Verständlichkeits-Check (Schritt 7) ohne offenen Befund; kein unerklärter Fachbegriff.
     - [ ] Title ≤ ca. 60 Zeichen, Meta-Beschreibung ca. 140–160 Zeichen (per Skript gezählt).
     - [ ] 3–5 interne Links, Quellen extern verlinkt, Autor mit Expertise genannt.
     - [ ] Kein zweiter Artikel zur selben Frage auf der Website (Schritt 2).

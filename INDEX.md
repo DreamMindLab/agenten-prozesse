@@ -4,7 +4,7 @@
 
 ## Vor jedem Auftrag lesen
 
-**Grundlagen** (Gilt für jeden Prozess.): [Einrichtung & Startcheck](grundlagen/einrichtung.md) · [Quality Check & Foundation-Agent](grundlagen/qualitaet-und-lernen.md)
+**Grundlagen** (Gilt für jeden Prozess.): [Einrichtung & Startcheck](grundlagen/einrichtung.md) · [Quality Check & Foundation-Agent](grundlagen/qualitaet-und-lernen.md) · [Thema, Muster & Verständlichkeit](grundlagen/themen-und-verstaendlichkeit.md)
 
 **Marke** (Vor jedem Auftrag lesen. Vom Nutzer gepflegt.): [Angebot](marke/angebot.md) · [Beispiele](marke/beispiele.md) · [Design](marke/design.md) · [Regeln & Limits](marke/regeln.md) · [Tonalität](marke/tonalitaet.md) · [Zielgruppe](marke/zielgruppe.md)
 
@@ -12,8 +12,8 @@
 
 | Prozess | Wofür | Stichworte | Status |
 |---|---|---|---|
-| [Social-Media-Post](prozesse/social-media-post.md) | Einzelpost für Instagram oder LinkedIn: Hook, ein Gedanke, CTA. | Instagram-Post, LinkedIn-Post, Posting, Caption, Textpost, Bildpost | fertig v1 |
-| [Karussell-Post](prozesse/karussell-post.md) | Mehrseitiges Karussell für Instagram und LinkedIn (PDF): Hook, zweiter Hook, Mehrwert, CTA. | Carousel, Slides, Swipe-Post, Dokument-Post, PDF-Post, LinkedIn-Karussell | fertig v1 |
+| [Social-Media-Post](prozesse/social-media-post.md) | Einzelpost für Instagram oder LinkedIn: Hook, ein Gedanke, CTA. | Instagram-Post, LinkedIn-Post, Posting, Caption, Textpost, Bildpost | fertig v2 |
+| [Karussell-Post](prozesse/karussell-post.md) | Mehrseitiges Karussell für Instagram und LinkedIn (PDF): Hook, zweiter Hook, Mehrwert, CTA. | Carousel, Slides, Swipe-Post, Dokument-Post, PDF-Post, LinkedIn-Karussell | fertig v2 |
 | [Reel / Kurzvideo](prozesse/reel-kurzvideo.md) | Instagram-Reel aus eigener Aufnahme, Avatar des Nutzers oder komplett KI-produziert, recycelbar für TikTok. | Reel, Instagram Reel, TikTok, Short, Kurzvideo, Kurzvideo-Skript, Faceless Reel, Talking Head, KI-Avatar, Avatar-Video | fertig v2 |
 
 ## Text & Copy
@@ -21,7 +21,7 @@
 | Prozess | Wofür | Stichworte | Status |
 |---|---|---|---|
 | [Newsletter](prozesse/newsletter.md) | Einzelne E-Mail an die Liste: eine Idee, 3 Betreffzeilen, Preheader, ein klarer CTA. | Newsletter, einzelne E-Mail, Mailing, Rundmail, wöchentliche Mail, E-Mail an die Liste | fertig v1 |
-| [SEO-Blogartikel](prozesse/seo-blogartikel.md) | Artikel, der die Suchintention trifft, eigene Erfahrung einbringt und für Google und KI-Antworten zitierbar ist. | Blog, Blogartikel, Artikel, SEO, GEO, Ranking, Suchmaschinenoptimierung, Fachartikel, Ratgeber, KI-Suche | fertig v1 |
+| [SEO-Blogartikel](prozesse/seo-blogartikel.md) | Artikel, der die Suchintention trifft, eigene Erfahrung einbringt und für Google und KI-Antworten zitierbar ist. | Blog, Blogartikel, Artikel, SEO, GEO, Ranking, Suchmaschinenoptimierung, Fachartikel, Ratgeber, KI-Suche | fertig v2 |
 | [Copywriting](prozesse/copywriting.md) | Verkaufsstarke Texte auf Basis echter Kundensprache: Headlines, Angebotstexte, Sales Copy. | Werbetext, Sales Copy, Headline, Hook, Verkaufstext, Angebotstext, Produktbeschreibung, Überschrift | fertig v1 |
 | [Landingpage erstellen](prozesse/landingpage.md) | Landingpage mit einem Ziel: Copy, Aufbau, Umsetzung als fertige Seite. | Landingpage, Sales Page, Verkaufsseite, Opt-in-Seite, Funnel-Seite, Anmeldeseite, Webinar-Seite, Lead-Magnet-Seite | fertig v1 |
 
@@ -45,7 +45,7 @@
 
 | Prozess | Wofür | Stichworte | Status |
 |---|---|---|---|
-| [YouTube-Video](prozesse/youtube-video.md) | Vollständige Produktion eines YouTube-Videos: Titel und Thumbnail zuerst, Skript, Schnitt, Beschreibung, Kapitel, Shorts. | YouTube, YouTube-Video, Thumbnail, Video-Skript, Long-Form, YouTube-Titel, Kapitel, Tutorial-Video | fertig v1 |
+| [YouTube-Video](prozesse/youtube-video.md) | Vollständige Produktion eines YouTube-Videos: Titel und Thumbnail zuerst, Skript, Schnitt, Beschreibung, Kapitel, Shorts. | YouTube, YouTube-Video, Thumbnail, Video-Skript, Long-Form, YouTube-Titel, Kapitel, Tutorial-Video | fertig v2 |
 | [Podcast-Episode](prozesse/podcast-episode.md) | Sprechfertige Episode: Skript oder Interview-Leitfaden, Vertonung (eigene Stimme oder Stimmklon), Shownotes, Clips. | Podcast, Podcast-Folge, Episode, Audio, Vertonung, Stimmklon, Interview, Shownotes, Video-Podcast | fertig v1 |
 
 ## Strategie & Recherche

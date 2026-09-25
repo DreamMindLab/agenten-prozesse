@@ -12,7 +12,7 @@
 - Aus Jans hochgeladenen Skills bewusst **nicht** übernommen: vorgetäuschte Anlässe in E-Mail-Serien („Warst du das?“, falsche Countdowns, erfundene Teilnehmerzahlen; `marketing-funnel-writer`), Platzhalter-Testimonials (`landingpage-creator`), unbegründete Referenz-/Streichpreise im VSL-Value-Stack. Gründe: § 5 UWG, Spam-Beschwerden (Gmail ab 0,3 %), Widerspruch zur eigenen „nur echte Scarcity“-Regel der Skills. Nicht wieder einbauen.
 - Behauptete Kennzahlen ohne unabhängigen Beleg (z. B. „Shorts + Longform = 3× Wachstum“, Hormozi „Rule of 100“ als Pflicht) wurden weggelassen bzw. als Praktiker-Richtwert markiert.
 
-**Nächster Schritt:** Jan füllt `marke/zielgruppe.md`, `marke/angebot.md`, `marke/tonalitaet.md` aus und löscht darin jeweils die Zeile `> **Vom Nutzer auszufüllen.**`. Danach Hermes einen ersten echten Auftrag geben (Vorschlag: „Karussell zu <Thema>“) und den Telegram-Output gegen die Kriterien in `prozesse/karussell-post.md`, Schritt 9 prüfen. Erst mit diesen Ergebnissen die Prozesse auf v2 schärfen.
+**Nächster Schritt:** Jan füllt `marke/zielgruppe.md`, `marke/angebot.md`, `marke/tonalitaet.md` aus und löscht darin jeweils die Zeile `> **Vom Nutzer auszufüllen.**`. Danach Hermes einen ersten echten Auftrag geben (Vorschlag: „Karussell zu <Thema>“) und den Telegram-Output gegen die Kriterien in `prozesse/karussell-post.md`, Schritt 10 (Quality Check) prüfen. Erst mit diesen Ergebnissen die Prozesse auf v2 schärfen.
 
 **Offene Fragen an Jan:**
 - Company OS: Hat es eine API? Wie greift Hermes zu, darf er Aufgaben anlegen? → Zeilen in `marke/regeln.md` unter „Werkzeuge & Zugänge“. Ohne Zugang läuft `prozesse/geschaeftsueberblick.md` nicht.

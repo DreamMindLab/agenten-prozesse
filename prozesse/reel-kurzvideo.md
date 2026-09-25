@@ -15,7 +15,7 @@ Ein fertig geschnittenes Reel (9:16, 15–30 Sekunden) als MP4. Hauptplattform i
 
 Worauf es ankommt: Instagram gewichtet **Watch Time** (inkl. Wiederholungen) und **Sends** am stärksten. Die erste Frage an jedes Reel: **„Ist jemand in den ersten 3 Sekunden überzeugt, dass er bis zum Ende schauen muss?“** (aus Nate Herks `short-form-edit`-Skill). Ein Hook, der nicht eingelöst wird, lässt die Zuschauer nach 5–7 Sekunden abspringen.
 
-**Arbeitsteilung:** Der Nutzer entscheidet, **worüber** gesprochen wird (Thema, Anlass, Framing), denn dort entsteht sein Marktgefühl. Du übernimmst die **Produktion** (Skript, Schnitt, Varianten, Rendern) und lieferst Belege, die seine Entscheidung stützen. Nimm ihm die Themenwahl nicht stillschweigend ab. (Prinzip nach KI TALK, Niklas Volland und Maxi Raabe: „Automatisiere die Produktion, nicht dein Marktverständnis.“)
+**Arbeitsteilung:** Der Nutzer entscheidet, **worüber** gesprochen wird; du übernimmst die Produktion. Grundsätze und Bausteine dazu: `grundlagen/themen-und-verstaendlichkeit.md`.
 
 Drei Produktionswege:
 
@@ -33,7 +33,7 @@ Rein KI-generierte Inhalte erreichen im Schnitt weniger als menschlich geprägte
 - **Produktionsweg:** A, B oder C (siehe oben). Nicht angegeben: Rohvideo dabei → A; Avatar eingerichtet → B; sonst C.
 - **Referenz (optional):** Link zu einem Reel, dessen Aufbau als Vorlage dienen soll, auch aus einer anderen Branche.
 - **Nur C, Tonspur:** KI-Stimme oder nur Text auf dem Bild. Standard: KI-Stimme, falls ein ElevenLabs-Key vorhanden ist, sonst Text.
-- Aus dem Repo, immer lesen: alle Dateien in `marke/`, vor allem `zielgruppe.md` (Persona für Schritt 8) und `regeln.md` (Budget).
+- Aus dem Repo, immer lesen: `grundlagen/themen-und-verstaendlichkeit.md` und alle Dateien in `marke/`, vor allem `zielgruppe.md` (Persona für Schritt 8) und `regeln.md` (Budget).
 - Aus deinem Gedächtnis: gespeicherte Regeln zu diesem Prozess, Zahlen früherer Reels (Schritt 15), Zustimmung zu Avatar/Stimmklon.
 
 ## Werkzeuge
@@ -55,13 +55,11 @@ Einrichtung und Keys: `grundlagen/einrichtung.md`. Fehlt das HyperFrames-Kit, in
    - HeyGen ist kostenpflichtig: Freigabe nach `marke/regeln.md` einholen, dann dem Einrichtungsablauf von HeyGen folgen (Ausgangsvideo des Nutzers, Einwilligungsnachweis). Dem Nutzer eine Aufnahme-Anleitung schicken: ruhiger Raum, gleichmäßiges Licht, Kamera auf Augenhöhe, natürlich sprechen, Kleidung wie in seinen Videos.
    - Stimmklon wie in `prozesse/podcast-episode.md`, Schritt 2.
    - Ein 10-Sekunden-Testvideo erzeugen und dem Nutzer zur Abnahme schicken, bevor der Avatar produktiv genutzt wird.
-3. **Thema prüfen: Marktinteresse statt eigener Begeisterung.**
-   - **Thema kommt vom Nutzer:** übernehmen. Findest du Hinweise, dass es die Zielgruppe gerade kaum interessiert (z. B. nur Fachleute sprechen darüber), sag das in einem Satz und frag, ob er dabei bleibt. Nicht blockieren.
-   - **Kein Thema:** 3 Vorschläge, jeweils mit **Beleg**, warum die Zielgruppe sich **jetzt** dafür interessiert: wiederkehrende Fragen in Kommentaren oder Kundengesprächen (Gedächtnis, Company OS), vergleichbare Reels der letzten 14 Tage mit auffällig hoher Reichweite im Verhältnis zur Followerzahl, aktuelle Neuigkeiten aus der Branche. Ohne Beleg kein Vorschlag. Der Nutzer wählt.
-4. **Muster finden (X → X 1.1).** Du brauchst keine völlig neue Idee. Nimm die Referenz des Nutzers oder such 2–3 Reels, die zum Thema oder Format gerade gut laufen, gern aus anderen Branchen. Halte pro Reel fest: Hook-Typ, Aufbau, Tempo, Darstellungsform, **warum** es funktioniert. Übernimm das **Prinzip** und passe es an Zielgruppe und Angebot an. **Nie** Wortlaut, Bilder, Ton oder Schnitt übernehmen (`marke/regeln.md`). Hast du keinen Zugriff auf die Plattformen und keine Referenz: Schritt auslassen und im Output vermerken.
+3. **Thema prüfen** nach `grundlagen/themen-und-verstaendlichkeit.md`, Baustein 1.
+4. **Muster finden** nach Baustein 2: 2–3 Reels, die zum Thema oder Format gerade gut laufen, bzw. die Referenz des Nutzers. Übernommen wird nur das Prinzip.
 5. **Hauptfrage, Framing und Payoff festlegen.** Schreib auf:
    - die **eine** Frage, die sich der Zuschauer ab Sekunde 1 stellt (z. B. „Wie schreibt man Angebote, die ohne Rabatt verkaufen?“),
-   - das **Framing**: Was ändert sich dadurch **für den Zuschauer**? Nicht „Tool X ist erschienen“, sondern was er jetzt anders machen kann oder was ihm entgeht,
+   - das **Framing** nach Baustein 3: was sich dadurch **für den Zuschauer** ändert,
    - den **Payoff** (die konkrete Antwort, die vor dem Ende kommt) und den Nutzen („Nach dem Reel kann der Zuschauer ___.“).
 6. **3 Openings schreiben**, jeweils die ersten 3 Sekunden (Satz + Bild):
    - **Problem zuerst:** „Dein Angebot wird ignoriert, weil …“
@@ -77,10 +75,7 @@ Einrichtung und Keys: `grundlagen/einrichtung.md`. Fehlt das HyperFrames-Kit, in
 [y–z s]  CTA: <genau einer, z. B. „Schick das jemandem, der …“>
 ```
 
-8. **Verständlichkeits-Check, bevor Geld oder Zeit in die Produktion fließt.** Fachwissen ist hier das Risiko: Was dem Nutzer selbstverständlich ist, versteht die Zielgruppe oft nicht.
-   - **Persona-Test:** Versetz dich vollständig in die Zielperson aus `marke/zielgruppe.md` (Rolle, Wissen, Probleme, Einwände) und lies das Skript aus ihrer Sicht. Beantworte schriftlich: Welche Aussage verstehe ich nicht sofort? Welcher Begriff ist zu technisch? Wo verliere ich das Interesse? Welche Frage bleibt offen?
-   - **12-Jährigen-Test:** Jeder Fachbegriff wird ersetzt oder in einem halben Satz erklärt. Ein Gedanke pro Satz.
-   - Skript überarbeiten, bis beide Tests ohne Befund durchlaufen. Der Persona-Test ist keine echte Kundenbefragung; echte Kommentare und Zahlen (Schritt 15) wiegen schwerer.
+8. **Verständlichkeits-Check** nach Baustein 4 (Kurzformat): Persona-Test und 12-Jährigen-Test, dann überarbeiten. Erst danach fließen Geld oder Aufnahmezeit in die Produktion.
    - **Weg A:** Jetzt Skript bzw. Stichpunkte und das gewählte Opening an den Nutzer schicken (Format unten), mit Aufnahmetipps: Handy hochkant, Kamera auf Augenhöhe, Licht von vorn, Mikrofon nah, erster Satz ist der Hook (kein „Hallo“), Versprecher einfach wiederholen, nicht neu starten. Weiter, sobald das Rohvideo da ist.
 9. **Produktion nach Weg.**
    - **A: Eigene Aufnahme.**
@@ -127,7 +122,7 @@ Einrichtung und Keys: `grundlagen/einrichtung.md`. Fehlt das HyperFrames-Kit, in
     - [ ] Harte Kriterien aus `grundlagen/qualitaet-und-lernen.md` erfüllt.
 15. **Foundation-Agent.** Vorgehen: `grundlagen/qualitaet-und-lernen.md`. Zusätzlich:
     - Merken, welche Higgsfield-Modelle und Prompt-Bausteine (C) bzw. welche Avatar-Einstellungen (B) brauchbare Ergebnisse geliefert haben (Trefferquote).
-    - **Social Media als Marktdaten:** Bitte den Nutzer im Output um die Zahlen nach 7 Tagen. Speichere sie zusammen mit Thema, Framing, Hook-Typ und Produktionsweg. Ab 5 Reels: Muster auswerten (welche Themen, Hooks und Wege laufen besser) und bei Themenvorschlägen (Schritt 3) als Beleg nutzen.
+    - Zahlen nach Baustein 5: Aufrufe, durchschnittliche Wiedergabedauer, Sends, Saves, neue Follower. Mit Produktionsweg speichern, damit sichtbar wird, welcher Weg besser läuft.
 
 ## Output-Format
 

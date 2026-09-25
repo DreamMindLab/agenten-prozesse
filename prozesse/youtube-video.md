@@ -4,7 +4,7 @@ kategorie: Video & Audio
 icon: play
 beschreibung: Vollständige Produktion eines YouTube-Videos: Titel und Thumbnail zuerst, Skript, Schnitt, Beschreibung, Kapitel, Shorts.
 status: fertig
-version: 1
+version: 2
 reihenfolge: 50
 stichworte: YouTube, YouTube-Video, Thumbnail, Video-Skript, Long-Form, YouTube-Titel, Kapitel, Tutorial-Video
 ---
@@ -25,7 +25,7 @@ Worauf es ankommt:
 - **Produktionsweg:** Nutzer nimmt selbst auf (Pfad A) oder Video ohne Gesicht mit KI-Stimme, Bildschirmaufnahmen und Grafiken (Pfad B).
 - **Eigenes Material:** Beispiele, Kundenfälle, Bildschirmaufnahmen, Meinung. Ohne eigenes Material wird das Video austauschbar.
 - **Kanal:** Zugang zum YouTube-Studio (für Entwurf-Upload) oder Lieferung als Dateien.
-- Aus dem Repo, immer lesen: alle Dateien in `marke/`
+- Aus dem Repo, immer lesen: alle Dateien in `marke/`, `grundlagen/themen-und-verstaendlichkeit.md`
 - Aus deinem Gedächtnis: gespeicherte Regeln, bisherige Videos mit CTR, AVD, AVP.
 
 ## Werkzeuge
@@ -42,7 +42,7 @@ Worauf es ankommt:
    - Gibt es **Ausreißer**, also Videos mit deutlich mehr Aufrufen, als der Kanal Abonnenten hat? Das zeigt echtes Interesse am Thema, nicht nur an einem großen Kanal.
    - Was versprechen die erfolgreichen Titel? Was fehlt in den Videos (Kommentare lesen: offene Fragen, Kritik)?
    - Wie lang sind die erfolgreichen Videos zum Thema?
-   Ergebnis: ein Winkel, der sich von den vorhandenen Videos unterscheidet.
+   Ergebnis: ein Winkel, der sich von den vorhandenen Videos unterscheidet, und das Framing nach Baustein 3 aus `grundlagen/themen-und-verstaendlichkeit.md` (was ändert sich für den Zuschauer?). Kam das Thema nicht vom Nutzer: ihm Thema, Beleg (Ausreißer) und Winkel zur Bestätigung schicken (Baustein 1), bevor du weitermachst.
 3. **Verpackung zuerst: 3 Titel + 3 Thumbnail-Konzepte.**
    - **Titel:** konkretes Versprechen oder spannende Frage, das Hauptwort der Suche vorne, möglichst unter ca. 60 Zeichen (längere werden oft abgeschnitten; per Skript zählen). Der Titel muss vom Video **vollständig eingelöst** werden.
    - **Thumbnail:** 1280×720. Ein klarer Blickfang, starker Kontrast, **max. 3–4 Wörter**, die den Titel **ergänzen** statt wiederholen. Muss in Handy-Größe (ca. 160 px breit) verständlich sein. Bei Pfad A: echtes Foto des Nutzers mit passender Mimik. **Kein KI-Gesicht, das als der Nutzer oder als echte Person auftritt.**
@@ -53,6 +53,7 @@ Worauf es ankommt:
    - **Ende:** Das Versprechen wird eingelöst, dann ein kurzer Hinweis auf **ein** weiterführendes Video oder das Angebot. Danach zügig enden, nicht ausklingen lassen.
    - Pfad A: Stichpunkt-Skript (freies Sprechen wirkt natürlicher), Einstieg und Übergänge wörtlich. Pfad B: vollständiges Sprechskript (ca. 130–150 Wörter pro Minute).
    - Länge: so lang, wie der Inhalt trägt. Orientierung an den erfolgreichen Videos zum Thema (Schritt 2).
+   - **Verständlichkeits-Check** nach Baustein 4 (Langformat), bevor das Skript an den Nutzer geht bzw. vertont wird: Persona-Test, Fachbegriffe beim ersten Auftreten erklärt, jeder abstrakte Punkt mit Beispiel.
 5. **Produktion.**
    - **Pfad A (Nutzer nimmt auf):** Skript und Aufnahmetipps schicken (ruhiger Raum, Licht von vorne, Ansteckmikrofon, Kamera auf Augenhöhe, 16:9). Danach schneiden mit `edit-video` bzw. `video-use`: Pausen und Versprecher raus, Bildschirmaufnahmen und Grafiken einbauen.
    - **Pfad B (ohne Gesicht):** Stimme mit ElevenLabs, Wort-Zeitstempel. Bildschirmaufnahmen, animierte Grafiken und Texte in HyperFrames; B-Roll über Higgsfield nur wo nötig (Budget aus `marke/regeln.md`).
@@ -74,6 +75,8 @@ Worauf es ankommt:
     - [ ] 3 Titel und 3 Thumbnails mit unterschiedlichem Ansatz; Titel ≤ ca. 60 Zeichen (per Skript gezählt).
     - [ ] Thumbnails auf 160 px Breite verständlich, max. 3–4 Wörter, ergänzen den Titel.
     - [ ] Jedes Kapitel bringt einen neuen Gedanken; keine Längen ohne Inhalt.
+    - [ ] Verständlichkeits-Check (Schritt 4) ohne offenen Befund; kein unerklärter Fachbegriff.
+    - [ ] Thema vom Nutzer gewählt oder bestätigt; Framing aus Zuschauersicht im Einstieg erkennbar (Timecode).
     - [ ] Eigenes Material ist eingebaut (Stellen nennen).
     - [ ] Kapitel ab 0:00, mindestens 3, je ≥ 10 Sek.; Beschreibung mit Kernaussage in den ersten 2 Sätzen.
     - [ ] Untertitel korrekt und synchron; Ton sauber.

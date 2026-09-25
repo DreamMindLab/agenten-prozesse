@@ -24,6 +24,8 @@ Warum Karussell: Auf Instagram erzielen Karussells die höchste Engagement-Rate 
 
 ## Werkzeuge
 
+Einrichtung und Keys: `grundlagen/einrichtung.md`.
+
 - **Slides:** HTML/CSS-Vorlage im Markendesign → ein PNG pro Slide über Headless-Chrome/Playwright (exakter Text, identisches Layout auf jeder Slide).
 - **Bildelemente (optional):** Higgsfield API (`https://docs.higgsfield.ai`) für Illustrationen oder Szenen. **Nie Text im KI-Bild**, immer per HTML/CSS drüberlegen.
 - **LinkedIn-PDF:** die Slides zu einem PDF zusammenfügen (z. B. Chrome „print to PDF“ der HTML-Slides oder `img2pdf`).

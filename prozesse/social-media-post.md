@@ -25,6 +25,8 @@ Worauf die Plattformen achten: Instagram bewertet vor allem **Sends pro Reichwei
 
 ## Werkzeuge
 
+Einrichtung und Keys: `grundlagen/einrichtung.md`.
+
 - Bild, falls nötig: grafisch-typografisch als HTML/CSS → PNG (exakte Texte, Markenfarben) **oder** Bild über Higgsfield API (siehe `https://docs.higgsfield.ai`). **Nie Text in KI-Bilder generieren lassen**, der wird fehlerhaft. Text immer per HTML/CSS darüberlegen.
 
 ## Schritt-für-Schritt

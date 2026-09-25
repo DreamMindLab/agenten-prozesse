@@ -4,7 +4,7 @@
 
 ## Vor jedem Auftrag lesen
 
-**Grundlagen** (Gilt für jeden Prozess.): [Quality Check & Foundation-Agent](grundlagen/qualitaet-und-lernen.md)
+**Grundlagen** (Gilt für jeden Prozess.): [Einrichtung & Startcheck](grundlagen/einrichtung.md) · [Quality Check & Foundation-Agent](grundlagen/qualitaet-und-lernen.md)
 
 **Marke** (Vor jedem Auftrag lesen. Vom Nutzer gepflegt.): [Angebot](marke/angebot.md) · [Beispiele](marke/beispiele.md) · [Design](marke/design.md) · [Regeln & Limits](marke/regeln.md) · [Tonalität](marke/tonalitaet.md) · [Zielgruppe](marke/zielgruppe.md)
 
@@ -22,8 +22,8 @@
 |---|---|---|---|
 | [Newsletter](prozesse/newsletter.md) | E-Mail mit 3 Betreffzeilen, Preheader und klarem CTA. | Newsletter, einzelne E-Mail, Mailing | entwurf |
 | [SEO-Blogartikel](prozesse/seo-blogartikel.md) | Suchmaschinen- & GEO-optimierter Artikel inkl. Struktur. | Blog, Artikel, SEO, GEO, Ranking | entwurf |
-| [Copywriting](prozesse/copywriting.md) | Verkaufsstarke Texte: Headlines, Hooks, Angebote, Sales Copy. | Werbetext, Sales Copy, Headline, Hook, Verkaufstext | entwurf |
-| [Landingpage erstellen](prozesse/landingpage.md) | Konvertierende Seite: Struktur, Copy und Umsetzung. | Landingpage, Sales Page, Verkaufsseite, Opt-in-Seite, Funnel-Seite | entwurf |
+| [Copywriting](prozesse/copywriting.md) | Verkaufsstarke Texte auf Basis echter Kundensprache: Headlines, Angebotstexte, Sales Copy. | Werbetext, Sales Copy, Headline, Hook, Verkaufstext, Angebotstext, Produktbeschreibung, Überschrift | fertig v1 |
+| [Landingpage erstellen](prozesse/landingpage.md) | Landingpage mit einem Ziel: Copy, Aufbau, Umsetzung als fertige Seite. | Landingpage, Sales Page, Verkaufsseite, Opt-in-Seite, Funnel-Seite, Anmeldeseite, Webinar-Seite, Lead-Magnet-Seite | fertig v1 |
 
 ## Marketing
 
@@ -31,7 +31,7 @@
 |---|---|---|---|
 | [Marketing ohne Budget](prozesse/marketing-kostenlos.md) | Organische Reichweite und Kunden gewinnen, ohne Geld auszugeben. | kostenloses Marketing, organisch, Guerilla, Empfehlungen, Kooperationen, Reichweite | entwurf |
 | [Video-Marketing](prozesse/video-marketing.md) | Video-Strategie: Plattformen, Formate, Distribution, Auswertung. | Videostrategie, Video-Content, Videoplan | entwurf |
-| [E-Mail-Marketing](prozesse/e-mail-marketing.md) | Liste aufbauen, Sequenzen und Automationen, die verkaufen. | E-Mail-Sequenz, Autoresponder, Funnel-Mails, Lead-Nurturing, Liste | entwurf |
+| [E-Mail-Marketing](prozesse/e-mail-marketing.md) | E-Mail-Sequenzen, die verkaufen: Willkommensstrecke, Verkaufskampagne, rechtssicher und zustellbar. | E-Mail-Sequenz, Autoresponder, Willkommensstrecke, Welcome-Sequenz, Funnel-Mails, Lead-Nurturing, Verkaufsmails, Launch-Mails, E-Mail-Liste | fertig v1 |
 
 ## Werbung
 

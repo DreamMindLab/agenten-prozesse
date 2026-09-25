@@ -26,6 +26,8 @@ Wichtig: Rein KI-generierte Inhalte erreichen im Schnitt weniger als menschlich 
 
 ## Werkzeuge
 
+Einrichtung und Keys: `grundlagen/einrichtung.md`. Fehlt das HyperFrames-Kit, installiere es selbst, bevor du startest.
+
 - **Higgsfield API** (`https://docs.higgsfield.ai`): Bild- und Videogenerierung. Ablauf: Modell-Endpunkt mit Prompt aufrufen → `request_id` → Status abfragen, bis fertig → Datei-URL laden. Abrechnung pro Generierung (Videos pro Sekunde). Erfahrungswert aus unabhängigen Tests: nur etwa **jede 4. Videogenerierung ist brauchbar**. Versuche und Budget entsprechend planen.
 - **HyperFrames** (HTML/CSS/GSAP → Video, `https://hyperframes.heygen.com`), am besten über das **hyperframes-student-kit** (`https://github.com/nateherkai/hyperframes-student-kit`): Komposition aus Clips, Text-Overlays und Untertiteln. Befehle: `npx hyperframes lint`, `preview`, `render`.
 - **ElevenLabs** (optional): KI-Stimme und wortgenaue Zeitstempel für Untertitel.

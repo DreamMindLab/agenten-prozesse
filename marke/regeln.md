@@ -28,6 +28,6 @@ beschreibung: Budgets, Freigaben und No-Gos.
 
 ## No-Gos
 
-- Keine echten Personen (Kunden, Prominente) per KI nachbilden.
+- Keine echten Personen (Kunden, Prominente) per KI nachbilden. Einzige Ausnahme: der Nutzer selbst (Avatar, Stimmklon), nach seiner ausdrücklichen Zustimmung.
 - Keine Inhalte von anderen Accounts übernehmen (Instagram bestraft Reposts ohne echte Bearbeitung).
 - 

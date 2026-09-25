@@ -14,7 +14,7 @@
 |---|---|---|---|
 | [Social-Media-Post](prozesse/social-media-post.md) | Einzelpost für Instagram oder LinkedIn: Hook, ein Gedanke, CTA. | Instagram-Post, LinkedIn-Post, Posting, Caption, Textpost, Bildpost | fertig v1 |
 | [Karussell-Post](prozesse/karussell-post.md) | Mehrseitiges Karussell für Instagram und LinkedIn (PDF): Hook, zweiter Hook, Mehrwert, CTA. | Carousel, Slides, Swipe-Post, Dokument-Post, PDF-Post, LinkedIn-Karussell | fertig v1 |
-| [Reel / Kurzvideo](prozesse/reel-kurzvideo.md) | Komplett KI-produziertes Instagram-Reel ohne eigenes Footage, recycelbar für TikTok. | Reel, Instagram Reel, TikTok, Short, Kurzvideo, Kurzvideo-Skript, Faceless Reel | fertig v1 |
+| [Reel / Kurzvideo](prozesse/reel-kurzvideo.md) | Instagram-Reel aus eigener Aufnahme, Avatar des Nutzers oder komplett KI-produziert, recycelbar für TikTok. | Reel, Instagram Reel, TikTok, Short, Kurzvideo, Kurzvideo-Skript, Faceless Reel, Talking Head, KI-Avatar, Avatar-Video | fertig v2 |
 
 ## Text & Copy
 

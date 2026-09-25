@@ -63,7 +63,7 @@ Erfolgreich, wenn `npm test` durchläuft. Dann zum Test das Demo rendern: `npm r
 
 Das Kit enthält Skills für Codex (`.agents/skills/`), u. a. `short-form-edit` und `hyperframes`. Lies deren `SKILL.md`, bevor du damit ein Reel baust. Eigene Projekte liegen in `video-projects/<name>/`.
 
-### video-use (für: Verkaufsvideo mit Aufnahme, Testimonial) – optional
+### video-use (für: Reel Weg A, Verkaufsvideo mit Aufnahme, Testimonial) – optional
 
 Schneidet vorhandene Aufnahmen (Füllwörter, Pausen, Untertitel). Nur installieren, wenn der Nutzer Rohmaterial liefert. Benötigt ffmpeg und einen ElevenLabs-Key (für die Transkription).
 
@@ -95,6 +95,10 @@ Key erforderlich → Nutzer fragen. Account und Key: `https://cloud.higgsfield.a
 ### ElevenLabs (für: Reel, Verkaufsvideo, YouTube, Podcast) – kostenpflichtig
 
 Key erforderlich → Nutzer fragen. Key unter `https://elevenlabs.io/app/settings/api-keys`. Ohne Key: Reel ohne Stimme (nur Text).
+
+### HeyGen API (für: Reel Weg B, Avatar des Nutzers) – kostenpflichtig
+
+Nur nach Freigabe des Nutzers (neues kostenpflichtiges Tool, `marke/regeln.md`). Key erforderlich → Nutzer fragen. Doku: `https://docs.heygen.com`. Der Avatar zeigt ausschließlich den Nutzer selbst, nach seiner ausdrücklichen Zustimmung (Ablauf: `prozesse/reel-kurzvideo.md`, Schritt 2). Ohne HeyGen: Reel über Weg A oder C.
 
 ### E-Mail- und Landingpage-Tool (für: E-Mail-Marketing, Landingpage)
 

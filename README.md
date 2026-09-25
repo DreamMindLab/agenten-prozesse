@@ -7,6 +7,8 @@ Eine Seite mit Buttons für jedes Content-/Marketing-Format. Jeder Button führt
 Solange das Repo privat ist, liest der Agent direkt aus dem Repo (kein Website-Zugriff nötig):
 
 - Anleitung: [AGENTS.md](AGENTS.md)
+- Marke (von dir auszufüllen): `marke/` – Zielgruppe, Angebot, Tonalität, Design, Beispiele, Regeln & Budget
+- Pflicht-Abschluss jedes Prozesses: [grundlagen/qualitaet-und-lernen.md](grundlagen/qualitaet-und-lernen.md)
 - Übersicht aller Prozesse: [INDEX.md](INDEX.md) (wird von `node build.js` erzeugt)
 - Jeder Prozess: `prozesse/<slug>.md`
 
@@ -23,12 +25,13 @@ Auf der gebauten Website gibt es zusätzlich `llms.txt` und `prozesse.json`.
    icon: file-text
    beschreibung: Ein Satz, was rauskommt.
    status: entwurf        # oder: fertig
+   version: 1
    reihenfolge: 13
    stichworte: LinkedIn-Artikel, Fachartikel   # hilft dem Agenten bei der Zuordnung
    ---
    ```
 
-2. Darunter die Abschnitte: Ziel, Benötigte Inputs, Schritt-für-Schritt, Qualitätscheck, Output-Format.
+2. Darunter die Abschnitte: Ziel, Benötigte Inputs, Werkzeuge, Schritt-für-Schritt (die letzten beiden Schritte sind immer **Quality Check (Loop)** und **Foundation-Agent**), Output-Format. Vorlage: `prozesse/social-media-post.md`.
 3. `node build.js` ausführen (aktualisiert `INDEX.md`), committen, pushen.
 
 Icons: `megaphone`, `layers`, `sparkles`, `calendar`, `mail`, `file-text`, `target`, `image`, `video`, `users`, `play`, `mic`, `pen`, `layout`, `gift`, `trending`, `send`, `search`, `calculator`, `workflow`.

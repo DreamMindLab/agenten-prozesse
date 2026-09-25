@@ -48,7 +48,8 @@ function parseFrontmatter(raw) {
   return { meta, body: m[2] };
 }
 
-// Minimaler Markdown-Renderer: Überschriften, Absätze, Listen, Checkboxen, Zitate, Code, Links.
+// Minimaler Markdown-Renderer: Überschriften, Absätze, Listen (eine Verschachtelungsebene),
+// Checkboxen, Zitate, Code, Tabellen, Links.
 function inline(s) {
   return esc(s)
     .replace(/`([^`]+)`/g, '<code>$1</code>')
@@ -56,34 +57,59 @@ function inline(s) {
     .replace(/\*([^*]+)\*/g, '<em>$1</em>')
     .replace(/\[([^\]]+)\]\(([^)]+)\)/g, '<a href="$2">$1</a>');
 }
+function listItem(text) {
+  const box = text.match(/^\[( |x)\]\s+(.*)$/i);
+  return box
+    ? `<li class="check"><input type="checkbox" disabled${box[1] !== ' ' ? ' checked' : ''}> ${inline(box[2])}`
+    : `<li>${inline(text)}`;
+}
 function markdown(md) {
   const lines = md.replace(/\r/g, '').split('\n');
   const out = [];
-  let list = null, para = [], quote = [], code = null;
+  let list = null, sub = null, para = [], quote = [], code = null, table = [];
   const flushPara = () => { if (para.length) out.push(`<p>${inline(para.join(' '))}</p>`); para = []; };
-  const flushList = () => { if (list) out.push(`</${list}>`); list = null; };
+  const closeSub = () => { if (sub) out.push(`</li></${sub}>`); sub = null; };
+  const flushList = () => { if (list) { closeSub(); out.push(`</li></${list}>`); } list = null; };
   const flushQuote = () => { if (quote.length) out.push(`<blockquote>${markdown(quote.join('\n'))}</blockquote>`); quote = []; };
-  const flush = () => { flushPara(); flushList(); flushQuote(); };
+  const flushTable = () => {
+    if (!table.length) return;
+    const rows = table.filter((r) => !/^\|?\s*:?-{3,}/.test(r)).map((r) => r.replace(/^\||\|$/g, '').split('|').map((c) => inline(c.trim())));
+    const [head, ...body] = rows;
+    out.push(`<div class="table"><table><thead><tr>${head.map((c) => `<th>${c}</th>`).join('')}</tr></thead><tbody>${body.map((r) => `<tr>${r.map((c) => `<td>${c}</td>`).join('')}</tr>`).join('')}</tbody></table></div>`);
+    table = [];
+  };
+  const flush = () => { flushPara(); flushList(); flushQuote(); flushTable(); };
   for (const line of lines) {
     if (code !== null) {
-      if (/^```/.test(line)) { out.push(`<pre><code>${esc(code.join('\n'))}</code></pre>`); code = null; }
+      if (/^\s*```/.test(line)) { out.push(`<pre><code>${esc(code.join('\n'))}</code></pre>`); code = null; }
       else code.push(line);
       continue;
     }
     let m;
-    if (/^```/.test(line)) { flush(); code = []; }
+    if (/^\s*```/.test(line)) { flush(); code = []; }
+    else if (/^\|/.test(line)) { flushPara(); flushList(); flushQuote(); table.push(line.trim()); }
     else if ((m = line.match(/^(#{1,4})\s+(.*)$/))) { flush(); const n = m[1].length; out.push(`<h${n}>${inline(m[2])}</h${n}>`); }
-    else if ((m = line.match(/^>\s?(.*)$/))) { flushPara(); flushList(); quote.push(m[1]); }
-    else if ((m = line.match(/^\s*(\d+)\.\s+(.*)$/)) || (m = line.match(/^\s*[-*]\s+(.*)$/))) {
-      flushPara(); flushQuote();
+    else if ((m = line.match(/^>\s?(.*)$/))) { flushPara(); flushList(); flushTable(); quote.push(m[1]); }
+    else if (list && (m = line.match(/^\s{2,}(?:\d+\.|[-*])\s+(.*)$/))) {
+      // eingerückter Unterpunkt
       const tag = /^\s*\d+\./.test(line) ? 'ol' : 'ul';
-      if (list !== tag) { flushList(); out.push(`<${tag}>`); list = tag; }
-      let text = m[m.length - 1];
-      const box = text.match(/^\[( |x)\]\s+(.*)$/i);
-      out.push(box ? `<li class="check"><input type="checkbox" disabled${box[1] !== ' ' ? ' checked' : ''}> ${inline(box[2])}</li>` : `<li>${inline(text)}</li>`);
+      if (sub !== tag) { closeSub(); out.push(`<${tag}>`); sub = tag; } else out.push('</li>');
+      out.push(listItem(m[1]));
     }
-    else if (!line.trim()) flush();
-    else { flushList(); flushQuote(); para.push(line.trim()); }
+    else if ((m = line.match(/^(\d+)\.\s+(.*)$/)) || (m = line.match(/^[-*]\s+(.*)$/))) {
+      flushPara(); flushQuote(); flushTable();
+      const tag = /^\d+\./.test(line) ? 'ol' : 'ul';
+      if (list !== tag) {
+        flushList();
+        // Nummerierung fortsetzen, auch wenn z. B. ein Codeblock die Liste unterbrochen hat
+        out.push(tag === 'ol' && m[1] !== '1' ? `<ol start="${m[1]}">` : `<${tag}>`);
+        list = tag;
+      } else { closeSub(); out.push('</li>'); }
+      out.push(listItem(m[m.length - 1]));
+    }
+    else if (list && /^\s{2,}\S/.test(line)) { closeSub(); out.push(`<p>${inline(line.trim())}</p>`); }
+    else if (!line.trim()) { flushPara(); flushQuote(); flushTable(); if (!list) flushList(); }
+    else { flushList(); flushQuote(); flushTable(); para.push(line.trim()); }
   }
   flush();
   return out.join('\n');
@@ -119,6 +145,19 @@ const prozesse = fs.readdirSync(SRC).filter((f) => f.endsWith('.md')).map((f) =>
   for (const k of ['titel', 'kategorie', 'beschreibung']) if (!meta[k]) throw new Error(`${f}: "${k}" fehlt`);
   return { slug, ...meta, reihenfolge: Number(meta.reihenfolge || 999), raw, body };
 }).sort((a, b) => a.reihenfolge - b.reihenfolge || a.titel.localeCompare(b.titel));
+
+// Grundlagen und Marke: gelten für alle Prozesse
+const ZUSATZ = [
+  { ordner: 'grundlagen', titel: 'Grundlagen', hinweis: 'Gilt für jeden Prozess.' },
+  { ordner: 'marke', titel: 'Marke', hinweis: 'Vor jedem Auftrag lesen. Vom Nutzer gepflegt.' },
+].map((g) => ({
+  ...g,
+  seiten: fs.readdirSync(path.join(ROOT, g.ordner)).filter((f) => f.endsWith('.md')).sort().map((f) => {
+    const raw = fs.readFileSync(path.join(ROOT, g.ordner, f), 'utf8');
+    const { meta, body } = parseFrontmatter(raw);
+    return { slug: f.replace(/\.md$/, ''), pfad: `${g.ordner}/${f}`, ...meta, raw, body };
+  }),
+}));
 
 // --- Ausgabe ---
 fs.rmSync(OUT, { recursive: true, force: true });
@@ -156,9 +195,40 @@ fs.writeFileSync(path.join(OUT, 'index.html'), page({
 <aside class="agent-note">
   <strong>Für KI-Agenten:</strong> Lies zuerst <a href="llms.txt">llms.txt</a>. Maschinenlesbarer Index: <a href="prozesse.json">prozesse.json</a>. Jeder Prozess liegt auch als reines Markdown vor (<code>/prozesse/&lt;slug&gt;.md</code>).
 </aside>
+${ZUSATZ.map((g) => `<section>
+<h2>${esc(g.titel)} <span class="hint">${esc(g.hinweis)}</span></h2>
+<div class="chips">
+${g.seiten.map((z) => `<a class="chip" href="${g.ordner}/${z.slug}/">${esc(z.titel)}</a>`).join('\n')}
+</div>
+</section>`).join('\n')}
 ${sections}
 </main>`,
 }));
+
+// Seiten für Grundlagen und Marke
+for (const g of ZUSATZ) {
+  for (const z of g.seiten) {
+    const dir = path.join(OUT, g.ordner, z.slug);
+    fs.mkdirSync(dir, { recursive: true });
+    fs.writeFileSync(path.join(OUT, g.ordner, `${z.slug}.md`), z.raw);
+    fs.writeFileSync(path.join(dir, 'index.html'), page({
+      title: `${z.titel} – ${g.titel}`,
+      description: z.beschreibung || g.hinweis,
+      depth: 2,
+      body: `<main class="prozess">
+<nav><a href="../../">← Übersicht</a></nav>
+<header>
+  <p class="eyebrow">${esc(g.titel)}</p>
+  <h1>${esc(z.titel)}</h1>
+  ${z.beschreibung ? `<p class="lead">${esc(z.beschreibung)}</p>` : ''}
+</header>
+<article>
+${markdown(z.body)}
+</article>
+</main>`,
+    }));
+  }
+}
 
 // Prozess-Seiten
 for (const p of prozesse) {
@@ -172,12 +242,12 @@ for (const p of prozesse) {
     body: `<main class="prozess">
 <nav><a href="../../">← Alle Prozesse</a></nav>
 <header>
-  <p class="eyebrow">${esc(p.kategorie)} ${statusBadge(p.status)}</p>
+  <p class="eyebrow">${esc(p.kategorie)}${p.version ? ` · v${esc(p.version)}` : ''} ${statusBadge(p.status)}</p>
   <h1><span class="icon">${icon(p.icon)}</span>${esc(p.titel)}</h1>
   <p class="lead">${esc(p.beschreibung)}</p>
 </header>
 <aside class="agent-note">
-  <strong>Für KI-Agenten:</strong> Befolge die Schritte unten exakt und in dieser Reihenfolge. Rohfassung: <a href="../${p.slug}.md">${p.slug}.md</a>
+  <strong>Für KI-Agenten:</strong> Lies vorher <a href="../../marke/zielgruppe/">marke/</a> und <a href="../../grundlagen/qualitaet-und-lernen/">grundlagen/</a>. Befolge die Schritte exakt und in dieser Reihenfolge. Rohfassung: <a href="../${p.slug}.md">${p.slug}.md</a>
 </aside>
 <article>
 ${markdown(p.body)}
@@ -190,9 +260,11 @@ ${markdown(p.body)}
 fs.writeFileSync(path.join(OUT, 'prozesse.json'), JSON.stringify({
   titel: 'Agenten-Prozesse',
   beschreibung: 'Schritt-für-Schritt-Prozesse für KI-Agenten zur Erstellung von Content und Marketing.',
+  grundlagen: ZUSATZ.flatMap((g) => g.seiten.map((z) => ({ titel: z.titel, markdown: url(z.pfad) }))),
   prozesse: prozesse.map((p) => ({
     slug: p.slug, titel: p.titel, kategorie: p.kategorie, beschreibung: p.beschreibung,
     status: p.status || 'entwurf',
+    version: p.version ? Number(p.version) : null,
     stichworte: (p.stichworte || '').split(',').map((w) => w.trim()).filter(Boolean),
     html: url(`prozesse/${p.slug}/`), markdown: url(`prozesse/${p.slug}.md`),
   })),
@@ -214,6 +286,10 @@ fs.writeFileSync(path.join(OUT, 'llms.txt'), `# Agenten-Prozesse
 
 Maschinenlesbarer Index: ${url('prozesse.json')}
 
+## Vor jedem Auftrag lesen
+
+${ZUSATZ.flatMap((g) => g.seiten.map((z) => `- [${g.titel}: ${z.titel}](${url(z.pfad)})`)).join('\n')}
+
 ${kategorien.map((k) => {
   const items = prozesse.filter((p) => p.kategorie === k);
   return items.length ? `## ${k}\n\n${items.map((p) => `- [${p.titel}](${url(`prozesse/${p.slug}.md`)}): ${p.beschreibung}${p.stichworte ? ` Stichworte: ${p.stichworte}.` : ''}${p.status && p.status !== 'fertig' ? ` (Status: ${p.status})` : ''}`).join('\n')}\n` : '';
@@ -224,9 +300,13 @@ fs.writeFileSync(path.join(ROOT, 'INDEX.md'), `# Prozess-Index
 
 > Automatisch erzeugt von \`node build.js\`, nicht von Hand bearbeiten. Anleitung: [AGENTS.md](AGENTS.md)
 
+## Vor jedem Auftrag lesen
+
+${ZUSATZ.map((g) => `**${g.titel}** (${g.hinweis}): ${g.seiten.map((z) => `[${z.titel}](${z.pfad})`).join(' · ')}`).join('\n\n')}
+
 ${kategorien.map((k) => {
   const items = prozesse.filter((p) => p.kategorie === k);
-  return items.length ? `## ${k}\n\n| Prozess | Wofür | Stichworte | Status |\n|---|---|---|---|\n${items.map((p) => `| [${p.titel}](prozesse/${p.slug}.md) | ${p.beschreibung} | ${p.stichworte || ''} | ${p.status || 'entwurf'} |`).join('\n')}\n` : '';
+  return items.length ? `## ${k}\n\n| Prozess | Wofür | Stichworte | Status |\n|---|---|---|---|\n${items.map((p) => `| [${p.titel}](prozesse/${p.slug}.md) | ${p.beschreibung} | ${p.stichworte || ''} | ${p.status || 'entwurf'}${p.version ? ` v${p.version}` : ''} |`).join('\n')}\n` : '';
 }).filter(Boolean).join('\n')}`);
 
 fs.writeFileSync(path.join(OUT, '.nojekyll'), '');

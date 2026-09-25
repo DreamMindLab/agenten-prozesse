@@ -16,22 +16,23 @@ Was am Ende fertig vorliegen soll.
 
 ## Benötigte Inputs
 
-- Zielgruppe
-- Angebot / Thema
-- Tonalität (Brand Voice)
+- …
+- Aus dem Repo, immer lesen: alle Dateien in `marke/`
+- Aus deinem Gedächtnis: gespeicherte Regeln zu diesem Prozess.
+
+## Werkzeuge
+
+- …
 
 ## Schritt-für-Schritt
 
-1. **Briefing prüfen** – Fehlen Inputs, nachfragen.
-2. **Recherche** – …
-3. **Entwurf erstellen** – …
-4. **Überarbeiten** – …
-5. **Qualitätscheck** – Checkliste unten abarbeiten.
-6. **Ausliefern** – im Output-Format unten.
-
-## Qualitätscheck
-
-- [ ] …
+1. **Briefing prüfen.** Inputs vollständig? Sind die `marke/`-Dateien noch Platzhalter, frag nach, bevor du startest.
+2. …
+3. …
+4. **Quality Check (Loop).** Vorgehen: `grundlagen/qualitaet-und-lernen.md`. Kriterien:
+   - [ ] …
+   - [ ] Harte Kriterien aus `grundlagen/qualitaet-und-lernen.md` erfüllt.
+5. **Foundation-Agent.** Vorgehen: `grundlagen/qualitaet-und-lernen.md`.
 
 ## Output-Format
 

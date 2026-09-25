@@ -2,13 +2,19 @@
 
 > Automatisch erzeugt von `node build.js`, nicht von Hand bearbeiten. Anleitung: [AGENTS.md](AGENTS.md)
 
+## Vor jedem Auftrag lesen
+
+**Grundlagen** (Gilt für jeden Prozess.): [Quality Check & Foundation-Agent](grundlagen/qualitaet-und-lernen.md)
+
+**Marke** (Vor jedem Auftrag lesen. Vom Nutzer gepflegt.): [Angebot](marke/angebot.md) · [Beispiele](marke/beispiele.md) · [Design](marke/design.md) · [Regeln & Limits](marke/regeln.md) · [Tonalität](marke/tonalitaet.md) · [Zielgruppe](marke/zielgruppe.md)
+
 ## Social Media
 
 | Prozess | Wofür | Stichworte | Status |
 |---|---|---|---|
-| [Social-Media-Post](prozesse/social-media-post.md) | Einzelpost für Instagram & LinkedIn: Hook, Mehrwert, CTA. | Instagram-Post, LinkedIn-Post, Posting, Caption | entwurf |
-| [Karussell-Post](prozesse/karussell-post.md) | Mehrseitiges Karussell: Hook-Slide, Mehrwert-Slides, CTA. | Carousel, Slides, Swipe-Post | entwurf |
-| [Reel / Kurzvideo](prozesse/reel-kurzvideo.md) | Reel-Skript mit Hook in den ersten 3 Sekunden. | Reel, TikTok, Short, Kurzvideo-Skript | entwurf |
+| [Social-Media-Post](prozesse/social-media-post.md) | Einzelpost für Instagram oder LinkedIn: Hook, ein Gedanke, CTA. | Instagram-Post, LinkedIn-Post, Posting, Caption, Textpost, Bildpost | fertig v1 |
+| [Karussell-Post](prozesse/karussell-post.md) | Mehrseitiges Karussell für Instagram und LinkedIn (PDF): Hook, zweiter Hook, Mehrwert, CTA. | Carousel, Slides, Swipe-Post, Dokument-Post, PDF-Post, LinkedIn-Karussell | fertig v1 |
+| [Reel / Kurzvideo](prozesse/reel-kurzvideo.md) | Komplett KI-produziertes Instagram-Reel ohne eigenes Footage, recycelbar für TikTok. | Reel, Instagram Reel, TikTok, Short, Kurzvideo, Kurzvideo-Skript, Faceless Reel | fertig v1 |
 
 ## Text & Copy
 

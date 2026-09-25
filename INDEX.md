@@ -59,5 +59,5 @@
 
 | Prozess | Wofür | Stichworte | Status |
 |---|---|---|---|
-| [Buchhaltung](prozesse/buchhaltung.md) | Belege, Rechnungen und Auswertungen vorbereiten und ordnen. | Rechnung, Belege, Ausgaben, Steuer, EÜR, Umsatzsteuer | entwurf |
+| [Buchhaltung](prozesse/buchhaltung.md) | Für Kleinunternehmer: Belege sammeln und zuordnen, E-Rechnungen vorbereiten, Monatsübersicht mit Umsatzgrenzen – Hermes bereitet nur vor. | Rechnung, Rechnung schreiben, E-Rechnung, Belege, Beleg, Quittung, Ausgaben, Einnahmen, Steuer, EÜR, Kleinunternehmer, Buchhaltung, Monatsabschluss, offene Rechnungen | fertig v1 |
 | [Arbeitsprozesse](prozesse/arbeitsprozesse.md) | Abläufe dokumentieren, als SOP festhalten und automatisieren. | SOP, Workflow, Automatisierung, Prozessbeschreibung, Checkliste | entwurf |

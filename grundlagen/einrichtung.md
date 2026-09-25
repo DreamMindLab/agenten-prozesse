@@ -100,6 +100,14 @@ Key erforderlich → Nutzer fragen. Key unter `https://elevenlabs.io/app/setting
 
 Welche Tools genutzt werden, steht in `marke/regeln.md` unter „Werkzeuge & Zugänge“. Ist dort nichts eingetragen: fragen. Bis dahin lieferst du Texte und HTML-Dateien zum Einfügen.
 
+### E-Rechnung ohne Buchhaltungstool (für: Buchhaltung)
+
+```
+pip install drafthorse
+```
+
+Erzeugt ZUGFeRD-XML (Profil EN 16931) und bettet es in ein PDF ein. Jede erzeugte Rechnung zusätzlich mit einem Validator prüfen, z. B. Mustang (`https://www.mustangproject.org`, Java) oder dem KoSIT-Validator. Sobald Lexware Office genutzt wird, erstellt das Tool die E-Rechnungen; die API gibt es dort erst ab Tarif XL.
+
 ### DNS-Prüfung (für: E-Mail-Marketing)
 
 `dig` bzw. `nslookup` (meist vorinstalliert), um SPF, DKIM und DMARC der Absender-Domain zu prüfen.

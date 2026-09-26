@@ -27,6 +27,7 @@ Worauf es ankommt:
 - **E-Mail-Tool, Absender** aus `marke/regeln.md`.
 - Aus dem Repo, immer lesen: alle Dateien in `marke/`
 - Aus deinem Gedächtnis: gespeicherte Regeln zu diesem Prozess und die Themen der letzten Newsletter (keine Wiederholung).
+- **Optional, nur wenn der Nutzer es anspricht** (z. B. „interview mich dazu“, „nur Gliederung, ich schreibe selbst“): erst Interview und Gliederung nach `grundlagen/langform-interview.md`, dann an der dort genannten Stelle weiter. Nicht von dir aus anbieten; ohne diesen Wunsch läuft der Prozess wie unten beschrieben.
 
 ## Werkzeuge
 
@@ -43,7 +44,7 @@ Worauf es ankommt:
 5. **Mail schreiben.**
    - **Einstieg:** direkt ins Thema, mit einer Beobachtung, einer kurzen Geschichte oder einer Frage aus dem Alltag der Zielgruppe. Keine Begrüßungsfloskeln („Ich hoffe, es geht dir gut“).
    - **Hauptteil:** die eine Idee mit einem konkreten Beispiel. Kurze Absätze (max. 3–4 Sätze), handytauglich.
-   - **Übergang zum CTA:** warum der Klick oder die Antwort jetzt der logische nächste Schritt ist.
+   - **Übergang zum CTA:** warum der Klick oder die Antwort jetzt der logische nächste Schritt ist. Sieht der Contentplan einen **Newsletter-Hinweis** vor: 2–5 Zeilen an der Stelle, wo die Idee der Mail auf das Angebot trifft, als nächster Schritt für alle, die das beschriebene Ergebnis wollen. Er ist dann der eine CTA, kein zweiter Link.
    - **CTA:** genau einer, als Linktext („→ Vorlage herunterladen“), nie als nackte URL. Bei Wert-Mails ist „Antworte mir mit …“ ein guter CTA, weil Antworten die Zustellbarkeit verbessern.
    - **Look:** wie eine persönliche Mail. Wenig Bilder, keine GIFs.
    - **Fremde Empfehlungen mit Gegenleistung** (Newsletter-Tausch, Provision, Affiliate-Link): als „Anzeige“ bzw. „Werbelink“ kennzeichnen (`grundlagen/deutschland.md`, Abschnitt 4).

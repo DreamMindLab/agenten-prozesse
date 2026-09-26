@@ -25,6 +25,7 @@ Warum das so streng ist:
 - **Website:** CMS (z. B. WordPress), vorhandene Artikel (für interne Links und um Doppelungen zu vermeiden), Autor.
 - Aus dem Repo, immer lesen: alle Dateien in `marke/`, `grundlagen/themen-und-verstaendlichkeit.md` (Baustein 4)
 - Aus deinem Gedächtnis: gespeicherte Regeln, bereits geschriebene Artikel und ihre Suchbegriffe.
+- **Optional, nur wenn der Nutzer es anspricht** (z. B. „interview mich dazu“, „nur Gliederung, ich schreibe selbst“): erst Interview und Gliederung nach `grundlagen/langform-interview.md`, dann an der dort genannten Stelle weiter. Nicht von dir aus anbieten; ohne diesen Wunsch läuft der Prozess wie unten beschrieben.
 
 ## Werkzeuge
 

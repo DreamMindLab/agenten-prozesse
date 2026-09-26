@@ -2,6 +2,37 @@
 
 ## Notizen (manuell)
 
+### 2026-09-26 (2) — Dan-Koe-Skills eingearbeitet (Branch claude/stoic-albattani-syybqn, noch nicht in main)
+
+**Stand:** Jan hat 5 Eden-Skills von Dan Koe geschickt (Marketing Strategist, Short-Form Specialist, Long-Form Outliner, Weekly Content Strategist, Personal Brand Strategist; Offer Consultant fehlt noch). Ergebnis der Prüfung: **nicht US-spezifisch, sondern an Eden gebunden.** Die Methoden sind übertragbar; US-only sind nur Plattformen (X, Threads, Substack Notes) und englische Stilregeln. Deshalb **keine eigenen US-Prozesse**, sondern: 1 neuer Prozess, Integrationen in bestehende Prozesse, kleine Ergänzung im US-Modus. Auf Deutsch in eigenen Worten, Quelle jeweils genannt. **Nicht mit Hermes erprobt.**
+
+**Was sich geändert hat:**
+- **Neu `prozesse/positionierung.md`** (Strategie & Recherche, v1): Interview mit 6 Fragen, Recherche (Ausreißer, Swipe-File ohne Aggregatoren), Strategie-Dokument (Themenbaum, zwei Pole, erste 5 Hooks, Geldseite ohne Einkommensversprechen) und fertige Entwürfe für `marke/zielgruppe.md`, `tonalitaet.md`, `angebot.md`. Vom Startcheck „Marke unvollständig“ ausgenommen; die Startcheck-Nachricht in `grundlagen/einrichtung.md` bietet „Positionierung“ als Antwort an.
+- **Neu `grundlagen/langform-interview.md`:** Interview mit Stopps, Stresstest, 6 Struktur-Routen, Verpackung, Gliederung. **Nur wenn Jan es anspricht** (Jans ausdrücklicher Wunsch); sonst laufen YouTube, Newsletter, Blog, Podcast automatisch wie bisher. Die vier Prozesse haben dazu je eine Zeile unter „Benötigte Inputs“.
+- **`grundlagen/themen-und-verstaendlichkeit.md`:** Baustein 2 mit Satzgerüst-Methode und „nie 8+ Wörter am Stück“; Baustein 5 mit Gewinner-Maß (2× / 3× eigener Durchschnitt); neu Baustein 6 (Winkel, Einstiegs- und Schlussfamilien, 11 Formen, Abwechslung, 1 Stück → bis 10 Beiträge) und Baustein 7 (Gewinner weiterentwickeln, Themenliste im Gedächtnis). Winkelwahl hält den Ablauf nicht an.
+- **`30-tage-contentplan.md` v2:** neuer Schritt 6 Werbe-Ebene (Kongruenz-Satz, Kommentar- und Newsletter-Hinweise, 5 Winkel pro Woche, Werbe-Protokoll mit Streich-/Verdoppel-Regel), neue Tabellenspalte, **Wochenmodus** (Vorwoche bewerten, ≥ 10 Ideen mit Herkunft, Jan wählt). Schritte ab 7 um eins verschoben (QC jetzt Schritt 12, Foundation 13).
+- **`social-media-post` v3, `karussell-post` v3, `reel-kurzvideo` v3:** Winkel vor Hook (Baustein 6), QC-Kriterien dazu; Post zusätzlich Werbe-Formate (Standard, Geschichte, Einwand, Beweis) und Kommentar-Hinweis.
+- **`copywriting` v3:** 6 Einstiegsarten in Schritt 6, Beweis-Rangfolge in Schritt 5, zwei zusätzliche Headline-Tests in Schritt 7. Schrittnummern unverändert.
+- **`newsletter`:** Newsletter-Hinweis als CTA, falls der Contentplan ihn vorsieht.
+- **`grundlagen/us-markt.md`:** neuer Abschnitt 7 (X, Threads, Substack Notes; em dash; kleingeschriebene Betreffzeilen) und drei Tabellenzeilen.
+
+**Verworfen:**
+- Eigene US-Prozesse: wären zu 90 % Kopien der deutschen und würden auseinanderlaufen.
+- Eden als Pflicht-Werkzeug: Die Skills verbieten Websuche und setzen den Eden-Index voraus; Hermes recherchiert im Web. Ob Eden deutsche Posts gut abdeckt, ist ungeklärt (nur Plattformliste dokumentiert).
+- Long-Form Outliner und Marketing Strategist als eigene Prozesse: Jan hat zu Recht angemerkt, dass das Content bzw. dessen Vorstufe ist. Deshalb Baustein bzw. Integration in den Contentplan.
+- „No em dashes“ für Deutsch: Der Gedankenstrich ist im Deutschen normale Typografie; die Häufung regelt schon die Verbotsliste in `marke/tonalitaet.md`.
+
+**Offene Fragen an Jan:**
+- Offer Consultant schicken, dann prüfen, ob daraus ein Prozess „Angebot entwickeln“ wird (füllt `marke/angebot.md`).
+- Merge nach `main` (siehe Notiz darunter).
+
+**Landminen:**
+- Contentplan-Schrittnummern haben sich verschoben (Werbe-Ebene = 6, Rhythmus = 10, QC = 12, Foundation = 13); der Wochenmodus verweist auf 10, 12, 13.
+- `langform-interview.md` nennt die Einstiegsschritte der Prozesse (YouTube 4, Newsletter 5, Blog 6, Podcast 5). Beim Umnummerieren dieser Prozesse mitändern.
+- Baustein-Nummern 6 und 7 werden in Post, Karussell, Reel, Contentplan und Positionierung referenziert.
+
+Geändert: `grundlagen/langform-interview.md` (neu), `prozesse/positionierung.md` (neu), `grundlagen/themen-und-verstaendlichkeit.md`, `grundlagen/einrichtung.md`, `grundlagen/us-markt.md`, `prozesse/30-tage-contentplan.md`, `copywriting.md`, `social-media-post.md`, `karussell-post.md`, `reel-kurzvideo.md`, `newsletter.md`, `youtube-video.md`, `seo-blogartikel.md`, `podcast-episode.md`, `INDEX.md`, `HANDOFF.md`
+
 ### 2026-09-26 — Deutschland-Anpassung + US-Modus (Branch claude/stoic-albattani-syybqn, noch nicht in main)
 
 **Stand:** Alle Prozesse sind auf **Deutschland** als Markt und Rechtsraum ausgerichtet (Jan: „erstmal nur Deutschland“). Neue Grundlagen: `grundlagen/deutschland.md` (6 Abschnitte: 1 Längen/Sprechtempo, 2 deutschsprachige Kundensprache, 3 belegbare Werbeaussagen, 4 Werbekennzeichnung, 5 Datenschutz bei US-Werkzeugen, 6 Zahlen/Quellen) und `grundlagen/us-markt.md` (nur Abweichungen für englischen US-Content, auf Jans Wunsch als Vorrat). `AGENTS.md` verweist auf beide. Recherche nach dem Meta-Learning-Skill (Modus A, rund 45 Suchen mit Gegenrecherche). **Nicht mit Hermes erprobt.** Vorschau-Artifact **nicht** neu veröffentlicht.

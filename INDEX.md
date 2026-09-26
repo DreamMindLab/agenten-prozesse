@@ -4,7 +4,7 @@
 
 ## Vor jedem Auftrag lesen
 
-**Grundlagen** (Gilt für jeden Prozess.): [Deutschland-Standards](grundlagen/deutschland.md) · [Einrichtung & Startcheck](grundlagen/einrichtung.md) · [Quality Check & Foundation-Agent](grundlagen/qualitaet-und-lernen.md) · [Thema, Muster & Verständlichkeit](grundlagen/themen-und-verstaendlichkeit.md) · [US-Modus (englischer Content)](grundlagen/us-markt.md)
+**Grundlagen** (Gilt für jeden Prozess.): [Deutschland-Standards](grundlagen/deutschland.md) · [Einrichtung & Startcheck](grundlagen/einrichtung.md) · [Langform-Interview & Gliederung (optional)](grundlagen/langform-interview.md) · [Quality Check & Foundation-Agent](grundlagen/qualitaet-und-lernen.md) · [Thema, Muster & Verständlichkeit](grundlagen/themen-und-verstaendlichkeit.md) · [US-Modus (englischer Content)](grundlagen/us-markt.md)
 
 **Marke** (Vor jedem Auftrag lesen. Vom Nutzer gepflegt.): [Angebot](marke/angebot.md) · [Beispiele](marke/beispiele.md) · [Design](marke/design.md) · [Regeln & Limits](marke/regeln.md) · [Tonalität](marke/tonalitaet.md) · [Zielgruppe](marke/zielgruppe.md)
 
@@ -12,9 +12,9 @@
 
 | Prozess | Wofür | Stichworte | Status |
 |---|---|---|---|
-| [Social-Media-Post](prozesse/social-media-post.md) | Einzelpost für Instagram oder LinkedIn: Hook, ein Gedanke, CTA. | Instagram-Post, LinkedIn-Post, Posting, Caption, Textpost, Bildpost | fertig v2 |
-| [Karussell-Post](prozesse/karussell-post.md) | Mehrseitiges Karussell für Instagram und LinkedIn (PDF): Hook, zweiter Hook, Mehrwert, CTA. | Carousel, Slides, Swipe-Post, Dokument-Post, PDF-Post, LinkedIn-Karussell | fertig v2 |
-| [Reel / Kurzvideo](prozesse/reel-kurzvideo.md) | Instagram-Reel aus eigener Aufnahme, Avatar des Nutzers oder komplett KI-produziert, recycelbar für TikTok. | Reel, Instagram Reel, TikTok, Short, Kurzvideo, Kurzvideo-Skript, Faceless Reel, Talking Head, KI-Avatar, Avatar-Video | fertig v2 |
+| [Social-Media-Post](prozesse/social-media-post.md) | Einzelpost für Instagram oder LinkedIn: Hook, ein Gedanke, CTA. | Instagram-Post, LinkedIn-Post, Posting, Caption, Textpost, Bildpost | fertig v3 |
+| [Karussell-Post](prozesse/karussell-post.md) | Mehrseitiges Karussell für Instagram und LinkedIn (PDF): Hook, zweiter Hook, Mehrwert, CTA. | Carousel, Slides, Swipe-Post, Dokument-Post, PDF-Post, LinkedIn-Karussell | fertig v3 |
+| [Reel / Kurzvideo](prozesse/reel-kurzvideo.md) | Instagram-Reel aus eigener Aufnahme, Avatar des Nutzers oder komplett KI-produziert, recycelbar für TikTok. | Reel, Instagram Reel, TikTok, Short, Kurzvideo, Kurzvideo-Skript, Faceless Reel, Talking Head, KI-Avatar, Avatar-Video | fertig v3 |
 
 ## Text & Copy
 
@@ -22,7 +22,7 @@
 |---|---|---|---|
 | [Newsletter](prozesse/newsletter.md) | Einzelne E-Mail an die Liste: eine Idee, 3 Betreffzeilen, Preheader, ein klarer CTA. | Newsletter, einzelne E-Mail, Mailing, Rundmail, wöchentliche Mail, E-Mail an die Liste | fertig v1 |
 | [SEO-Blogartikel](prozesse/seo-blogartikel.md) | Artikel, der die Suchintention trifft, eigene Erfahrung einbringt und für Google und KI-Antworten zitierbar ist. | Blog, Blogartikel, Artikel, SEO, GEO, Ranking, Suchmaschinenoptimierung, Fachartikel, Ratgeber, KI-Suche | fertig v2 |
-| [Copywriting](prozesse/copywriting.md) | Verkaufsstarke Texte auf Basis echter Kundensprache: Headlines, Angebotstexte, Sales Copy. | Werbetext, Sales Copy, Headline, Hook, Verkaufstext, Angebotstext, Produktbeschreibung, Überschrift | fertig v2 |
+| [Copywriting](prozesse/copywriting.md) | Verkaufsstarke Texte auf Basis echter Kundensprache: Headlines, Angebotstexte, Sales Copy. | Werbetext, Sales Copy, Headline, Hook, Verkaufstext, Angebotstext, Produktbeschreibung, Überschrift | fertig v3 |
 | [Landingpage erstellen](prozesse/landingpage.md) | Landingpage mit einem Ziel: Copy, Aufbau, Umsetzung als fertige Seite. | Landingpage, Sales Page, Verkaufsseite, Opt-in-Seite, Funnel-Seite, Anmeldeseite, Webinar-Seite, Lead-Magnet-Seite | fertig v1 |
 
 ## Marketing
@@ -52,7 +52,8 @@
 
 | Prozess | Wofür | Stichworte | Status |
 |---|---|---|---|
-| [30-Tage-Contentplan](prozesse/30-tage-contentplan.md) | Monatsplan für Instagram und LinkedIn: Themen-Säulen, Formate, Hooks, Termine – realistisch für die verfügbare Kapazität. | Contentplan, Redaktionsplan, Themenplan, Posting-Plan, Content-Kalender, Monatsplan, Content-Strategie | fertig v1 |
+| [Positionierung](prozesse/positionierung.md) | Wofür der Nutzer steht und für wen: Interview, Marktrecherche, Strategie-Dokument mit Themenbaum und fertigen Entwürfen für die marke/-Dateien. | Positionierung, Personal Brand, Personal Branding, Markenstrategie, Nische, wofür stehe ich, Themenbaum, Content-Richtung, Marke ausfüllen, Neustart, Zielgruppe finden | fertig v1 |
+| [30-Tage-Contentplan](prozesse/30-tage-contentplan.md) | Monatsplan für Instagram und LinkedIn: Themen-Säulen, Formate, Hooks, Termine, Werbe-Ebene fürs eigene Angebot – dazu ein Wochenmodus mit Ideen aus den eigenen Gewinnern. | Contentplan, Redaktionsplan, Themenplan, Posting-Plan, Content-Kalender, Monatsplan, Content-Strategie, Wochenplan, Ideen für diese Woche, Angebot bewerben, Promotion, Werbeplan, Launch-Plan | fertig v2 |
 | [Marktforschung](prozesse/marktforschung.md) | Zielgruppe, Wettbewerb, Nachfrage und Preise mit belegten Quellen analysieren – für eine konkrete Entscheidung. | Marktanalyse, Wettbewerbsanalyse, Konkurrenzanalyse, Zielgruppe, Avatar, Nische, Kundeninterview, Preisrecherche, Nachfrage prüfen | fertig v1 |
 
 ## Business

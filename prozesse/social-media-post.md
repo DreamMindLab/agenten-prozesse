@@ -4,7 +4,7 @@ kategorie: Social Media
 icon: megaphone
 beschreibung: Einzelpost für Instagram oder LinkedIn: Hook, ein Gedanke, CTA.
 status: fertig
-version: 2
+version: 3
 reihenfolge: 10
 stichworte: Instagram-Post, LinkedIn-Post, Posting, Caption, Textpost, Bildpost
 ---
@@ -21,6 +21,13 @@ Worauf die Plattformen achten: Instagram bewertet vor allem **Sends pro Reichwei
 - **Referenz (optional):** Link zu einem Post, dessen Aufbau als Vorlage dienen soll, auch aus einer anderen Branche.
 - **Plattform:** Instagram, LinkedIn oder beide. Standard: beide.
 - **Ziel des Posts:** Reichweite (teilen), Vertrauen (speichern) oder Anfragen (CTA). Standard: Vertrauen.
+- **Werbe-Format** (nur bei Ziel Anfragen, z. B. aus dem Contentplan; Standard: Standard):
+  - **Standard:** eigener Einstieg, eine Stufe Beweis, eine Bitte passend zur Bewusstseinsstufe.
+  - **Geschichte:** ein konkreter Moment (Ergebnis eines Kunden oder ein eigener Fehler, den das Angebot löst) in 3–6 Zeilen, das Angebot als natürliches Ende.
+  - **Einwand:** einen Grund benennen, warum jemand nicht kauft, und ihn ehrlich beantworten.
+  - **Beweis:** ein Beleg, gezeigt statt behauptet, mit einer Zeile Kontext.
+  Einstiegsart und Beweis-Rangfolge nach `prozesse/copywriting.md`, Schritte 5–6. Nur echte Belege aus `marke/angebot.md`.
+- **Kommentar-Hinweis** (optional, aus dem Contentplan): 1–2 Sätze für den ersten Kommentar, die den Gedanken des Posts zum Angebot weiterführen (`prozesse/30-tage-contentplan.md`, Werbe-Ebene).
 - Aus dem Repo, immer lesen: `marke/zielgruppe.md`, `marke/tonalitaet.md`, `marke/angebot.md`, `marke/design.md`, `marke/beispiele.md`, `grundlagen/themen-und-verstaendlichkeit.md`
 - Aus deinem Gedächtnis: gespeicherte Regeln zu diesem Prozess (Foundation-Agent).
 
@@ -35,8 +42,8 @@ Einrichtung und Keys: `grundlagen/einrichtung.md`.
 1. **Briefing prüfen.** Inputs vollständig? Sind die `marke/`-Dateien noch Platzhalter, frag nach Zielgruppe und Tonalität, bevor du schreibst. Thema prüfen nach `grundlagen/themen-und-verstaendlichkeit.md`, Baustein 1.
 2. **Kernaussage in einem Satz.** Schreib auf: „Nach diesem Post weiß/kann die Zielgruppe ___.“ Passt das nicht in einen Satz, ist es mehr als ein Post (→ Karussell). Dazu das Framing nach Baustein 3: Was ändert sich dadurch für die Leserin oder den Leser?
 3. **Beweis finden.** Womit wird die Aussage glaubwürdig? Eigenes Beispiel, Kundenfall, Zahl aus `marke/angebot.md`, konkreter Ablauf. Nichts erfinden: Gibt es keinen Beleg, arbeite mit einem konkreten Beispielszenario und kennzeichne es als solches.
-4. **5 Hooks schreiben, einen wählen.** Vorher Muster nach Baustein 2 sammeln (Hook-Typ und Aufbau gut laufender Posts). Der Hook ist alles vor „…mehr“ (Instagram: ca. die ersten 125 Zeichen; LinkedIn: die ersten 2–3 Zeilen). Zeile 1 stoppt den Scroll: konkretes Problem, überraschende Aussage oder Ergebnis, in Worten der Zielgruppe (Formulierungen aus `marke/zielgruppe.md`). Zeile 2 baut Spannung auf. Die letzte Zeile vor „mehr“ verspricht einen Payoff, der das Aufklappen lohnt. Wähle den Hook, der am **spezifischsten** ist (Zahl, Rolle, Situation). Allgemeine Hooks („Die meisten machen diesen Fehler“) verlieren.
-5. **Hauptteil schreiben.** Ein Gedanke, gestützt durch den Beweis aus Schritt 3. Kurze Absätze (1–3 Zeilen), Leerzeilen dazwischen. Konkrete Schritte oder Beispiele statt Behauptungen. Am Ende Rückbezug auf den Hook.
+4. **Winkel wählen, dann 5 Hooks schreiben, einen wählen.** Zuerst 3–5 Winkel nach Baustein 6 (jeder auf einem anderen Weg, Unabhängigkeitstest), den stärksten wählen. Dann Muster nach Baustein 2 sammeln (Hook-Typ und Aufbau gut laufender Posts) und 5 Hooks aus verschiedenen Einstiegsfamilien (Baustein 6) schreiben, nicht dieselbe wie beim letzten Post. Der Hook ist alles vor „…mehr“ (Instagram: ca. die ersten 125 Zeichen; LinkedIn: die ersten 2–3 Zeilen). Zeile 1 stoppt den Scroll: konkretes Problem, überraschende Aussage oder Ergebnis, in Worten der Zielgruppe (Formulierungen aus `marke/zielgruppe.md`). Zeile 2 baut Spannung auf. Die letzte Zeile vor „mehr“ verspricht einen Payoff, der das Aufklappen lohnt. Wähle den Hook, der am **spezifischsten** ist (Zahl, Rolle, Situation). Allgemeine Hooks („Die meisten machen diesen Fehler“) verlieren.
+5. **Hauptteil schreiben.** Form nach Baustein 6 wählen (z. B. Problem – Mechanismus – Folge, Irrtum und Korrektur, kleine Geschichte). Ein Gedanke, gestützt durch den Beweis aus Schritt 3. Kurze Absätze (1–3 Zeilen), Leerzeilen dazwischen. Konkrete Schritte oder Beispiele statt Behauptungen. Schluss aus einer Schlussfamilie (Baustein 6), passend zum Einstieg; keine Zusammenfassung.
 6. **CTA setzen.** Genau einer, passend zum Ziel. Reichweite: „Schick das jemandem, der …“. Vertrauen: „Speicher dir das für …“. Anfragen: Standard-CTA aus `marke/angebot.md`. Kommentare (v. a. LinkedIn): eine echte, leicht beantwortbare Frage.
 7. **Verständlichkeits-Check** nach Baustein 4 (Kurzformat): Persona-Test und 12-Jährigen-Test für Hook und Hauptteil, dann überarbeiten.
 8. **Plattform anpassen.**
@@ -49,7 +56,10 @@ Einrichtung und Keys: `grundlagen/einrichtung.md`.
     - [ ] Thema vom Nutzer gewählt oder bestätigt; bei eigenen Vorschlägen liegt je ein Beleg für aktuelles Interesse vor.
     - [ ] Framing aus Sicht der Zielgruppe: Der Hook zeigt, was sich **für sie** ändert.
     - [ ] Verständlichkeits-Check (Schritt 7) ohne offenen Befund; kein unerklärter Fachbegriff.
-    - [ ] Referenzen nur als Muster genutzt, kein übernommener Wortlaut.
+    - [ ] Referenzen nur als Muster genutzt, kein übernommener Wortlaut (nie 8+ Wörter am Stück).
+    - [ ] Der Winkel hat Aussage, Spannung, Beleg und Payoff und besteht den Unabhängigkeitstest gegen die Alternativen (Baustein 6).
+    - [ ] Einstiegsfamilie, Form und Schlussfamilie benannt; nicht dieselbe Kombination wie beim letzten Post; Schluss ist keine Zusammenfassung und kein nacktes „Was denkt ihr?“.
+    - [ ] Werbe-Format (falls gesetzt) folgt seinem Aufbau; Beweise nur aus `marke/angebot.md`.
     - [ ] Die Kernaussage aus Schritt 2 ist nach dem Lesen eindeutig erkennbar.
     - [ ] Zeile 1 enthält etwas Spezifisches (Zahl, Rolle, Situation, Ergebnis), keine Allgemeinplätze.
     - [ ] Der Hook verspricht etwas, das der Hauptteil **vollständig** einlöst.
@@ -60,7 +70,7 @@ Einrichtung und Keys: `grundlagen/einrichtung.md`.
     - [ ] Instagram: Keyword in den ersten zwei Sätzen, 3–5 Hashtags, Bild 1080×1350 ohne fehlerhaften Text.
     - [ ] Laut gelesen klingt es wie die Texte in `marke/beispiele.md`, nicht wie eine KI.
     - [ ] Harte Kriterien aus `grundlagen/qualitaet-und-lernen.md` erfüllt.
-11. **Foundation-Agent.** Vorgehen: `grundlagen/qualitaet-und-lernen.md`. Auswerten, Regeln speichern, ggf. Prozess-Vorschlag per Telegram. Zusätzlich Zahlen nach Baustein 5: Instagram Reichweite, Saves, Sends, Kommentare; LinkedIn Impressionen, Reaktionen, Kommentare, Reposts.
+11. **Foundation-Agent.** Vorgehen: `grundlagen/qualitaet-und-lernen.md`. Auswerten, Regeln speichern, ggf. Prozess-Vorschlag per Telegram. Zusätzlich Zahlen nach Baustein 5: Instagram Reichweite, Saves, Sends, Kommentare; LinkedIn Impressionen, Reaktionen, Kommentare, Reposts. Mit Winkel, Einstiegsfamilie, Form und Schlussfamilie speichern (Baustein 6), bei Werbe-Formaten auch im Werbe-Protokoll des Contentplans.
 
 ## Output-Format
 
@@ -74,12 +84,14 @@ Ziel: <Reichweite / Vertrauen / Anfragen>
 --- TEXT ---
 <fertiger Post-Text inkl. Hashtags>
 
---- ERSTER KOMMENTAR (nur LinkedIn, falls Link) ---
+--- ERSTER KOMMENTAR (LinkedIn-Link oder Kommentar-Hinweis, falls vorgesehen) ---
 <Text>
 
 Bild: <Datei im Anhang>
 KI-Kennzeichnung nötig: <ja/nein, warum>
 Warum dieses Thema jetzt: <Anlass bzw. Beleg>
+Winkel: <gewählter Winkel> | Einstieg: <Familie> | Form: <…> | Schluss: <Familie>
+Alternative Winkel: <2 Zeilen>
 Alternative Hooks: <die 2 nächstbesten aus Schritt 4>
 Quality Check: <bestanden in Runde X / offen: Kriterium + Grund>
 

@@ -31,6 +31,7 @@ Was die Daten sagen:
 - **Veröffentlichung:** Podcast-Hoster (RSS, z. B. für Spotify/Apple) und YouTube-Kanal, falls vorhanden (aus `marke/regeln.md`).
 - Aus dem Repo, immer lesen: alle Dateien in `marke/`
 - Aus deinem Gedächtnis: gespeicherte Regeln, bisherige Episoden (Themen, Gäste, Zahlen).
+- **Optional, nur wenn der Nutzer es anspricht** (z. B. „interview mich dazu“, „nur Gliederung, ich schreibe selbst“): erst Interview und Gliederung nach `grundlagen/langform-interview.md` (nur Solo-Episoden), dann an der dort genannten Stelle weiter. Nicht von dir aus anbieten; ohne diesen Wunsch läuft der Prozess wie unten beschrieben.
 
 ## Werkzeuge
 

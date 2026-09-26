@@ -4,7 +4,7 @@ kategorie: Social Media
 icon: layers
 beschreibung: Mehrseitiges Karussell für Instagram und LinkedIn (PDF): Hook, zweiter Hook, Mehrwert, CTA.
 status: fertig
-version: 2
+version: 3
 reihenfolge: 11
 stichworte: Carousel, Slides, Swipe-Post, Dokument-Post, PDF-Post, LinkedIn-Karussell
 ---
@@ -34,8 +34,8 @@ Einrichtung und Keys: `grundlagen/einrichtung.md`.
 ## Schritt-für-Schritt
 
 1. **Briefing prüfen.** Inputs vollständig? Sind die `marke/`-Dateien noch Platzhalter, frag nach, bevor du schreibst. Thema prüfen nach `grundlagen/themen-und-verstaendlichkeit.md`, Baustein 1.
-2. **Versprechen festlegen.** Ein Satz: „Wer bis zum Ende swipt, hat ___.“ (z. B. „eine Checkliste, mit der er X in 10 Minuten prüft“). Das ist der Grund zum Speichern. Formuliere es nach Baustein 3 aus Sicht der Zielgruppe: was sie danach anders machen kann.
-3. **Gliederung als Text** (noch kein Design). Vorher Muster nach Baustein 2 sammeln (Aufbau, Slide-Anzahl, Darstellungsform gut laufender Karussells). Gesamt 7–10 Slides; mehr nur, wenn jede Slide wirklich eine eigene Aussage hat.
+2. **Winkel und Versprechen festlegen.** Zuerst 3–5 Winkel nach Baustein 6 (Unabhängigkeitstest), den stärksten wählen. Dann ein Satz: „Wer bis zum Ende swipt, hat ___.“ (z. B. „eine Checkliste, mit der er X in 10 Minuten prüft“). Das ist der Grund zum Speichern. Formuliere es nach Baustein 3 aus Sicht der Zielgruppe: was sie danach anders machen kann.
+3. **Gliederung als Text** (noch kein Design). Vorher Muster nach Baustein 2 sammeln (Aufbau, Slide-Anzahl, Darstellungsform gut laufender Karussells). Gesamt 7–10 Slides; mehr nur, wenn jede Slide wirklich eine eigene Aussage hat. Form nach Baustein 6 (für Karussells meist Schritte, Hook – Liste – Folgerung, Vorher – Nachher oder Irrtum und Korrektur), Einstiegsfamilie für Slide 1 nicht dieselbe wie beim letzten Karussell.
    - **Slide 1 – Hook:** das Versprechen, spezifisch (Zahl, Zielgruppe, Ergebnis). Max. 12 Wörter bzw. ca. 70 Zeichen.
    - **Slide 2 – zweiter Hook:** muss **allein** funktionieren, weil sie evtl. als Einstieg gezeigt wird. Problem zuspitzen oder zeigen, warum die übliche Lösung scheitert.
    - **Slides 3 bis n-2 – Mehrwert:** genau **eine** Aussage pro Slide. Durchnummerieren, wenn es Schritte sind.
@@ -58,7 +58,8 @@ Einrichtung und Keys: `grundlagen/einrichtung.md`.
     - [ ] Thema vom Nutzer gewählt oder bestätigt; bei eigenen Vorschlägen liegt je ein Beleg für aktuelles Interesse vor.
     - [ ] Das Versprechen auf Slide 1 zeigt, was sich **für die Zielgruppe** ändert.
     - [ ] Verständlichkeits-Check (Schritt 5) ohne offenen Befund; kein unerklärter Fachbegriff auf den Slides.
-    - [ ] Referenzen nur als Muster genutzt, kein übernommener Wortlaut oder Layout.
+    - [ ] Referenzen nur als Muster genutzt, kein übernommener Wortlaut (nie 8+ Wörter am Stück) oder Layout.
+    - [ ] Der Winkel besteht den Unabhängigkeitstest gegen die Alternativen; Einstiegsfamilie und Form benannt (Baustein 6).
     - [ ] Slide 1 enthält ein spezifisches Versprechen (Zahl, Zielgruppe oder Ergebnis) mit max. ca. 70 Zeichen (per Skript gezählt).
     - [ ] Slide 2 funktioniert allein als Einstieg (Test: Slide 1 zudecken; versteht man, worum es geht, und will weiter?).
     - [ ] Jede Mehrwert-Slide enthält genau eine Aussage und max. ca. 150 Zeichen.
@@ -70,7 +71,7 @@ Einrichtung und Keys: `grundlagen/einrichtung.md`.
     - [ ] Farben, Schriften und Handle entsprechen `marke/design.md`.
     - [ ] Instagram-Caption mit Keyword und 3–5 Hashtags; LinkedIn-PDF vorhanden, Seiten in richtiger Reihenfolge.
     - [ ] Harte Kriterien aus `grundlagen/qualitaet-und-lernen.md` erfüllt.
-11. **Foundation-Agent.** Vorgehen: `grundlagen/qualitaet-und-lernen.md`. Zusätzlich Zahlen nach Baustein 5: Instagram Reichweite, Saves, Sends, Kommentare; LinkedIn Impressionen, Reaktionen, Kommentare, Reposts.
+11. **Foundation-Agent.** Vorgehen: `grundlagen/qualitaet-und-lernen.md`. Zusätzlich Zahlen nach Baustein 5: Instagram Reichweite, Saves, Sends, Kommentare; LinkedIn Impressionen, Reaktionen, Kommentare, Reposts. Mit Winkel, Einstiegsfamilie und Form speichern (Baustein 6).
 
 ## Output-Format
 

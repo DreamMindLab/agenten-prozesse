@@ -4,7 +4,7 @@ kategorie: Text & Copy
 icon: pen
 beschreibung: Verkaufsstarke Texte auf Basis echter Kundensprache: Headlines, Angebotstexte, Sales Copy.
 status: fertig
-version: 2
+version: 3
 reihenfolge: 22
 stichworte: Werbetext, Sales Copy, Headline, Hook, Verkaufstext, Angebotstext, Produktbeschreibung, Überschrift
 ---
@@ -56,7 +56,7 @@ Dieser Prozess ist auch der **Kern für Landingpage, E-Mail-Marketing und Ads**:
    - **Eine dominante Leistung:** Von allem, was das Angebot tut, die eine Wirkung, die das dominante Verlangen aus Schritt 4 erfüllt. Nicht was es *ist* (Merkmale), sondern was es *tut*. Ein Text, eine Hauptleistung.
    - Kernversprechen (in Kundensprache aus Schritt 3)
    - Mechanismus: warum es funktioniert, was anders ist
-   - Beweise: nur aus `marke/angebot.md` oder vom Nutzer, nichts erfinden
+   - Beweise: nur aus `marke/angebot.md` oder vom Nutzer, nichts erfinden. Den stärksten verfügbaren nehmen und direkt neben die Aussage stellen, die er stützt. Rangfolge: Vorführung (zeigen, wie es funktioniert) → konkrete Zahlen und Belege → Kundenstimme von jemandem wie dem Leser, die einen echten Einwand beantwortet → Durchschnittswerte → geliehene Autorität → bloße Behauptung. Aussagen ohne Beleg im Output als „belegen“ markieren.
    - Die 3 wichtigsten Einwände aus Schritt 3 und die Antwort darauf
    - Die Handlung aus Schritt 2
 6. **Aufbau wählen**, passend zur Stufe:
@@ -64,8 +64,9 @@ Dieser Prozess ist auch der **Kern für Landingpage, E-Mail-Marketing und Ads**:
    - Lösungsbewusst → Vorher – Nachher – Brücke (BAB), Mechanismus in den Mittelpunkt
    - Angebotsbewusst/kaufbereit → Angebot zuerst, dann Beweise und Einwände
    - Unbewusst → Geschichte/Situation zuerst
+   **Einstiegsart** (genau eine pro Text, nie mischen), von direkt nach indirekt: **Angebot** (das Angebot selbst; kaufbereite und wiederkehrende Leser) · **Versprechen** (das Kernergebnis, so konkret wie die Marktreife erlaubt) · **Problem** (den Schmerz genauer benennen, als der Leser es kann; das Arbeitspferd bei Problembewussten) · **Mechanismus** (das überraschende Wie; Lösungsbewusste in reifen Märkten, muss die Neugier einlösen) · **Behauptung** (eine kühne, **belegbare** Aussage; wenig Bewusste) · **Geschichte** (eine Wandlung, die man zu Ende hören will; Unbewusste, Skeptische, erschöpfte Märkte). Die Bewusstseinsstufe bestimmt, wie direkt der Einstieg sein darf; die Marktreife, ob die Substanz Versprechen, Mechanismus, Beweis oder Identifikation ist. Passen zwei, nimm die direktere. (Nach Dan Koe, Marketing-Strategist-Workflow für Eden, auf Grundlage von Schwartz.)
    Die Länge richtet sich nach der Größe der Entscheidung: Kostenloses (Eintragen, Klick) → kurz. Geld → so lang, wie nötig ist, um alle wichtigen Einwände zu beantworten.
-7. **10 Headlines schreiben, eine wählen.** Mindestens 3 davon nutzen wörtliche Kundensprache. Wähle die, die für die Bewusstseinsstufe passt und am spezifischsten ist.
+7. **10 Headlines schreiben, eine wählen.** Mindestens 3 davon nutzen wörtliche Kundensprache. Die Varianten unterscheiden sich im **Winkel** (Problem, Mechanismus, Beweis, Geschichte/Identität, Angebot, wo die Stufe es erlaubt), nicht in Synonymen. Wähle die, die für die Bewusstseinsstufe passt und am spezifischsten ist. Zusätzlich zu den drei Fragen aus Schritt 9: Erkennt sich der Leser in der ersten Zeile wieder? Löst der Text ein, was die Headline öffnet? Eine Headline, die eine der beiden nicht besteht, fliegt raus.
 8. **Text schreiben.** Kurze Sätze (Richtwert max. 15 Wörter), einfache, konkrete Wörter, „du“ oder „Sie“ laut `marke/tonalitaet.md`. Nutzen vor Merkmalen. Kundensprache aus Schritt 3 wörtlich einbauen, wo sie passt. Einfache Sprache verkauft messbar besser: Laut Unbounce-Benchmark (41.000 überwiegend englischsprachige Landingpages) konvertieren Seiten auf Lesestufe 5.–7. Klasse rund doppelt so gut wie Texte in Fachsprache (US-Daten, für Deutsch nicht separat belegt). Satzlänge und Lesbarkeit auf Deutsch: `grundlagen/deutschland.md`, Abschnitt 1.
 9. **Drei-Fragen-Test** für jede Kernaussage (nach Harry Dry, *Marketing Examples*):
    - **Kann man es sich bildlich vorstellen?** („spart Zeit“ → nein; „Angebot in 10 Minuten statt 2 Stunden“ → ja)
@@ -76,6 +77,8 @@ Dieser Prozess ist auch der **Kern für Landingpage, E-Mail-Marketing und Ads**:
 10. **Quality Check (Loop).** Vorgehen: `grundlagen/qualitaet-und-lernen.md`. Kriterien:
     - [ ] Der Text zielt auf genau einen Leser und genau eine Handlung (Schritt 2).
     - [ ] Dominantes Verlangen, Bewusstseinsstufe und Marktreife sind benannt, und Einstieg und Headline passen dazu.
+    - [ ] Genau eine Einstiegsart (Schritt 6); die Headline erkennt den Leser wieder und wird vom Text eingelöst (Schritt 7).
+    - [ ] Der stärkste verfügbare Beweis steht direkt neben der Aussage, die er stützt; unbelegte Aussagen sind markiert.
     - [ ] Der Text stellt eine dominante Leistung in den Mittelpunkt, nicht mehrere gleichrangige.
     - [ ] Mindestens 3 Formulierungen stammen wörtlich oder fast wörtlich aus der Kundensprache (Stellen markieren).
     - [ ] Die Headline ist spezifisch und besteht mindestens 2 der 3 Fragen aus Schritt 9.
@@ -97,6 +100,7 @@ Per Telegram an den Nutzer:
 ✍️ Copy: <was, für wo>
 Leser & Handlung: <Satz aus Schritt 2>
 Diagnose: Verlangen <…> | Bewusstsein <Stufe> | Marktreife <Stufe> – <Begründung in 1 Satz>
+Einstiegsart: <…>
 
 --- TEXT ---
 <fertiger Text>

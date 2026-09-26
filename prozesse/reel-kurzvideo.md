@@ -4,7 +4,7 @@ kategorie: Social Media
 icon: sparkles
 beschreibung: Instagram-Reel aus eigener Aufnahme, Avatar des Nutzers oder komplett KI-produziert, recycelbar für TikTok.
 status: fertig
-version: 2
+version: 3
 reihenfolge: 12
 stichworte: Reel, Instagram Reel, TikTok, Short, Kurzvideo, Kurzvideo-Skript, Faceless Reel, Talking Head, KI-Avatar, Avatar-Video
 ---
@@ -57,7 +57,7 @@ Einrichtung und Keys: `grundlagen/einrichtung.md`. Fehlt das HyperFrames-Kit, in
    - Ein 10-Sekunden-Testvideo erzeugen und dem Nutzer zur Abnahme schicken, bevor der Avatar produktiv genutzt wird.
 3. **Thema prüfen** nach `grundlagen/themen-und-verstaendlichkeit.md`, Baustein 1.
 4. **Muster finden** nach Baustein 2: 2–3 Reels, die zum Thema oder Format gerade gut laufen, bzw. die Referenz des Nutzers. Übernommen wird nur das Prinzip.
-5. **Hauptfrage, Framing und Payoff festlegen.** Schreib auf:
+5. **Winkel, Hauptfrage, Framing und Payoff festlegen.** Zuerst 3–5 Winkel nach Baustein 6 (Unabhängigkeitstest), den stärksten wählen. Dann schreib auf:
    - die **eine** Frage, die sich der Zuschauer ab Sekunde 1 stellt (z. B. „Wie schreibt man Angebote, die ohne Rabatt verkaufen?“),
    - das **Framing** nach Baustein 3: was sich dadurch **für den Zuschauer** ändert,
    - den **Payoff** (die konkrete Antwort, die vor dem Ende kommt) und den Nutzen („Nach dem Reel kann der Zuschauer ___.“).
@@ -65,7 +65,7 @@ Einrichtung und Keys: `grundlagen/einrichtung.md`. Fehlt das HyperFrames-Kit, in
    - **Problem zuerst:** „Dein Angebot wird ignoriert, weil …“
    - **Ergebnis zuerst:** das Endergebnis kurz zeigen, dann „So geht's:“
    - **Wiedererkennen:** eine Situation, in der sich die Zielgruppe sofort erkennt.
-   Regeln: Thema in 1–2 Sekunden klar, einfache Sprache, Anrede laut `marke/tonalitaet.md`, keine Begrüßung, kein Intro. Wähle die Variante, die die Hauptfrage am klarsten und spezifischsten stellt, und notiere, warum.
+   Regeln: Thema in 1–2 Sekunden klar, einfache Sprache, Anrede laut `marke/tonalitaet.md`, keine Begrüßung, kein Intro. Wähle die Variante, die die Hauptfrage am klarsten und spezifischsten stellt, und notiere, warum. Weitere Einstiegsfamilien und die Abwechslung zum letzten Reel: Baustein 6.
 7. **Skript mit Timecodes** schreiben (15–30 s; Startwert ca. 2 gesprochene Wörter pro Sekunde, sobald vorhanden das gemessene Tempo aus deinem Gedächtnis, `grundlagen/deutschland.md`, Abschnitt 1). Alle 2–3 Sekunden passiert etwas Neues (Szenenwechsel, Text, Bewegung, Schnitt). Der Payoff kommt **vor** dem CTA; die Antwort darf nicht nur „in den Kommentaren“ stehen.
 
 ```
@@ -108,7 +108,8 @@ Einrichtung und Keys: `grundlagen/einrichtung.md`. Fehlt das HyperFrames-Kit, in
     - [ ] Thema vom Nutzer gewählt oder bestätigt; bei eigenen Vorschlägen liegt je ein Beleg für aktuelles Interesse vor.
     - [ ] Framing aus Zuschauersicht: Bis Sekunde 5 ist klar, was sich **für ihn** ändert (Beleg: Satz mit Timecode).
     - [ ] Verständlichkeits-Check (Schritt 8) ohne offenen Befund; kein unerklärter Fachbegriff im Skript.
-    - [ ] Referenz-Reels nur als Muster genutzt: kein übernommener Wortlaut, kein fremdes Bild- oder Tonmaterial.
+    - [ ] Referenz-Reels nur als Muster genutzt: kein übernommener Wortlaut (nie 8+ Wörter am Stück), kein fremdes Bild- oder Tonmaterial.
+    - [ ] Der Winkel besteht den Unabhängigkeitstest gegen die Alternativen; Einstiegsfamilie nicht dieselbe wie beim letzten Reel (Baustein 6).
     - [ ] 3-Sekunden-Test: Bis Sekunde 3 ist klar, worum es geht und warum man bis zum Ende schauen sollte (Beleg: Text und Bild bei 0–3 s).
     - [ ] Keine Begrüßung, kein Intro, kein Logo am Anfang; Frame 0 ist sofort verständlich.
     - [ ] Die Hauptfrage wird vor dem CTA vollständig beantwortet (Timecode des Payoffs).
@@ -123,7 +124,7 @@ Einrichtung und Keys: `grundlagen/einrichtung.md`. Fehlt das HyperFrames-Kit, in
 15. **Foundation-Agent.** Vorgehen: `grundlagen/qualitaet-und-lernen.md`. Zusätzlich:
     - Bei der ersten Vertonung mit einer Stimme (B, C) bzw. dem ersten Rohvideo (A): Sprechtempo messen (Wörter ÷ Sekunden) und speichern.
     - Merken, welche Higgsfield-Modelle und Prompt-Bausteine (C) bzw. welche Avatar-Einstellungen (B) brauchbare Ergebnisse geliefert haben (Trefferquote).
-    - Zahlen nach Baustein 5: Aufrufe, durchschnittliche Wiedergabedauer, Sends, Saves, neue Follower. Mit Produktionsweg speichern, damit sichtbar wird, welcher Weg besser läuft.
+    - Zahlen nach Baustein 5: Aufrufe, durchschnittliche Wiedergabedauer, Sends, Saves, neue Follower. Mit Produktionsweg, Winkel und Einstiegsfamilie speichern, damit sichtbar wird, was besser läuft.
 
 ## Output-Format
 

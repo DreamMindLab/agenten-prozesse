@@ -74,8 +74,22 @@ Nur Prozesse, die sich ändern. Alle anderen Schritte bleiben.
 | `marktforschung.md` | Region USA, Sprache Englisch; Google Trends mit Region „Vereinigte Staaten“; Kundenzitate aus englischen Quellen; Preise in `$` und mit US-Wettbewerbern vergleichen. |
 | `seo-blogartikel.md` | Suchergebnisse für die USA (google.com, Englisch). Die Klick-Daten zu KI-Übersichten (Ahrefs, Seer) stammen aus den USA und gelten hier direkt. |
 | `30-tage-contentplan.md`, `geschaeftsueberblick.md` | Termine in US-Zeitzonen, US-Feiertage; US-Umsätze im Geschäftsüberblick getrennt ausweisen (Sales-Tax-Schwellen, Abschnitt 1). |
+| `positionierung.md` | Frage 4 um X, Threads und Substack ergänzen; Recherche auf Englisch und auf US-Accounts. Geldseite: US-Werberecht für Ergebnis-Aussagen (Abschnitt 3). |
+| `social-media-post.md`, `30-tage-contentplan.md` (Werbe-Ebene) | Zusätzliche Plattformen, falls der Nutzer sie bespielt (Abschnitt 7). Kommentar-Hinweis auf X als Antwort unter dem eigenen besten Post des Tages. |
+| `newsletter.md`, `grundlagen/langform-interview.md` | Betreffzeilen: auch die kleingeschriebene „Geständnis“-Form („i almost quit last week“) und „You're not [bad thing]: [good thing]“ sind üblich (Abschnitt 7). |
 | `buchhaltung.md` | Bleibt deutsch. Zusätzlich: Rechnungen an US-Kunden markieren und Klärung mit dem Steuerberater anstoßen (Abschnitt 1). |
+
+## 7. Plattformen und Stil (aus Dan Koes Eden-Workflows)
+
+Im US-Markt sind drei Plattformen deutlich relevanter als in Deutschland, wo das Repo nur Instagram und LinkedIn vorsieht. Nur nutzen, wenn der Nutzer sie bespielt:
+
+- **X-Post:** Aussage oder Spannung sofort, ein Gedanke; Hook, Mechanismus oder Beleg, Folge, sauberer letzter Satz. Unter 280 Zeichen, standardmäßig keine Hashtags. Mehrere unabhängige Schritte → Thread.
+- **X-Thread:** Der erste Post ist ein vollständiges Versprechen, jedes Segment hat eine Aufgabe, am Ende die verdichtete Erkenntnis. Segmente einzeln und in Reihenfolge liefern.
+- **Threads:** wie ein X-Post, etwas mehr Platz, wärmerer Ton, keine Hashtags.
+- **Substack Note:** für eine laufende Beziehung zu Lesern: Beobachtung, warum sie zählt, ein konkretes Beispiel, Einladung zum Nachdenken oder Antworten. Kein Mini-Newsletter-Intro.
+
+**Stil:** Den langen Gedankenstrich (em dash, —) weglassen, er gilt im Englischen als typisches KI-Merkmal (im Deutschen ist der Gedankenstrich normale Typografie, dort regelt `marke/tonalitaet.md` die Häufung). Kleingeschriebene Betreffzeilen sind im Englischen ein eigener, persönlicher Stil; im Deutschen wirken sie wie ein Fehler.
 
 ## Quellen
 
-FTC Endorsement Guides 2023 (ftc.gov, „FTC's Endorsement Guides: What People Are Asking“); FTC Consumer Reviews and Testimonials Rule (ftc.gov, Q&A); FTC Policy Statement Regarding Advertising Substantiation; FTC Notice of Proposed Rulemaking Earnings Claim Rule (Januar 2025); CAN-SPAM Act (FTC-Leitfaden für Unternehmen); Netflix English (USA) Timed Text Style Guide; Edison Research, *Infinite Dial*; Stripe/Avalara zu Sales-Tax-Schwellen; Art. 3 DSGVO.
+FTC Endorsement Guides 2023 (ftc.gov, „FTC's Endorsement Guides: What People Are Asking“); FTC Consumer Reviews and Testimonials Rule (ftc.gov, Q&A); FTC Policy Statement Regarding Advertising Substantiation; FTC Notice of Proposed Rulemaking Earnings Claim Rule (Januar 2025); CAN-SPAM Act (FTC-Leitfaden für Unternehmen); Netflix English (USA) Timed Text Style Guide; Edison Research, *Infinite Dial*; Stripe/Avalara zu Sales-Tax-Schwellen; Art. 3 DSGVO; Dan Koe, Short-Form-Specialist-, Long-Form-Outliner- und Marketing-Strategist-Workflows für Eden (Plattform- und Stilregeln, Abschnitt 7).

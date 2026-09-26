@@ -2,7 +2,9 @@
 
 ## Notizen (manuell)
 
-### 2026-09-26 (3) — Torben-Platzer-Tipps, Verkaufszeitpunkt neuer Account (Branch claude/beautiful-keller-9ms48d)
+### 2026-09-26 (3) — Torben-Platzer-Tipps, Verkaufszeitpunkt neuer Account (main · 078eb2b)
+
+**Stand:** nach `main` gemergt (Fast-Forward von `claude/beautiful-keller-9ms48d`), Vorschau Version 5 veröffentlicht: https://claude.ai/artifact/S4Keh5XEyt5ufGWLXi6pEu. Weiterhin mit keinem echten Hermes-Auftrag erprobt. Landmine bestätigt: Anhängen per Bash-Heredoc an `grundlagen/` wurde blockiert, mit Edit-Werkzeug nach Jans Freigabe ging es.
 
 **Quelle:** zwei Podcast-Transkripte von Torben Platzer (#136 Personenmarke in 6 Schritten, #140 10 Social-Media-Tipps). Das meiste war schon drin. Er verkauft Agentur und Workshops; seine Werte sind als Praktiker-Startwerte markiert.
 

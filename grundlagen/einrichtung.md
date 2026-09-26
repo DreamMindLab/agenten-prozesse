@@ -65,11 +65,15 @@ npm test
 
 Erfolgreich, wenn `npm test` durchläuft. Dann zum Test das Demo rendern: `npm run demo`, `cd video-projects/demo`, `npx hyperframes render --quality draft --output renders/demo.mp4`.
 
-Das Kit enthält Skills für Codex (`.agents/skills/`), u. a. `short-form-edit` und `hyperframes`. Lies deren `SKILL.md`, bevor du damit ein Reel baust. Eigene Projekte liegen in `video-projects/<name>/`.
+Das Kit enthält Skills (`.agents/skills/`, gleich in `.claude/skills/`), u. a. `short-form-edit`, `edit-video`, `cut-silences`, `cut-mistakes`, `hyperframes-video-beats`, `video-storytelling` und `style-library`. Welcher wofür: `grundlagen/video-schnitt.md`, Abschnitt 3. Lies die `SKILL.md`, bevor du damit arbeitest. Eigene Projekte liegen in `video-projects/<name>/`.
 
-### video-use (für: Reel Weg A, Verkaufsvideo mit Aufnahme, Testimonial) – optional
+- **Aktualisieren:** Das Kit wird laufend erweitert. Vor jedem Videoauftrag `git pull` im Kit-Ordner, danach `npm ci`, falls sich `package-lock.json` geändert hat.
+- **Transkription:** Das Kit transkribiert lokal mit Whisper (`npx hyperframes transcribe`, kein Key). Für Deutsch immer `--language de` und ein Modell **ohne** `.en`; Details und Gründe: `grundlagen/video-schnitt.md`, Abschnitt 1. Das Modell wird beim ersten Aufruf heruntergeladen (`medium` ca. 1,5 GB, `large-v3` ca. 3 GB).
+- **Nicht verwenden:** `DESIGN.ais-example.md` und `assets/AIS …` (Nates eigene Marke).
 
-Schneidet vorhandene Aufnahmen (Füllwörter, Pausen, Untertitel). Nur installieren, wenn der Nutzer Rohmaterial liefert. Benötigt ffmpeg und einen ElevenLabs-Key (für die Transkription).
+### video-use (für: Reel Weg A, Verkaufsvideo mit Aufnahme) – optional
+
+Schneidet vorhandene Aufnahmen (Füllwörter, Pausen, Untertitel). Erste Wahl sind die Kit-Skills `cut-silences` und `cut-mistakes` mit lokaler Transkription; `video-use` nur, wenn sie nicht zum Ziel führen. Benötigt ffmpeg und einen ElevenLabs-Key, weil es zur Transkription das Audio an ElevenLabs schickt: deshalb nur für Aufnahmen, auf denen ausschließlich der Nutzer spricht, bei Stimmen Dritter nur mit AVV (`grundlagen/deutschland.md`, Abschnitt 5).
 
 ```
 git clone https://github.com/browser-use/video-use ~/tools/video-use

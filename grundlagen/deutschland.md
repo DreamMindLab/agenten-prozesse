@@ -1,6 +1,6 @@
 ---
 titel: Deutschland-Standards
-beschreibung: Deutsche Sprache, deutsches Werberecht und Datenschutz: Längen und Sprechtempo, Quellen für Kundensprache, belegbare Werbeaussagen, Werbekennzeichnung, US-Werkzeuge.
+beschreibung: Deutsche Sprache, deutsches Werberecht und Datenschutz: Längen und Sprechtempo, Quellen für Kundensprache, belegbare Werbeaussagen, Werbekennzeichnung, US-Werkzeuge, fremde Marken, Bilder und Musik.
 ---
 
 Viele Methoden und Kennzahlen in den Prozessen stammen aus den USA. Die Denkmodelle (Bewusstseinsstufen, Jobs-to-be-Done, Checklisten) und die Plattform-Mechanik (Algorithmen, Zeichenlimits, Bildformate) gelten auch hier. Angepasst werden müssen **Sprache, Recht und Datenschutz**. Markt und Rechtsraum ist **Deutschland**. Wo ein Prozess auf diese Datei verweist, gilt der Abschnitt an genau dieser Stelle.
@@ -64,6 +64,7 @@ Mehrere Werkzeuge sitzen in den USA (ElevenLabs, HeyGen, Higgsfield, viele E-Mai
   - **E-Mail-Tool:** AVV ist Pflicht, weil die Liste personenbezogene Daten enthält. Anbieter mit Sitz in der EU (z. B. Brevo) vereinfachen die Prüfung.
 - **Datensparsam arbeiten:** Namen, E-Mail-Adressen und Firmennamen vor der Verarbeitung in KI-Werkzeugen entfernen oder ersetzen, wenn sie für die Aufgabe nicht nötig sind (z. B. Interview-Transkripte für die Auswertung).
 - **Gespräche aufzeichnen nur mit Einwilligung aller Beteiligten.** Wer nicht öffentlich gesprochene Worte ohne Einwilligung aufnimmt, macht sich strafbar (§ 201 StGB), und die DSGVO verlangt ebenfalls eine Einwilligung. Vor jeder Aufnahme (Kundeninterview, Podcast-Gast, Bildschirmaufnahme mit Kunden) die Einwilligung einholen und dokumentieren, auch für die Transkription mit einem KI-Werkzeug.
+- **Aufnahmen mit Stimmen Dritter** (Testimonial, Interview, Gast) am besten lokal transkribieren (Whisper, `grundlagen/video-schnitt.md`, Abschnitt 1). Dann verlässt das Audio den Rechner nicht, und für die Transkription ist kein AVV nötig.
 - Weiterführend: Orientierungshilfe „KI und Datenschutz“ der Datenschutzkonferenz (Mai 2024).
 
 ## 6. Zahlen und Quellen
@@ -71,6 +72,17 @@ Mehrere Werkzeuge sitzen in den USA (ElevenLabs, HeyGen, Higgsfield, viele E-Mai
 - **US-Daten als solche kennzeichnen**, wenn sie in einem Output als Beleg dienen („US-Daten, für Deutschland nicht separat belegt“).
 - **Deutsche Quellen bevorzugen**, wo es sie gibt: ARD/ZDF-Medienstudie (Mediennutzung, Podcasts), Bitkom, Statista, Destatis, IHK-Merkblätter (Recht).
 - **Werbeplattformen in der EU:** Meta und Google schalten seit Oktober 2025 in der EU keine Anzeigen zu Politik, Wahlen und gesellschaftlichen Themen mehr (EU-Verordnung TTPA).
+
+## 7. Fremde Marken, Bilder und Musik in Videos und Grafiken
+
+US-Beispiele zeigen oft fremde Logos, Screenshots und Produktfotos als Blickfang. In Deutschland ist das für eigene Werbung riskant; geschäftliche Posts, Reels und Videos des Nutzers gelten dabei als Werbung für ihn.
+
+- **Fremde Markennamen** dürfen genannt werden, um sachlich zu sagen, worum es geht (z. B. „So nutze ich X“, „funktioniert mit X“), soweit das dafür **nötig** ist und den anständigen Gepflogenheiten entspricht (§ 23 Abs. 1 Nr. 3, Abs. 2 MarkenG). Nicht erlaubt: den guten Ruf oder die Anziehungskraft der Marke für die eigene Werbung ausnutzen oder eine Partnerschaft bzw. Empfehlung nahelegen.
+- **Fremde Logos** (Bildmarken) sind heikler als der Name. Auch bei sachlichem Bezug kann das Logo schon eine Markenverletzung sein. Deshalb: **Name als Text statt Logo.** Ein Logo nur, wenn die Markenrichtlinien des Herstellers es für diesen Zweck ausdrücklich erlauben (Presse- bzw. Brand-Kit), und nie als Blickfang des eigenen Angebots.
+- **Fremde Fotos und Videos** (Produktfotos, Katalogbilder, Thumbnails, Clips anderer) sind geschützt, einfache Fotos als Lichtbilder (§ 72 UrhG). Nicht übernehmen. Auch nicht als Vorlage, um echte Produkte oder echte Personen per KI nachzubauen (Recht am eigenen Bild, § 22 KUG).
+- **Screenshots fremder Websites und Programme:** Der Inhalt (Texte, Bilder, Gestaltung) kann geschützt sein. Zulässig als **Zitat** (§ 51 UrhG) nur, wenn im Beitrag inhaltlich darüber gesprochen wird (Beleg), mit Quelle und nur der nötige Ausschnitt. Als bloße Illustration oder Deko zählt das nicht als Zitat. Eigene Screenshots, die eigene Website und Bildschirmaufnahmen beim Arbeiten mit einem Werkzeug im eigenen Konto sind unproblematisch, solange keine Daten Dritter zu sehen sind (Abschnitt 5).
+- **Musik und Soundeffekte:** nur mit Lizenz für kommerzielle Nutzung, Quelle und Lizenz dokumentieren. Bei KI-Musik und KI-Effekten entscheidet der Tarif des Anbieters über die kommerzielle Nutzung.
+- Die praktische Umsetzung beim Schnitt: `grundlagen/video-schnitt.md`, Abschnitt 5.
 
 ## Anderer Markt
 

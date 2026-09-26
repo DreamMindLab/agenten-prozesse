@@ -9,7 +9,7 @@
 2. **US-Modus** als Vorrat für englischen Content (nur Abweichungen).
 3. **Sechs Eden-Skills von Dan Koe** geprüft und eingearbeitet. Ergebnis: nicht US-spezifisch, sondern an Eden gebunden. Die Methoden sind übertragbar, deshalb keine US-Prozesse, sondern 2 neue Prozesse plus Integrationen. **Jan will Eden nicht nutzen**: Eden ist nirgends Werkzeug, nur Quelle. Alles auf Deutsch in eigenen Worten, Quelle jeweils genannt.
 
-**Nicht mit Hermes erprobt.** Vorschau-Artifact **nicht** neu veröffentlicht (steht noch auf Version 2 vom 25. 9.).
+**Nicht mit Hermes erprobt.** Vorschau neu veröffentlicht: https://claude.ai/artifact/S4Keh5XEyt5ufGWLXi6pEu (Version 3, Stand 3469145).
 
 **Neue Dateien:**
 - `grundlagen/deutschland.md`: 1 Längen und Sprechtempo, 2 deutschsprachige Kundensprache, 3 belegbare Werbeaussagen (inkl. Garantien und Fernunterrichtsschutzgesetz), 4 Werbekennzeichnung, 5 Datenschutz bei US-Werkzeugen, 6 Zahlen und Quellen. `AGENTS.md` Schritt 4 liest sie immer.
@@ -41,7 +41,6 @@
 **Offene Fragen an Jan:**
 - `marke/zielgruppe.md`, `angebot.md`, `tonalitaet.md` sind weiterhin leer. Schnellster Weg: Hermes „Positionierung“, danach „Angebot“ geben; beide liefern fertige Entwürfe.
 - Feld „Zuspitzung“ ausfüllen; AVVs abschließen (E-Mail-Tool, ElevenLabs) und in `marke/regeln.md` eintragen.
-- Vorschau neu veröffentlichen?
 - US-Modus: vor erstem bezahlten US-Einsatz anwaltlich prüfen lassen; `marke/us/` anlegen.
 - Aus früheren Sessions weiter offen: Company-OS-Aufgaben ja/nein, Budget-Standards, Reverse Charge, Lexware-Tarif (siehe Notiz vom 25. 9.).
 
@@ -50,8 +49,8 @@
 - Rechtsstand mit Verfallsdatum: Data Privacy Framework (EuGH C-703/25 P anhängig), FTC Earnings Claim Rule (nur vorgeschlagen), FernUSG-Rechtsprechung (zwei BGH-Urteile in acht Monaten), Werkzeug-Status ElevenLabs/HeyGen/Higgsfield (Stand Sept. 2026). § 479 BGB auf digitale Produkte ist als Einordnung formuliert, nicht als gesicherte Rechtslage.
 - Leitfaden der Medienanstalten war im Container nicht abrufbar; Inhalt über Sekundärquellen belegt.
 
-- **Fertig:** alles oben; `INDEX.md` konsistent; nach `main` gemergt (Fast-Forward) und gepusht.
-- **Bewusst offen:** `marke/`-Inhalte (nur Jan); Vorschau-Update; Eden.
+- **Fertig:** alles oben; `INDEX.md` konsistent; nach `main` gemergt (Fast-Forward) und gepusht; Vorschau Version 3 veröffentlicht.
+- **Bewusst offen:** `marke/`-Inhalte (nur Jan); Eden.
 - **Nicht testbar:** Ob Hermes die Prozesse befolgt (kein Hermes-Zugang). Ob Hermes die Meta-Werbebibliothek und Plattformen für die Recherche erreicht (Positionierung und Angebot haben einen Ausweg: vermerken statt erfinden).
 
 **Nächster Schritt:** Hermes einen ersten echten Auftrag geben: „Positionierung“ und den Telegram-Output gegen `prozesse/positionierung.md`, Schritt 8 prüfen. Danach „Angebot“, dann die Entwürfe in `marke/` einfügen.

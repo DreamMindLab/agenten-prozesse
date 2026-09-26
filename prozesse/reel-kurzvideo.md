@@ -30,7 +30,7 @@ Rein KI-generierte Inhalte erreichen im Schnitt weniger als menschlich geprägte
 ## Benötigte Inputs
 
 - **Thema / Kernaussage** und **Anlass** („Warum jetzt?“, z. B. eine Beobachtung, eine Kundenfrage, eine Neuigkeit), vom Nutzer. Fehlt beides: Vorschläge nach Schritt 3, der Nutzer wählt.
-- **Produktionsweg:** A, B oder C (siehe oben). Nicht angegeben: Rohvideo dabei → A; Avatar eingerichtet → B; sonst C.
+- **Produktionsweg:** A, B oder C (siehe oben). Nicht angegeben: Rohvideo dabei → A; Avatar eingerichtet → B; sonst C. Bei A gibt es zwei Fälle: **Skript zuerst** (du schreibst, der Nutzer nimmt danach auf) oder **fertige Aufnahme** (der Nutzer schickt ein Video, das schon existiert, siehe Schritt 1).
 - **Referenz (optional):** Link zu einem Reel, dessen Aufbau als Vorlage dienen soll, auch aus einer anderen Branche.
 - **Regie-Notizen (optional, Weg A und B):** was an welcher Stelle erscheinen soll, z. B. „Bei ‚drei Fehler‘ die Punkte groß einblenden“ (`grundlagen/video-schnitt.md`, Abschnitt 2).
 - **Nur C, Tonspur:** KI-Stimme oder nur Text auf dem Bild. Standard: KI-Stimme, falls ein ElevenLabs-Key vorhanden ist, sonst Text.
@@ -51,6 +51,14 @@ Einrichtung und Keys: `grundlagen/einrichtung.md`. Fehlt das HyperFrames-Kit, in
 ## Schritt-für-Schritt
 
 1. **Briefing prüfen.** Inputs vollständig? `marke/` noch Platzhalter → nachfragen. Produktionsweg festlegen. Budget aus `marke/regeln.md` notieren.
+   - **Weg A mit fertiger Aufnahme** (der Nutzer schickt ein Video ohne vorheriges Skript, z. B. „Mach daraus ein Reel“): Die Aufnahme gibt Thema und Wortlaut vor. Du schreibst kein neues Skript, sondern leitest die Schritte 3–8 aus dem Material ab:
+     - Zuerst lokal transkribieren (`grundlagen/video-schnitt.md`, Abschnitt 1).
+     - **Schritt 3 entfällt:** Das Thema hat der Nutzer mit der Aufnahme gewählt. **Schritt 4** (Muster) nur, wenn eine Referenz vorliegt.
+     - **Schritt 5:** Hauptfrage, Framing und Payoff aus dem Transkript bestimmen. Die Frage lautet: Welche eine Aussage trägt ein Reel? Bei Aufnahmen über ca. 90 Sekunden bis zu 3 Reels mit je eigener Hauptfrage vorschlagen, der Nutzer wählt.
+     - **Schritt 6:** Die 3 Openings sind **3 Sätze aus der Aufnahme**, die als Einstieg taugen: ein Problem, ein Ergebnis, eine Situation zum Wiedererkennen. Die stärkste Stelle darf nach vorn gezogen werden. Es gibt keinen erfundenen gesprochenen Satz; eine Text-Einblendung als Hook darfst du formulieren, sie darf aber nichts behaupten, was der Nutzer nicht sagt.
+     - **Schritt 7:** Statt des Skripts eine **Schnittliste** mit Timecodes aus der Aufnahme: welche Passagen, in welcher Reihenfolge, Ziel 15–30 s. Umstellen ist erlaubt, solange der Sinn jeder Aussage gleich bleibt.
+     - **Schritt 8:** Verständlichkeits-Check auf die Schnittliste anwenden. Fehlt im Material ein Einstieg, der in 3 Sekunden trägt, oder ist eine Stelle unverständlich: dem Nutzer einen kurzen Satz zum Nachaufnehmen vorschlagen, statt ihn zu umgehen. Die Nachricht „Aufnahme für Reel“ entfällt sonst.
+     - Danach weiter mit Schritt 9 (Weg A).
 2. **Nur Weg B, einmalig: Avatar und Stimmklon einrichten.**
    - Nutzer um **ausdrückliche Zustimmung** bitten, dass sein Gesicht und seine Stimme per KI nachgebildet werden, und die Zustimmung in deinem Gedächtnis vermerken. Nur der Nutzer selbst, **nie andere Personen** (Kunden, Gäste, Prominente).
    - HeyGen ist kostenpflichtig: Freigabe nach `marke/regeln.md` einholen, dann dem Einrichtungsablauf von HeyGen folgen (Ausgangsvideo des Nutzers, Einwilligungsnachweis). Dem Nutzer eine Aufnahme-Anleitung schicken: ruhiger Raum, gleichmäßiges Licht, Kamera auf Augenhöhe, natürlich sprechen, Kleidung wie in seinen Videos.
@@ -81,7 +89,7 @@ Einrichtung und Keys: `grundlagen/einrichtung.md`. Fehlt das HyperFrames-Kit, in
 9. **Produktion nach Weg.**
    - **A: Eigene Aufnahme.**
      - Rohvideo lokal transkribieren (`grundlagen/video-schnitt.md`, Abschnitt 1), Pausen und Versprecher entfernen (`cut-silences`, dann `cut-mistakes`; `video-use` nur als Ausweichlösung). Bei mehreren Anläufen den besten Take je Satz nehmen.
-     - Transkript des Schnitts gegen das Skript abgleichen: Hook in den ersten 3 Sekunden? Payoff vollständig? **Keine Aussage durch Kürzen sinnentstellen**, keine Wörter hinzuerfinden.
+     - Transkript des Schnitts gegen das Skript bzw. die Schnittliste abgleichen: Hook in den ersten 3 Sekunden? Payoff vollständig? **Keine Aussage durch Kürzen sinnentstellen**, keine Wörter hinzuerfinden.
      - Wo der Nutzer etwas erklärt, das man zeigen kann: Motion Graphics oder Text-Overlays statt Standbild.
    - **B: Avatar des Nutzers.**
      - Skript mit dem Stimmklon vertonen, Wort-Zeitstempel erzeugen. Anhören bzw. transkribieren und mit dem Skript abgleichen (falsche Betonung, verschluckte Wörter → neu erzeugen).
@@ -111,7 +119,7 @@ Einrichtung und Keys: `grundlagen/einrichtung.md`. Fehlt das HyperFrames-Kit, in
     - [ ] Framing aus Zuschauersicht: Bis Sekunde 5 ist klar, was sich **für ihn** ändert (Beleg: Satz mit Timecode).
     - [ ] Verständlichkeits-Check (Schritt 8) ohne offenen Befund; kein unerklärter Fachbegriff im Skript.
     - [ ] Referenz-Reels nur als Muster genutzt: kein übernommener Wortlaut (nie 8+ Wörter am Stück), kein fremdes Bild- oder Tonmaterial.
-    - [ ] Der Winkel besteht den Unabhängigkeitstest gegen die Alternativen; Einstiegsfamilie nicht dieselbe wie beim letzten Reel (Baustein 6).
+    - [ ] Der Winkel besteht den Unabhängigkeitstest gegen die Alternativen; Einstiegsfamilie nicht dieselbe wie beim letzten Reel (Baustein 6). Bei fertiger Aufnahme: der stärkste Einstieg, den das Material hergibt; kein gesprochener Satz hinzuerfunden.
     - [ ] 3-Sekunden-Test: Bis Sekunde 3 ist klar, worum es geht und warum man bis zum Ende schauen sollte (Beleg: Text und Bild bei 0–3 s).
     - [ ] Keine Begrüßung, kein Intro, kein Logo am Anfang; Frame 0 ist sofort verständlich.
     - [ ] Die Hauptfrage wird vor dem CTA vollständig beantwortet (Timecode des Payoffs).
@@ -155,7 +163,8 @@ Beim Hochladen:
 
 Warum dieses Thema jetzt: <Anlass bzw. Beleg>
 Muster-Vorlage: <Referenz + übernommenes Prinzip / „keine“>
-Skript: <Skript mit Timecodes>
+Skript: <Skript mit Timecodes / bei fertiger Aufnahme: Schnittliste mit Timecodes der Quelle>
+Weitere Reels aus dieser Aufnahme: <Hauptfragen, falls vorgeschlagen / „keine“>
 Beat-Plan: <Liste nach grundlagen/video-schnitt.md, Abschnitt 2; nicht umgesetzte Regie-Notizen mit Grund>
 Musik/Soundeffekte: <keine / Quelle + Lizenz>
 Alternative Openings: <die 2 anderen aus Schritt 6>

@@ -25,6 +25,11 @@
 - Abschnitt 7 in `deutschland.md` ist Einordnung, keine Rechtsberatung; Logo-Nutzung ist der unsicherste Punkt.
 - In dieser Session hat der Berechtigungsfilter Änderungen an `prozesse/` und `marke/` zunächst blockiert (vermutlich wegen der Regel „Ändere dieses Repo nicht“ in `AGENTS.md`, die für Hermes gilt). Nach Jans ausdrücklicher Wiederholung ging es.
 
+**Nachtrag, gleiche Session:**
+- **Fertige Aufnahme** (Jan schickt ein Video ohne vorheriges Skript): Reel Schritt 1 und YouTube Schritt 1 leiten Hauptfrage, Openings, Schnittliste bzw. Kapitel aus dem Transkript ab, statt ein neues Skript zu schreiben. Kein hinzuerfundener gesprochener Satz; fehlt ein tragfähiger Einstieg, schlägt Hermes einen Satz zum Nachaufnehmen vor. Reel: bei Aufnahmen über ca. 90 s bis zu 3 Reels vorschlagen.
+- **KI-Muster-Prüfung** in `grundlagen/qualitaet-und-lernen.md` (12 Muster, aus dem `humanizer`-Skill bzw. Wikipedia „Signs of AI writing“ auf Deutsch übertragen), als hartes Kriterium für jeden Text. Gedankenstrich und deutsche Anführungszeichen ausdrücklich ausgenommen.
+- Harte Kriterien nennen jetzt auch `deutschland.md`, Abschnitt 7.
+
 **Nächster Schritt:** unverändert: Hermes „Positionierung“ geben. Für Video: beim ersten Reel Weg A prüfen, ob Whisper `medium` für Jans Aufnahmen reicht, und ein Vorbild-Video für den Videostil schicken.
 
 ### 2026-09-26 — Deutschland-Anpassung, US-Modus, Dan-Koe-Methoden, zwei neue Prozesse (main · 10ddc59)

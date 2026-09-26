@@ -22,7 +22,7 @@ Worauf es ankommt:
 ## Benötigte Inputs
 
 - **Thema** (oder Suchbegriff) und **Ziel** des Videos (Reichweite, Vertrauen, Anfragen; siehe `prozesse/video-marketing.md`).
-- **Produktionsweg:** Nutzer nimmt selbst auf (Pfad A) oder Video ohne Gesicht mit KI-Stimme, Bildschirmaufnahmen und Grafiken (Pfad B).
+- **Produktionsweg:** Nutzer nimmt selbst auf (Pfad A) oder Video ohne Gesicht mit KI-Stimme, Bildschirmaufnahmen und Grafiken (Pfad B). Bei Pfad A gibt es zwei Fälle: **Skript zuerst** oder **fertige Aufnahme** (siehe Schritt 1).
 - **Eigenes Material:** Beispiele, Kundenfälle, Bildschirmaufnahmen, Meinung. Ohne eigenes Material wird das Video austauschbar.
 - **Kanal:** Zugang zum YouTube-Studio (für Entwurf-Upload) oder Lieferung als Dateien.
 - **Regie-Notizen (optional):** was an welcher Stelle erscheinen soll (`grundlagen/video-schnitt.md`, Abschnitt 2).
@@ -41,6 +41,11 @@ Worauf es ankommt:
 ## Schritt-für-Schritt
 
 1. **Briefing prüfen.** Inputs vollständig? Startcheck nach `grundlagen/einrichtung.md` gemacht?
+   - **Pfad A mit fertiger Aufnahme** (der Nutzer schickt ein Video, das ohne dein Skript entstanden ist): Die Aufnahme gibt Thema und Inhalt vor. Zuerst lokal transkribieren (`grundlagen/video-schnitt.md`, Abschnitt 1), dann:
+     - **Schritt 2** nur als Abgleich: Wie heißen erfolgreiche Videos zum selben Thema, wie lang sind sie? Der Winkel ergibt sich aus dem, was der Nutzer sagt.
+     - **Schritt 3:** Titel und Thumbnails versprechen nur, was die Aufnahme tatsächlich einlöst (Timecode der Einlösung).
+     - **Schritt 4** statt Skript: **Kapitelgliederung und Schnittliste** aus dem Transkript. Prüfen, ob die ersten 30–60 Sekunden das Versprechen bestätigen. Wenn nicht: die stärkste Stelle als kurzen Ausblick nach vorn ziehen oder dem Nutzer einen Einstieg zum Nachaufnehmen vorschlagen (1–3 Sätze). Passagen ohne neuen Gedanken zum Kürzen markieren; der Sinn jeder Aussage bleibt gleich. Verständlichkeits-Check auf die Schnittliste anwenden: unerklärte Fachbegriffe per Einblendung erklären.
+     - Danach weiter mit Schritt 5 (Pfad A, ab „Danach lokal transkribieren“).
 2. **Thema prüfen.** Auf YouTube nach dem Thema suchen:
    - Gibt es **Ausreißer**, also Videos mit deutlich mehr Aufrufen, als der Kanal Abonnenten hat? Das zeigt echtes Interesse am Thema, nicht nur an einem großen Kanal.
    - Was versprechen die erfolgreichen Titel? Was fehlt in den Videos (Kommentare lesen: offene Fragen, Kritik)?

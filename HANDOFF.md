@@ -2,81 +2,61 @@
 
 ## Notizen (manuell)
 
-### 2026-09-26 (3) — Offer Consultant → Prozess „Angebot entwickeln“ (Branch claude/stoic-albattani-syybqn, noch nicht in main)
+### 2026-09-26 — Deutschland-Anpassung, US-Modus, Dan-Koe-Methoden, zwei neue Prozesse (main · 10ddc59)
 
-**Stand:** Sechster Dan-Koe-Skill (Offer Consultant, baut auf Hormozis Wertgleichung auf) als neuer Prozess `prozesse/angebot-entwickeln.md` (Strategie & Recherche, v1). **Jan will Eden nicht nutzen**: Eden ist nirgends als Werkzeug vorgesehen, nur als Quelle genannt. Nicht mit Hermes erprobt.
+**Stand:** 22 Prozesse fertig. `main` und `claude/stoic-albattani-syybqn` sind gleich (Fast-Forward). Drei Arbeitspakete an einem Tag:
+1. **Deutschland** als Markt und Rechtsraum (Jan: „erstmal nur Deutschland“), recherchiert nach dem Meta-Learning-Skill (Modus A, rund 45 Suchen mit Gegenrecherche).
+2. **US-Modus** als Vorrat für englischen Content (nur Abweichungen).
+3. **Sechs Eden-Skills von Dan Koe** geprüft und eingearbeitet. Ergebnis: nicht US-spezifisch, sondern an Eden gebunden. Die Methoden sind übertragbar, deshalb keine US-Prozesse, sondern 2 neue Prozesse plus Integrationen. **Jan will Eden nicht nutzen**: Eden ist nirgends Werkzeug, nur Quelle. Alles auf Deutsch in eigenen Worten, Quelle jeweils genannt.
 
-**Was sich geändert hat:**
-- **`angebot-entwickeln.md`:** Beratung mit einer Frage pro Nachricht; Phase 1 „was zuerst verkaufen“ (7 Fakten, 4 Möglichkeiten, Entscheidungsregeln), Phase 2 Lücken; Recherche mit Websuche und Meta-Werbebibliothek statt Eden; Diagnose (Bewusstsein, Schmerz, Kaufkraft, Erreichbarkeit, Wachstum); Bau nach Wertgleichung (Bestandteile, Mechanismus, Garantie, Preis mit Rechnung, Verstärker); Blueprint mit (Vorschlag)/(belegen: …); Entwurf für `marke/angebot.md`. Vom Startcheck für `angebot.md` ausgenommen.
-- **`grundlagen/deutschland.md`, Abschnitt 3:** zwei neue Punkte. **Garantien:** Bedingungen und Hinweis auf gesetzliche Rechte (§ 479 BGB für Waren, auch Zufriedenheitsgarantien; § 3a UWG), ersetzt das Widerrufsrecht nicht. **Fernunterrichtsschutzgesetz:** überwiegend aufgezeichnete Lernprogramme mit Fragemöglichkeit brauchen ZFU-Zulassung, auch bei Unternehmern, sonst nichtig (BGH 12. 6. 2025, III ZR 109/24); überwiegend live nicht (BGH 5. 2. 2026, III ZR 137/25).
-- `marke/angebot.md`: optionaler Abschnitt „Angebots-Details“ (Ergebnis, Mechanismus, Garantie, Einwände). Copywriting, Landingpage, Contentplan (Werbe-Ebene), Verkaufsvideo und Positionierung verweisen auf Blueprint bzw. diese Details.
-- Startcheck-Nachricht bietet jetzt „Positionierung“ und „Angebot“ an.
-- `us-markt.md`: Zeile für den Angebotsprozess (FTC 16 CFR Part 239, Refund Policy, kein FernUSG).
-- Positionierung: Icon `users`, Reihenfolge 57; Angebot 58; Contentplan bleibt 60.
+**Nicht mit Hermes erprobt.** Vorschau-Artifact **nicht** neu veröffentlicht (steht noch auf Version 2 vom 25. 9.).
 
-**Landminen:** Die Anwendung von § 479 BGB auf digitale Produkte und Dienstleistungen ist als Einordnung formuliert, nicht als gesicherte Rechtslage. Die FernUSG-Rechtsprechung entwickelt sich weiter (zwei BGH-Urteile in acht Monaten).
+**Neue Dateien:**
+- `grundlagen/deutschland.md`: 1 Längen und Sprechtempo, 2 deutschsprachige Kundensprache, 3 belegbare Werbeaussagen (inkl. Garantien und Fernunterrichtsschutzgesetz), 4 Werbekennzeichnung, 5 Datenschutz bei US-Werkzeugen, 6 Zahlen und Quellen. `AGENTS.md` Schritt 4 liest sie immer.
+- `grundlagen/us-markt.md`: nur bei ausdrücklichem US-Auftrag (Regel in `AGENTS.md`). Abschnitte 0–7, Tabelle pro Prozess; Abschnitt 7 = X, Threads, Substack Notes und englische Stilregeln.
+- `grundlagen/langform-interview.md`: Interview mit Stopps, Stresstest, 6 Struktur-Routen, Verpackung, Gliederung. **Nur wenn Jan es anspricht** (sein ausdrücklicher Wunsch); sonst laufen YouTube, Newsletter, Blog, Podcast automatisch wie bisher. Die vier Prozesse haben dazu je eine Zeile unter „Benötigte Inputs“.
+- `prozesse/positionierung.md` (v1, Reihenfolge 57): Interview mit 6 Fragen, Recherche (Ausreißer, Swipe-File ohne Aggregatoren), Strategie-Dokument (Themenbaum, zwei Pole, erste 5 Hooks, Geldseite ohne Einkommensversprechen), Entwürfe für `marke/zielgruppe.md`, `tonalitaet.md`, `angebot.md`.
+- `prozesse/angebot-entwickeln.md` (v1, Reihenfolge 58): Beratung mit einer Frage pro Nachricht, erstes Produkt (4 Möglichkeiten, Entscheidungsregeln), Diagnose, Wertgleichung (Hormozi), Bestandteile, Mechanismus, Garantie, Preis mit Rechnung, Blueprint mit (Vorschlag)/(belegen: …), Entwurf für `marke/angebot.md`. Recherche per Websuche und Meta-Werbebibliothek.
+- Beide neuen Prozesse sind vom Startcheck „Marke unvollständig“ ausgenommen; die Startcheck-Nachricht bietet „Positionierung“ und „Angebot“ als Antwort an.
 
-### 2026-09-26 (2) — Dan-Koe-Skills eingearbeitet (Branch claude/stoic-albattani-syybqn, noch nicht in main)
-
-**Stand:** Jan hat 5 Eden-Skills von Dan Koe geschickt (Marketing Strategist, Short-Form Specialist, Long-Form Outliner, Weekly Content Strategist, Personal Brand Strategist; Offer Consultant fehlt noch). Ergebnis der Prüfung: **nicht US-spezifisch, sondern an Eden gebunden.** Die Methoden sind übertragbar; US-only sind nur Plattformen (X, Threads, Substack Notes) und englische Stilregeln. Deshalb **keine eigenen US-Prozesse**, sondern: 1 neuer Prozess, Integrationen in bestehende Prozesse, kleine Ergänzung im US-Modus. Auf Deutsch in eigenen Worten, Quelle jeweils genannt. **Nicht mit Hermes erprobt.**
-
-**Was sich geändert hat:**
-- **Neu `prozesse/positionierung.md`** (Strategie & Recherche, v1): Interview mit 6 Fragen, Recherche (Ausreißer, Swipe-File ohne Aggregatoren), Strategie-Dokument (Themenbaum, zwei Pole, erste 5 Hooks, Geldseite ohne Einkommensversprechen) und fertige Entwürfe für `marke/zielgruppe.md`, `tonalitaet.md`, `angebot.md`. Vom Startcheck „Marke unvollständig“ ausgenommen; die Startcheck-Nachricht in `grundlagen/einrichtung.md` bietet „Positionierung“ als Antwort an.
-- **Neu `grundlagen/langform-interview.md`:** Interview mit Stopps, Stresstest, 6 Struktur-Routen, Verpackung, Gliederung. **Nur wenn Jan es anspricht** (Jans ausdrücklicher Wunsch); sonst laufen YouTube, Newsletter, Blog, Podcast automatisch wie bisher. Die vier Prozesse haben dazu je eine Zeile unter „Benötigte Inputs“.
-- **`grundlagen/themen-und-verstaendlichkeit.md`:** Baustein 2 mit Satzgerüst-Methode und „nie 8+ Wörter am Stück“; Baustein 5 mit Gewinner-Maß (2× / 3× eigener Durchschnitt); neu Baustein 6 (Winkel, Einstiegs- und Schlussfamilien, 11 Formen, Abwechslung, 1 Stück → bis 10 Beiträge) und Baustein 7 (Gewinner weiterentwickeln, Themenliste im Gedächtnis). Winkelwahl hält den Ablauf nicht an.
-- **`30-tage-contentplan.md` v2:** neuer Schritt 6 Werbe-Ebene (Kongruenz-Satz, Kommentar- und Newsletter-Hinweise, 5 Winkel pro Woche, Werbe-Protokoll mit Streich-/Verdoppel-Regel), neue Tabellenspalte, **Wochenmodus** (Vorwoche bewerten, ≥ 10 Ideen mit Herkunft, Jan wählt). Schritte ab 7 um eins verschoben (QC jetzt Schritt 12, Foundation 13).
-- **`social-media-post` v3, `karussell-post` v3, `reel-kurzvideo` v3:** Winkel vor Hook (Baustein 6), QC-Kriterien dazu; Post zusätzlich Werbe-Formate (Standard, Geschichte, Einwand, Beweis) und Kommentar-Hinweis.
-- **`copywriting` v3:** 6 Einstiegsarten in Schritt 6, Beweis-Rangfolge in Schritt 5, zwei zusätzliche Headline-Tests in Schritt 7. Schrittnummern unverändert.
-- **`newsletter`:** Newsletter-Hinweis als CTA, falls der Contentplan ihn vorsieht.
-- **`grundlagen/us-markt.md`:** neuer Abschnitt 7 (X, Threads, Substack Notes; em dash; kleingeschriebene Betreffzeilen) und drei Tabellenzeilen.
-
-**Verworfen:**
-- Eigene US-Prozesse: wären zu 90 % Kopien der deutschen und würden auseinanderlaufen.
-- Eden als Pflicht-Werkzeug: Die Skills verbieten Websuche und setzen den Eden-Index voraus; Hermes recherchiert im Web. Ob Eden deutsche Posts gut abdeckt, ist ungeklärt (nur Plattformliste dokumentiert).
-- Long-Form Outliner und Marketing Strategist als eigene Prozesse: Jan hat zu Recht angemerkt, dass das Content bzw. dessen Vorstufe ist. Deshalb Baustein bzw. Integration in den Contentplan.
-- „No em dashes“ für Deutsch: Der Gedankenstrich ist im Deutschen normale Typografie; die Häufung regelt schon die Verbotsliste in `marke/tonalitaet.md`.
-
-**Offene Fragen an Jan:**
-- Offer Consultant schicken, dann prüfen, ob daraus ein Prozess „Angebot entwickeln“ wird (füllt `marke/angebot.md`).
-- Merge nach `main` (siehe Notiz darunter).
-
-**Landminen:**
-- Contentplan-Schrittnummern haben sich verschoben (Werbe-Ebene = 6, Rhythmus = 10, QC = 12, Foundation = 13); der Wochenmodus verweist auf 10, 12, 13.
-- `langform-interview.md` nennt die Einstiegsschritte der Prozesse (YouTube 4, Newsletter 5, Blog 6, Podcast 5). Beim Umnummerieren dieser Prozesse mitändern.
-- Baustein-Nummern 6 und 7 werden in Post, Karussell, Reel, Contentplan und Positionierung referenziert.
-
-Geändert: `grundlagen/langform-interview.md` (neu), `prozesse/positionierung.md` (neu), `grundlagen/themen-und-verstaendlichkeit.md`, `grundlagen/einrichtung.md`, `grundlagen/us-markt.md`, `prozesse/30-tage-contentplan.md`, `copywriting.md`, `social-media-post.md`, `karussell-post.md`, `reel-kurzvideo.md`, `newsletter.md`, `youtube-video.md`, `seo-blogartikel.md`, `podcast-episode.md`, `INDEX.md`, `HANDOFF.md`
-
-### 2026-09-26 — Deutschland-Anpassung + US-Modus (Branch claude/stoic-albattani-syybqn, noch nicht in main)
-
-**Stand:** Alle Prozesse sind auf **Deutschland** als Markt und Rechtsraum ausgerichtet (Jan: „erstmal nur Deutschland“). Neue Grundlagen: `grundlagen/deutschland.md` (6 Abschnitte: 1 Längen/Sprechtempo, 2 deutschsprachige Kundensprache, 3 belegbare Werbeaussagen, 4 Werbekennzeichnung, 5 Datenschutz bei US-Werkzeugen, 6 Zahlen/Quellen) und `grundlagen/us-markt.md` (nur Abweichungen für englischen US-Content, auf Jans Wunsch als Vorrat). `AGENTS.md` verweist auf beide. Recherche nach dem Meta-Learning-Skill (Modus A, rund 45 Suchen mit Gegenrecherche). **Nicht mit Hermes erprobt.** Vorschau-Artifact **nicht** neu veröffentlicht.
-
-**Was sich geändert hat:**
-- **Längen:** Wortlimits auf Textflächen haben jetzt Zeichenlimits (Werbebild ca. 40, Karussell Slide 1 ca. 70 / Mehrwert ca. 150, Thumbnail ca. 25, Overlay ca. 35, LP-Headline ca. 70, Betreff ca. 40). Umrechnung: englisches Wortlimit × ca. 6 Zeichen. Sprechtempo: Kurzvideo 2 Wörter/Sek., Langvideo 120–140 WpM als Startwert, danach gemessen. Untertitel 42 Zeichen/Zeile, ca. 15 Zeichen/Sek. (Netflix DE: 17).
-- **Kundensprache:** Zitate nur aus deutschsprachigen Originalquellen (copywriting Schritt 3, marktforschung).
-- **Werberecht:** Marktreife-Stufe „größer machen“ nur bis zur Belegbarkeit; Spitzenstellung/Einkommen nur mit Nachweis; § 5b Abs. 3 UWG (Echtheitsinfo bei Bewertungen) in Landingpage; neues Feld „Zuspitzung“ in `marke/tonalitaet.md`; Reel-Anrede nicht mehr fest „du“.
-- **Kennzeichnung:** „Werbung“/„Anzeige“ am Anfang bei Gegenleistung (auch Tausch), in marketing-kostenlos, newsletter, podcast.
-- **Datenschutz:** AVV-Prüfung vor Daten Dritter (einrichtung, e-mail-marketing, landingpage, arbeitsprozesse), § 201 StGB bei Aufnahmen (marktforschung, podcast), Zeile „AVV abgeschlossen mit“ in `marke/regeln.md`.
-- **Zahlen:** Podcast mit ARD/ZDF-Medienstudie 2025 und Bitkom statt Edison (US); Empfehlungsstudie korrigiert (deutsche Bank, knapp 3 Jahre, nicht „Wharton, 6 Jahre“); Unbounce als US-Daten markiert; ad-texte: Meta und Google schalten seit Okt. 2025 in der EU keine politischen Anzeigen mehr.
+**Geänderte Inhalte:**
+- **Längen:** Zeichen- statt Wortlimits auf Textflächen (Werbebild ca. 40, Karussell Slide 1 ca. 70 / Mehrwert ca. 150, Thumbnail ca. 25, Overlay ca. 35, LP-Headline ca. 70, Betreff ca. 40). Sprechtempo: Kurzvideo 2 Wörter/Sek., Langvideo 120–140 WpM als Startwert, danach gemessen. Untertitel 42 Zeichen/Zeile, ca. 15 Zeichen/Sek.
+- **Recht:** Kundensprache nur aus deutschsprachigen Originalen; Werbeaussagen nur bis zur Belegbarkeit; § 5b Abs. 3 UWG in Landingpage; Kennzeichnung „Werbung“/„Anzeige“ bei Gegenleistung; AVV vor Daten Dritter; § 201 StGB bei Aufnahmen; Garantie-Pflichtangaben; FernUSG (BGH 12. 6. 2025, III ZR 109/24; 5. 2. 2026, III ZR 137/25).
+- **Zahlen:** ARD/ZDF und Bitkom statt Edison; Empfehlungsstudie korrigiert; Unbounce als US-Daten markiert; keine politischen Anzeigen von Meta/Google in der EU.
+- **`grundlagen/themen-und-verstaendlichkeit.md`:** Baustein 2 mit Satzgerüst und „nie 8+ Wörter am Stück“; Baustein 5 mit Gewinner-Maß (2× / 3× eigener Durchschnitt); neu Baustein 6 (Winkel, Einstiegs- und Schlussfamilien, 11 Formen, Abwechslung) und 7 (Gewinner weiterentwickeln, Themenliste). Winkelwahl hält den Ablauf nicht an.
+- **`30-tage-contentplan` v2:** Schritt 6 Werbe-Ebene (Kongruenz-Satz, Kommentar- und Newsletter-Hinweise, 5 Winkel pro Woche, Werbe-Protokoll mit Streich-/Verdoppel-Regel) und **Wochenmodus** (Vorwoche bewerten, ≥ 10 Ideen mit Herkunft, Jan wählt). Nur eigenständige Werbe-Posts zählen zum 10–20-%-Verkaufsanteil.
+- **Post, Karussell, Reel v3:** Winkel vor Hook; Post mit Werbe-Formaten (Standard, Geschichte, Einwand, Beweis) und Kommentar-Hinweis. **Copywriting v3:** 6 Einstiegsarten, Beweis-Rangfolge, zwei zusätzliche Headline-Tests.
+- **`marke/`:** Feld „Zuspitzung“ (`tonalitaet.md`), Zeile „AVV abgeschlossen mit“ (`regeln.md`), Abschnitt „Angebots-Details“ (`angebot.md`).
 - Neues hartes Kriterium in `grundlagen/qualitaet-und-lernen.md`: Deutschland-Standards eingehalten.
 
 **Verworfen:**
-- „Deutsche sind werbeskeptischer“ als Regel: Belege widersprüchlich (Kantar ja, Nielsen nein). Begründung stattdessen über die Beweislast nach § 5 UWG.
-- „Reddit ist in Deutschland klein“ (meine erste Einschätzung): falsch, Reddit wächst stark. Bleibt als Quelle, aber deutschsprachige Subreddits.
-- Lesbarkeitsindex (Flesch-DE, WSTF) als Ziel: kein Conversion-Beleg, nur Warnsignal.
-- Österreich/Schweiz: auf Jans Wunsch nicht ergänzt.
+- „Deutsche sind werbeskeptischer“ als Regel (Kantar ja, Nielsen nein); stattdessen Beweislast nach § 5 UWG.
+- „Reddit ist in Deutschland klein“ (meine erste Einschätzung): falsch.
+- Lesbarkeitsindex als Ziel (nur Warnsignal). Österreich/Schweiz (auf Jans Wunsch).
+- Eigene US-Prozesse aus den Dan-Koe-Skills: wären Kopien der deutschen und würden auseinanderlaufen.
+- Long-Form Outliner und Marketing Strategist als eigene Prozesse: Jan hat zu Recht angemerkt, dass das Content bzw. dessen Vorstufe ist.
+- Eden: Jan will es nicht; ob es deutsche Posts abdeckt, war ohnehin ungeklärt.
+- „No em dashes“ für Deutsch: Der Gedankenstrich ist im Deutschen normale Typografie.
 
 **Offene Fragen an Jan:**
-- Branch nach `main` mergen? Hermes liest `main`, erst dann gelten die Änderungen.
-- `marke/tonalitaet.md` Feld „Zuspitzung“ ausfüllen; AVVs abschließen und in `marke/regeln.md` eintragen.
-- US-Modus: vor erstem bezahlten US-Einsatz einmal anwaltlich prüfen lassen; `marke/us/` anlegen.
+- `marke/zielgruppe.md`, `angebot.md`, `tonalitaet.md` sind weiterhin leer. Schnellster Weg: Hermes „Positionierung“, danach „Angebot“ geben; beide liefern fertige Entwürfe.
+- Feld „Zuspitzung“ ausfüllen; AVVs abschließen (E-Mail-Tool, ElevenLabs) und in `marke/regeln.md` eintragen.
+- Vorschau neu veröffentlichen?
+- US-Modus: vor erstem bezahlten US-Einsatz anwaltlich prüfen lassen; `marke/us/` anlegen.
+- Aus früheren Sessions weiter offen: Company-OS-Aufgaben ja/nein, Budget-Standards, Reverse Charge, Lexware-Tarif (siehe Notiz vom 25. 9.).
 
 **Landminen:**
-- Verweise „`grundlagen/deutschland.md`, Abschnitt N“ stehen in vielen Prozessen (`grep -rn "deutschland.md" prozesse grundlagen`). Beim Umnummerieren alle mitändern. `us-markt.md` sagt pro Abschnitt, welchen Deutschland-Abschnitt er ersetzt.
-- Rechtsstand mit Verfallsdatum: Data Privacy Framework (EuGH C-703/25 P anhängig, FISA-702-Lage unklar), FTC Earnings Claim Rule (nur vorgeschlagen), Werkzeug-Status ElevenLabs/HeyGen/Higgsfield (Stand Sept. 2026).
-- Leitfaden der Medienanstalten war im Container nicht abrufbar (Egress blockiert); Inhalt über Kanzlei-/IHK-Sekundärquellen belegt.
+- Querverweise mit Nummern: „`grundlagen/deutschland.md`, Abschnitt N“ (viele Prozesse), Baustein 6 und 7 (Post, Karussell, Reel, Contentplan, Positionierung), Contentplan-Schritte (Werbe-Ebene 6, Rhythmus 10, QC 12, Foundation 13; der Wochenmodus verweist darauf), Einstiegsschritte in `langform-interview.md` (YouTube 4, Newsletter 5, Blog 6, Podcast 5). Beim Umnummerieren mit `grep` prüfen.
+- Rechtsstand mit Verfallsdatum: Data Privacy Framework (EuGH C-703/25 P anhängig), FTC Earnings Claim Rule (nur vorgeschlagen), FernUSG-Rechtsprechung (zwei BGH-Urteile in acht Monaten), Werkzeug-Status ElevenLabs/HeyGen/Higgsfield (Stand Sept. 2026). § 479 BGB auf digitale Produkte ist als Einordnung formuliert, nicht als gesicherte Rechtslage.
+- Leitfaden der Medienanstalten war im Container nicht abrufbar; Inhalt über Sekundärquellen belegt.
 
-Geändert: `AGENTS.md`, `grundlagen/deutschland.md` (neu), `grundlagen/us-markt.md` (neu), `grundlagen/einrichtung.md`, `grundlagen/qualitaet-und-lernen.md`, `marke/regeln.md`, `marke/tonalitaet.md`, 15 Dateien in `prozesse/`, `INDEX.md`, `HANDOFF.md`
+- **Fertig:** alles oben; `INDEX.md` konsistent; nach `main` gemergt (Fast-Forward) und gepusht.
+- **Bewusst offen:** `marke/`-Inhalte (nur Jan); Vorschau-Update; Eden.
+- **Nicht testbar:** Ob Hermes die Prozesse befolgt (kein Hermes-Zugang). Ob Hermes die Meta-Werbebibliothek und Plattformen für die Recherche erreicht (Positionierung und Angebot haben einen Ausweg: vermerken statt erfinden).
+
+**Nächster Schritt:** Hermes einen ersten echten Auftrag geben: „Positionierung“ und den Telegram-Output gegen `prozesse/positionierung.md`, Schritt 8 prüfen. Danach „Angebot“, dann die Entwürfe in `marke/` einfügen.
+
+Geändert (gesamt): `AGENTS.md`, `grundlagen/` (deutschland.md, us-markt.md, langform-interview.md neu; einrichtung.md, qualitaet-und-lernen.md, themen-und-verstaendlichkeit.md), `marke/` (angebot.md, regeln.md, tonalitaet.md), `prozesse/` (positionierung.md, angebot-entwickeln.md neu; 18 weitere geändert), `INDEX.md`, `HANDOFF.md`
 
 ### 2026-09-25 (2) — Content-Prozesse v2 nach KI-TALK-Podcast (main · 398a859)
 

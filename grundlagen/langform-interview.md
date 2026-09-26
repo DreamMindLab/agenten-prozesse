@@ -111,7 +111,7 @@ Glaubwürdigkeit: Die Sicherheit einer Aussage passt zu ihrem Beleg. Ein Fall tr
 ## Danach
 
 - **„Nur Gliederung“:** Gliederung liefern (Telegram + Markdown-Datei), dazu welcher Abschnitt sich als Erstes zu schreiben lohnt. Kein Fließtext, Beispielsätze bleiben Beispielsätze. Quality Check mit den Kriterien unten, dann Foundation-Agent.
-- **Sonst:** Mit Karte und Gliederung als Input geht der Prozess an der Stelle weiter, an der geschrieben wird (YouTube Schritt 4, Newsletter Schritt 5, Blog Schritt 6, Podcast Schritt 5). Die Recherche-Schritte davor gelten als erledigt, soweit Stufe 5 sie abgedeckt hat. Quality Check und Foundation-Agent des Prozesses bleiben Pflicht.
+- **Sonst:** Mit Karte und Gliederung als Input geht der Prozess an der Stelle weiter, an der geschrieben wird (YouTube Schritt 4, Newsletter Schritt 5, Blog Schritt 6, Podcast Schritt 5; beim Blog wird in Schritt 6 nur die fertige Gliederung an die Suchintention angepasst, H1 und H2 als Suchfragen, dann weiter mit Schritt 7). Die Recherche-Schritte davor gelten als erledigt, soweit Stufe 5 sie abgedeckt hat. Quality Check und Foundation-Agent des Prozesses bleiben Pflicht.
 
 **Änderungen:** Ändert der Nutzer Leser, Winkel oder Belege, nenne, welche Entscheidungen davon abhängen, und überarbeite nur diese. Reihenfolge beim Reparieren: gebrochenes Versprechen → fehlende Aussage, Beleg oder Auflösung → flacher Verlauf → schwacher Einstieg → offene Bögen → Feinschliff.
 

@@ -79,6 +79,9 @@ Nur Prozesse, die sich ändern. Alle anderen Schritte bleiben.
 | `newsletter.md`, `grundlagen/langform-interview.md` | Betreffzeilen: auch die kleingeschriebene „Geständnis“-Form („i almost quit last week“) und „You're not [bad thing]: [good thing]“ sind üblich (Abschnitt 7). |
 | `angebot-entwickeln.md` | Recherche auf Englisch, Anzeigen in der Meta-Werbebibliothek für die USA. Garantie: Bedingungen klar offenlegen und einhalten (FTC, *Guides for the Advertising of Warranties and Guarantees*, 16 CFR Part 239); statt Widerrufsrecht eine klare Refund Policy. Das Fernunterrichtsschutzgesetz entfällt für US-Kunden. Ergebnis- und Einkommensaussagen nach Abschnitt 3. Preise in `$`. |
 | `buchhaltung.md` | Bleibt deutsch. Zusätzlich: Rechnungen an US-Kunden markieren und Klärung mit dem Steuerberater anstoßen (Abschnitt 1). |
+| `grundlagen/video-schnitt.md` | Abschnitt 1: englische Aufnahmen mit `--language en` transkribieren; hier sind Modelle mit `.en` erlaubt (für Englisch etwas genauer). Alles andere bleibt. |
+| `grundlagen/qualitaet-und-lernen.md` (KI-Muster-Prüfung) | Die englischen Entsprechungen prüfen, z. B. „delve“, „crucial“, „pivotal“, „testament“, „landscape“, „showcase“, „underscore“, „It's not just X, it's Y“, „Let's dive in“, „In today's fast-paced world“, dazu den em dash (Abschnitt 7). |
+| `grundlagen/deutschland.md`, Abschnitt 7 | Bleibt als vorsichtiger Standard für fremde Logos, Fotos, Screenshots und Musik. Das US-Recht kennt „fair use“ und die sachliche Nennung fremder Marken, beides ist aber eine Abwägung im Einzelfall und ersetzt keine Lizenz. |
 
 ## 7. Plattformen und Stil (aus Dan Koes Eden-Workflows)
 

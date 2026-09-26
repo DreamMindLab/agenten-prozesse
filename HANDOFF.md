@@ -30,6 +30,16 @@
 - **KI-Muster-Prüfung** in `grundlagen/qualitaet-und-lernen.md` (12 Muster, aus dem `humanizer`-Skill bzw. Wikipedia „Signs of AI writing“ auf Deutsch übertragen), als hartes Kriterium für jeden Text. Gedankenstrich und deutsche Anführungszeichen ausdrücklich ausgenommen.
 - Harte Kriterien nennen jetzt auch `deutschland.md`, Abschnitt 7.
 
+**Gesamtprüfung (alle 22 Prozesse, Grundlagen, `marke/`):** Verweise, Schrittnummern, Abschnitte, Bausteine und Frontmatter mechanisch geprüft (Skript), dann alles gelesen. Behoben:
+- Widerspruch: `video-marketing` verbot jede KI-Person „als der Nutzer“, Reel Weg B erlaubt seinen Avatar. Jetzt: Avatar nur für Reels, mit Zustimmung (v2).
+- Widerspruch im Contentplan: „kein Winkel doppelt“ gegen „Gewinner bekommt zwei Plätze“. Jetzt: Gewinner der Vorwoche als einzige Ausnahme (v3).
+- Baustein 6 „nie eine Zusammenfassung“ gegen die Zusammenfassungs-Slide im Karussell; KI-Muster 10 gegen die Blog-Zusammenfassung: Ausnahmen ergänzt.
+- `einrichtung.md`: Zero-Retention-Modus galt als Ersatz für den AVV; korrigiert.
+- Budget für YouTube, Verkaufsvideo, Podcast, Soundeffekte fehlte (Verweis auf `regeln.md` ins Leere): Freigabe-Regel statt erfundener Zahl. Feld für Website/CMS ergänzt (Blog verwies darauf).
+- US-Modus: Whisper englisch, KI-Muster englisch, Abschnitt 7 ergänzt; harte Kriterien verweisen im US-Modus auf `us-markt.md`.
+- Kleinere: veralteter Verweis in `copywriting.md` (Schritte 2–5), „5 Ansätze“ mit 6 Optionen in `ad-texte.md`, Laufzeit-Richtwert Werbebibliothek vereinheitlicht (45 Tage), Blog-Einstieg nach Langform-Interview präzisiert, Reel „bis zu 3 Reels“ an Baustein 6 angeglichen, doppelte Transkription bei fertiger Aufnahme, Transkription in Marktforschung und Arbeitsprozessen auf lokal umgestellt.
+- Bewusst nicht geändert: README-Beispiel `prozesse/linkedin-artikel.md` (nur Beispiel), Buchhaltung Schritt 0 (gewollt).
+
 **Nächster Schritt:** unverändert: Hermes „Positionierung“ geben. Für Video: beim ersten Reel Weg A prüfen, ob Whisper `medium` für Jans Aufnahmen reicht, und ein Vorbild-Video für den Videostil schicken.
 
 ### 2026-09-26 — Deutschland-Anpassung, US-Modus, Dan-Koe-Methoden, zwei neue Prozesse (main · 10ddc59)

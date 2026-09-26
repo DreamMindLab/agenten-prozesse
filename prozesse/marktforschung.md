@@ -64,7 +64,7 @@ Zwei Arbeitsweisen, oft kombiniert:
    4. „Was hat dich fast davon abgehalten?“
    5. „Was hast du dafür bezahlt bzw. was hat dich das Problem gekostet?“
    6. „Was hat sich seitdem verändert?“
-   **Aufzeichnung:** Gespräche nur mit Einwilligung des Gesprächspartners aufnehmen und transkribieren, Einwilligung dokumentieren (§ 201 StGB, DSGVO). Namen und Firmen vor der Auswertung in KI-Werkzeugen entfernen (`grundlagen/deutschland.md`, Abschnitt 5).
+   **Aufzeichnung:** Gespräche nur mit Einwilligung des Gesprächspartners aufnehmen und transkribieren, Einwilligung dokumentieren (§ 201 StGB, DSGVO). Transkription lokal (`grundlagen/video-schnitt.md`, Abschnitt 1), weil es Stimmen Dritter sind. Namen und Firmen vor der Auswertung in KI-Werkzeugen entfernen (`grundlagen/deutschland.md`, Abschnitt 5).
    Richtwert: Nach rund **10 Gesprächen** mit Leuten, die tatsächlich gekauft oder gewechselt haben, zeigen sich die wiederkehrenden Muster. Liefert der Nutzer Mitschriften, sie genauso auswerten wie Schritt 5.
 8. **Gegenprüfung.** Für jede zentrale Erkenntnis gezielt nach Gegenbelegen suchen. Wo Quellen sich widersprechen: beide nennen und erklären, woran es hängt (Zielgruppe, Preisklasse, Region, Zeitpunkt).
 9. **Synthese.** Pro Erkenntnis: Aussage, Belege (Links), **Sicherheit** (stark = mehrere unabhängige Quellen; mittel = eine gute Quelle; schwach = Hinweis/Vermutung). Dann: **Antwort auf die Frage aus Schritt 1** mit Empfehlung für die Entscheidung. Offene Fragen, die nur ein Test oder Gespräche klären können, als nächste Schritte.

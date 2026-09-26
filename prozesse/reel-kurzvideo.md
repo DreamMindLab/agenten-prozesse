@@ -54,11 +54,11 @@ Einrichtung und Keys: `grundlagen/einrichtung.md`. Fehlt das HyperFrames-Kit, in
    - **Weg A mit fertiger Aufnahme** (der Nutzer schickt ein Video ohne vorheriges Skript, z. B. „Mach daraus ein Reel“): Die Aufnahme gibt Thema und Wortlaut vor. Du schreibst kein neues Skript, sondern leitest die Schritte 3–8 aus dem Material ab:
      - Zuerst lokal transkribieren (`grundlagen/video-schnitt.md`, Abschnitt 1).
      - **Schritt 3 entfällt:** Das Thema hat der Nutzer mit der Aufnahme gewählt. **Schritt 4** (Muster) nur, wenn eine Referenz vorliegt.
-     - **Schritt 5:** Hauptfrage, Framing und Payoff aus dem Transkript bestimmen. Die Frage lautet: Welche eine Aussage trägt ein Reel? Bei Aufnahmen über ca. 90 Sekunden bis zu 3 Reels mit je eigener Hauptfrage vorschlagen, der Nutzer wählt.
+     - **Schritt 5:** Hauptfrage, Framing und Payoff aus dem Transkript bestimmen. Die Frage lautet: Welche eine Aussage trägt ein Reel? Bei Aufnahmen über ca. 90 Sekunden mehrere Reels vorschlagen, eines pro tragfähiger Aussage, jedes mit eigener Hauptfrage (aus langen Videos höchstens 10, Baustein 6); der Nutzer wählt.
      - **Schritt 6:** Die 3 Openings sind **3 Sätze aus der Aufnahme**, die als Einstieg taugen: ein Problem, ein Ergebnis, eine Situation zum Wiedererkennen. Die stärkste Stelle darf nach vorn gezogen werden. Es gibt keinen erfundenen gesprochenen Satz; eine Text-Einblendung als Hook darfst du formulieren, sie darf aber nichts behaupten, was der Nutzer nicht sagt.
      - **Schritt 7:** Statt des Skripts eine **Schnittliste** mit Timecodes aus der Aufnahme: welche Passagen, in welcher Reihenfolge, Ziel 15–30 s. Umstellen ist erlaubt, solange der Sinn jeder Aussage gleich bleibt.
      - **Schritt 8:** Verständlichkeits-Check auf die Schnittliste anwenden. Fehlt im Material ein Einstieg, der in 3 Sekunden trägt, oder ist eine Stelle unverständlich: dem Nutzer einen kurzen Satz zum Nachaufnehmen vorschlagen, statt ihn zu umgehen. Die Nachricht „Aufnahme für Reel“ entfällt sonst.
-     - Danach weiter mit Schritt 9 (Weg A).
+     - Danach weiter mit Schritt 9 (Weg A); das Transkript liegt schon vor.
 2. **Nur Weg B, einmalig: Avatar und Stimmklon einrichten.**
    - Nutzer um **ausdrückliche Zustimmung** bitten, dass sein Gesicht und seine Stimme per KI nachgebildet werden, und die Zustimmung in deinem Gedächtnis vermerken. Nur der Nutzer selbst, **nie andere Personen** (Kunden, Gäste, Prominente).
    - HeyGen ist kostenpflichtig: Freigabe nach `marke/regeln.md` einholen, dann dem Einrichtungsablauf von HeyGen folgen (Ausgangsvideo des Nutzers, Einwilligungsnachweis). Dem Nutzer eine Aufnahme-Anleitung schicken: ruhiger Raum, gleichmäßiges Licht, Kamera auf Augenhöhe, natürlich sprechen, Kleidung wie in seinen Videos.

@@ -9,6 +9,7 @@ beschreibung: Budgets, Freigaben und No-Gos.
 
 - Pro Bild / Karussell: Standard **max. 2 $**
 - Pro Reel: Standard **max. 10 $**
+- Alle anderen Formate (z. B. YouTube-Video, Verkaufsvideo, Podcast-Video, Soundeffekte, Musik): kein Standardwert. Vor der ersten kostenpflichtigen Generierung Kosten schätzen und per Telegram freigeben lassen.
 - Wird das Limit absehbar überschritten: stoppen und per Telegram fragen.
 
 ## Werkzeuge & Zugänge
@@ -19,6 +20,7 @@ beschreibung: Budgets, Freigaben und No-Gos.
 - Absender-Domain und Absendername für E-Mails: 
 - Landingpage: Builder (z. B. Webflow, WordPress, Systeme.io) oder eigene HTML-Seite + Hosting: 
 - Domain / Pfad für Landingpages: 
+- Website / CMS für Blogartikel (z. B. WordPress) und Zugang für Hermes (nur Entwürfe): 
 - Impressum- und Datenschutz-Links: 
 - AVV (Auftragsverarbeitungsvertrag) abgeschlossen mit (z. B. E-Mail-Tool, ElevenLabs): 
 

@@ -4,7 +4,7 @@ kategorie: Strategie & Recherche
 icon: calendar
 beschreibung: Monatsplan für Instagram und LinkedIn: Themen-Säulen, Formate, Hooks, Termine, Werbe-Ebene fürs eigene Angebot – dazu ein Wochenmodus mit Ideen aus den eigenen Gewinnern.
 status: fertig
-version: 2
+version: 3
 reihenfolge: 60
 stichworte: Contentplan, Redaktionsplan, Themenplan, Posting-Plan, Content-Kalender, Monatsplan, Content-Strategie, Wochenplan, Ideen für diese Woche, Angebot bewerben, Promotion, Werbeplan, Launch-Plan
 ---
@@ -63,7 +63,7 @@ Werbe-Ebene (Schritt 6) und Wochenmodus nach Dan Koe (Marketing-Strategist- und 
      - **Kommentar-Hinweis:** 1–2 Sätze als erster Kommentar unter dem eigenen Beitrag des Tages. Führt dessen Gedanken weiter, wechselt nie das Thema, endet beim Angebot oder Newsletter (Instagram: Stichwort per DM oder „Link in Bio“, dort sind Links in Kommentaren nicht klickbar; LinkedIn: Link im Kommentar).
      - **Newsletter-Hinweis:** 2–5 Zeilen an der Stelle, wo die Idee der Mail auf das Angebot trifft, als nächster Schritt für alle, die das beschriebene Ergebnis wollen (`prozesse/newsletter.md`).
    - **Eigenständige Werbe-Beiträge** zählen zum Verkaufsanteil aus Schritt 4 (ca. 10–20 %, in Launch-Wochen mehr). Formate stehen in `prozesse/social-media-post.md` (Werbe-Formate): Standard, Geschichte, Einwand, Beweis. Im Monat jedes Format mindestens einmal.
-   - **5 Winkel pro Woche** über alle Werbe-Elemente: Problem, Mechanismus, Beweis, Geschichte/Identität, Angebot. Kein Winkel zweimal in derselben Woche. Der Winkel passt zum Beitrag des Tages (Beweis unter einem Ergebnis-Post, Mechanismus unter einer Anleitung, Geschichte unter einem persönlichen Post).
+   - **5 Winkel pro Woche** über alle Werbe-Elemente: Problem, Mechanismus, Beweis, Geschichte/Identität, Angebot. Kein Winkel zweimal in derselben Woche; einzige Ausnahme ist der Gewinner der Vorwoche, der nach der Regel aus Schritt 13 zwei Plätze bekommt (dann 6 Werbe-Elemente in der Woche). Der Winkel passt zum Beitrag des Tages (Beweis unter einem Ergebnis-Post, Mechanismus unter einer Anleitung, Geschichte unter einem persönlichen Post).
    - **Launch mit Enddatum:** Verkaufskampagne aus `prozesse/e-mail-marketing.md` einplanen; ein neuer Launch startet die Winkel-Rotation neu.
    - **Werberecht:** Dringlichkeit und Knappheit nur, wenn sie wirklich stimmen; jede Ergebnis-Aussage belegbar (`grundlagen/deutschland.md`, Abschnitt 3). Werbung fürs eigene Angebot braucht keine „Werbung“-Kennzeichnung, Kooperationen schon (Abschnitt 4).
 7. **Themen und Hooks finden.** Für jeden Termin ein **konkretes Thema** mit Arbeits-Hook, kein Platzhalter wie „Tipp-Post“. Quellen, in dieser Reihenfolge: gespeicherte Kundensprache und häufige Kundenfragen → Themen, die schon gut liefen (neuer Winkel) → Einwände → aktuelle Anlässe. Kein Thema aus den letzten 2 Monaten wiederholen, außer bewusst als neue Variante eines Gewinners (Baustein 7: genau eine Sache ändern, nächste Stufe der Leiter, Herkunft nennen).
@@ -84,7 +84,7 @@ Werbe-Ebene (Schritt 6) und Wochenmodus nach Dan Koe (Marketing-Strategist- und 
     - [ ] Termine, Launches und Aktionen aus dem Briefing sind berücksichtigt, mit Vorlauf.
     - [ ] Jeder Eintrag verweist auf den Produktionsprozess; Zweitverwertung eingeplant.
     - [ ] Formate passen zu Ziel und Plattform (Reel = Reichweite, Karussell = Saves, LinkedIn-PDF statt IG-Karussell).
-    - [ ] Werbe-Ebene: Kongruenz-Satz steht; pro Woche 5 verschiedene Winkel, keiner doppelt; jedes Werbe-Format mindestens einmal im Monat; eingebettete Hinweise passen zum Beitrag des Tages.
+    - [ ] Werbe-Ebene: Kongruenz-Satz steht; pro Woche mindestens 5 verschiedene Winkel, doppelt nur der Gewinner der Vorwoche (Schritt 13); jedes Werbe-Format mindestens einmal im Monat; eingebettete Hinweise passen zum Beitrag des Tages.
     - [ ] Keine erfundene Dringlichkeit oder Knappheit; Ergebnis-Aussagen belegbar.
     - [ ] Wiederaufgegriffene Gewinner ändern genau eine Sache und nennen ihre Herkunft (Baustein 7).
     - [ ] Harte Kriterien aus `grundlagen/qualitaet-und-lernen.md` erfüllt.

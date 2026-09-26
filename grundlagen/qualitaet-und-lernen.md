@@ -21,7 +21,7 @@ Harte Kriterien (gelten immer, zusätzlich zu denen im Prozess):
 - [ ] KI-Muster-Prüfung (unten) für jeden Text, den Menschen lesen oder hören (Post, Caption, Skript, Mail, Seite, Anzeige): kein Muster mehr gefunden, oder die verbliebene Stelle ist begründet
 - [ ] Keine erfundenen Zahlen, Zitate, Kundenstimmen oder Ergebnisse
 - [ ] Kein Verstoß gegen `marke/regeln.md`
-- [ ] Deutschland-Standards aus `grundlagen/deutschland.md` eingehalten: Längen auf Deutsch (Abschnitt 1), Werbeaussagen belegbar (3), Werbung mit Gegenleistung gekennzeichnet (4), keine Daten Dritter in Werkzeugen ohne AVV (5), keine fremden Marken, Bilder oder Musik ohne Grundlage (7)
+- [ ] Deutschland-Standards aus `grundlagen/deutschland.md` eingehalten: Längen auf Deutsch (Abschnitt 1), Werbeaussagen belegbar (3), Werbung mit Gegenleistung gekennzeichnet (4), keine Daten Dritter in Werkzeugen ohne AVV (5), keine fremden Marken, Bilder oder Musik ohne Grundlage (7). Im US-Modus mit den Abweichungen aus `grundlagen/us-markt.md`
 - [ ] Realistische KI-Bilder/-Videos oder KI-Stimmen sind zur Kennzeichnung markiert (EU AI Act Art. 50, gilt seit 2. 8. 2026). Im Zweifel kennzeichnen.
 
 ### KI-Muster-Prüfung
@@ -37,7 +37,7 @@ KI-Texte fallen weniger durch einzelne Wörter auf als durch Muster, die sich h�
 7. **Rhetorische Frage mit sofortiger Antwort:** „Warum ist das so? Ganz einfach: …“. → Behaupten und begründen.
 8. **Gleichförmiger Rhythmus:** Alle Sätze etwa gleich lang und gleich gebaut, jeder Absatz gleich lang. → Kurze und längere Sätze mischen.
 9. **Vage Autorität:** „Experten sagen“, „Studien zeigen“, „viele Unternehmer“. → Quelle nennen oder weglassen (`grundlagen/deutschland.md`, Abschnitt 6).
-10. **Glatter Schluss:** Zusammenfassung, die nur wiederholt, oder allgemeine Zuversicht („Die Zukunft gehört denen, die …“). → Mit dem konkreten nächsten Schritt oder dem CTA enden.
+10. **Glatter Schluss:** Zusammenfassung, die nur wiederholt, oder allgemeine Zuversicht („Die Zukunft gehört denen, die …“). → Mit dem konkreten nächsten Schritt oder dem CTA enden. Verlangt ein Prozess eine Zusammenfassung (Blogartikel, Karussell, Podcast), verdichtet sie das Wichtigste in neuen Worten, statt Sätze zu wiederholen.
 11. **Deko-Formatierung** in Posts und Mails: Emoji vor jeder Zeile, fett gesetzte Stichwort-Doppelpunkt-Listen, viele Fettungen. → Nur, wo es das Lesen wirklich leichter macht.
 12. **Keine Haltung:** nur neutrales Aufzählen von Vor- und Nachteilen, keine Meinung, kein eigenes Beispiel. → Eine klare Einschätzung des Nutzers und ein Beispiel aus `marke/beispiele.md` bzw. seinem Material.
 

@@ -102,7 +102,7 @@ Key erforderlich → Nutzer fragen. Account und Key: `https://cloud.higgsfield.a
 
 ### ElevenLabs (für: Reel, Verkaufsvideo, YouTube, Podcast) – kostenpflichtig
 
-Key erforderlich → Nutzer fragen. Key unter `https://elevenlabs.io/app/settings/api-keys`. Ohne Key: Reel ohne Stimme (nur Text). Öffentlicher AVV unter `https://elevenlabs.io/dpa`; für Transkripte mit Daten Dritter den Zero-Retention-Modus nutzen oder lokal mit Whisper transkribieren.
+Key erforderlich → Nutzer fragen. Key unter `https://elevenlabs.io/app/settings/api-keys`. Ohne Key: Reel ohne Stimme (nur Text). Öffentlicher AVV unter `https://elevenlabs.io/dpa`. Transkribiert wird standardmäßig lokal mit Whisper (`grundlagen/video-schnitt.md`, Abschnitt 1); Aufnahmen mit Stimmen oder Daten Dritter gehen nur an ElevenLabs, wenn der AVV abgeschlossen und in `marke/regeln.md` eingetragen ist. Der Zero-Retention-Modus ersetzt den AVV nicht.
 
 ### HeyGen API (für: Reel Weg B, Avatar des Nutzers) – kostenpflichtig
 

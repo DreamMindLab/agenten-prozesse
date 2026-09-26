@@ -45,7 +45,7 @@ Worauf es ankommt:
      - **Schritt 2** nur als Abgleich: Wie heißen erfolgreiche Videos zum selben Thema, wie lang sind sie? Der Winkel ergibt sich aus dem, was der Nutzer sagt.
      - **Schritt 3:** Titel und Thumbnails versprechen nur, was die Aufnahme tatsächlich einlöst (Timecode der Einlösung).
      - **Schritt 4** statt Skript: **Kapitelgliederung und Schnittliste** aus dem Transkript. Prüfen, ob die ersten 30–60 Sekunden das Versprechen bestätigen. Wenn nicht: die stärkste Stelle als kurzen Ausblick nach vorn ziehen oder dem Nutzer einen Einstieg zum Nachaufnehmen vorschlagen (1–3 Sätze). Passagen ohne neuen Gedanken zum Kürzen markieren; der Sinn jeder Aussage bleibt gleich. Verständlichkeits-Check auf die Schnittliste anwenden: unerklärte Fachbegriffe per Einblendung erklären.
-     - Danach weiter mit Schritt 5 (Pfad A, ab „Danach lokal transkribieren“).
+     - Danach weiter mit Schritt 5 (Pfad A, ab dem Schnitt; das Transkript liegt schon vor).
 2. **Thema prüfen.** Auf YouTube nach dem Thema suchen:
    - Gibt es **Ausreißer**, also Videos mit deutlich mehr Aufrufen, als der Kanal Abonnenten hat? Das zeigt echtes Interesse am Thema, nicht nur an einem großen Kanal.
    - Was versprechen die erfolgreichen Titel? Was fehlt in den Videos (Kommentare lesen: offene Fragen, Kritik)?

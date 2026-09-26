@@ -15,7 +15,7 @@ Ein Text, der **einen bestimmten Leser zu einer bestimmten Handlung** bringt. Je
 
 Grundlage: Ein Text kann kein Verlangen erzeugen, er kann nur vorhandenes Verlangen auf ein Angebot lenken (Eugene Schwartz, *Breakthrough Advertising*). Welcher Einstieg funktioniert, hängt davon ab, was der Leser schon weiß. Deshalb kommen **Recherche und Einordnung vor dem Schreiben**. Formeln wie AIDA oder PAS sind danach Werkzeuge, keine Rezepte.
 
-Dieser Prozess ist auch der **Kern für Landingpage, E-Mail-Marketing und Ads**: Diese Prozesse rufen die Schritte 2–5 hier auf.
+Dieser Prozess ist auch der **Kern für Landingpage, E-Mail-Marketing und Ads**: Diese Prozesse (und Verkaufsvideo, Newsletter, Blog, Post) rufen einzelne Schritte hier auf, meist die Diagnose (Schritte 3–5) und die Schreibregeln (Schritte 8–9); welche, steht im jeweiligen Prozess.
 
 ## Benötigte Inputs
 

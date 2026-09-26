@@ -30,7 +30,7 @@
 | Prozess | Wofür | Stichworte | Status |
 |---|---|---|---|
 | [Marketing ohne Budget](prozesse/marketing-kostenlos.md) | Kunden gewinnen mit Zeit statt Geld: passende Kanäle wählen, günstig testen, auf den Gewinner konzentrieren. | kostenloses Marketing, organisch, Guerilla, Empfehlungen, Kooperationen, Reichweite ohne Werbung, Akquise, Neukunden ohne Budget, Google Unternehmensprofil | fertig v1 |
-| [Video-Marketing](prozesse/video-marketing.md) | 90-Tage-Videostrategie: Ziele pro Stufe, Plattformen, Formate, ein Video → viele Clips, Messung. | Videostrategie, Video-Content, Videoplan, Video-Marketing-Strategie, YouTube-Strategie, Video-Funnel, Repurposing | fertig v1 |
+| [Video-Marketing](prozesse/video-marketing.md) | 90-Tage-Videostrategie: Ziele pro Stufe, Plattformen, Formate, ein Video → viele Clips, Messung. | Videostrategie, Video-Content, Videoplan, Video-Marketing-Strategie, YouTube-Strategie, Video-Funnel, Repurposing | fertig v2 |
 | [E-Mail-Marketing](prozesse/e-mail-marketing.md) | E-Mail-Sequenzen, die verkaufen: Willkommensstrecke, Verkaufskampagne, rechtssicher und zustellbar. | E-Mail-Sequenz, Autoresponder, Willkommensstrecke, Welcome-Sequenz, Funnel-Mails, Lead-Nurturing, Verkaufsmails, Launch-Mails, E-Mail-Liste | fertig v1 |
 
 ## Werbung
@@ -54,7 +54,7 @@
 |---|---|---|---|
 | [Positionierung](prozesse/positionierung.md) | Wofür der Nutzer steht und für wen: Interview, Marktrecherche, Strategie-Dokument mit Themenbaum und fertigen Entwürfen für die marke/-Dateien. | Positionierung, Personal Brand, Personal Branding, Markenstrategie, Nische, wofür stehe ich, Themenbaum, Content-Richtung, Marke ausfüllen, Neustart, Zielgruppe finden | fertig v1 |
 | [Angebot entwickeln](prozesse/angebot-entwickeln.md) | Was zuerst verkaufen, und wie daraus ein Angebot wird, das man schwer ablehnen kann: Beratung per Interview, Wertgleichung, Mechanismus, Garantie, Preis mit Rechnung. | Angebot, Angebot entwickeln, Angebot prüfen, was soll ich verkaufen, erstes Produkt, Produktidee, Preis, Preisgestaltung, Garantie, Paket, Offer, Wertgleichung, Mechanismus, Coaching-Angebot, Kurs, digitales Produkt | fertig v1 |
-| [30-Tage-Contentplan](prozesse/30-tage-contentplan.md) | Monatsplan für Instagram und LinkedIn: Themen-Säulen, Formate, Hooks, Termine, Werbe-Ebene fürs eigene Angebot – dazu ein Wochenmodus mit Ideen aus den eigenen Gewinnern. | Contentplan, Redaktionsplan, Themenplan, Posting-Plan, Content-Kalender, Monatsplan, Content-Strategie, Wochenplan, Ideen für diese Woche, Angebot bewerben, Promotion, Werbeplan, Launch-Plan | fertig v2 |
+| [30-Tage-Contentplan](prozesse/30-tage-contentplan.md) | Monatsplan für Instagram und LinkedIn: Themen-Säulen, Formate, Hooks, Termine, Werbe-Ebene fürs eigene Angebot – dazu ein Wochenmodus mit Ideen aus den eigenen Gewinnern. | Contentplan, Redaktionsplan, Themenplan, Posting-Plan, Content-Kalender, Monatsplan, Content-Strategie, Wochenplan, Ideen für diese Woche, Angebot bewerben, Promotion, Werbeplan, Launch-Plan | fertig v3 |
 | [Marktforschung](prozesse/marktforschung.md) | Zielgruppe, Wettbewerb, Nachfrage und Preise mit belegten Quellen analysieren – für eine konkrete Entscheidung. | Marktanalyse, Wettbewerbsanalyse, Konkurrenzanalyse, Zielgruppe, Avatar, Nische, Kundeninterview, Preisrecherche, Nachfrage prüfen | fertig v1 |
 
 ## Business

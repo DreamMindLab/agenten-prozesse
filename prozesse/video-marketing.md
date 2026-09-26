@@ -4,7 +4,7 @@ kategorie: Marketing
 icon: trending
 beschreibung: 90-Tage-Videostrategie: Ziele pro Stufe, Plattformen, Formate, ein Video → viele Clips, Messung.
 status: fertig
-version: 1
+version: 2
 reihenfolge: 31
 stichworte: Videostrategie, Video-Content, Videoplan, Video-Marketing-Strategie, YouTube-Strategie, Video-Funnel, Repurposing
 ---
@@ -30,7 +30,7 @@ Was die Daten sagen:
 ## Werkzeuge
 
 - Produktionsprozesse: `prozesse/reel-kurzvideo.md`, `prozesse/youtube-video.md`, `prozesse/verkaufsvideo.md`
-- Clips aus langen Videos: HyperFrames-Kit (`short-form-edit`) oder `video-use`
+- Clips aus langen Videos: HyperFrames-Kit (`short-form-edit`), Regeln für Transkription und Schnitt in `grundlagen/video-schnitt.md`
 - Einrichtung: `grundlagen/einrichtung.md`
 
 ## Schritt-für-Schritt
@@ -49,9 +49,10 @@ Was die Daten sagen:
 4. **Plattformen wählen.** Höchstens **2 Hauptplattformen**, die anderen nur als Zweitverwertung. Standard für dieses Setup: Instagram (Reels) für Entdeckung, YouTube für Vertrauen (Videos werden dort über die Suche jahrelang gefunden), LinkedIn bei B2B, TikTok nur als Zweitverwertung der Reels.
 5. **Formate nach Kapazität.**
    - **Nutzer vor der Kamera:** Die stärksten Vertrauensformate (YouTube, Webinar, Testimonial-Interviews) sind möglich.
-   - **Nutzer nicht vor der Kamera:** Faceless-Reels (`prozesse/reel-kurzvideo.md`, KI-Pfad), animierte Erklärvideos, Bildschirmaufnahmen mit Stimme. Ehrlich einordnen: Vertrauen baut sich ohne Gesicht und echte Stimme langsamer auf. **Keine KI-Person, die als der Nutzer oder als Kunde auftritt.**
+   - **Nutzer nicht vor der Kamera:** Faceless-Reels (`prozesse/reel-kurzvideo.md`, Weg C), animierte Erklärvideos, Bildschirmaufnahmen mit Stimme. Ehrlich einordnen: Vertrauen baut sich ohne Gesicht und echte Stimme langsamer auf.
+   - **Avatar des Nutzers** (`prozesse/reel-kurzvideo.md`, Weg B): nur für Reels, nur mit seiner ausdrücklichen Zustimmung und immer gekennzeichnet. Für YouTube-Videos kein Avatar (`prozesse/youtube-video.md`). **Nie eine KI-Person, die als Kunde oder als jemand anderes auftritt.**
 6. **„1 → viele“-System festlegen.** Pro Monat ein bis zwei **Hauptvideos** (z. B. YouTube-Video, Webinar, Vortrag, Interview), daraus:
-   - 5–10 Kurzclips (Reels/Shorts) mit je eigenem Hook, geschnitten mit `short-form-edit`/`video-use`
+   - 5–10 Kurzclips (Reels/Shorts) mit je eigenem Hook, geschnitten mit `short-form-edit` (`prozesse/reel-kurzvideo.md`, Weg A mit fertiger Aufnahme)
    - 1–2 Karussells oder Posts mit den Kernaussagen
    - 1 Newsletter
    - Ausschnitte für Anzeigen (falls Werbung läuft)
@@ -75,7 +76,7 @@ Was die Daten sagen:
     - [ ] Das „1 → viele“-System ist konkret (welches Hauptvideo, welche Ableitungen, wer macht was).
     - [ ] Jedes Videoformat verweist auf seinen Produktionsprozess.
     - [ ] Ein Experiment pro Monat mit Vergleichsgröße.
-    - [ ] Keine KI-Person, die als echter Mensch oder Kunde auftritt; KI-Anteile zur Kennzeichnung vermerkt.
+    - [ ] Keine KI-Person, die als Kunde oder als jemand anderes auftritt; Avatar des Nutzers nur für Reels, mit Zustimmung; KI-Anteile zur Kennzeichnung vermerkt.
     - [ ] Harte Kriterien aus `grundlagen/qualitaet-und-lernen.md` erfüllt.
 12. **Foundation-Agent.** Vorgehen: `grundlagen/qualitaet-und-lernen.md`. Zusätzlich: Ergebnis jedes Monats-Experiments als Regel speichern (z. B. „Bei dieser Zielgruppe schlagen Clips mit Ergebnis-Hook die mit Problem-Hook“).
 

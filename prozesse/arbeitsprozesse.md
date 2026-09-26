@@ -32,7 +32,7 @@ Grundregeln aus der Praxis:
 
 ## Werkzeuge
 
-- Transkription (für Sprachnachrichten/Aufnahmen), z. B. ElevenLabs oder Whisper. Sind Kundendaten oder Stimmen Dritter enthalten: lokal mit Whisper oder nur mit AVV (`grundlagen/deutschland.md`, Abschnitt 5)
+- Transkription (für Sprachnachrichten/Aufnahmen): standardmäßig lokal mit Whisper (`grundlagen/video-schnitt.md`, Abschnitt 1). Sind Kundendaten oder Stimmen Dritter enthalten: nur lokal oder mit AVV (`grundlagen/deutschland.md`, Abschnitt 5)
 - Company OS (Modul „Prozesse“, falls vorhanden) oder Markdown-Datei als Ablage
 - Für Automatisierungen: die Funktionen der vorhandenen Werkzeuge zuerst (Company OS, E-Mail-Tool, Lexware Office), externe Automatisierungsdienste nur nach Freigabe
 - Einrichtung: `grundlagen/einrichtung.md`

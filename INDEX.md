@@ -30,7 +30,7 @@
 | Prozess | Wofür | Stichworte | Status |
 |---|---|---|---|
 | [Marketing ohne Budget](prozesse/marketing-kostenlos.md) | Kunden gewinnen mit Zeit statt Geld: passende Kanäle wählen, günstig testen, auf den Gewinner konzentrieren. | kostenloses Marketing, organisch, Guerilla, Empfehlungen, Kooperationen, Reichweite ohne Werbung, Akquise, Neukunden ohne Budget, Google Unternehmensprofil | fertig v1 |
-| [Video-Marketing](prozesse/video-marketing.md) | 90-Tage-Videostrategie: Ziele pro Stufe, Plattformen, Formate, ein Video → viele Clips, Messung. | Videostrategie, Video-Content, Videoplan, Video-Marketing-Strategie, YouTube-Strategie, Video-Funnel, Repurposing | fertig v2 |
+| [Video-Marketing](prozesse/video-marketing.md) | 90-Tage-Videostrategie: Ziele pro Stufe, Plattformen, Formate, ein Video → viele Clips, Messung. | Videostrategie, Video-Content, Videoplan, Video-Marketing-Strategie, YouTube-Strategie, Video-Funnel, Repurposing | fertig v3 |
 | [E-Mail-Marketing](prozesse/e-mail-marketing.md) | E-Mail-Sequenzen, die verkaufen: Willkommensstrecke, Verkaufskampagne, rechtssicher und zustellbar. | E-Mail-Sequenz, Autoresponder, Willkommensstrecke, Welcome-Sequenz, Funnel-Mails, Lead-Nurturing, Verkaufsmails, Launch-Mails, E-Mail-Liste | fertig v1 |
 
 ## Werbung

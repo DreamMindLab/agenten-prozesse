@@ -74,14 +74,14 @@ Einrichtung und Keys: `grundlagen/einrichtung.md`. Fehlt das HyperFrames-Kit, in
    - **Problem zuerst:** „Dein Angebot wird ignoriert, weil …“
    - **Ergebnis zuerst:** das Endergebnis kurz zeigen, dann „So geht's:“
    - **Wiedererkennen:** eine Situation, in der sich die Zielgruppe sofort erkennt.
-   Regeln: Thema in 1–2 Sekunden klar, einfache Sprache, Anrede laut `marke/tonalitaet.md`, keine Begrüßung, kein Intro. Wähle die Variante, die die Hauptfrage am klarsten und spezifischsten stellt, und notiere, warum. Weitere Einstiegsfamilien und die Abwechslung zum letzten Reel: Baustein 6.
-7. **Skript mit Timecodes** schreiben (15–30 s; Startwert ca. 2 gesprochene Wörter pro Sekunde, sobald vorhanden das gemessene Tempo aus deinem Gedächtnis, `grundlagen/deutschland.md`, Abschnitt 1). Alle 2–3 Sekunden passiert etwas Neues (Szenenwechsel, Text, Bewegung, Schnitt). Der Payoff kommt **vor** dem CTA; die Antwort darf nicht nur „in den Kommentaren“ stehen. Der CTA hält die Leute auf der Plattform (teilen, speichern, kommentieren, Stichwort per DM); nie „folg mir auch auf …“ oder „schreib mir auf …“: Wer die App verlässt, ist für die Plattform ein schlechtes Signal (Torben Platzer).
+   Regeln: Thema in 1–2 Sekunden klar, auch im Bild (harter Schnitt, auffällige Einblendung, ungewöhnlicher Gegenstand oder Ort), einfache Sprache, einen Fachbegriff im Einstieg nie voraussetzen, Anrede laut `marke/tonalitaet.md`, keine Begrüßung, kein Intro. Wähle die Variante, die die Hauptfrage am klarsten und spezifischsten stellt, und notiere, warum. Weitere Einstiegsfamilien und die Abwechslung zum letzten Reel: Baustein 6.
+7. **Skript mit Timecodes** schreiben (15–30 s; Startwert ca. 2 gesprochene Wörter pro Sekunde, sobald vorhanden das gemessene Tempo aus deinem Gedächtnis, `grundlagen/deutschland.md`, Abschnitt 1). Alle 2–3 Sekunden passiert etwas Neues (Szenenwechsel, Text, Bewegung, Schnitt). Der Payoff kommt **vor** dem CTA; die Antwort darf nicht nur „in den Kommentaren“ stehen. Der CTA hält die Leute auf der Plattform (teilen, speichern, kommentieren, Stichwort per DM); nie „folg mir auch auf …“ oder „schreib mir auf …“: Wer die App verlässt, ist für die Plattform ein schlechtes Signal (Torben Platzer). **CTA nur mit echtem Grund**, der zum Inhalt passt („Speicher dir das fürs nächste Kundengespräch“), nie ein allgemeines „Folg mir für mehr“. Gibt es keinen, kommt statt CTA ein **Loop**: Der letzte Satz führt so auf den ersten zurück, dass das Video beim Neustart nahtlos weiterläuft. Das erhöht die Wiedergabe.
 
 ```
 [0–3 s]  Hook: <Text> | Bild: <Szene / Einstellung> | Overlay: <max. ca. 35 Zeichen>
 [3–8 s]  <…>
 [x–y s]  Payoff: <Antwort auf die Hauptfrage>
-[y–z s]  CTA: <genau einer, z. B. „Schick das jemandem, der …“>
+[y–z s]  CTA oder Loop: <genau ein CTA mit Grund, z. B. „Schick das jemandem, der …“ / Loop: letzter Satz, der in den ersten führt>
 ```
 
 8. **Verständlichkeits-Check** nach Baustein 4 (Kurzformat): Persona-Test und 12-Jährigen-Test, dann überarbeiten. Erst danach fließen Geld oder Aufnahmezeit in die Produktion.
@@ -122,7 +122,7 @@ Einrichtung und Keys: `grundlagen/einrichtung.md`. Fehlt das HyperFrames-Kit, in
     - [ ] Der Winkel besteht den Unabhängigkeitstest gegen die Alternativen; Einstiegsfamilie nicht dieselbe wie beim letzten Reel (Baustein 6). Bei fertiger Aufnahme: der stärkste Einstieg, den das Material hergibt; kein gesprochener Satz hinzuerfunden.
     - [ ] 3-Sekunden-Test: Bis Sekunde 3 ist klar, worum es geht und warum man bis zum Ende schauen sollte (Beleg: Text und Bild bei 0–3 s).
     - [ ] Keine Begrüßung, kein Intro, kein Logo am Anfang; Frame 0 ist sofort verständlich.
-    - [ ] Die Hauptfrage wird vor dem CTA vollständig beantwortet (Timecode des Payoffs).
+    - [ ] Die Hauptfrage wird vor dem CTA bzw. Loop vollständig beantwortet (Timecode des Payoffs); CTA mit echtem Grund, kein „Folg mir für mehr“, kein Verweis auf andere Plattformen.
     - [ ] Mindestens alle 3 Sekunden ändert sich etwas im Bild (Liste der Wechsel mit Timecodes).
     - [ ] Untertitel synchron (Stichproben an 3 Stellen), vollständig und nicht von Instagram-Bedienelementen verdeckt.
     - [ ] **A:** keine Aussage durch den Schnitt sinnentstellt, keine hörbaren Schnittkanten. **B:** Lippen synchron, Zustimmung liegt vor. **C:** kein Text, kein Logo, keine echte Person im KI-Material. Alle Wege: keine sichtbaren KI-Artefakte.

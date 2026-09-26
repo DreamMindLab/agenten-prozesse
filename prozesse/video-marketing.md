@@ -4,7 +4,7 @@ kategorie: Marketing
 icon: trending
 beschreibung: 90-Tage-Videostrategie: Ziele pro Stufe, Plattformen, Formate, ein Video → viele Clips, Messung.
 status: fertig
-version: 2
+version: 3
 reihenfolge: 31
 stichworte: Videostrategie, Video-Content, Videoplan, Video-Marketing-Strategie, YouTube-Strategie, Video-Funnel, Repurposing
 ---
@@ -51,6 +51,7 @@ Was die Daten sagen:
    - **Nutzer vor der Kamera:** Die stärksten Vertrauensformate (YouTube, Webinar, Testimonial-Interviews) sind möglich.
    - **Nutzer nicht vor der Kamera:** Faceless-Reels (`prozesse/reel-kurzvideo.md`, Weg C), animierte Erklärvideos, Bildschirmaufnahmen mit Stimme. Ehrlich einordnen: Vertrauen baut sich ohne Gesicht und echte Stimme langsamer auf.
    - **Avatar des Nutzers** (`prozesse/reel-kurzvideo.md`, Weg B): nur für Reels, nur mit seiner ausdrücklichen Zustimmung und immer gekennzeichnet. Für YouTube-Videos kein Avatar (`prozesse/youtube-video.md`). **Nie eine KI-Person, die als Kunde oder als jemand anderes auftritt.**
+   - **Neuer Account oder Format noch offen:** zuerst der Formattest (`grundlagen/themen-und-verstaendlichkeit.md`, Baustein 8), dann ein Kurzvideo-Format durchziehen. Die 90 Tage beginnen dann mit dem Testmonat.
 6. **„1 → viele“-System festlegen.** Pro Monat ein bis zwei **Hauptvideos** (z. B. YouTube-Video, Webinar, Vortrag, Interview), daraus:
    - 5–10 Kurzclips (Reels/Shorts) mit je eigenem Hook, geschnitten mit `short-form-edit` (`prozesse/reel-kurzvideo.md`, Weg A mit fertiger Aufnahme)
    - 1–2 Karussells oder Posts mit den Kernaussagen

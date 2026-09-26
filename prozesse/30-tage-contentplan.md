@@ -30,7 +30,7 @@ Werbe-Ebene (Schritt 6) und Wochenmodus nach Dan Koe (Marketing-Strategist- und 
 - **Beworbenes Angebot:** welches Angebot im Monat im Vordergrund steht (Standard: das erste in `marke/angebot.md`), dauerhaft offen oder Launch mit echtem Enddatum, Link zur Landingpage.
 - Aus dem Repo, immer lesen: alle Dateien in `marke/`
 - Aus deinem Gedächtnis: frühere Contentpläne, bisher gepostete Themen, Themenliste (Baustein 7), Ergebnisse (welche Themen/Formate liefen gut), Werbe-Protokoll, gespeicherte Kundensprache, Positionierung (`prozesse/positionierung.md`), falls vorhanden.
-- Aus dem Repo zusätzlich: `grundlagen/themen-und-verstaendlichkeit.md` (Bausteine 5–7)
+- Aus dem Repo zusätzlich: `grundlagen/themen-und-verstaendlichkeit.md` (Bausteine 5–8; bei einem neuen Account ist der erste Monat der Formattest aus Baustein 8)
 
 ## Werkzeuge
 

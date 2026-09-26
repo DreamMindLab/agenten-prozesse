@@ -1,6 +1,6 @@
 ---
 titel: Thema, Muster & Verständlichkeit
-beschreibung: Bausteine für Content-Prozesse: Thema mit Beleg, Muster statt neuer Idee, Framing, Verständlichkeits-Check, Zahlen als Marktdaten, Winkel und Formen, Gewinner weiterentwickeln.
+beschreibung: Bausteine für Content-Prozesse: Thema mit Beleg, Muster statt neuer Idee, Framing, Verständlichkeits-Check, Zahlen als Marktdaten, Winkel und Formen, Gewinner weiterentwickeln, Formattest.
 ---
 
 Die Content-Prozesse verweisen auf diese Bausteine. Wo ein Prozess einen Baustein nennt, führst du ihn an genau dieser Stelle aus.
@@ -62,12 +62,13 @@ Social Media ist nicht nur Ausspielkanal, sondern die schnellste Quelle für Mar
 - Ab 5 Beiträgen eines Formats: Muster auswerten (welche Themen, Hooks und Formate laufen besser) und bei Themenvorschlägen (Baustein 1) als Beleg nutzen.
 - **Gewinner erkennen:** Maßstab ist der eigene Durchschnitt des Accounts, nicht die absolute Zahl. Ca. 2× Durchschnitt ist solide, ab ca. 3× ein echter Treffer. Das gilt auch für fremde Beiträge bei der Muster-Suche (Baustein 2): Ein Beitrag, der den Durchschnitt seines Accounts weit übertrifft, sagt mehr als einer von einem großen Account.
 - **Frühestens nach 7 Tagen auswerten**, nie nach Stunden: Die Plattform braucht Zeit, bis sie das Video der passenden Zielgruppe zeigt.
-- **Diagnose bei schwachen Videos** (Startwerte nach Torben Platzer, Podcast-Folgen #136 und #140; Praktikerwerte, keine Plattformvorgaben, nach 10 eigenen Videos am eigenen Durchschnitt nachschärfen). Immer nur **eine** Ursache pro Video benennen, in dieser Reihenfolge:
+- **Diagnose bei schwachen Videos** (Startwerte nach Torben Platzer, Podcast-Folgen #119, #136 und #140; Praktikerwerte, keine Plattformvorgaben, nach 10 eigenen Videos am eigenen Durchschnitt nachschärfen). Immer nur **eine** Ursache pro Video benennen, in dieser Reihenfolge:
   1. **Weiterwisch-Rate** (Instagram-Insights „Übersprungen“, Anteil, der in den ersten 3 Sekunden weiterwischt; YouTube Shorts „Weggewischt“): über ca. 50 % → Einstieg ist das Problem. Erster gesprochener Satz muss in 3 Sekunden sitzen: schneller sprechen oder Satz ändern, nie mit Begrüßung oder Vorrede starten. Andere Praktiker nennen 30–40 % als Warnschwelle; Instagram selbst nennt keinen Zielwert.
-  2. **Durchschnittliche Wiedergabe** unter ca. 60–70 % der Videolänge → kürzen. Neue Ziellänge ≈ **2× die durchschnittliche Wiedergabedauer in Sekunden** (Beispiel: 7 s Wiedergabe bei 30 s Länge → nächstes Video ca. 14 s). Kürzen heißt: Satz für Satz fragen „brauche ich den?“, sonst raus.
+  2. **Durchschnittliche Wiedergabe** unter ca. 60–70 % der Videolänge → kürzen. Neue Ziellänge ≈ **2× die durchschnittliche Wiedergabedauer in Sekunden** (Beispiel: 7 s Wiedergabe bei 30 s Länge → nächstes Video ca. 14 s). Kürzen heißt: Satz für Satz fragen „brauche ich den?“, sonst raus. Für Reichweite im fünfstelligen Bereich braucht es eher 70–80 %.
+  Stimmen Weiterwisch-Rate und Wiedergabe, aber die Aufrufe bleiben klein: Die Plattform kennt den Account noch nicht. Weiter im Thema posten, nicht umbauen. Eine geheime Sperre („Shadowban“) steckt fast nie dahinter, sondern schwache Werte.
   3. **Langvideo-Klickrate** (YouTube, Impressionen): unter ca. 5 % und unter dem eigenen Schnitt → Titel und Thumbnail überarbeiten, nicht das Video. Laut YouTube-Hilfe liegt die Hälfte aller Kanäle zwischen 2 und 10 %; Werte stark von der Traffic-Quelle abhängig.
   Die Diagnose steht im Output bei der Auswertung und wird als Regel gespeichert („Einstieg zu langsam“, „zu lang für das Thema“).
-- **Gewinnerformat ist nicht das mit den meisten Aufrufen,** sondern das mit der besten Wiedergabe, der niedrigsten Weiterwisch-Rate und echten Kommentaren. Aufrufe ohne diese drei bringen keine Kunden.
+- **Gewinnerformat ist nicht das mit den meisten Aufrufen,** sondern das mit der besten Wiedergabe, der niedrigsten Weiterwisch-Rate und echten Kommentaren. Aufrufe ohne diese drei bringen keine Kunden. Bei Kommentaren die von Freunden und Familie herausrechnen: Zählt, was Fremde schreiben und was ihnen fehlt.
 - Liefert der Nutzer keine Zahlen: einmal beim nächsten Auftrag erinnern, dann nicht weiter nachfragen.
 
 ## Baustein 6: Winkel und Formen (Kurzformat)
@@ -115,4 +116,23 @@ Ein Gewinner (Baustein 5) beweist zweierlei: Die Zielgruppe will die Aussage, un
 10. **Wörtliche Wiederholung** nur bei einem Top-Beitrag, der mindestens 90 Tage alt ist, gekennzeichnet als „Wiederholung“, höchstens 2 von 10 Vorschlägen.
 
 **Themenliste im Gedächtnis:** pro Aussage die bereits genutzten Stufen und was veröffentlicht wurde (höchstens ca. 30 Aussagen, die schwächsten fallen raus). Jeder Vorschlag nennt seine **Herkunft**: welcher Gewinner, welche Kundenfrage oder welches Muster, und welche Regel. Ohne Herkunft kein Vorschlag.
+
+## Baustein 8: Formattest und Durchhalten (neuer Account)
+
+Nach Torben Platzer (Podcast-Folgen #119, #136 und #140), auf Deutsch zusammengefasst; wo sich die Folgen widersprechen, gelten die neueren (#136, #140). Gilt, wenn der Nutzer auf einer Plattform neu anfängt oder sein Format noch nicht gefunden hat. Die Nische entsteht beim Posten (`prozesse/positionierung.md`); der Formattest ist der Weg dahin.
+
+1. **Eine Hauptplattform.** Für sie wird produziert. Andere Plattformen erst bedienen, wenn das Format steht (dann recyceln, siehe `prozesse/video-marketing.md`, Schritt 4). Jede Plattform hat ihren eigenen Ton: Instagram eher ästhetisch, TikTok eher roh.
+2. **Eine Schublade.** Nur Beiträge zum Thema, auch in den Captions wiederkehrende Stichwörter. Die Plattform lernt an den ersten Beiträgen und Followern, wem sie den Nutzer zeigen soll; themenfremde Beiträge verwischen das.
+3. **3–4 Formate, je ca. 10 Videos, 30 Tage.** Nur Formate, die der Nutzer langfristig machen will (Talking Head, Voice-over, Text im Bild, Erklärvideo mit Animation, Mini-Anleitung …). Posten, sobald ein Video fertig ist; Uhrzeit egal. Wo getestet wird, entscheidet der Nutzer:
+   - **Trial Reels** (Instagram): werden nur Nicht-Followern gezeigt, kein zweiter Account nötig. Bauen keine Follower auf, bis zu Aufrufen kann es länger dauern.
+   - **Anonymer Test-Account** (Name ohne Bezug zum Nutzer, niemandem davon erzählen): nimmt den Druck, die Zahlen gehören aber nicht dem späteren Hauptaccount.
+4. **Zwischendurch nicht auswerten.** Erst nach 30 Tagen, dann nach Baustein 5: Gewinner ist das Format mit der besten Wiedergabe, der niedrigsten Weiterwisch-Rate und echten Kommentaren, nicht das mit den meisten Aufrufen. Dazu die Frage: Liegt es dem Nutzer? Er muss es monatelang machen.
+5. **Nicht mischen, was sich widerspricht.** Kurze Text-im-Bild-Clips („lies die Caption“) holen leicht Aufrufe und Follower, aber Follower, die kein Gesicht hören wollen. Wer auf Talking Head setzt, verwässert sein Publikum damit. Trends sind kein Format, höchstens ein Zusatz zum Kernformat.
+6. **Gewinnerformat als Serie.** Läuft ein Video, nicht das nächste Format probieren, sondern eine Serie im selben Format zum Nachbarthema (Beispiel: „Reifen wechseln in 30 Sekunden“ → „Ölwechsel in 30 Sekunden“ → „Scheibenwischer tauschen …“). Beim ersten Video sehen die Leute etwas Nützliches, beim zweiten speichern sie, beim dritten folgen sie. Nachfolger nach Baustein 7.
+7. **Durchhalten: 6–12 Monate ein Format.** Kein zweites Format „für Abwechslung“: Wer Abwechslung will, findet sie bei anderen Accounts. Nebenthemen des Nutzers (Hobby, Alltag) höchstens ca. 10–20 %, am besten in Stories. Ein Kanal, ein Thema.
+8. **Regelmäßig statt viel.** Die Plattform plant Aufmerksamkeit für Accounts, die zuverlässig liefern. Lange Pausen kosten die anfängliche Ausspielung neuer Videos. Frequenz aus der Kapazität (`prozesse/30-tage-contentplan.md`, Schritt 3), nie aus dem Wunsch.
+9. **Erst Reels, dann Stories.** Stories bauen Vertrauen und verkaufen, bringen aber keine neuen Leute. Regelmäßige Stories erst einplanen, wenn der Reel-Rhythmus stabil läuft; nie Stories statt Reels.
+10. **Profil ist am Anfang zweitrangig.** Neue Follower kommen fast nur über den Feed, nicht übers Profil. Logo, Bio und Profilbild einmal ordentlich machen, dann Zeit in Videos stecken.
+
+Speichere Testformate, Ergebnis nach 30 Tagen und das gewählte Format im Gedächtnis. Der Contentplan und die Videoprozesse bauen darauf auf.
 

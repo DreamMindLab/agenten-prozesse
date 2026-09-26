@@ -48,7 +48,7 @@ Die zwei Grundregeln (Oli Gardner, Unbounce, „Conversion-Centered Design“):
    3. **Lösung / Mechanismus:** warum dieser Weg funktioniert.
    4. **Nutzen:** konkret, bildhaft, überprüfbar (keine Merkmalliste).
    5. **Beweis:** nur echte Ergebnisse, Stimmen, Zahlen aus `marke/angebot.md`. Gibt es keine: den Abschnitt weglassen. Werden Kundenbewertungen gezeigt: direkt dabei gut sichtbar angeben, ob und wie geprüft wird, dass sie von echten Kunden stammen (§ 5b Abs. 3 UWG, `grundlagen/deutschland.md`, Abschnitt 3). **Keine Platzhalter-Testimonials mit ausgedachtem Text**, auch nicht „zum Ersetzen“: Sie landen erfahrungsgemäß live. Stattdessen im Output als offener Punkt melden.
-   6. **Angebot:** was genau man bekommt (bei Kauf: Preis, Umfang, Garantie falls vorhanden). Prüffrage nach Hormozis Wertgleichung: Macht der Abschnitt das Ergebnis greifbar, die Erfolgswahrscheinlichkeit glaubhaft (Beweis) und zeigt er, wie schnell und mit wie wenig Aufwand es geht?
+   6. **Angebot:** was genau man bekommt (bei Kauf: Preis, Umfang, Garantie falls vorhanden; Mechanismus, Bestandteile und Garantie aus dem Angebots-Blueprint von `prozesse/angebot-entwickeln.md`, falls vorhanden; Pflichtangaben zur Garantie: `grundlagen/deutschland.md`, Abschnitt 3). Prüffrage nach Hormozis Wertgleichung: Macht der Abschnitt das Ergebnis greifbar, die Erfolgswahrscheinlichkeit glaubhaft (Beweis) und zeigt er, wie schnell und mit wie wenig Aufwand es geht?
    7. **So läuft es ab:** 3 einfache Schritte vom Klick bis zum Ergebnis (z. B. „Termin wählen – Gespräch führen – Plan erhalten“). Nimmt die Unsicherheit, was nach dem Klick passiert.
    8. **Einwände / FAQ:** die 3–5 wichtigsten Einwände aus der Kundensprache.
    9. **Abschluss-CTA:** Versprechen wiederholen + Button.

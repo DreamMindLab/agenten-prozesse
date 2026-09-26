@@ -1,11 +1,11 @@
 ---
 titel: Positionierung
 kategorie: Strategie & Recherche
-icon: target
+icon: users
 beschreibung: Wofür der Nutzer steht und für wen: Interview, Marktrecherche, Strategie-Dokument mit Themenbaum und fertigen Entwürfen für die marke/-Dateien.
 status: fertig
 version: 1
-reihenfolge: 59
+reihenfolge: 57
 stichworte: Positionierung, Personal Brand, Personal Branding, Markenstrategie, Nische, wofür stehe ich, Themenbaum, Content-Richtung, Marke ausfüllen, Neustart, Zielgruppe finden
 ---
 
@@ -68,7 +68,7 @@ Methode nach Dan Koe (Personal-Brand-Strategist-Workflow für Eden), auf Deutsch
    - **4. Worüber du schreiben kannst:** Erlaubnis und Menü: starke Überzeugungen, Ideen, die er gern selbst geschrieben hätte, Probleme der Zielgruppe, Widerspruch zu etwas Gelesenem, Meinung zu aktuellen Themen, Lektionen aus seinem Weg, Rat an sein früheres Ich, harte Wahrheiten zu einem Ziel. Gewichtet nach Frage 5. Kernsatz: eins aussuchen und den Beitrag schreiben.
    - **5. Was in deinem Markt schon funktioniert:** 3–5 Befunde, je mit Zwischenüberschrift und echtem Beispiel zum Nachlesen (Account und Beitrag genau so, wie gefunden). Wo sichtbar wird, woran die Zielgruppe hängt, deutlich sagen. Bei eigenen Accounts ein ehrlicher Absatz zu seinen Zahlen, getrennt von den Marktbelegen. Dünne Recherche: in einem Satz sagen.
    - **6. Deine ersten 5 Beiträge:** Jede Zwischenüberschrift **ist** der erste Satz des Beitrags, in seiner Stimme, aus seinem Material. Darunter zwei Sätze: von welchem Swipe-File-Beitrag der Aufbau stammt (Account genau, nie erfunden) und welchen Ast er bedient. Nur das Satzgerüst übernehmen (Baustein 2). Verteilt über Interessen und Spuren.
-   - **7. Womit du Geld verdienen kannst:** erst verkaufen, dann Reichweite, nicht umgekehrt. **Jetzt:** 3–5 Dinge, die er diesen Monat mit seinem Können verkaufen könnte, je mit Käufer und wo diese Leute schon sind (kostenlose Arbeit für eine Fallstudie zählt). **Später:** was er fünfmal gemacht hat, wird Vorlage, Kurs, Community. **Irgendwann:** höherpreisig, Gruppen, Partnerschaften. Als Möglichkeiten formulieren, nicht als Aufgaben. Keine Preise, keine Funnels, nichts zu Recht und Steuern, **keine Einkommensversprechen** (`grundlagen/deutschland.md`, Abschnitt 3).
+   - **7. Womit du Geld verdienen kannst:** erst verkaufen, dann Reichweite, nicht umgekehrt. **Jetzt:** 3–5 Dinge, die er diesen Monat mit seinem Können verkaufen könnte, je mit Käufer und wo diese Leute schon sind (kostenlose Arbeit für eine Fallstudie zählt). **Später:** was er fünfmal gemacht hat, wird Vorlage, Kurs, Community. **Irgendwann:** höherpreisig, Gruppen, Partnerschaften. Als Möglichkeiten formulieren, nicht als Aufgaben; ausgearbeitet wird das gewählte Angebot mit `prozesse/angebot-entwickeln.md`. Keine Preise, keine Funnels, nichts zu Recht und Steuern, **keine Einkommensversprechen** (`grundlagen/deutschland.md`, Abschnitt 3).
    - **Schluss:** 2–3 Zeilen zum Bild in 3–6 Monaten: Über alle Beiträge hinweg vermittelt er immer wieder den Gegner, das Ziel, die Überzeugungen und die Fähigkeiten, die seine Leute brauchen.
 7. **Entwürfe für `marke/`.** Aus Dokument und Antworten fertige Dateiinhalte im Format der jeweiligen Datei:
    - `zielgruppe.md`: Wer, was sie erreichen will, was sie abhält, wo sie ist. Die Zeile „Wie redet sie darüber?“ nur mit **echten** Zitaten füllen (aus seinen Antworten oder der Recherche, mit Quelle), sonst leer lassen.
@@ -111,4 +111,4 @@ Entwürfe für marke/: <zielgruppe.md, tonalitaet.md, angebot.md im Anhang>
 Quality Check: <bestanden in Runde X / offen: Kriterium + Grund>
 ```
 
-Danach einmal fragen: „Soll ich die ersten 5 Beiträge als Posts produzieren?“ (`prozesse/social-media-post.md`). Und einmal erwähnen, dass „Positionierung auffrischen“ reicht, wenn sich etwas ändert.
+Danach einmal fragen: „Soll ich die ersten 5 Beiträge als Posts produzieren?“ (`prozesse/social-media-post.md`). Gibt es noch kein Angebot, zusätzlich: „Sollen wir als Nächstes dein Angebot ausarbeiten?“ (`prozesse/angebot-entwickeln.md`). Und einmal erwähnen, dass „Positionierung auffrischen“ reicht, wenn sich etwas ändert.

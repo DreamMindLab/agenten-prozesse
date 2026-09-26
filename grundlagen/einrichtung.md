@@ -24,11 +24,11 @@ Schick mir kurz:
 2. Was verkaufst du, und wohin soll der Content führen?
 3. Wie sollen wir klingen? (du/Sie, 3 Eigenschaften)
 
-Oder antworte „Positionierung“, dann erarbeiten wir das in einem kurzen Interview.
+Oder antworte „Positionierung“ (wofür du stehst) bzw. „Angebot“ (was du verkaufst), dann erarbeiten wir das im Gespräch.
 Oder antworte „mach trotzdem“, dann arbeite ich mit Annahmen und markiere sie.
 ```
 
-Antwortet der Nutzer „Positionierung“: `prozesse/positionierung.md` ausführen (der Prozess ist von diesem Startcheck ausgenommen), danach den ursprünglichen Auftrag.
+Antwortet der Nutzer „Positionierung“: `prozesse/positionierung.md` ausführen, bei „Angebot“: `prozesse/angebot-entwickeln.md` (beide sind von diesem Startcheck ausgenommen), danach den ursprünglichen Auftrag.
 
 Nach der Antwort:
 - Nutze die Angaben für den aktuellen Auftrag.

@@ -77,6 +77,7 @@ Nur Prozesse, die sich ändern. Alle anderen Schritte bleiben.
 | `positionierung.md` | Frage 4 um X, Threads und Substack ergänzen; Recherche auf Englisch und auf US-Accounts. Geldseite: US-Werberecht für Ergebnis-Aussagen (Abschnitt 3). |
 | `social-media-post.md`, `30-tage-contentplan.md` (Werbe-Ebene) | Zusätzliche Plattformen, falls der Nutzer sie bespielt (Abschnitt 7). Kommentar-Hinweis auf X als Antwort unter dem eigenen besten Post des Tages. |
 | `newsletter.md`, `grundlagen/langform-interview.md` | Betreffzeilen: auch die kleingeschriebene „Geständnis“-Form („i almost quit last week“) und „You're not [bad thing]: [good thing]“ sind üblich (Abschnitt 7). |
+| `angebot-entwickeln.md` | Recherche auf Englisch, Anzeigen in der Meta-Werbebibliothek für die USA. Garantie: Bedingungen klar offenlegen und einhalten (FTC, *Guides for the Advertising of Warranties and Guarantees*, 16 CFR Part 239); statt Widerrufsrecht eine klare Refund Policy. Das Fernunterrichtsschutzgesetz entfällt für US-Kunden. Ergebnis- und Einkommensaussagen nach Abschnitt 3. Preise in `$`. |
 | `buchhaltung.md` | Bleibt deutsch. Zusätzlich: Rechnungen an US-Kunden markieren und Klärung mit dem Steuerberater anstoßen (Abschnitt 1). |
 
 ## 7. Plattformen und Stil (aus Dan Koes Eden-Workflows)
@@ -92,4 +93,4 @@ Im US-Markt sind drei Plattformen deutlich relevanter als in Deutschland, wo das
 
 ## Quellen
 
-FTC Endorsement Guides 2023 (ftc.gov, „FTC's Endorsement Guides: What People Are Asking“); FTC Consumer Reviews and Testimonials Rule (ftc.gov, Q&A); FTC Policy Statement Regarding Advertising Substantiation; FTC Notice of Proposed Rulemaking Earnings Claim Rule (Januar 2025); CAN-SPAM Act (FTC-Leitfaden für Unternehmen); Netflix English (USA) Timed Text Style Guide; Edison Research, *Infinite Dial*; Stripe/Avalara zu Sales-Tax-Schwellen; Art. 3 DSGVO; Dan Koe, Short-Form-Specialist-, Long-Form-Outliner- und Marketing-Strategist-Workflows für Eden (Plattform- und Stilregeln, Abschnitt 7).
+FTC Endorsement Guides 2023 (ftc.gov, „FTC's Endorsement Guides: What People Are Asking“); FTC Consumer Reviews and Testimonials Rule (ftc.gov, Q&A); FTC Policy Statement Regarding Advertising Substantiation; FTC Notice of Proposed Rulemaking Earnings Claim Rule (Januar 2025); CAN-SPAM Act (FTC-Leitfaden für Unternehmen); Netflix English (USA) Timed Text Style Guide; Edison Research, *Infinite Dial*; Stripe/Avalara zu Sales-Tax-Schwellen; FTC Guides for the Advertising of Warranties and Guarantees (16 CFR Part 239); Art. 3 DSGVO; Dan Koe, Short-Form-Specialist-, Long-Form-Outliner- und Marketing-Strategist-Workflows für Eden (Plattform- und Stilregeln, Abschnitt 7).

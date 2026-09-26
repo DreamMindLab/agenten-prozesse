@@ -58,7 +58,7 @@ Werbe-Ebene (Schritt 6) und Wochenmodus nach Dan Koe (Marketing-Strategist- und 
    - **Anfragen** (zum Angebot führen): Angebot, Beweis, Einwände
    Launches und Aktionen aus den Terminen einplanen: 1–2 Wochen vorher Vertrauens- und Problem-Beiträge zum Thema, dann Angebot.
 6. **Werbe-Ebene fürs eigene Angebot.** Werbung läuft jeden Tag ein bisschen mit, statt in einzelnen Verkaufsposts gebündelt.
-   - **Diagnose übernehmen:** Bewusstseinsstufe und Marktreife aus `prozesse/copywriting.md`, Schritt 4 (gespeichert oder neu). Dazu der **Kongruenz-Satz**: das eine Versprechen, auf das alle Werbe-Elemente zeigen und das die Landingpage ohne Scrollen sagen muss. Passt die Landingpage nicht dazu: dem Nutzer sagen.
+   - **Diagnose übernehmen:** Bewusstseinsstufe und Marktreife aus `prozesse/copywriting.md`, Schritt 4 (gespeichert oder neu). Liegt ein Angebots-Blueprint vor (`prozesse/angebot-entwickeln.md`), Große Idee, Mechanismus und Einwände daraus übernehmen. Dazu der **Kongruenz-Satz**: das eine Versprechen, auf das alle Werbe-Elemente zeigen und das die Landingpage ohne Scrollen sagen muss. Passt die Landingpage nicht dazu: dem Nutzer sagen.
    - **Eingebettete Hinweise (fast täglich, zählen nicht als eigener Beitrag):**
      - **Kommentar-Hinweis:** 1–2 Sätze als erster Kommentar unter dem eigenen Beitrag des Tages. Führt dessen Gedanken weiter, wechselt nie das Thema, endet beim Angebot oder Newsletter (Instagram: Stichwort per DM oder „Link in Bio“, dort sind Links in Kommentaren nicht klickbar; LinkedIn: Link im Kommentar).
      - **Newsletter-Hinweis:** 2–5 Zeilen an der Stelle, wo die Idee der Mail auf das Angebot trifft, als nächster Schritt für alle, die das beschriebene Ergebnis wollen (`prozesse/newsletter.md`).

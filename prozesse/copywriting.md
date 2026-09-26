@@ -55,7 +55,7 @@ Dieser Prozess ist auch der **Kern für Landingpage, E-Mail-Marketing und Ads**:
 5. **Botschaft festlegen**, bevor du formulierst:
    - **Eine dominante Leistung:** Von allem, was das Angebot tut, die eine Wirkung, die das dominante Verlangen aus Schritt 4 erfüllt. Nicht was es *ist* (Merkmale), sondern was es *tut*. Ein Text, eine Hauptleistung.
    - Kernversprechen (in Kundensprache aus Schritt 3)
-   - Mechanismus: warum es funktioniert, was anders ist
+   - Mechanismus: warum es funktioniert, was anders ist (aus „Angebots-Details“ in `marke/angebot.md` bzw. dem Angebots-Blueprint, falls vorhanden)
    - Beweise: nur aus `marke/angebot.md` oder vom Nutzer, nichts erfinden. Den stärksten verfügbaren nehmen und direkt neben die Aussage stellen, die er stützt. Rangfolge: Vorführung (zeigen, wie es funktioniert) → konkrete Zahlen und Belege → Kundenstimme von jemandem wie dem Leser, die einen echten Einwand beantwortet → Durchschnittswerte → geliehene Autorität → bloße Behauptung. Aussagen ohne Beleg im Output als „belegen“ markieren.
    - Die 3 wichtigsten Einwände aus Schritt 3 und die Antwort darauf
    - Die Handlung aus Schritt 2

@@ -51,7 +51,7 @@ Zur Länge: Laut einer Vidyard-Auswertung von 850 B2B-Verkaufsvideos (2025) hatt
    1. **Hook (erste 30–60 Sek.):** Das dominante Verlangen ansprechen, bisherige Fehlversuche benennen, ein großes, aber belegbares Versprechen geben. Sagen, für wen das Video ist.
    2. **Story (ca. 25–35 % der Länge):** Wer spricht, der Tiefpunkt, der Wendepunkt (die Erkenntnis), der falsche Glaube, den der Zuschauer noch hat, und warum es nicht seine Schuld war. **Nur echte Geschichte des Nutzers.**
    3. **Lösung (ca. 20–30 %):** Der Mechanismus (wie es funktioniert), erste Ergebnisse, echte Beweise, die Einwände.
-   4. **Angebot (ca. 15–20 %):** Was man bekommt (Bestandteile mit Nutzen), Preis, Garantie, echte Frist.
+   4. **Angebot (ca. 15–20 %):** Was man bekommt (Bestandteile mit Nutzen), Preis, Garantie (Bedingungen nach `grundlagen/deutschland.md`, Abschnitt 3), echte Frist.
    5. **Abschluss:** Blick auf das Ergebnis, CTA, CTA-Wiederholung.
    Zum Ton: Diese Dramaturgie stammt aus dem US-Direktmarketing. Wie stark Tiefpunkt, Versprechen und Dringlichkeit zugespitzt werden, legt `marke/tonalitaet.md` fest (Feld „Zuspitzung“), ohne Angabe sachlich-pointiert. **Einkommens- und Erfolgsversprechen** nur mit Beleg und als Einzelfall gekennzeichnet (`grundlagen/deutschland.md`, Abschnitt 3).
    Zu Wertangaben und Preisen: Einzelwerte im „Value Stack“ nur nennen, wenn sie sich begründen lassen (z. B. tatsächlicher Einzelpreis). Keinen „statt X €“-Preis, der nie verlangt wurde. Das ist irreführende Preiswerbung. Frist und Knappheit nur, wenn echt.

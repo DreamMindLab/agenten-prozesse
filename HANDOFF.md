@@ -2,6 +2,20 @@
 
 ## Notizen (manuell)
 
+### 2026-09-26 (3) — Offer Consultant → Prozess „Angebot entwickeln“ (Branch claude/stoic-albattani-syybqn, noch nicht in main)
+
+**Stand:** Sechster Dan-Koe-Skill (Offer Consultant, baut auf Hormozis Wertgleichung auf) als neuer Prozess `prozesse/angebot-entwickeln.md` (Strategie & Recherche, v1). **Jan will Eden nicht nutzen**: Eden ist nirgends als Werkzeug vorgesehen, nur als Quelle genannt. Nicht mit Hermes erprobt.
+
+**Was sich geändert hat:**
+- **`angebot-entwickeln.md`:** Beratung mit einer Frage pro Nachricht; Phase 1 „was zuerst verkaufen“ (7 Fakten, 4 Möglichkeiten, Entscheidungsregeln), Phase 2 Lücken; Recherche mit Websuche und Meta-Werbebibliothek statt Eden; Diagnose (Bewusstsein, Schmerz, Kaufkraft, Erreichbarkeit, Wachstum); Bau nach Wertgleichung (Bestandteile, Mechanismus, Garantie, Preis mit Rechnung, Verstärker); Blueprint mit (Vorschlag)/(belegen: …); Entwurf für `marke/angebot.md`. Vom Startcheck für `angebot.md` ausgenommen.
+- **`grundlagen/deutschland.md`, Abschnitt 3:** zwei neue Punkte. **Garantien:** Bedingungen und Hinweis auf gesetzliche Rechte (§ 479 BGB für Waren, auch Zufriedenheitsgarantien; § 3a UWG), ersetzt das Widerrufsrecht nicht. **Fernunterrichtsschutzgesetz:** überwiegend aufgezeichnete Lernprogramme mit Fragemöglichkeit brauchen ZFU-Zulassung, auch bei Unternehmern, sonst nichtig (BGH 12. 6. 2025, III ZR 109/24); überwiegend live nicht (BGH 5. 2. 2026, III ZR 137/25).
+- `marke/angebot.md`: optionaler Abschnitt „Angebots-Details“ (Ergebnis, Mechanismus, Garantie, Einwände). Copywriting, Landingpage, Contentplan (Werbe-Ebene), Verkaufsvideo und Positionierung verweisen auf Blueprint bzw. diese Details.
+- Startcheck-Nachricht bietet jetzt „Positionierung“ und „Angebot“ an.
+- `us-markt.md`: Zeile für den Angebotsprozess (FTC 16 CFR Part 239, Refund Policy, kein FernUSG).
+- Positionierung: Icon `users`, Reihenfolge 57; Angebot 58; Contentplan bleibt 60.
+
+**Landminen:** Die Anwendung von § 479 BGB auf digitale Produkte und Dienstleistungen ist als Einordnung formuliert, nicht als gesicherte Rechtslage. Die FernUSG-Rechtsprechung entwickelt sich weiter (zwei BGH-Urteile in acht Monaten).
+
 ### 2026-09-26 (2) — Dan-Koe-Skills eingearbeitet (Branch claude/stoic-albattani-syybqn, noch nicht in main)
 
 **Stand:** Jan hat 5 Eden-Skills von Dan Koe geschickt (Marketing Strategist, Short-Form Specialist, Long-Form Outliner, Weekly Content Strategist, Personal Brand Strategist; Offer Consultant fehlt noch). Ergebnis der Prüfung: **nicht US-spezifisch, sondern an Eden gebunden.** Die Methoden sind übertragbar; US-only sind nur Plattformen (X, Threads, Substack Notes) und englische Stilregeln. Deshalb **keine eigenen US-Prozesse**, sondern: 1 neuer Prozess, Integrationen in bestehende Prozesse, kleine Ergänzung im US-Modus. Auf Deutsch in eigenen Worten, Quelle jeweils genannt. **Nicht mit Hermes erprobt.**

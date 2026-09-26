@@ -4,7 +4,7 @@ kategorie: Video & Audio
 icon: play
 beschreibung: Vollständige Produktion eines YouTube-Videos: Titel und Thumbnail zuerst, Skript, Schnitt, Beschreibung, Kapitel, Shorts.
 status: fertig
-version: 3
+version: 4
 reihenfolge: 50
 stichworte: YouTube, YouTube-Video, Thumbnail, Video-Skript, Long-Form, YouTube-Titel, Kapitel, Tutorial-Video
 ---
@@ -95,7 +95,7 @@ Worauf es ankommt:
     - [ ] Keine KI-Person, die als echter Mensch auftritt; Kennzeichnung korrekt gesetzt bzw. vermerkt.
     - [ ] Als privat/Entwurf hochgeladen oder als Dateien geliefert, **nicht veröffentlicht**.
     - [ ] Harte Kriterien aus `grundlagen/qualitaet-und-lernen.md` erfüllt.
-11. **Foundation-Agent.** Vorgehen: `grundlagen/qualitaet-und-lernen.md`. Zusätzlich: Nach ca. 7 Tagen (bzw. Ende des Tests) CTR, AVD, AVP und den Gewinner aus „Test & Compare“ auswerten, falls Zugriff besteht. Die **Stelle im Zuschauerbindungs-Diagramm** mit dem größten Abfall benennen und als Regel speichern (z. B. „Einstieg zu lang“, „Kapitel 3 zu theoretisch“).
+11. **Foundation-Agent.** Vorgehen: `grundlagen/qualitaet-und-lernen.md`. Zusätzlich: Nach ca. 7 Tagen (bzw. Ende des Tests) CTR, AVD, AVP und den Gewinner aus „Test & Compare“ auswerten, falls Zugriff besteht. Die **Stelle im Zuschauerbindungs-Diagramm** mit dem größten Abfall benennen und als Regel speichern (z. B. „Einstieg zu lang“, „Kapitel 3 zu theoretisch“). Liegt die CTR unter ca. 5 % und unter dem eigenen Schnitt: Titel und Thumbnail überarbeiten, nicht das Video (`grundlagen/themen-und-verstaendlichkeit.md`, Baustein 5). Shorts wie Reels auswerten (Weiterwisch-Rate, Wiedergabe).
 
 ## Output-Format
 

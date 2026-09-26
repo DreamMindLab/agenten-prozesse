@@ -14,7 +14,7 @@
 |---|---|---|---|
 | [Social-Media-Post](prozesse/social-media-post.md) | Einzelpost für Instagram oder LinkedIn: Hook, ein Gedanke, CTA. | Instagram-Post, LinkedIn-Post, Posting, Caption, Textpost, Bildpost | fertig v3 |
 | [Karussell-Post](prozesse/karussell-post.md) | Mehrseitiges Karussell für Instagram und LinkedIn (PDF): Hook, zweiter Hook, Mehrwert, CTA. | Carousel, Slides, Swipe-Post, Dokument-Post, PDF-Post, LinkedIn-Karussell | fertig v3 |
-| [Reel / Kurzvideo](prozesse/reel-kurzvideo.md) | Instagram-Reel aus eigener Aufnahme, Avatar des Nutzers oder komplett KI-produziert, recycelbar für TikTok. | Reel, Instagram Reel, TikTok, Short, Kurzvideo, Kurzvideo-Skript, Faceless Reel, Talking Head, KI-Avatar, Avatar-Video | fertig v4 |
+| [Reel / Kurzvideo](prozesse/reel-kurzvideo.md) | Instagram-Reel aus eigener Aufnahme, Avatar des Nutzers oder komplett KI-produziert, recycelbar für TikTok. | Reel, Instagram Reel, TikTok, Short, Kurzvideo, Kurzvideo-Skript, Faceless Reel, Talking Head, KI-Avatar, Avatar-Video | fertig v5 |
 
 ## Text & Copy
 
@@ -45,16 +45,16 @@
 
 | Prozess | Wofür | Stichworte | Status |
 |---|---|---|---|
-| [YouTube-Video](prozesse/youtube-video.md) | Vollständige Produktion eines YouTube-Videos: Titel und Thumbnail zuerst, Skript, Schnitt, Beschreibung, Kapitel, Shorts. | YouTube, YouTube-Video, Thumbnail, Video-Skript, Long-Form, YouTube-Titel, Kapitel, Tutorial-Video | fertig v3 |
+| [YouTube-Video](prozesse/youtube-video.md) | Vollständige Produktion eines YouTube-Videos: Titel und Thumbnail zuerst, Skript, Schnitt, Beschreibung, Kapitel, Shorts. | YouTube, YouTube-Video, Thumbnail, Video-Skript, Long-Form, YouTube-Titel, Kapitel, Tutorial-Video | fertig v4 |
 | [Podcast-Episode](prozesse/podcast-episode.md) | Sprechfertige Episode: Skript oder Interview-Leitfaden, Vertonung (eigene Stimme oder Stimmklon), Shownotes, Clips. | Podcast, Podcast-Folge, Episode, Audio, Vertonung, Stimmklon, Interview, Shownotes, Video-Podcast | fertig v2 |
 
 ## Strategie & Recherche
 
 | Prozess | Wofür | Stichworte | Status |
 |---|---|---|---|
-| [Positionierung](prozesse/positionierung.md) | Wofür der Nutzer steht und für wen: Interview, Marktrecherche, Strategie-Dokument mit Themenbaum und fertigen Entwürfen für die marke/-Dateien. | Positionierung, Personal Brand, Personal Branding, Markenstrategie, Nische, wofür stehe ich, Themenbaum, Content-Richtung, Marke ausfüllen, Neustart, Zielgruppe finden | fertig v1 |
+| [Positionierung](prozesse/positionierung.md) | Wofür der Nutzer steht und für wen: Interview, Marktrecherche, Strategie-Dokument mit Themenbaum und fertigen Entwürfen für die marke/-Dateien. | Positionierung, Personal Brand, Personal Branding, Markenstrategie, Nische, wofür stehe ich, Themenbaum, Content-Richtung, Marke ausfüllen, Neustart, Zielgruppe finden | fertig v2 |
 | [Angebot entwickeln](prozesse/angebot-entwickeln.md) | Was zuerst verkaufen, und wie daraus ein Angebot wird, das man schwer ablehnen kann: Beratung per Interview, Wertgleichung, Mechanismus, Garantie, Preis mit Rechnung. | Angebot, Angebot entwickeln, Angebot prüfen, was soll ich verkaufen, erstes Produkt, Produktidee, Preis, Preisgestaltung, Garantie, Paket, Offer, Wertgleichung, Mechanismus, Coaching-Angebot, Kurs, digitales Produkt | fertig v1 |
-| [30-Tage-Contentplan](prozesse/30-tage-contentplan.md) | Monatsplan für Instagram und LinkedIn: Themen-Säulen, Formate, Hooks, Termine, Werbe-Ebene fürs eigene Angebot – dazu ein Wochenmodus mit Ideen aus den eigenen Gewinnern. | Contentplan, Redaktionsplan, Themenplan, Posting-Plan, Content-Kalender, Monatsplan, Content-Strategie, Wochenplan, Ideen für diese Woche, Angebot bewerben, Promotion, Werbeplan, Launch-Plan | fertig v3 |
+| [30-Tage-Contentplan](prozesse/30-tage-contentplan.md) | Monatsplan für Instagram und LinkedIn: Themen-Säulen, Formate, Hooks, Termine, Werbe-Ebene fürs eigene Angebot – dazu ein Wochenmodus mit Ideen aus den eigenen Gewinnern. | Contentplan, Redaktionsplan, Themenplan, Posting-Plan, Content-Kalender, Monatsplan, Content-Strategie, Wochenplan, Ideen für diese Woche, Angebot bewerben, Promotion, Werbeplan, Launch-Plan | fertig v4 |
 | [Marktforschung](prozesse/marktforschung.md) | Zielgruppe, Wettbewerb, Nachfrage und Preise mit belegten Quellen analysieren – für eine konkrete Entscheidung. | Marktanalyse, Wettbewerbsanalyse, Konkurrenzanalyse, Zielgruppe, Avatar, Nische, Kundeninterview, Preisrecherche, Nachfrage prüfen | fertig v1 |
 
 ## Business

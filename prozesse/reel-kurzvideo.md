@@ -4,7 +4,7 @@ kategorie: Social Media
 icon: sparkles
 beschreibung: Instagram-Reel aus eigener Aufnahme, Avatar des Nutzers oder komplett KI-produziert, recycelbar für TikTok.
 status: fertig
-version: 4
+version: 5
 reihenfolge: 12
 stichworte: Reel, Instagram Reel, TikTok, Short, Kurzvideo, Kurzvideo-Skript, Faceless Reel, Talking Head, KI-Avatar, Avatar-Video
 ---
@@ -75,7 +75,7 @@ Einrichtung und Keys: `grundlagen/einrichtung.md`. Fehlt das HyperFrames-Kit, in
    - **Ergebnis zuerst:** das Endergebnis kurz zeigen, dann „So geht's:“
    - **Wiedererkennen:** eine Situation, in der sich die Zielgruppe sofort erkennt.
    Regeln: Thema in 1–2 Sekunden klar, einfache Sprache, Anrede laut `marke/tonalitaet.md`, keine Begrüßung, kein Intro. Wähle die Variante, die die Hauptfrage am klarsten und spezifischsten stellt, und notiere, warum. Weitere Einstiegsfamilien und die Abwechslung zum letzten Reel: Baustein 6.
-7. **Skript mit Timecodes** schreiben (15–30 s; Startwert ca. 2 gesprochene Wörter pro Sekunde, sobald vorhanden das gemessene Tempo aus deinem Gedächtnis, `grundlagen/deutschland.md`, Abschnitt 1). Alle 2–3 Sekunden passiert etwas Neues (Szenenwechsel, Text, Bewegung, Schnitt). Der Payoff kommt **vor** dem CTA; die Antwort darf nicht nur „in den Kommentaren“ stehen.
+7. **Skript mit Timecodes** schreiben (15–30 s; Startwert ca. 2 gesprochene Wörter pro Sekunde, sobald vorhanden das gemessene Tempo aus deinem Gedächtnis, `grundlagen/deutschland.md`, Abschnitt 1). Alle 2–3 Sekunden passiert etwas Neues (Szenenwechsel, Text, Bewegung, Schnitt). Der Payoff kommt **vor** dem CTA; die Antwort darf nicht nur „in den Kommentaren“ stehen. Der CTA hält die Leute auf der Plattform (teilen, speichern, kommentieren, Stichwort per DM); nie „folg mir auch auf …“ oder „schreib mir auf …“: Wer die App verlässt, ist für die Plattform ein schlechtes Signal (Torben Platzer).
 
 ```
 [0–3 s]  Hook: <Text> | Bild: <Szene / Einstellung> | Overlay: <max. ca. 35 Zeichen>
@@ -137,7 +137,7 @@ Einrichtung und Keys: `grundlagen/einrichtung.md`. Fehlt das HyperFrames-Kit, in
 15. **Foundation-Agent.** Vorgehen: `grundlagen/qualitaet-und-lernen.md`. Zusätzlich:
     - Bei der ersten Vertonung mit einer Stimme (B, C) bzw. dem ersten Rohvideo (A): Sprechtempo messen (Wörter ÷ Sekunden) und speichern.
     - Merken, welche Higgsfield-Modelle und Prompt-Bausteine (C) bzw. welche Avatar-Einstellungen (B) brauchbare Ergebnisse geliefert haben (Trefferquote).
-    - Zahlen nach Baustein 5: Aufrufe, durchschnittliche Wiedergabedauer, Sends, Saves, neue Follower. Mit Produktionsweg, Winkel und Einstiegsfamilie speichern, damit sichtbar wird, was besser läuft.
+    - Zahlen nach Baustein 5: Aufrufe, durchschnittliche Wiedergabedauer, Weiterwisch-Rate, Sends, Saves, neue Follower. Mit Produktionsweg, Winkel und Einstiegsfamilie speichern, damit sichtbar wird, was besser läuft. Bei schwachen Zahlen die Diagnose aus Baustein 5 stellen (Einstieg oder Länge) und die Ziellänge für das nächste Reel daraus ableiten.
 
 ## Output-Format
 
@@ -170,7 +170,7 @@ Musik/Soundeffekte: <keine / Quelle + Lizenz>
 Alternative Openings: <die 2 anderen aus Schritt 6>
 Quality Check: <bestanden in Runde X / offen: Kriterium + Grund>
 
-Bitte schick mir nach 7 Tagen: Aufrufe, durchschnittliche Wiedergabedauer, Sends, Saves, neue Follower.
+Bitte schick mir nach 7 Tagen: Aufrufe, durchschnittliche Wiedergabedauer, Weiterwisch-Rate („Übersprungen“ in den Insights), Sends, Saves, neue Follower.
 ```
 
 Bei Weg A vorher, nach Schritt 8:

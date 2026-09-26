@@ -2,6 +2,18 @@
 
 ## Notizen (manuell)
 
+### 2026-09-26 (3) — Torben-Platzer-Tipps, Verkaufszeitpunkt neuer Account (Branch claude/beautiful-keller-9ms48d)
+
+**Quelle:** zwei Podcast-Transkripte von Torben Platzer (#136 Personenmarke in 6 Schritten, #140 10 Social-Media-Tipps). Das meiste war schon drin. Er verkauft Agentur und Workshops; seine Werte sind als Praktiker-Startwerte markiert.
+
+**Geändert:** Baustein 5 (frühestens nach 7 Tagen auswerten; Diagnose Weiterwisch-Rate > ca. 50 % → Einstieg, Wiedergabe < 60–70 % → auf ca. 2× durchschnittliche Wiedergabedauer kürzen, YouTube-CTR < ca. 5 % → Titel/Thumbnail; Gewinnerformat ≠ meiste Aufrufe), Baustein 2 (große Vorbilder: was sie klein taten), Reel v5 (Weiterwisch-Rate abfragen, CTA hält Leute auf der Plattform), YouTube v4 (CTR-Diagnose), Positionierung v2 (kein „Meine Geschichte“-Beitrag; direkt verkaufen, Content-Werbung später), Contentplan v4 (Startphase ca. 2 Monate ohne eigenständige Werbe-Beiträge, endet früher ab 3 unaufgeforderten Anfragen; Input „seit wann postet der Nutzer“; DM-Stichwort vor Link in Bio), `marke/design.md` (Abschnitt „Roter Faden“: Markenzeichen, Signature-Format; max. 2–3 Schriften).
+
+**Recherche Verkaufszeitpunkt** (Meta-Learning, Express, 8 Suchen): Dan Koe und Justin Welsh verkaufen früh; Hormozi „give in public, ask in private“, ca. 3:1 Nutzen zu Bitte; Torben 3–6 Monate (nur eigene Erfahrung). Keine belastbare Zahl zum Zeitpunkt, deshalb Startwert mit Messung. Nicht übernommen: Sprout-Social-Zahl (46 % entfolgen wegen Werbung, US 2016). Instagram zeigt die Weiterwisch-Rate seit Aug. 2025; Richtwerte dafür schwanken (30–50 %), Instagram nennt keinen.
+
+**Offen:** Baustein 8 „Formattest und Durchhalten“ (3–4 Formate × 10 Videos, 30 Tage, optional anonymer Test-Account, nicht Talking Head mit Text-im-Bild mischen, 6–12 Monate ein Format, Profil zweitrangig) ist geschrieben, aber nicht im Repo: Anhängen wurde vom Berechtigungsfilter blockiert. Nach Freigabe anhängen und aus Positionierung, Video-Marketing und Contentplan verweisen.
+
+**Verworfen:** „69 % hören nicht auf Werbung“, „Nano-Creator 4–8× Engagement“ (ohne Quelle); „keine Werbung schalten“ (n = 1); täglicher Themen-Agent mit festen Quellen (eigener Prozess, später).
+
 ### 2026-09-26 (2) — Videoschnitt nach Nate Herk, fertige Aufnahme, KI-Muster-Prüfung, Gesamtprüfung (main · 2c7338e)
 
 **Stand:** 22 Prozesse fertig, `main` und `claude/nifty-cray-ipu2s4` sind gleich (Fast-Forward), `check.yml` auf `main` grün. Vorschau Version 4 veröffentlicht: https://claude.ai/artifact/S4Keh5XEyt5ufGWLXi6pEu. **Weiterhin mit keinem echten Hermes-Auftrag erprobt.** Vier Arbeitspakete:

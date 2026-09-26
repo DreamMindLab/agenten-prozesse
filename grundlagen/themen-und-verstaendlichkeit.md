@@ -24,7 +24,7 @@ Verwechsle Begeisterung für ein Thema (deine oder die des Nutzers) nicht mit Ma
 
 Du brauchst keine völlig neue Idee. Innovation heißt hier: Bewährtes verstehen und für die eigene Zielgruppe weiterentwickeln.
 
-1. Nimm die Referenz des Nutzers oder such 2–3 Beiträge im selben Format, die zum Thema gerade gut laufen, gern aus anderen Branchen.
+1. Nimm die Referenz des Nutzers oder such 2–3 Beiträge im selben Format, die zum Thema gerade gut laufen, gern aus anderen Branchen. **Bei großen Vorbildern** nicht übernehmen, was sie heute tun (Familie, Umzug, Hobbys, Verkauf laufen dort nur wegen der fertigen Marke), sondern was sie gemacht haben, als sie klein waren. Auch Taktiken aus den USA nicht ungeprüft übertragen.
 2. Halte pro Beitrag fest: Einstieg (Hook-Typ), Aufbau, Tempo bzw. Länge, Darstellungsform und **warum** es funktioniert.
 3. Übernimm das **Prinzip** und passe es an Zielgruppe und Angebot an. Bei Hooks und Titeln heißt das: das **Satzgerüst** mit Lücken aufschreiben („Nach <Anzahl> <Dingen>: So <konkretes Ergebnis>“) und mit eigener Aussage, eigenen Zahlen und eigener Geschichte füllen.
 4. **Nie** Wortlaut, Bilder, Ton oder Layout übernehmen (`marke/regeln.md`). Messbar: nie 8 oder mehr Wörter am Stück aus einer Quelle. Auch Zahlen, Namen, Geschichten und Ergebnisse der Quelle bleiben dort. Test: Würde der fertige Hook unverändert zu einem anderen Beitrag passen, fehlt noch der eigene Inhalt.
@@ -61,6 +61,13 @@ Social Media ist nicht nur Ausspielkanal, sondern die schnellste Quelle für Mar
 - Speichere sie in deinem Gedächtnis zusammen mit Thema, Framing, Hook-Typ, Format und ggf. Produktionsweg.
 - Ab 5 Beiträgen eines Formats: Muster auswerten (welche Themen, Hooks und Formate laufen besser) und bei Themenvorschlägen (Baustein 1) als Beleg nutzen.
 - **Gewinner erkennen:** Maßstab ist der eigene Durchschnitt des Accounts, nicht die absolute Zahl. Ca. 2× Durchschnitt ist solide, ab ca. 3× ein echter Treffer. Das gilt auch für fremde Beiträge bei der Muster-Suche (Baustein 2): Ein Beitrag, der den Durchschnitt seines Accounts weit übertrifft, sagt mehr als einer von einem großen Account.
+- **Frühestens nach 7 Tagen auswerten**, nie nach Stunden: Die Plattform braucht Zeit, bis sie das Video der passenden Zielgruppe zeigt.
+- **Diagnose bei schwachen Videos** (Startwerte nach Torben Platzer, Podcast-Folgen #136 und #140; Praktikerwerte, keine Plattformvorgaben, nach 10 eigenen Videos am eigenen Durchschnitt nachschärfen). Immer nur **eine** Ursache pro Video benennen, in dieser Reihenfolge:
+  1. **Weiterwisch-Rate** (Instagram-Insights „Übersprungen“, Anteil, der in den ersten 3 Sekunden weiterwischt; YouTube Shorts „Weggewischt“): über ca. 50 % → Einstieg ist das Problem. Erster gesprochener Satz muss in 3 Sekunden sitzen: schneller sprechen oder Satz ändern, nie mit Begrüßung oder Vorrede starten. Andere Praktiker nennen 30–40 % als Warnschwelle; Instagram selbst nennt keinen Zielwert.
+  2. **Durchschnittliche Wiedergabe** unter ca. 60–70 % der Videolänge → kürzen. Neue Ziellänge ≈ **2× die durchschnittliche Wiedergabedauer in Sekunden** (Beispiel: 7 s Wiedergabe bei 30 s Länge → nächstes Video ca. 14 s). Kürzen heißt: Satz für Satz fragen „brauche ich den?“, sonst raus.
+  3. **Langvideo-Klickrate** (YouTube, Impressionen): unter ca. 5 % und unter dem eigenen Schnitt → Titel und Thumbnail überarbeiten, nicht das Video. Laut YouTube-Hilfe liegt die Hälfte aller Kanäle zwischen 2 und 10 %; Werte stark von der Traffic-Quelle abhängig.
+  Die Diagnose steht im Output bei der Auswertung und wird als Regel gespeichert („Einstieg zu langsam“, „zu lang für das Thema“).
+- **Gewinnerformat ist nicht das mit den meisten Aufrufen,** sondern das mit der besten Wiedergabe, der niedrigsten Weiterwisch-Rate und echten Kommentaren. Aufrufe ohne diese drei bringen keine Kunden.
 - Liefert der Nutzer keine Zahlen: einmal beim nächsten Auftrag erinnern, dann nicht weiter nachfragen.
 
 ## Baustein 6: Winkel und Formen (Kurzformat)

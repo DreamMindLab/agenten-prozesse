@@ -4,7 +4,7 @@ kategorie: Strategie & Recherche
 icon: calendar
 beschreibung: Monatsplan für Instagram und LinkedIn: Themen-Säulen, Formate, Hooks, Termine, Werbe-Ebene fürs eigene Angebot – dazu ein Wochenmodus mit Ideen aus den eigenen Gewinnern.
 status: fertig
-version: 3
+version: 4
 reihenfolge: 60
 stichworte: Contentplan, Redaktionsplan, Themenplan, Posting-Plan, Content-Kalender, Monatsplan, Content-Strategie, Wochenplan, Ideen für diese Woche, Angebot bewerben, Promotion, Werbeplan, Launch-Plan
 ---
@@ -26,6 +26,7 @@ Werbe-Ebene (Schritt 6) und Wochenmodus nach Dan Koe (Marketing-Strategist- und 
 - **Kapazität:** Wie viele Beiträge pro Woche sind realistisch? Wer produziert (Hermes komplett, oder Nutzer liefert Aufnahmen/Fotos)? KI-Budget für den Monat.
 - **Ziele des Monats:** z. B. Reichweite aufbauen, Launch vorbereiten, Anfragen für Angebot X.
 - **Termine:** Launches, Aktionen, Webinare, Events, Feiertage, Urlaub.
+- **Seit wann postet der Nutzer regelmäßig** auf der Plattform? (Entscheidet über die Startphase in Schritt 6; einmal fragen, dann im Gedächtnis.)
 - **Beworbenes Angebot:** welches Angebot im Monat im Vordergrund steht (Standard: das erste in `marke/angebot.md`), dauerhaft offen oder Launch mit echtem Enddatum, Link zur Landingpage.
 - Aus dem Repo, immer lesen: alle Dateien in `marke/`
 - Aus deinem Gedächtnis: frühere Contentpläne, bisher gepostete Themen, Themenliste (Baustein 7), Ergebnisse (welche Themen/Formate liefen gut), Werbe-Protokoll, gespeicherte Kundensprache, Positionierung (`prozesse/positionierung.md`), falls vorhanden.
@@ -51,7 +52,7 @@ Werbe-Ebene (Schritt 6) und Wochenmodus nach Dan Koe (Marketing-Strategist- und 
    - Beweise: Ergebnisse, Fälle, Prozesse (nur echte)
    - Angebot: was es gibt, für wen, wie es abläuft
    Für jede Säule in einem Satz festhalten, **was dazugehört und was nicht**. Sonst verwässern Säulen mit der Zeit („pillar drift“).
-   Richtwert aus der Praxis: der Großteil Wissen und Vertrauen, **ca. 10–20 % direkt verkaufend**. In Launch-Wochen darf der Anteil steigen.
+   Richtwert aus der Praxis: der Großteil Wissen und Vertrauen, **ca. 10–20 % direkt verkaufend**, bei einem neuen Account erst nach der Startphase (Schritt 6). In Launch-Wochen darf der Anteil steigen.
 5. **Ziel pro Beitrag mischen.** Jede Woche enthält:
    - **Reichweite** (neue Leute erreichen, oft Reel): Probleme, überraschende Aussagen, Situationen zum Wiedererkennen
    - **Vertrauen** (Follower binden, oft Karussell): Anleitungen, Checklisten, Einblicke
@@ -60,9 +61,10 @@ Werbe-Ebene (Schritt 6) und Wochenmodus nach Dan Koe (Marketing-Strategist- und 
 6. **Werbe-Ebene fürs eigene Angebot.** Werbung läuft jeden Tag ein bisschen mit, statt in einzelnen Verkaufsposts gebündelt.
    - **Diagnose übernehmen:** Bewusstseinsstufe und Marktreife aus `prozesse/copywriting.md`, Schritt 4 (gespeichert oder neu). Liegt ein Angebots-Blueprint vor (`prozesse/angebot-entwickeln.md`), Große Idee, Mechanismus und Einwände daraus übernehmen. Dazu der **Kongruenz-Satz**: das eine Versprechen, auf das alle Werbe-Elemente zeigen und das die Landingpage ohne Scrollen sagen muss. Passt die Landingpage nicht dazu: dem Nutzer sagen.
    - **Eingebettete Hinweise (fast täglich, zählen nicht als eigener Beitrag):**
-     - **Kommentar-Hinweis:** 1–2 Sätze als erster Kommentar unter dem eigenen Beitrag des Tages. Führt dessen Gedanken weiter, wechselt nie das Thema, endet beim Angebot oder Newsletter (Instagram: Stichwort per DM oder „Link in Bio“, dort sind Links in Kommentaren nicht klickbar; LinkedIn: Link im Kommentar).
+     - **Kommentar-Hinweis:** 1–2 Sätze als erster Kommentar unter dem eigenen Beitrag des Tages. Führt dessen Gedanken weiter, wechselt nie das Thema, endet beim Angebot oder Newsletter (Instagram: Links in Kommentaren sind nicht klickbar, deshalb bevorzugt Stichwort per DM, weil die Leute dann in der App bleiben, sonst „Link in Bio“; LinkedIn: Link im Kommentar).
      - **Newsletter-Hinweis:** 2–5 Zeilen an der Stelle, wo die Idee der Mail auf das Angebot trifft, als nächster Schritt für alle, die das beschriebene Ergebnis wollen (`prozesse/newsletter.md`).
-   - **Eigenständige Werbe-Beiträge** zählen zum Verkaufsanteil aus Schritt 4 (ca. 10–20 %, in Launch-Wochen mehr). Formate stehen in `prozesse/social-media-post.md` (Werbe-Formate): Standard, Geschichte, Einwand, Beweis. Im Monat jedes Format mindestens einmal.
+   - **Startphase (neuer Account, erste ca. 2 Monate regelmäßigen Postens):** keine eigenständigen Werbe-Beiträge. Kommentar-Hinweise führen zum Newsletter oder zu einem kostenlosen Angebot, nicht zum Kauf. Verkauft wird direkt: Wer nachfragt, bekommt das Angebot per DM oder im Gespräch („gib öffentlich, verkauf privat“, Hormozi, *$100M Leads*). Die Startphase endet nach ca. 2 Monaten **oder früher**, sobald mehrere Leute (Startwert: 3) von selbst nach einem Angebot fragen. Hintergrund: Praktiker sind sich einig, dass früh verkauft werden soll (Dan Koe, Justin Welsh), aber auch, dass ein Publikum, das nur Werbung bekommt, abschaltet. Torben Platzer rät bei neuen Accounts zu 3–6 Monaten ohne Werbung im Content, nennt aber nur eigene Erfahrung. Belastbare Zahlen zum richtigen Zeitpunkt gibt es nicht; die Regel ist ein Startwert. Nach der Startphase: Anfragen und Abonnenten vorher und nachher vergleichen und die Regel im Gedächtnis anpassen.
+   - **Eigenständige Werbe-Beiträge** (nach der Startphase) zählen zum Verkaufsanteil aus Schritt 4 (ca. 10–20 %, in Launch-Wochen mehr; Hormozi rät zu höchstens 1 Bitte auf 3 Beiträge reinen Nutzen). Formate stehen in `prozesse/social-media-post.md` (Werbe-Formate): Standard, Geschichte, Einwand, Beweis. Im Monat jedes Format mindestens einmal.
    - **5 Winkel pro Woche** über alle Werbe-Elemente: Problem, Mechanismus, Beweis, Geschichte/Identität, Angebot. Kein Winkel zweimal in derselben Woche; einzige Ausnahme ist der Gewinner der Vorwoche, der nach der Regel aus Schritt 13 zwei Plätze bekommt (dann 6 Werbe-Elemente in der Woche). Der Winkel passt zum Beitrag des Tages (Beweis unter einem Ergebnis-Post, Mechanismus unter einer Anleitung, Geschichte unter einem persönlichen Post).
    - **Launch mit Enddatum:** Verkaufskampagne aus `prozesse/e-mail-marketing.md` einplanen; ein neuer Launch startet die Winkel-Rotation neu.
    - **Werberecht:** Dringlichkeit und Knappheit nur, wenn sie wirklich stimmen; jede Ergebnis-Aussage belegbar (`grundlagen/deutschland.md`, Abschnitt 3). Werbung fürs eigene Angebot braucht keine „Werbung“-Kennzeichnung, Kooperationen schon (Abschnitt 4).
@@ -78,7 +80,7 @@ Werbe-Ebene (Schritt 6) und Wochenmodus nach Dan Koe (Marketing-Strategist- und 
 12. **Quality Check (Loop).** Vorgehen: `grundlagen/qualitaet-und-lernen.md`. Kriterien:
     - [ ] Frequenz passt zur angegebenen Kapazität; KI-Kosten des Monats im Budget.
     - [ ] 3–4 Säulen, jede mit klarer Abgrenzung; keine Säule fehlt über zwei Wochen.
-    - [ ] Jede Woche enthält Reichweite, Vertrauen und Anfragen; Anteil direkt verkaufender Beiträge ca. 10–20 % (Launch-Wochen begründet mehr).
+    - [ ] Jede Woche enthält Reichweite, Vertrauen und Anfragen; Anteil direkt verkaufender Beiträge ca. 10–20 % (Launch-Wochen begründet mehr); in der Startphase keine eigenständigen Werbe-Beiträge, „Anfragen“ dann über Newsletter oder kostenloses Angebot.
     - [ ] Jeder Eintrag hat ein konkretes Thema und einen Arbeits-Hook (kein Platzhalter).
     - [ ] Keine Themen-Wiederholung aus den letzten 2 Monaten (außer bewusst begründet).
     - [ ] Termine, Launches und Aktionen aus dem Briefing sind berücksichtigt, mit Vorlauf.

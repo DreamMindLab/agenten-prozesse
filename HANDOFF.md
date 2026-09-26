@@ -2,45 +2,57 @@
 
 ## Notizen (manuell)
 
-### 2026-09-26 (2) — Videoschnitt nach Nate Herks Video „Opus 5.5 Just Changed Video Editing Forever“ (Branch claude/nifty-cray-ipu2s4)
+### 2026-09-26 (2) — Videoschnitt nach Nate Herk, fertige Aufnahme, KI-Muster-Prüfung, Gesamtprüfung (main · 2c7338e)
 
-**Stand:** Jan hat das Transkript des Videos geschickt (US-Kontext). Abgleich mit Reel, YouTube, Verkaufsvideo und Podcast: Nates fünf Schritte (transkribieren, schneiden, Beats planen, Skills pflegen, selbst prüfen) waren größtenteils schon drin, weil die Prozesse sein `hyperframes-student-kit` nutzen. Fünf Lücken geschlossen. **Noch nicht nach `main` gemergt** (Jans Freigabe offen), Vorschau nicht neu veröffentlicht, nicht mit Hermes erprobt.
+**Stand:** 22 Prozesse fertig, `main` und `claude/nifty-cray-ipu2s4` sind gleich (Fast-Forward), `check.yml` auf `main` grün. Vorschau Version 4 veröffentlicht: https://claude.ai/artifact/S4Keh5XEyt5ufGWLXi6pEu. **Weiterhin mit keinem echten Hermes-Auftrag erprobt.** Vier Arbeitspakete:
+1. **Videoschnitt:** Jan hat das Transkript von Nate Herks Video „Opus 5.5 Just Changed Video Editing Forever“ geschickt (US-Kontext). Nates fünf Schritte (transkribieren, schneiden, Beats planen, Skills pflegen, selbst prüfen) waren größtenteils schon drin, weil die Prozesse sein `hyperframes-student-kit` nutzen. Fünf Lücken geschlossen.
+2. **Fertige Aufnahme** als eigener Fall in Reel und YouTube (Jans Frage: „muss ich ein Video hochladen, was macht der Prozess?“).
+3. **KI-Muster-Prüfung** im Quality Check (Jans Frage, ob etwas gegen generisch klingende Texte sorgt).
+4. **Gesamtprüfung** des Repos auf Lücken, Bugs und Widersprüche.
 
-**Neu:** `grundlagen/video-schnitt.md` mit Abschnitt 1 Transkription lokal auf Deutsch, 2 Beat-Plan mit Regie-Notizen, 3 Kit-Skill-Zuordnung, 4 Videostil aus Vorbild, 5 Material und Ton, 6 Selbstprüfung (max. 3 Runden, Ton des Entwurfs neu transkribieren und vergleichen).
+**Neu:** `grundlagen/video-schnitt.md`: Abschnitt 1 Transkription lokal auf Deutsch, 2 Beat-Plan mit Regie-Notizen, 3 Kit-Skill-Zuordnung, 4 Videostil aus Vorbild, 5 Material und Ton, 6 Selbstprüfung (max. 3 Runden, Ton des Entwurfs neu transkribieren und vergleichen).
 
 **Geändert:**
-- `grundlagen/deutschland.md`: neuer Abschnitt 7 (fremde Marken, Logos, Fotos, Screenshots, Musik; § 23 MarkenG, §§ 51, 72 UrhG, § 22 KUG); Abschnitt 5: Stimmen Dritter lokal transkribieren.
-- `grundlagen/einrichtung.md`: Kit vor jedem Videoauftrag `git pull`, neue Skills, Whisper-Hinweise, `video-use` nur Ausweichlösung (schickt Audio an ElevenLabs).
-- `marke/design.md`: neuer Abschnitt „Videostil“ (leere Felder).
-- Reel v4, YouTube v3, Verkaufsvideo v2, Podcast v2: Verweise, Input „Regie-Notizen“, Beat-Plan, Prüfpunkte, Output-Zeilen. Keine Schritte eingefügt, Nummern unverändert.
+- **Video-Prozesse:** Reel v4, YouTube v3, Verkaufsvideo v2, Podcast v2: Verweise auf `video-schnitt.md`, Input „Regie-Notizen“, Beat-Plan, Prüfpunkte, Output-Zeilen (Beat-Plan, Musik/Soundeffekte mit Lizenz). Keine Schritte eingefügt, Nummern unverändert.
+- **Fertige Aufnahme:** Reel Schritt 1 und YouTube Schritt 1 leiten Hauptfrage, Openings, Schnittliste bzw. Kapitel aus dem Transkript ab, statt ein neues Skript zu schreiben. Kein hinzuerfundener gesprochener Satz; fehlt ein tragfähiger Einstieg, schlägt Hermes einen Satz zum Nachaufnehmen vor. Aus längeren Aufnahmen mehrere Reels (höchstens 10, Baustein 6).
+- **`grundlagen/qualitaet-und-lernen.md`:** KI-Muster-Prüfung mit 12 Mustern (aus dem `humanizer`-Skill bzw. Wikipedia „Signs of AI writing“, auf Deutsch übertragen) als hartes Kriterium für jeden Text; Gedankenstrich und deutsche Anführungszeichen ausdrücklich ausgenommen. Harte Kriterien nennen jetzt `deutschland.md`, Abschnitt 7, und im US-Modus `us-markt.md`.
+- **`grundlagen/deutschland.md`:** neuer Abschnitt 7 (fremde Marken, Logos, Fotos, Screenshots, Musik; § 23 MarkenG, §§ 51, 72 UrhG, § 22 KUG); Abschnitt 5: Stimmen Dritter lokal transkribieren.
+- **`grundlagen/einrichtung.md`:** Kit vor jedem Videoauftrag `git pull`, neue Skills, Whisper-Hinweise, `video-use` nur Ausweichlösung (schickt Audio an ElevenLabs); Zero-Retention-Modus ersetzt den AVV nicht.
+- **`marke/`:** `design.md` Abschnitt „Videostil“ (leere Felder); `regeln.md` Budget-Regel für alle Formate ohne Standardwert (vorher schätzen und freigeben lassen) und Feld „Website / CMS für Blogartikel“.
+- **Gesamtprüfung, Widersprüche behoben:** `video-marketing` v2 verbot jede KI-Person „als der Nutzer“, Reel Weg B erlaubt seinen Avatar (jetzt: nur Reels, mit Zustimmung). Contentplan v3: „kein Winkel doppelt“ gegen „Gewinner bekommt zwei Plätze“ (jetzt: Gewinner der Vorwoche als einzige Ausnahme). Baustein 6 „nie eine Zusammenfassung“ gegen Karussell-Zusammenfassungs-Slide, KI-Muster 10 gegen Blog-Zusammenfassung (Ausnahmen ergänzt).
+- **Gesamtprüfung, Kleineres:** veralteter Verweis in `copywriting.md` (Schritte 2–5), „5 Ansätze“ mit 6 Optionen in `ad-texte.md`, Laufzeit-Richtwert Werbebibliothek auf 45 Tage vereinheitlicht, Blog-Einstieg nach Langform-Interview präzisiert, Transkription in Marktforschung und Arbeitsprozessen auf lokal umgestellt, US-Modus um Whisper englisch, KI-Muster englisch und Abschnitt 7 ergänzt.
 
 **Wichtigster Befund:** Laut Kit-Doku **übersetzen** Whisper-Modelle mit `.en` deutsche Sprache ins Englische; `small.en` ist der Standard in den Kit-Beispielen, `edit-video` nutzt standardmäßig ElevenLabs. Beides ist jetzt übersteuert (`--model medium --language de`).
 
-**Verworfen:** „One-Shot“ als Anspruch (Nate räumt selbst Nacharbeit ein; das Video ist auch Werbung für seine Community); US-Tempo und Show-Effekte als Regel; Event-Recap und Showreel als eigene Prozesse; fremde Logos und Produktbilder als Blickfang (in DE riskant); Kie.ai als Werkzeug (Higgsfield bleibt).
-
-**Landminen:**
-- Kit-Skills ändern sich laufend (Stand Kit-Commit vom 25. 9. 2026). Abschnitt 3 nennt deshalb einen Ausweg („nächstliegenden Skill nehmen und vermerken“).
-- `DESIGN.ais-example.md` und `assets/AIS …` im Kit sind Nates Marke; Abschnitt 3 verbietet sie.
-- Whisper-Qualität auf Deutsch (Füllwörter werden oft weggelassen) nicht getestet; ElevenLabs Scribe bleibt als Ausweichlösung nur für Aufnahmen, auf denen nur Jan spricht.
-- Abschnitt 7 in `deutschland.md` ist Einordnung, keine Rechtsberatung; Logo-Nutzung ist der unsicherste Punkt.
-- In dieser Session hat der Berechtigungsfilter Änderungen an `prozesse/` und `marke/` zunächst blockiert (vermutlich wegen der Regel „Ändere dieses Repo nicht“ in `AGENTS.md`, die für Hermes gilt). Nach Jans ausdrücklicher Wiederholung ging es.
-
-**Nachtrag, gleiche Session:**
-- **Fertige Aufnahme** (Jan schickt ein Video ohne vorheriges Skript): Reel Schritt 1 und YouTube Schritt 1 leiten Hauptfrage, Openings, Schnittliste bzw. Kapitel aus dem Transkript ab, statt ein neues Skript zu schreiben. Kein hinzuerfundener gesprochener Satz; fehlt ein tragfähiger Einstieg, schlägt Hermes einen Satz zum Nachaufnehmen vor. Reel: bei Aufnahmen über ca. 90 s bis zu 3 Reels vorschlagen.
-- **KI-Muster-Prüfung** in `grundlagen/qualitaet-und-lernen.md` (12 Muster, aus dem `humanizer`-Skill bzw. Wikipedia „Signs of AI writing“ auf Deutsch übertragen), als hartes Kriterium für jeden Text. Gedankenstrich und deutsche Anführungszeichen ausdrücklich ausgenommen.
-- Harte Kriterien nennen jetzt auch `deutschland.md`, Abschnitt 7.
-
-**Gesamtprüfung (alle 22 Prozesse, Grundlagen, `marke/`):** Verweise, Schrittnummern, Abschnitte, Bausteine und Frontmatter mechanisch geprüft (Skript), dann alles gelesen. Behoben:
-- Widerspruch: `video-marketing` verbot jede KI-Person „als der Nutzer“, Reel Weg B erlaubt seinen Avatar. Jetzt: Avatar nur für Reels, mit Zustimmung (v2).
-- Widerspruch im Contentplan: „kein Winkel doppelt“ gegen „Gewinner bekommt zwei Plätze“. Jetzt: Gewinner der Vorwoche als einzige Ausnahme (v3).
-- Baustein 6 „nie eine Zusammenfassung“ gegen die Zusammenfassungs-Slide im Karussell; KI-Muster 10 gegen die Blog-Zusammenfassung: Ausnahmen ergänzt.
-- `einrichtung.md`: Zero-Retention-Modus galt als Ersatz für den AVV; korrigiert.
-- Budget für YouTube, Verkaufsvideo, Podcast, Soundeffekte fehlte (Verweis auf `regeln.md` ins Leere): Freigabe-Regel statt erfundener Zahl. Feld für Website/CMS ergänzt (Blog verwies darauf).
-- US-Modus: Whisper englisch, KI-Muster englisch, Abschnitt 7 ergänzt; harte Kriterien verweisen im US-Modus auf `us-markt.md`.
-- Kleinere: veralteter Verweis in `copywriting.md` (Schritte 2–5), „5 Ansätze“ mit 6 Optionen in `ad-texte.md`, Laufzeit-Richtwert Werbebibliothek vereinheitlicht (45 Tage), Blog-Einstieg nach Langform-Interview präzisiert, Reel „bis zu 3 Reels“ an Baustein 6 angeglichen, doppelte Transkription bei fertiger Aufnahme, Transkription in Marktforschung und Arbeitsprozessen auf lokal umgestellt.
+**Verworfen:**
+- „One-Shot“ als Anspruch: Nate räumt selbst Nacharbeit ein, das Video ist auch Werbung für seine Community.
+- US-Tempo und Show-Effekte als Regel; Event-Recap und Showreel als eigene Prozesse (für Jan gerade nicht relevant).
+- Fremde Logos und Produktbilder als Blickfang (in Deutschland riskant; laut Recherche kann ein fremdes Logo auch bei sachlichem Bezug eine Markenverletzung sein).
+- Kie.ai als Werkzeug (Higgsfield bleibt).
+- Budgetzahl für Langvideos erfinden: stattdessen Freigabe-Regel.
 - Bewusst nicht geändert: README-Beispiel `prozesse/linkedin-artikel.md` (nur Beispiel), Buchhaltung Schritt 0 (gewollt).
 
-**Nächster Schritt:** unverändert: Hermes „Positionierung“ geben. Für Video: beim ersten Reel Weg A prüfen, ob Whisper `medium` für Jans Aufnahmen reicht, und ein Vorbild-Video für den Videostil schicken.
+**Offene Fragen an Jan:**
+- `marke/zielgruppe.md`, `angebot.md`, `tonalitaet.md` weiter leer; `beispiele.md` ebenfalls (wichtigster Hebel gegen generische Texte, Maßstab der KI-Muster-Prüfung).
+- `marke/design.md` Abschnitt „Videostil“ leer: am einfachsten ein Vorbild-Video schicken, Hermes entwirft ihn.
+- `marke/regeln.md`: Website/CMS-Feld neu und leer; übrige offene Punkte wie am 25. 9. (Company OS ja/nein, Budget-Standards, AVVs, Reverse Charge, Lexware-Tarif).
+
+**Landminen:**
+- Kit-Skills ändern sich laufend (Stand Kit-Commit vom 25. 9. 2026). `video-schnitt.md`, Abschnitt 3, nennt einen Ausweg („nächstliegenden Skill nehmen und vermerken“).
+- `DESIGN.ais-example.md` und `assets/AIS …` im Kit sind Nates Marke; Abschnitt 3 verbietet sie.
+- Whisper-Qualität auf Deutsch (Füllwörter werden oft weggelassen) nicht getestet; ElevenLabs Scribe bleibt Ausweichlösung nur für Aufnahmen, auf denen nur Jan spricht.
+- Abschnitt 7 in `deutschland.md` ist Einordnung, keine Rechtsberatung; Logo-Nutzung ist der unsicherste Punkt.
+- Berechtigungsfilter: Änderungen an `prozesse/` und `marke/` wurden zunächst blockiert (vermutlich wegen „Ändere dieses Repo nicht“ in `AGENTS.md`, das für Hermes gilt). Nach Jans ausdrücklicher Freigabe ging es. In künftigen Sessions mit Edit-Werkzeug statt Bash-Skript arbeiten und bei Blockade Jan um Freigabe bitten.
+- Vorschau-Update: Das Artifact-Tool verlangt aus einer neuen Session das Lesen der **kompletten** Live-Version (jetzt ca. 4.900 Zeilen, in Abschnitten von ca. 450 Zeilen, weil längere Abschnitte das Token-Limit sprengen). Der Watch auf das Artifact ließ sich in dieser Session nicht registrieren.
+- Querverweise wie bisher mit Skript prüfen (Dateien, „Schritt N“, „Abschnitt N“, „Baustein N“). Das Prüfskript dieser Session lag im Scratchpad und ist weg; es war einfach nachzubauen (Regex über `prozesse/`, `grundlagen/`, `marke/`).
+
+- **Fertig:** alles oben; `INDEX.md` konsistent; nach `main` gemergt (Fast-Forward), `check.yml` grün; Vorschau Version 4.
+- **Bewusst offen:** `marke/`-Inhalte (nur Jan).
+- **Nicht testbar:** Ob Hermes die Prozesse befolgt (kein Hermes-Zugang); Whisper-Qualität bei Jans Aufnahmen; ob die Kit-Skills mit einem normalisierten Whisper-Transkript ohne Anpassung laufen (laut Kit-Doku ja, nicht ausprobiert). Studien- und Rechtsangaben der früheren Sessions wurden in der Gesamtprüfung nur auf innere Stimmigkeit geprüft, nicht neu gegen Quellen.
+
+**Nächster Schritt:** unverändert Hermes „Positionierung“ geben. Für Video: beim ersten Reel Weg A (am einfachsten mit einer fertigen Aufnahme) prüfen, ob Whisper `medium` reicht, und ein Vorbild-Video für den Videostil schicken.
+
+Geändert (gesamt): `grundlagen/` (video-schnitt.md neu; deutschland.md, einrichtung.md, qualitaet-und-lernen.md, themen-und-verstaendlichkeit.md, langform-interview.md, us-markt.md), `marke/` (design.md, regeln.md), `prozesse/` (reel-kurzvideo, youtube-video, verkaufsvideo, podcast-episode, video-marketing, 30-tage-contentplan, copywriting, ad-texte, angebot-entwickeln, marktforschung, arbeitsprozesse), `INDEX.md`, `HANDOFF.md`
 
 ### 2026-09-26 — Deutschland-Anpassung, US-Modus, Dan-Koe-Methoden, zwei neue Prozesse (main · 10ddc59)
 

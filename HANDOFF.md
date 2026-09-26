@@ -56,7 +56,7 @@
 
 **Nächster Schritt:** Hermes einen ersten echten Auftrag geben: „Positionierung“ und den Telegram-Output gegen `prozesse/positionierung.md`, Schritt 8 prüfen. Danach „Angebot“, dann die Entwürfe in `marke/` einfügen.
 
-Geändert (gesamt): `AGENTS.md`, `grundlagen/` (deutschland.md, us-markt.md, langform-interview.md neu; einrichtung.md, qualitaet-und-lernen.md, themen-und-verstaendlichkeit.md), `marke/` (angebot.md, regeln.md, tonalitaet.md), `prozesse/` (positionierung.md, angebot-entwickeln.md neu; 18 weitere geändert), `INDEX.md`, `HANDOFF.md`
+Geändert (gesamt): `AGENTS.md`, `grundlagen/` (deutschland.md, us-markt.md, langform-interview.md neu; einrichtung.md, qualitaet-und-lernen.md, themen-und-verstaendlichkeit.md), `marke/` (angebot.md, regeln.md, tonalitaet.md), `prozesse/` (positionierung.md, angebot-entwickeln.md neu; 17 weitere geändert), `INDEX.md`, `HANDOFF.md`
 
 ### 2026-09-25 (2) — Content-Prozesse v2 nach KI-TALK-Podcast (main · 398a859)
 

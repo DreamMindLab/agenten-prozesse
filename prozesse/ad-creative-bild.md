@@ -17,7 +17,7 @@ Was die Daten sagen:
 - **Vielfalt statt Varianten.** Metas Auslieferung (Andromeda) braucht verschiedene Ansätze. Ein Ansatz, der nur mit anderer Farbe wiederholt wird, zählt nicht als neuer Ansatz (siehe `prozesse/ad-texte.md`).
 - **Bilder vs. Video.** Laut Motion (Creative-Analysen 2025) dominiert kurzes Video in der Neukundengewinnung; Bildanzeigen sind vor allem im Retargeting kosteneffizient, wo schon Interesse besteht.
 - **Nativer Look schlägt Hochglanz.** Bei DTC-Marken auf Meta erzielten Creatives im Stil von Nutzer-Content („UGC-Look“) höhere Klick- und Conversion-Raten als polierte Markenbilder (Motion, 2025). Übertragbarkeit auf Dienstleistungen/B2B ist nicht belegt, deshalb beide Stile testen.
-- **Wenig Text im Bild.** Die alte 20-%-Regel gibt es nicht mehr, aber viel Text senkt weiterhin die Leistung. Richtwert: **5–7 Wörter** im Bild, der Rest steht im Anzeigentext.
+- **Wenig Text im Bild.** Die alte 20-%-Regel gibt es nicht mehr, aber viel Text senkt weiterhin die Leistung. Richtwert: **5–7 Wörter bzw. max. ca. 40 Zeichen** im Bild (auf Deutsch gilt das Zeichenlimit, `grundlagen/deutschland.md`, Abschnitt 1), der Rest steht im Anzeigentext.
 
 ## Benötigte Inputs
 
@@ -46,7 +46,7 @@ Was die Daten sagen:
    - **Situation:** Szene aus dem Alltag der Zielgruppe (Higgsfield), mit kurzer Textzeile
    - **Kundenzitat:** nur **echte** Zitate mit Einwilligung, Name und Rolle
    Nicht erlaubt: Vorher/Nachher bei Körper, Gesundheit oder Finanzen; Text im Bild, der dem Betrachter persönliche Merkmale zuschreibt (dieselbe Regel wie in `prozesse/ad-texte.md`, Schritt 3, gilt auch für Text im Bild); nachgemachte Posts oder Nachrichten echter Personen oder Marken.
-4. **Bildtext schreiben.** Max. 5–7 Wörter pro Bild. Der Bildtext ist der visuelle Hook und **ergänzt** die Überschrift der Anzeige, er wiederholt sie nicht wortgleich.
+4. **Bildtext schreiben.** Max. 5–7 Wörter bzw. ca. 40 Zeichen pro Bild (per Skript zählen). Der Bildtext ist der visuelle Hook und **ergänzt** die Überschrift der Anzeige, er wiederholt sie nicht wortgleich.
 5. **Formate und sichere Zonen.**
    - **Feed 4:5:** 1080×1350 (oder 1440×1800).
    - **Stories/Reels 9:16:** 1080×1920. Oben ca. **14 %** (Profil, „Gesponsert“), unten ca. **35 %** (Button, Text) und seitlich je ca. **6 %** freihalten. Wichtiges (Text, Logo, Kernmotiv) liegt in der Mitte.
@@ -59,7 +59,7 @@ Was die Daten sagen:
 7. **Kontrolle auf dem Handy.** Jedes Bild auf ca. 390 px Breite verkleinert ansehen: Ist der Text ohne Zoomen lesbar? Versteht man in 1 Sekunde, worum es geht? Für 9:16 eine Maske mit den sicheren Zonen darüberlegen und prüfen, dass nichts Wichtiges darunter liegt.
 8. **Quality Check (Loop).** Vorgehen: `grundlagen/qualitaet-und-lernen.md`. Kriterien:
    - [ ] Jeder Ansatz hat ein eigenes Bildkonzept; im Set sind mindestens 3 verschiedene Bildtypen.
-   - [ ] Max. ca. 7 Wörter Text pro Bild; auf 390 px Breite ohne Zoomen lesbar.
+   - [ ] Max. ca. 40 Zeichen Text pro Bild (per Skript gezählt); auf 390 px Breite ohne Zoomen lesbar.
    - [ ] In 1 Sekunde verständlich (ein Motiv, eine Aussage).
    - [ ] 9:16: nichts Wichtiges in den gesperrten Zonen (oben 14 %, unten 35 %, seitlich 6 %).
    - [ ] Beide Formate vorhanden und jeweils eigens gestaltet.

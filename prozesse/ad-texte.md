@@ -41,7 +41,8 @@ Wie die Plattformen heute auswählen:
    - Nicht erlaubt: „Hast du Schulden?“, „Du bist über 50 und …“, „Deine Angststörung …“
    - Erlaubt: „So bekommen Selbstständige ihre Finanzen in den Griff“, „Für alle ab 50, die …“ (beschreibt das Angebot, nicht die Person)
    - Test für jeden Satz: Beschreibt er das Angebot, oder behauptet er etwas über die Person, die ihn liest?
-   - Außerdem: keine unbelegten Heilsversprechen oder Einkommensversprechen, keine Vorher-Nachher-Bilder bei Gesundheit/Körper. Anzeigen zu **Jobs, Wohnen, Krediten oder politischen/sozialen Themen** laufen in einer „Sonderkategorie“ mit eingeschränktem Targeting. Das dem Nutzer vorher sagen.
+   - Außerdem: keine unbelegten Heilsversprechen oder Einkommensversprechen, keine Vorher-Nachher-Bilder bei Gesundheit/Körper. Anzeigen zu **Jobs, Wohnen oder Krediten** laufen in einer „Sonderkategorie“ mit eingeschränktem Targeting. Anzeigen zu **Politik, Wahlen oder gesellschaftlichen Themen** schalten Meta und Google in der EU seit Oktober 2025 gar nicht mehr. Beides dem Nutzer vorher sagen.
+   - Deutsches Werberecht: keine Spitzenstellung („Nr. 1“, „der Beste“) und keine Einkommensversprechen ohne Nachweis (`grundlagen/deutschland.md`, Abschnitt 3).
 4. **Meta: 5 Ansätze festlegen.** Jeder Ansatz ist eine eigene Idee, nicht eine Umformulierung. Standard-Auswahl (anpassen, wo Belege fehlen):
    - **Problem:** das Problem in Kundensprache (ohne persönliche Zuschreibung, siehe Schritt 3)
    - **Ergebnis:** der Zustand danach, konkret und überprüfbar

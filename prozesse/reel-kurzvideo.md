@@ -65,11 +65,11 @@ Einrichtung und Keys: `grundlagen/einrichtung.md`. Fehlt das HyperFrames-Kit, in
    - **Problem zuerst:** „Dein Angebot wird ignoriert, weil …“
    - **Ergebnis zuerst:** das Endergebnis kurz zeigen, dann „So geht's:“
    - **Wiedererkennen:** eine Situation, in der sich die Zielgruppe sofort erkennt.
-   Regeln: Thema in 1–2 Sekunden klar, einfache Sprache, „du“, keine Begrüßung, kein Intro. Wähle die Variante, die die Hauptfrage am klarsten und spezifischsten stellt, und notiere, warum.
-7. **Skript mit Timecodes** schreiben (15–30 s, ca. 2,5 gesprochene Wörter pro Sekunde). Alle 2–3 Sekunden passiert etwas Neues (Szenenwechsel, Text, Bewegung, Schnitt). Der Payoff kommt **vor** dem CTA; die Antwort darf nicht nur „in den Kommentaren“ stehen.
+   Regeln: Thema in 1–2 Sekunden klar, einfache Sprache, Anrede laut `marke/tonalitaet.md`, keine Begrüßung, kein Intro. Wähle die Variante, die die Hauptfrage am klarsten und spezifischsten stellt, und notiere, warum.
+7. **Skript mit Timecodes** schreiben (15–30 s; Startwert ca. 2 gesprochene Wörter pro Sekunde, sobald vorhanden das gemessene Tempo aus deinem Gedächtnis, `grundlagen/deutschland.md`, Abschnitt 1). Alle 2–3 Sekunden passiert etwas Neues (Szenenwechsel, Text, Bewegung, Schnitt). Der Payoff kommt **vor** dem CTA; die Antwort darf nicht nur „in den Kommentaren“ stehen.
 
 ```
-[0–3 s]  Hook: <Text> | Bild: <Szene / Einstellung> | Overlay: <max. 6 Wörter>
+[0–3 s]  Hook: <Text> | Bild: <Szene / Einstellung> | Overlay: <max. ca. 35 Zeichen>
 [3–8 s]  <…>
 [x–y s]  Payoff: <Antwort auf die Hauptfrage>
 [y–z s]  CTA: <genau einer, z. B. „Schick das jemandem, der …“>
@@ -90,11 +90,11 @@ Einrichtung und Keys: `grundlagen/einrichtung.md`. Fehlt das HyperFrames-Kit, in
      - **Szenenliste:** pro Szene Beschreibung, Dauer, Kamerabewegung, Stil aus `marke/design.md`. **Keine Texte, Logos oder echten Personen** im generierten Material; Text kommt per HyperFrames darüber. Gleicher Stil-Baustein im Prompt für alle Szenen (Licht, Farbwelt, Look). Wo eine Grafik die Aussage besser zeigt (Zahlen, Schritte, Vergleich): Motion Graphics statt KI-Video.
      - **Kosten schätzen:** Szenen × Sekunden × Preis × ca. 3 Versuche. Über Budget: Szenen reduzieren oder durch Motion Graphics ersetzen. Reicht das nicht, per Telegram fragen.
      - **Szenen generieren (Higgsfield),** 9:16. Jede Szene prüfen: passt zur Aussage, keine Artefakte (Hände, Gesichter, verzerrte Objekte), kein Text im Bild. Max. 3 Versuche pro Szene, danach durch Motion Graphics ersetzen. Kosten mitschreiben.
-     - **Tonspur:** KI-Stimme (ElevenLabs, darf keine echte Person imitieren) mit Wort-Zeitstempeln, oder ohne Stimme: Text-Overlays tragen die ganze Aussage und stehen lange genug (max. ca. 3 Wörter pro Sekunde).
+     - **Tonspur:** KI-Stimme (ElevenLabs, darf keine echte Person imitieren) mit Wort-Zeitstempeln, oder ohne Stimme: Text-Overlays tragen die ganze Aussage und stehen lange genug (max. ca. 15 Zeichen pro Sekunde).
    - **Musik (alle Wege):** Trend-Audio fügt der Nutzer beim Hochladen in der Instagram-App hinzu (Musik aus der Instagram-Bibliothek lässt sich nicht vorab einbauen). Falls im Video selbst Musik nötig ist: nur lizenzfreie.
 10. **Schnitt in HyperFrames**, Komposition 1080×1920.
     - Clips nach Skript anordnen, Gesamtdauer = Tonspur (mit `ffprobe` messen).
-    - Untertitel wortgenau zur Stimme, im mittleren Bildbereich. Oben ca. 250 px und unten ca. 350 px freihalten, dort liegen die Instagram-Bedienelemente. Bei A und B das Gesicht nicht verdecken.
+    - Untertitel wortgenau zur Stimme, im mittleren Bildbereich, max. 42 Zeichen pro Zeile. Oben ca. 250 px und unten ca. 350 px freihalten, dort liegen die Instagram-Bedienelemente. Bei A und B das Gesicht nicht verdecken.
     - Text-Overlays und Motion Graphics im Markendesign.
     - Das erste Bild (Frame 0) muss sofort verständlich sein, kein schwarzer Einstieg.
     - `npx hyperframes lint`, dann Entwurf rendern (`--quality draft`).
@@ -121,6 +121,7 @@ Einrichtung und Keys: `grundlagen/einrichtung.md`. Fehlt das HyperFrames-Kit, in
     - [ ] KI-Kennzeichnung vermerkt: Avatar, Stimmklon, KI-Stimme oder realistische KI-Szenen → kennzeichnen (Instagram: „KI-Info“-Label beim Hochladen). Bei B immer.
     - [ ] Harte Kriterien aus `grundlagen/qualitaet-und-lernen.md` erfüllt.
 15. **Foundation-Agent.** Vorgehen: `grundlagen/qualitaet-und-lernen.md`. Zusätzlich:
+    - Bei der ersten Vertonung mit einer Stimme (B, C) bzw. dem ersten Rohvideo (A): Sprechtempo messen (Wörter ÷ Sekunden) und speichern.
     - Merken, welche Higgsfield-Modelle und Prompt-Bausteine (C) bzw. welche Avatar-Einstellungen (B) brauchbare Ergebnisse geliefert haben (Trefferquote).
     - Zahlen nach Baustein 5: Aufrufe, durchschnittliche Wiedergabedauer, Sends, Saves, neue Follower. Mit Produktionsweg speichern, damit sichtbar wird, welcher Weg besser läuft.
 

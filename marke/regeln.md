@@ -20,6 +20,7 @@ beschreibung: Budgets, Freigaben und No-Gos.
 - Landingpage: Builder (z. B. Webflow, WordPress, Systeme.io) oder eigene HTML-Seite + Hosting: 
 - Domain / Pfad für Landingpages: 
 - Impressum- und Datenschutz-Links: 
+- AVV (Auftragsverarbeitungsvertrag) abgeschlossen mit (z. B. E-Mail-Tool, ElevenLabs): 
 
 ## Freigaben
 

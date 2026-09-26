@@ -36,12 +36,12 @@ Einrichtung und Keys: `grundlagen/einrichtung.md`.
 1. **Briefing prüfen.** Inputs vollständig? Sind die `marke/`-Dateien noch Platzhalter, frag nach, bevor du schreibst. Thema prüfen nach `grundlagen/themen-und-verstaendlichkeit.md`, Baustein 1.
 2. **Versprechen festlegen.** Ein Satz: „Wer bis zum Ende swipt, hat ___.“ (z. B. „eine Checkliste, mit der er X in 10 Minuten prüft“). Das ist der Grund zum Speichern. Formuliere es nach Baustein 3 aus Sicht der Zielgruppe: was sie danach anders machen kann.
 3. **Gliederung als Text** (noch kein Design). Vorher Muster nach Baustein 2 sammeln (Aufbau, Slide-Anzahl, Darstellungsform gut laufender Karussells). Gesamt 7–10 Slides; mehr nur, wenn jede Slide wirklich eine eigene Aussage hat.
-   - **Slide 1 – Hook:** das Versprechen, spezifisch (Zahl, Zielgruppe, Ergebnis). Max. 12 Wörter.
+   - **Slide 1 – Hook:** das Versprechen, spezifisch (Zahl, Zielgruppe, Ergebnis). Max. 12 Wörter bzw. ca. 70 Zeichen.
    - **Slide 2 – zweiter Hook:** muss **allein** funktionieren, weil sie evtl. als Einstieg gezeigt wird. Problem zuspitzen oder zeigen, warum die übliche Lösung scheitert.
    - **Slides 3 bis n-2 – Mehrwert:** genau **eine** Aussage pro Slide. Durchnummerieren, wenn es Schritte sind.
    - **Slide n-1 – Zusammenfassung:** alles auf einen Blick. Das ist die Slide, für die gespeichert wird.
    - **Slide n – CTA:** genau ein CTA (Speichern, Weiterschicken oder Standard-CTA aus `marke/angebot.md`).
-4. **Texte schreiben.** Max. ca. 25 Wörter pro Mehrwert-Slide: Überschrift plus 1–2 Sätze. Konkrete Beispiele statt Behauptungen. Jede Slide endet so, dass man die nächste sehen will (Aufzählung angekündigt, Frage offen, „Aber: …“).
+4. **Texte schreiben.** Max. ca. 25 Wörter bzw. 150 Zeichen pro Mehrwert-Slide (auf Deutsch gilt das Zeichenlimit, `grundlagen/deutschland.md`, Abschnitt 1): Überschrift plus 1–2 Sätze. Konkrete Beispiele statt Behauptungen. Jede Slide endet so, dass man die nächste sehen will (Aufzählung angekündigt, Frage offen, „Aber: …“).
 5. **Verständlichkeits-Check** nach Baustein 4 (Kurzformat): Persona-Test und 12-Jährigen-Test für alle Slides, dann überarbeiten. Erst danach Design.
 6. **Design bauen.** HTML/CSS-Vorlage mit Farben und Schriften aus `marke/design.md`.
    - Format **1080×1350** (4:5), gilt für Instagram und LinkedIn.
@@ -59,9 +59,9 @@ Einrichtung und Keys: `grundlagen/einrichtung.md`.
     - [ ] Das Versprechen auf Slide 1 zeigt, was sich **für die Zielgruppe** ändert.
     - [ ] Verständlichkeits-Check (Schritt 5) ohne offenen Befund; kein unerklärter Fachbegriff auf den Slides.
     - [ ] Referenzen nur als Muster genutzt, kein übernommener Wortlaut oder Layout.
-    - [ ] Slide 1 enthält ein spezifisches Versprechen (Zahl, Zielgruppe oder Ergebnis) mit max. 12 Wörtern.
+    - [ ] Slide 1 enthält ein spezifisches Versprechen (Zahl, Zielgruppe oder Ergebnis) mit max. ca. 70 Zeichen (per Skript gezählt).
     - [ ] Slide 2 funktioniert allein als Einstieg (Test: Slide 1 zudecken; versteht man, worum es geht, und will weiter?).
-    - [ ] Jede Mehrwert-Slide enthält genau eine Aussage und max. ca. 25 Wörter.
+    - [ ] Jede Mehrwert-Slide enthält genau eine Aussage und max. ca. 150 Zeichen.
     - [ ] Das Versprechen aus Schritt 2 ist am Ende vollständig eingelöst.
     - [ ] Es gibt eine Zusammenfassungs-Slide, die man speichern will.
     - [ ] Genau ein CTA auf der letzten Slide.

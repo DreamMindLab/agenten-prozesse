@@ -32,7 +32,7 @@ Grundregeln aus der Praxis:
 
 ## Werkzeuge
 
-- Transkription (für Sprachnachrichten/Aufnahmen), z. B. ElevenLabs oder Whisper
+- Transkription (für Sprachnachrichten/Aufnahmen), z. B. ElevenLabs oder Whisper. Sind Kundendaten oder Stimmen Dritter enthalten: lokal mit Whisper oder nur mit AVV (`grundlagen/deutschland.md`, Abschnitt 5)
 - Company OS (Modul „Prozesse“, falls vorhanden) oder Markdown-Datei als Ablage
 - Für Automatisierungen: die Funktionen der vorhandenen Werkzeuge zuerst (Company OS, E-Mail-Tool, Lexware Office), externe Automatisierungsdienste nur nach Freigabe
 - Einrichtung: `grundlagen/einrichtung.md`
@@ -43,6 +43,7 @@ Grundregeln aus der Praxis:
 2. **Ablauf erfassen, so wie er wirklich läuft.** Am einfachsten für den Nutzer:
    - **Sprachnachricht oder Bildschirmaufnahme**, während er den Ablauf einmal durchführt und laut erklärt. Hermes transkribiert.
    - **Oder Gespräch:** Hermes fragt nacheinander: Was löst den Ablauf aus? Was machst du als Erstes, dann? Wo musst du etwas entscheiden, und wonach? Welche Werkzeuge, welche Zugänge? Was geht typischerweise schief oder wird vergessen? Woran erkennst du, dass es fertig ist?
+   Sind in der Aufnahme andere Personen zu hören oder Kundendaten zu sehen: deren Einwilligung bzw. vorher schwärzen (`grundlagen/deutschland.md`, Abschnitt 5).
    Nicht beschönigen: auch Umwege und Workarounds aufschreiben. Die sind oft die Hinweise auf Verbesserung.
 3. **Ist-Ablauf aufschreiben.** Nummerierte Schritte, jeder mit: Aktion, Werkzeug, wer, Dauer (geschätzt), Entscheidungen („wenn …, dann …“).
 4. **Durchgehen in dieser Reihenfolge**, für jeden Schritt:

@@ -37,7 +37,7 @@ Warum das so streng ist:
 
 1. **Briefing prüfen.** Inputs vollständig? Startcheck nach `grundlagen/einrichtung.md` gemacht?
 2. **Doppelung ausschließen.** Gibt es auf der Website schon einen Artikel zum selben Suchbegriff bzw. derselben Frage? Dann **diesen überarbeiten** statt einen zweiten zu schreiben (zwei Artikel zur selben Frage konkurrieren miteinander).
-3. **Suchintention analysieren.** Den Suchbegriff suchen und die Top-10 sowie die KI-Übersicht auswerten:
+3. **Suchintention analysieren.** Den Suchbegriff auf Deutsch in den Suchergebnissen für Deutschland (google.de, Sprache Deutsch) suchen und die Top-10 sowie die KI-Übersicht auswerten:
    - Was will der Suchende? (verstehen, Anleitung, vergleichen, kaufen, lokal finden)
    - Welches **Format** dominiert? (Anleitung, Liste, Vergleich, Definition, Rechner/Vorlage)
    - Welche **Fragen** werden beantwortet („Nutzer fragen auch“, Zwischenüberschriften der Top-Ergebnisse)?

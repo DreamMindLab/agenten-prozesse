@@ -46,10 +46,11 @@ Worauf es ankommt:
    - **Übergang zum CTA:** warum der Klick oder die Antwort jetzt der logische nächste Schritt ist.
    - **CTA:** genau einer, als Linktext („→ Vorlage herunterladen“), nie als nackte URL. Bei Wert-Mails ist „Antworte mir mit …“ ein guter CTA, weil Antworten die Zustellbarkeit verbessern.
    - **Look:** wie eine persönliche Mail. Wenig Bilder, keine GIFs.
+   - **Fremde Empfehlungen mit Gegenleistung** (Newsletter-Tausch, Provision, Affiliate-Link): als „Anzeige“ bzw. „Werbelink“ kennzeichnen (`grundlagen/deutschland.md`, Abschnitt 4).
    - Vorname in der ersten Zeile, falls vorhanden (Platzhalter des Tools).
    - Tonalität aus `marke/tonalitaet.md`, Copy-Regeln aus `prozesse/copywriting.md` (Schritte 8–9).
 6. **3 Betreffzeilen und Preheader.**
-   - Betreff: kurz (Richtwert 4–7 Wörter), spezifisch, macht neugierig auf die eine Idee. Kein Clickbait, das die Mail nicht einlöst. Keine Großbuchstaben-Rufe, keine Ausrufezeichen-Ketten.
+   - Betreff: kurz (Richtwert 4–7 Wörter bzw. max. ca. 40 Zeichen, damit er auf dem Handy nicht abgeschnitten wird), spezifisch, macht neugierig auf die eine Idee. Kein Clickbait, das die Mail nicht einlöst. Keine Großbuchstaben-Rufe, keine Ausrufezeichen-Ketten.
    - Die drei Varianten müssen sich im Ansatz unterscheiden (z. B. Nutzen / Frage / überraschende Aussage), nicht nur im Wortlaut.
    - Preheader: ergänzt den Betreff (zweiter Grund zum Öffnen), wiederholt ihn nicht.
 7. **Im Tool anlegen.** Als **Entwurf** mit Betreff A anlegen. Unterstützt das Tool A/B-Tests, Betreff A gegen B testen und nach **Klicks** auswerten, nicht nach Öffnungen (Apple Mail verfälscht Öffnungen). Testmail an den Nutzer schicken. **Nicht versenden**, Versandzeitpunkt laut Rhythmus vorschlagen.
@@ -63,6 +64,7 @@ Worauf es ankommt:
    - [ ] Absätze max. 3–4 Sätze, schlichter Look, keine GIFs.
    - [ ] Thema wiederholt keinen der letzten Newsletter (Gedächtnis).
    - [ ] Kein vorgetäuschter Anlass, keine erfundene Frist oder Zahl.
+   - [ ] Fremdwerbung mit Gegenleistung als „Anzeige“/„Werbelink“ gekennzeichnet.
    - [ ] Als Entwurf angelegt, Testmail verschickt, **nicht versendet**.
    - [ ] Harte Kriterien aus `grundlagen/qualitaet-und-lernen.md` erfüllt.
 9. **Foundation-Agent.** Vorgehen: `grundlagen/qualitaet-und-lernen.md`. Zusätzlich: Thema und Betreff im Gedächtnis speichern. Hast du Zugriff auf die Kennzahlen, beim nächsten Newsletter die Klickrate, Antworten und Abmeldungen des vorherigen auswerten. Welche Art Thema und Betreff bringt die meisten Klicks? Als Regel speichern.

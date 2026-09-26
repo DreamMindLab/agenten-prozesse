@@ -45,13 +45,13 @@ Worauf es ankommt:
    Ergebnis: ein Winkel, der sich von den vorhandenen Videos unterscheidet, und das Framing nach Baustein 3 aus `grundlagen/themen-und-verstaendlichkeit.md` (was ändert sich für den Zuschauer?). Kam das Thema nicht vom Nutzer: ihm Thema, Beleg (Ausreißer) und Winkel zur Bestätigung schicken (Baustein 1), bevor du weitermachst.
 3. **Verpackung zuerst: 3 Titel + 3 Thumbnail-Konzepte.**
    - **Titel:** konkretes Versprechen oder spannende Frage, das Hauptwort der Suche vorne, möglichst unter ca. 60 Zeichen (längere werden oft abgeschnitten; per Skript zählen). Der Titel muss vom Video **vollständig eingelöst** werden.
-   - **Thumbnail:** 1280×720. Ein klarer Blickfang, starker Kontrast, **max. 3–4 Wörter**, die den Titel **ergänzen** statt wiederholen. Muss in Handy-Größe (ca. 160 px breit) verständlich sein. Bei Pfad A: echtes Foto des Nutzers mit passender Mimik. **Kein KI-Gesicht, das als der Nutzer oder als echte Person auftritt.**
+   - **Thumbnail:** 1280×720. Ein klarer Blickfang, starker Kontrast, **max. 3–4 Wörter bzw. ca. 25 Zeichen**, die den Titel **ergänzen** statt wiederholen. Muss in Handy-Größe (ca. 160 px breit) verständlich sein. Bei Pfad A: echtes Foto des Nutzers mit passender Mimik. **Kein KI-Gesicht, das als der Nutzer oder als echte Person auftritt.**
    - Die drei Varianten unterscheiden sich im **Ansatz** (z. B. Ergebnis / Fehler / Neugier), nicht nur in Farben.
 4. **Skript bzw. Ablauf.**
    - **Einstieg (erste 30–60 Sek.):** Das Versprechen aus Titel und Thumbnail sofort bestätigen, zeigen, was der Zuschauer am Ende hat, ggf. einen Ausblick auf das stärkste Ergebnis. **Kein langes Intro, kein Logo-Vorspann, keine Begrüßungsrunde.**
    - **Hauptteil:** in Kapitel gegliedert. Jedes Kapitel liefert ein eigenes Zwischenergebnis und öffnet die Frage fürs nächste. Keine Passage ohne neuen Gedanken. Eigenes Material (Schritt 1) sichtbar einbauen.
    - **Ende:** Das Versprechen wird eingelöst, dann ein kurzer Hinweis auf **ein** weiterführendes Video oder das Angebot. Danach zügig enden, nicht ausklingen lassen.
-   - Pfad A: Stichpunkt-Skript (freies Sprechen wirkt natürlicher), Einstieg und Übergänge wörtlich. Pfad B: vollständiges Sprechskript (ca. 130–150 Wörter pro Minute).
+   - Pfad A: Stichpunkt-Skript (freies Sprechen wirkt natürlicher), Einstieg und Übergänge wörtlich. Pfad B: vollständiges Sprechskript (Startwert 120–140 Wörter pro Minute bzw. gemessenes Tempo, `grundlagen/deutschland.md`, Abschnitt 1).
    - Länge: so lang, wie der Inhalt trägt. Orientierung an den erfolgreichen Videos zum Thema (Schritt 2).
    - **Verständlichkeits-Check** nach Baustein 4 (Langformat), bevor das Skript an den Nutzer geht bzw. vertont wird: Persona-Test, Fachbegriffe beim ersten Auftreten erklärt, jeder abstrakte Punkt mit Beispiel.
 5. **Produktion.**
@@ -73,7 +73,7 @@ Worauf es ankommt:
     - [ ] Der Einstieg (erste 30–60 Sek.) bestätigt das Versprechen aus Titel und Thumbnail; kein Intro, kein Logo-Vorspann.
     - [ ] Jede Titelvariante wird vom Video vollständig eingelöst (Timecode der Einlösung).
     - [ ] 3 Titel und 3 Thumbnails mit unterschiedlichem Ansatz; Titel ≤ ca. 60 Zeichen (per Skript gezählt).
-    - [ ] Thumbnails auf 160 px Breite verständlich, max. 3–4 Wörter, ergänzen den Titel.
+    - [ ] Thumbnails auf 160 px Breite verständlich, max. ca. 25 Zeichen, ergänzen den Titel.
     - [ ] Jedes Kapitel bringt einen neuen Gedanken; keine Längen ohne Inhalt.
     - [ ] Verständlichkeits-Check (Schritt 4) ohne offenen Befund; kein unerklärter Fachbegriff.
     - [ ] Thema vom Nutzer gewählt oder bestätigt; Framing aus Zuschauersicht im Einstieg erkennbar (Timecode).

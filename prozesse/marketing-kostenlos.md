@@ -37,10 +37,10 @@ Grundlagen:
 2. **Bestandsaufnahme.** Liste aller vorhandenen Werte aus den Inputs. Warme Kontakte und bestehende Kunden sind fast immer der schnellste Weg zum ersten Umsatz, weil Vertrauen schon da ist.
 3. **Kanäle durchdenken.** Für jeden Kanal eine konkrete Idee notieren (auch für die, die unpassend wirken):
    - **Warme Ansprache:** Bekannte, Ex-Kollegen, frühere Kunden **persönlich** anschreiben. Nicht verkaufen, sondern erzählen, was man jetzt macht, und fragen: „Kennst du jemanden, der gerade mit ___ kämpft?“
-   - **Empfehlungen:** Zufriedene Kunden **direkt nach einem Erfolg** fragen (nicht Monate später). Es so leicht wie möglich machen: fertiger Text zum Weiterleiten. Empfohlene Kunden sind wertvoller: In einer Wharton-Studie (rund 10.000 Kunden über 6 Jahre) hatten sie mindestens 16 % höheren Kundenwert.
+   - **Empfehlungen:** Zufriedene Kunden **direkt nach einem Erfolg** fragen (nicht Monate später). Es so leicht wie möglich machen: fertiger Text zum Weiterleiten. Empfohlene Kunden sind wertvoller: In einer Studie mit rund 10.000 Kunden einer deutschen Bank über knapp 3 Jahre (Schmitt, Skiera, Van den Bulte, *Journal of Marketing* 2011) hatten sie mindestens 16 % höheren Kundenwert.
    - **Bewertungen und Google-Unternehmensprofil** (bei lokalem Geschäft): Profil vollständig, regelmäßig **echte** neue Bewertungen, auf jede Bewertung antworten. Bewertungen gelten unter Local-SEO-Experten als einer der stärksten Faktoren für die lokale Sichtbarkeit (Whitespark-Umfrage 2026). **Keine Gegenleistung für Bewertungen** (verstößt gegen Googles Richtlinien), keine gekauften oder eigenen Bewertungen.
-   - **Kooperationen:** Partner mit **ergänzender, nicht konkurrierender** Zielgruppe: Instagram-Collab-Posts (erscheinen bei beiden Accounts), gemeinsames Webinar oder Live, Gastbeitrag, Podcast-Gast, Newsletter-Empfehlung im Tausch.
-   - **Communities:** In Gruppen, Foren, Subreddits, Slack-/Discord-Communities der Zielgruppe **Fragen gründlich beantworten**. Kein Werbe-Spam, Hinweis auf das Angebot nur, wo erlaubt und passend.
+   - **Kooperationen:** Partner mit **ergänzender, nicht konkurrierender** Zielgruppe: Instagram-Collab-Posts (erscheinen bei beiden Accounts), gemeinsames Webinar oder Live, Gastbeitrag, Podcast-Gast, Newsletter-Empfehlung im Tausch. Ein Tausch ist eine Gegenleistung: solche Beiträge am Anfang mit „Werbung“ oder „Anzeige“ kennzeichnen, „#ad“ oder „Kooperation“ reichen nicht (`grundlagen/deutschland.md`, Abschnitt 4).
+   - **Communities:** In deutschsprachigen Gruppen, Foren, Subreddits, gutefrage.net, Slack-/Discord-Communities der Zielgruppe **Fragen gründlich beantworten**. Kein Werbe-Spam, Hinweis auf das Angebot nur, wo erlaubt und passend.
    - **Sichtbar kommentieren:** Unter Beiträgen größerer Accounts der Nische mit Substanz kommentieren (eigene Erfahrung, Ergänzung, Gegenposition), nicht „Toller Beitrag!“.
    - **Inhalte:** über `prozesse/30-tage-contentplan.md`. Wirkt langsamer, baut aber auf.
    - **Kostenloser Einstieg:** Lead-Magnet (Checkliste, Vorlage, Mini-Analyse), kostenloses Erstgespräch, Mini-Workshop.
@@ -66,7 +66,7 @@ Grundlagen:
     - [ ] Jeder Test hat tägliche Aktion mit Zahl, Messgröße, Erfolgsschwelle und Dauer.
     - [ ] Der tägliche Aufwand passt in die angegebene Zeit (Rechnung zeigen).
     - [ ] Vorlagen klingen persönlich, haben Stellen zum Anpassen und keinen Werbe-Ton.
-    - [ ] Nichts rechtlich Riskantes geplant: keine werblichen Kaltnachrichten per E-Mail/LinkedIn/WhatsApp, keine erkauften oder erfundenen Bewertungen.
+    - [ ] Nichts rechtlich Riskantes geplant: keine werblichen Kaltnachrichten per E-Mail/LinkedIn/WhatsApp, keine erkauften oder erfundenen Bewertungen; Kooperationen mit Gegenleistung werden gekennzeichnet.
     - [ ] Partner- und Community-Listen sind echt recherchiert (mit Links), nicht erfunden.
     - [ ] Tracking-Tabelle und Auswertungstermin sind festgelegt.
     - [ ] Harte Kriterien aus `grundlagen/qualitaet-und-lernen.md` erfüllt.

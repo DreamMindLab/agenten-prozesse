@@ -53,13 +53,14 @@ Zur Länge: Laut einer Vidyard-Auswertung von 850 B2B-Verkaufsvideos (2025) hatt
    3. **Lösung (ca. 20–30 %):** Der Mechanismus (wie es funktioniert), erste Ergebnisse, echte Beweise, die Einwände.
    4. **Angebot (ca. 15–20 %):** Was man bekommt (Bestandteile mit Nutzen), Preis, Garantie, echte Frist.
    5. **Abschluss:** Blick auf das Ergebnis, CTA, CTA-Wiederholung.
+   Zum Ton: Diese Dramaturgie stammt aus dem US-Direktmarketing. Wie stark Tiefpunkt, Versprechen und Dringlichkeit zugespitzt werden, legt `marke/tonalitaet.md` fest (Feld „Zuspitzung“), ohne Angabe sachlich-pointiert. **Einkommens- und Erfolgsversprechen** nur mit Beleg und als Einzelfall gekennzeichnet (`grundlagen/deutschland.md`, Abschnitt 3).
    Zu Wertangaben und Preisen: Einzelwerte im „Value Stack“ nur nennen, wenn sie sich begründen lassen (z. B. tatsächlicher Einzelpreis). Keinen „statt X €“-Preis, der nie verlangt wurde. Das ist irreführende Preiswerbung. Frist und Knappheit nur, wenn echt.
 
    **Kurzes Verkaufsvideo (30–90 Sek.):** Hook (0–3 Sek., wie im Reel-Prozess) → Problem oder Ergebnis → Mechanismus in einem Satz → ein Beweis (nur echt) → Angebot + CTA. Mit Kurz-Varianten für 3 verschiedene Hooks (für Meta-Anzeigen, siehe `prozesse/ad-texte.md`, Schritt 4).
 
    **Testimonial:** Aus dem Rohmaterial die stärksten Aussagen zu Vorher / Veränderung / Ergebnis / Empfehlung auswählen. Schneiden, **ohne den Sinn zu verändern** (keine Sätze aus verschiedenen Stellen zu neuen Aussagen zusammensetzen). Name, Rolle und ggf. Ergebnis als Einblendung.
 
-5. **Skript prüfen, bevor produziert wird.** Laut lesen (ca. 130–150 gesprochene Wörter pro Minute): Stimmt die Länge? Gibt es Stellen ohne neuen Gedanken (kürzen)? Kommt das Angebot vor dem Punkt, an dem die meisten abspringen (bei langen Videos: Angebot spätestens angedeutet, bevor die Hälfte erreicht ist)?
+5. **Skript prüfen, bevor produziert wird.** Laut lesen (Startwert 120–140 gesprochene Wörter pro Minute bzw. gemessenes Tempo, `grundlagen/deutschland.md`, Abschnitt 1): Stimmt die Länge? Gibt es Stellen ohne neuen Gedanken (kürzen)? Kommt das Angebot vor dem Punkt, an dem die meisten abspringen (bei langen Videos: Angebot spätestens angedeutet, bevor die Hälfte erreicht ist)?
 6. **Produktion.**
    - **Pitch/VSL ohne Aufnahme:** Stimme erzeugen (ElevenLabs), Wort-Zeitstempel holen. In HyperFrames: Kernsätze als animierte Texte, Zahlen und Abläufe als Grafiken, Untertitel. B-Roll über Higgsfield nur, wo ein Bild die Aussage wirklich trägt (Budget aus `marke/regeln.md`). Format nach Einsatzort: 16:9 für Verkaufsseite, 9:16 oder 4:5 für Anzeigen.
    - **Mit Aufnahme des Nutzers:** Ihm das Skript und Aufnahmetipps schicken (ruhiger Ort, Licht von vorne, Handy quer für 16:9). Danach schneiden mit `edit-video` bzw. `video-use`: Pausen und Versprecher raus, Grafiken und Untertitel rein.
@@ -72,6 +73,7 @@ Zur Länge: Laut einer Vidyard-Auswertung von 850 B2B-Verkaufsvideos (2025) hatt
    - [ ] Die Geschichte ist die echte Geschichte des Nutzers; nichts erfunden oder ausgeschmückt.
    - [ ] Mechanismus, Beweise und Einwände kommen vor, Beweise nur echt.
    - [ ] Angebot vollständig: Bestandteile, Preis, Garantie (falls vorhanden), CTA mindestens zweimal.
+   - [ ] Keine Einkommens- oder Erfolgsversprechen und keine Spitzenstellung ohne Beleg; Zuspitzung passt zu `marke/tonalitaet.md`.
    - [ ] Keine unbegründeten Wertangaben, kein „statt X €“-Preis ohne echte Grundlage, keine vorgetäuschte Frist oder Knappheit.
    - [ ] Testimonial: echte Person, echte Nutzung, eigene Worte, Sinn beim Schnitt unverändert, Einwilligung liegt vor.
    - [ ] Keine KI-Person, die als Kunde oder als echter Mensch auftritt; KI-Stimme/KI-Szenen zur Kennzeichnung markiert.

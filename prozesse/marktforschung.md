@@ -22,7 +22,7 @@ Zwei Arbeitsweisen, oft kombiniert:
 - **Die Frage und die Entscheidung dahinter:** „Wir wollen wissen ___, um zu entscheiden, ob/wie ___.“ Ohne Entscheidung wird Recherche zur Beschäftigung.
 - **Markt / Nische / Angebot**, um das es geht.
 - **Bekannte Wettbewerber** (falls vorhanden).
-- **Region und Sprache** (Standard: DACH, Deutsch; englische Quellen zusätzlich, wo sie mehr Substanz haben).
+- **Region und Sprache** (Standard: Deutschland, Deutsch; englische Quellen zusätzlich, wo sie mehr Substanz haben, aber nicht für Kundenzitate).
 - Aus dem Repo, immer lesen: alle Dateien in `marke/`
 - Aus deinem Gedächtnis: gespeicherte Kundensprache und frühere Recherchen zum Thema.
 
@@ -40,13 +40,13 @@ Zwei Arbeitsweisen, oft kombiniert:
 3. **Nachfrage prüfen.**
    - **Google Trends:** Interesse am Thema über 5 Jahre (steigend, stabil, fallend, saisonal?). Werte sind relativ, keine Suchvolumen.
    - **Suchvorschläge und „Nutzer fragen auch“:** Welche Fragen stellen Leute zum Thema?
-   - **Communities:** Wie oft und wie drängend wird das Problem in Reddit, Foren, Facebook-Gruppen, YouTube-Kommentaren besprochen?
+   - **Communities:** Wie oft und wie drängend wird das Problem in deutschsprachigen Foren, gutefrage.net, deutschsprachigen Subreddits, Facebook-Gruppen und YouTube-Kommentaren besprochen? (`grundlagen/deutschland.md`, Abschnitt 2)
    - Nur wenn ein Keyword-Tool verfügbar ist: Suchvolumen. Sonst keine Volumenzahlen nennen.
 4. **Wettbewerb analysieren** (5–10 Anbieter). Pro Anbieter: Angebot, Preis (falls öffentlich), Hauptversprechen, Mechanismus („wie“), Beweise, Kanäle, Zielgruppe.
    - **Meta-Werbebibliothek:** aktive Anzeigen ansehen. Anzeigen, die **seit 45–60+ Tagen** laufen, sind wahrscheinlich profitabel. Laufen viele Varianten desselben Konzepts, wird es gerade skaliert. Muster, die bei **3+ Anbietern** auftauchen, sind ein starkes Signal. (Laufzeit ist ein Anhaltspunkt, kein Beweis für Profitabilität.)
-   - **Bewertungen der Wettbewerber** (Google, Trustpilot, Amazon, Kursplattformen): 1–3 Sterne zeigen, was fehlt; 3–4 Sterne („gut, aber …“) zeigen Lücken, in die man stoßen kann.
+   - **Bewertungen der Wettbewerber** (Google, Trustpilot, ProvenExpert, Amazon.de, Kursplattformen): 1–3 Sterne zeigen, was fehlt; 3–4 Sterne („gut, aber …“) zeigen Lücken, in die man stoßen kann.
    - **Marktreife** einschätzen: Wie viele sagen dasselbe? (Stufen siehe `prozesse/copywriting.md`, Schritt 4.)
-5. **Kundensprache sammeln.** Wie in `prozesse/copywriting.md`, Schritt 3, aber breiter: mindestens **30 wörtliche Zitate** mit Quelle. Sortieren nach den vier Kräften einer Kaufentscheidung (Jobs-to-be-Done, Bob Moesta):
+5. **Kundensprache sammeln.** Wie in `prozesse/copywriting.md`, Schritt 3, aber breiter: mindestens **30 wörtliche Zitate** mit Quelle, im deutschsprachigen Original. Sortieren nach den vier Kräften einer Kaufentscheidung (Jobs-to-be-Done, Bob Moesta):
    - **Druck:** Was nervt an der aktuellen Situation?
    - **Sog:** Was reizt an einer neuen Lösung?
    - **Angst:** Was befürchten sie beim Wechsel? (wird selten offen gesagt, zwischen den Zeilen suchen)
@@ -64,6 +64,7 @@ Zwei Arbeitsweisen, oft kombiniert:
    4. „Was hat dich fast davon abgehalten?“
    5. „Was hast du dafür bezahlt bzw. was hat dich das Problem gekostet?“
    6. „Was hat sich seitdem verändert?“
+   **Aufzeichnung:** Gespräche nur mit Einwilligung des Gesprächspartners aufnehmen und transkribieren, Einwilligung dokumentieren (§ 201 StGB, DSGVO). Namen und Firmen vor der Auswertung in KI-Werkzeugen entfernen (`grundlagen/deutschland.md`, Abschnitt 5).
    Richtwert: Nach rund **10 Gesprächen** mit Leuten, die tatsächlich gekauft oder gewechselt haben, zeigen sich die wiederkehrenden Muster. Liefert der Nutzer Mitschriften, sie genauso auswerten wie Schritt 5.
 8. **Gegenprüfung.** Für jede zentrale Erkenntnis gezielt nach Gegenbelegen suchen. Wo Quellen sich widersprechen: beide nennen und erklären, woran es hängt (Zielgruppe, Preisklasse, Region, Zeitpunkt).
 9. **Synthese.** Pro Erkenntnis: Aussage, Belege (Links), **Sicherheit** (stark = mehrere unabhängige Quellen; mittel = eine gute Quelle; schwach = Hinweis/Vermutung). Dann: **Antwort auf die Frage aus Schritt 1** mit Empfehlung für die Entscheidung. Offene Fragen, die nur ein Test oder Gespräche klären können, als nächste Schritte.
@@ -74,7 +75,7 @@ Zwei Arbeitsweisen, oft kombiniert:
     - [ ] Fakten und Vermutungen sind klar getrennt; keine erfundenen Zahlen (keine Suchvolumen ohne Tool, keine Marktgrößen ohne Quelle).
     - [ ] Die Annahmen aus Schritt 2 sind einzeln bestätigt, widerlegt oder als offen markiert.
     - [ ] Gegenbelege wurden gesucht; Widersprüche sind benannt.
-    - [ ] Mindestens 30 Kundenzitate mit Quelle, sortiert nach den vier Kräften.
+    - [ ] Mindestens 30 Kundenzitate mit Quelle, im deutschsprachigen Original, sortiert nach den vier Kräften.
     - [ ] Laufzeit von Anzeigen als Anhaltspunkt, nicht als Beweis formuliert.
     - [ ] Keine Zahlungsbereitschaft aus hypothetischen Fragen abgeleitet.
     - [ ] Mindestens eine Quelle außerhalb der ersten Suchtreffer bzw. der bekanntesten Anbieter.

@@ -9,6 +9,7 @@ beschreibung: Wie wir klingen – und wie nicht.
 
 - Du oder Sie:
 - Ich-Perspektive oder Wir:
+- Zuspitzung (sachlich / pointiert / offensiv-verkäuferisch; ohne Angabe gilt sachlich-pointiert, `grundlagen/deutschland.md`, Abschnitt 3):
 
 ## So klingen wir (3–5 Eigenschaften, jeweils mit Beispielsatz)
 

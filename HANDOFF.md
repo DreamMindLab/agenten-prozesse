@@ -2,6 +2,37 @@
 
 ## Notizen (manuell)
 
+### 2026-09-26 — Deutschland-Anpassung + US-Modus (Branch claude/stoic-albattani-syybqn, noch nicht in main)
+
+**Stand:** Alle Prozesse sind auf **Deutschland** als Markt und Rechtsraum ausgerichtet (Jan: „erstmal nur Deutschland“). Neue Grundlagen: `grundlagen/deutschland.md` (6 Abschnitte: 1 Längen/Sprechtempo, 2 deutschsprachige Kundensprache, 3 belegbare Werbeaussagen, 4 Werbekennzeichnung, 5 Datenschutz bei US-Werkzeugen, 6 Zahlen/Quellen) und `grundlagen/us-markt.md` (nur Abweichungen für englischen US-Content, auf Jans Wunsch als Vorrat). `AGENTS.md` verweist auf beide. Recherche nach dem Meta-Learning-Skill (Modus A, rund 45 Suchen mit Gegenrecherche). **Nicht mit Hermes erprobt.** Vorschau-Artifact **nicht** neu veröffentlicht.
+
+**Was sich geändert hat:**
+- **Längen:** Wortlimits auf Textflächen haben jetzt Zeichenlimits (Werbebild ca. 40, Karussell Slide 1 ca. 70 / Mehrwert ca. 150, Thumbnail ca. 25, Overlay ca. 35, LP-Headline ca. 70, Betreff ca. 40). Umrechnung: englisches Wortlimit × ca. 6 Zeichen. Sprechtempo: Kurzvideo 2 Wörter/Sek., Langvideo 120–140 WpM als Startwert, danach gemessen. Untertitel 42 Zeichen/Zeile, ca. 15 Zeichen/Sek. (Netflix DE: 17).
+- **Kundensprache:** Zitate nur aus deutschsprachigen Originalquellen (copywriting Schritt 3, marktforschung).
+- **Werberecht:** Marktreife-Stufe „größer machen“ nur bis zur Belegbarkeit; Spitzenstellung/Einkommen nur mit Nachweis; § 5b Abs. 3 UWG (Echtheitsinfo bei Bewertungen) in Landingpage; neues Feld „Zuspitzung“ in `marke/tonalitaet.md`; Reel-Anrede nicht mehr fest „du“.
+- **Kennzeichnung:** „Werbung“/„Anzeige“ am Anfang bei Gegenleistung (auch Tausch), in marketing-kostenlos, newsletter, podcast.
+- **Datenschutz:** AVV-Prüfung vor Daten Dritter (einrichtung, e-mail-marketing, landingpage, arbeitsprozesse), § 201 StGB bei Aufnahmen (marktforschung, podcast), Zeile „AVV abgeschlossen mit“ in `marke/regeln.md`.
+- **Zahlen:** Podcast mit ARD/ZDF-Medienstudie 2025 und Bitkom statt Edison (US); Empfehlungsstudie korrigiert (deutsche Bank, knapp 3 Jahre, nicht „Wharton, 6 Jahre“); Unbounce als US-Daten markiert; ad-texte: Meta und Google schalten seit Okt. 2025 in der EU keine politischen Anzeigen mehr.
+- Neues hartes Kriterium in `grundlagen/qualitaet-und-lernen.md`: Deutschland-Standards eingehalten.
+
+**Verworfen:**
+- „Deutsche sind werbeskeptischer“ als Regel: Belege widersprüchlich (Kantar ja, Nielsen nein). Begründung stattdessen über die Beweislast nach § 5 UWG.
+- „Reddit ist in Deutschland klein“ (meine erste Einschätzung): falsch, Reddit wächst stark. Bleibt als Quelle, aber deutschsprachige Subreddits.
+- Lesbarkeitsindex (Flesch-DE, WSTF) als Ziel: kein Conversion-Beleg, nur Warnsignal.
+- Österreich/Schweiz: auf Jans Wunsch nicht ergänzt.
+
+**Offene Fragen an Jan:**
+- Branch nach `main` mergen? Hermes liest `main`, erst dann gelten die Änderungen.
+- `marke/tonalitaet.md` Feld „Zuspitzung“ ausfüllen; AVVs abschließen und in `marke/regeln.md` eintragen.
+- US-Modus: vor erstem bezahlten US-Einsatz einmal anwaltlich prüfen lassen; `marke/us/` anlegen.
+
+**Landminen:**
+- Verweise „`grundlagen/deutschland.md`, Abschnitt N“ stehen in vielen Prozessen (`grep -rn "deutschland.md" prozesse grundlagen`). Beim Umnummerieren alle mitändern. `us-markt.md` sagt pro Abschnitt, welchen Deutschland-Abschnitt er ersetzt.
+- Rechtsstand mit Verfallsdatum: Data Privacy Framework (EuGH C-703/25 P anhängig, FISA-702-Lage unklar), FTC Earnings Claim Rule (nur vorgeschlagen), Werkzeug-Status ElevenLabs/HeyGen/Higgsfield (Stand Sept. 2026).
+- Leitfaden der Medienanstalten war im Container nicht abrufbar (Egress blockiert); Inhalt über Kanzlei-/IHK-Sekundärquellen belegt.
+
+Geändert: `AGENTS.md`, `grundlagen/deutschland.md` (neu), `grundlagen/us-markt.md` (neu), `grundlagen/einrichtung.md`, `grundlagen/qualitaet-und-lernen.md`, `marke/regeln.md`, `marke/tonalitaet.md`, 15 Dateien in `prozesse/`, `INDEX.md`, `HANDOFF.md`
+
 ### 2026-09-25 (2) — Content-Prozesse v2 nach KI-TALK-Podcast (main · 398a859)
 
 **Stand:** 20 Prozesse fertig. Sechs davon stehen auf **v2**: `reel-kurzvideo`, `social-media-post`, `karussell-post`, `youtube-video`, `seo-blogartikel`, `copywriting`. Die übrigen 14 sind v1. Neue Grundlagen-Datei `grundlagen/themen-und-verstaendlichkeit.md` mit 5 Bausteinen: Thema mit Beleg, Muster (X → X 1.1), Framing aus Zielgruppensicht, Verständlichkeits-Check (Persona- und 12-Jährigen-Test, Kurz- vs. Langformat), Zahlen als Marktdaten. Die Prozesse verweisen darauf statt den Text zu wiederholen. `main` und `claude/gifted-johnson-ag9n65` sind gleich. Vorschau neu veröffentlicht: https://claude.ai/artifact/S4Keh5XEyt5ufGWLXi6pEu (Version 2). **Weiterhin mit keinem echten Hermes-Auftrag erprobt.**

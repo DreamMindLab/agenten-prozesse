@@ -43,6 +43,7 @@ Jeder Prozess nennt unter **Werkzeuge**, was er braucht. Prüfe vor dem Start, o
 - **Kostenlose Open-Source-Werkzeuge** (Node-Pakete, Git-Repos, ffmpeg, Playwright): **selbst installieren**, ohne zu fragen. Dem Nutzer danach eine Zeile schicken: „🔧 Eingerichtet: <Werkzeug> (für <Prozess>).“
 - **Alles, was Geld kostet oder einen Account braucht** (API-Keys, Abos): **nicht selbst anlegen.** Per Telegram fragen und erklären, wofür der Key ist und wo man ihn bekommt.
 - **Keys** nie ins Repo, nie in Dateien im Arbeitsordner eines Projekts, nie im Klartext in Nachrichten zurückschicken. Ablage in deinem Secret-/Umgebungsvariablen-Speicher.
+- **Datenschutz:** Bevor personenbezogene Daten Dritter (Kunden, Leads, Interviewpartner) in ein Werkzeug gehen, AVV und US-Übermittlung nach `grundlagen/deutschland.md`, Abschnitt 5, prüfen. Fehlt der AVV: Nutzer informieren und nur mit anonymisierten Daten oder ohne das Werkzeug arbeiten.
 - Schlägt eine Installation fehl: einmal mit der Fehlermeldung recherchieren und erneut versuchen. Klappt es dann nicht, dem Nutzer die Fehlermeldung schicken und den Prozess ohne dieses Werkzeug fortsetzen, falls möglich (z. B. Motion Graphics statt KI-Video).
 
 ## Werkzeuge im Einzelnen
@@ -90,11 +91,11 @@ npx playwright install chromium
 
 ### Higgsfield API (für: Post, Karussell, Reel) – kostenpflichtig
 
-Key erforderlich → Nutzer fragen. Account und Key: `https://cloud.higgsfield.ai`. Doku: `https://docs.higgsfield.ai`. Abrechnung über Guthaben, stoppt bei 0.
+Key erforderlich → Nutzer fragen. Account und Key: `https://cloud.higgsfield.ai`. Doku: `https://docs.higgsfield.ai`. Abrechnung über Guthaben, stoppt bei 0. Kein öffentlicher AVV: nur Prompts ohne personenbezogene Daten Dritter (`grundlagen/deutschland.md`, Abschnitt 5).
 
 ### ElevenLabs (für: Reel, Verkaufsvideo, YouTube, Podcast) – kostenpflichtig
 
-Key erforderlich → Nutzer fragen. Key unter `https://elevenlabs.io/app/settings/api-keys`. Ohne Key: Reel ohne Stimme (nur Text).
+Key erforderlich → Nutzer fragen. Key unter `https://elevenlabs.io/app/settings/api-keys`. Ohne Key: Reel ohne Stimme (nur Text). Öffentlicher AVV unter `https://elevenlabs.io/dpa`; für Transkripte mit Daten Dritter den Zero-Retention-Modus nutzen oder lokal mit Whisper transkribieren.
 
 ### HeyGen API (für: Reel Weg B, Avatar des Nutzers) – kostenpflichtig
 

@@ -20,6 +20,7 @@ Harte Kriterien (gelten immer, zusätzlich zu denen im Prozess):
 - [ ] Passt zu `marke/zielgruppe.md` und `marke/tonalitaet.md`, keine Floskeln aus der Verbotsliste
 - [ ] Keine erfundenen Zahlen, Zitate, Kundenstimmen oder Ergebnisse
 - [ ] Kein Verstoß gegen `marke/regeln.md`
+- [ ] Deutschland-Standards aus `grundlagen/deutschland.md` eingehalten: Längen auf Deutsch (Abschnitt 1), Werbeaussagen belegbar (3), Werbung mit Gegenleistung gekennzeichnet (4), keine Daten Dritter in Werkzeugen ohne AVV (5)
 - [ ] Realistische KI-Bilder/-Videos oder KI-Stimmen sind zur Kennzeichnung markiert (EU AI Act Art. 50, gilt seit 2. 8. 2026). Im Zweifel kennzeichnen.
 
 ## Letzter Schritt: Foundation-Agent (Lernen)

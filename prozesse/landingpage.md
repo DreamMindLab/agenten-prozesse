@@ -43,11 +43,11 @@ Die zwei Grundregeln (Oli Gardner, Unbounce, „Conversion-Centered Design“):
 3. **Message Match klären.** Den Text der Quelle (Ad/Post/Mail) neben die geplante Headline legen. Versprechen, Begriffe und Bildwelt müssen wiedererkennbar sein.
 4. **Copy erstellen** mit `prozesse/copywriting.md`, Schritte 2–9 (Kundensprache, Bewusstseinsstufe, Botschaft, Headlines, Drei-Fragen-Test). Besucher aus Ads sind meist problem- oder lösungsbewusst, Besucher aus E-Mails oft schon angebotsbewusst.
 5. **Seitenaufbau festlegen** (Reihenfolge anpassen, wenn die Bewusstseinsstufe es verlangt):
-   1. **Hero** (ohne Scrollen sichtbar, auch auf dem Handy): Headline (Message Match, max. ca. 12 Wörter, Nutzen vorne; bewährtes Muster: „<Ergebnis> für <Zielgruppe> – ohne <größter Einwand>“), Unterzeile (für wen + Ergebnis), CTA-Button, passendes Bild oder Vorschau des Lead-Magnets.
+   1. **Hero** (ohne Scrollen sichtbar, auch auf dem Handy): Headline (Message Match, max. ca. 12 Wörter bzw. 70 Zeichen, Nutzen vorne; bewährtes Muster: „<Ergebnis> für <Zielgruppe> – ohne <größter Einwand>“), Unterzeile (für wen + Ergebnis), CTA-Button, passendes Bild oder Vorschau des Lead-Magnets.
    2. **Problem** in Kundensprache.
    3. **Lösung / Mechanismus:** warum dieser Weg funktioniert.
    4. **Nutzen:** konkret, bildhaft, überprüfbar (keine Merkmalliste).
-   5. **Beweis:** nur echte Ergebnisse, Stimmen, Zahlen aus `marke/angebot.md`. Gibt es keine: den Abschnitt weglassen. **Keine Platzhalter-Testimonials mit ausgedachtem Text**, auch nicht „zum Ersetzen“: Sie landen erfahrungsgemäß live. Stattdessen im Output als offener Punkt melden.
+   5. **Beweis:** nur echte Ergebnisse, Stimmen, Zahlen aus `marke/angebot.md`. Gibt es keine: den Abschnitt weglassen. Werden Kundenbewertungen gezeigt: direkt dabei gut sichtbar angeben, ob und wie geprüft wird, dass sie von echten Kunden stammen (§ 5b Abs. 3 UWG, `grundlagen/deutschland.md`, Abschnitt 3). **Keine Platzhalter-Testimonials mit ausgedachtem Text**, auch nicht „zum Ersetzen“: Sie landen erfahrungsgemäß live. Stattdessen im Output als offener Punkt melden.
    6. **Angebot:** was genau man bekommt (bei Kauf: Preis, Umfang, Garantie falls vorhanden). Prüffrage nach Hormozis Wertgleichung: Macht der Abschnitt das Ergebnis greifbar, die Erfolgswahrscheinlichkeit glaubhaft (Beweis) und zeigt er, wie schnell und mit wie wenig Aufwand es geht?
    7. **So läuft es ab:** 3 einfache Schritte vom Klick bis zum Ergebnis (z. B. „Termin wählen – Gespräch führen – Plan erhalten“). Nimmt die Unsicherheit, was nach dem Klick passiert.
    8. **Einwände / FAQ:** die 3–5 wichtigsten Einwände aus der Kundensprache.
@@ -64,6 +64,8 @@ Die zwei Grundregeln (Oli Gardner, Unbounce, „Conversion-Centered Design“):
    - Link zu **Impressum** und **Datenschutzerklärung** auf der Seite, von überall erreichbar (auch nicht vom Cookie-Banner verdeckt).
    - **Cookie-Banner** nur nötig, wenn nicht notwendige Cookies/Tracking (z. B. Meta-Pixel, Analytics) gesetzt werden. Dann: Einwilligung **vor** dem Setzen (§ 25 TDDDG).
    - **Newsletter-Eintragung:** Einwilligungstext am Formular (was, wie oft, Abmeldung jederzeit), Versand erst nach **Double-Opt-In**.
+   - **Kundenbewertungen:** Hinweis, ob und wie ihre Echtheit geprüft wird (§ 5b Abs. 3 UWG), sichtbar bei den Bewertungen, nicht versteckt.
+   - **E-Mail-Tool/Formular-Dienst:** AVV liegt vor (`marke/regeln.md`, `grundlagen/deutschland.md`, Abschnitt 5).
    - **Kauf:** Bestellbutton mit eindeutiger Beschriftung (z. B. „zahlungspflichtig bestellen“), AGB und Widerrufsbelehrung verlinkt.
    Fehlt ein Rechtstext oder Link: im Output klar als offener Punkt melden.
 9. **Prüfen.** Screenshots bei 390 px (Handy) und 1440 px (Desktop). Alle Links und den Button testen, Testeintrag im Formular (falls möglich im Entwurfsmodus). Ladezeit grob prüfen.
@@ -75,13 +77,13 @@ Die zwei Grundregeln (Oli Gardner, Unbounce, „Conversion-Centered Design“):
     - [ ] Button-Text beschreibt das Ergebnis, nicht die Aktion.
     - [ ] Formular fragt nur ab, was gebraucht wird.
     - [ ] Die Copy-Kriterien aus `prozesse/copywriting.md` (Schritt 10) sind erfüllt.
-    - [ ] Beweise nur aus echten Quellen; kein erfundenes Testimonial, keine erfundene Zahl.
+    - [ ] Beweise nur aus echten Quellen; kein erfundenes Testimonial, keine erfundene Zahl; bei Kundenbewertungen Hinweis zur Echtheitsprüfung sichtbar.
     - [ ] Kein horizontales Scrollen, Schrift min. 16 px, Buttons min. 48 px, Bilder komprimiert.
     - [ ] Abschnitt „So läuft es ab“ vorhanden (3 Schritte).
     - [ ] Impressum und Datenschutz verlinkt; Cookie-Banner vorhanden, falls Tracking; Einwilligungstext bzw. Bestellbutton korrekt (siehe Schritt 8).
     - [ ] Seite ist als Entwurf angelegt bzw. als Datei geliefert, **nicht live**.
     - [ ] Harte Kriterien aus `grundlagen/qualitaet-und-lernen.md` erfüllt.
-12. **Foundation-Agent.** Vorgehen: `grundlagen/qualitaet-und-lernen.md`. Liefert der Nutzer später Zahlen (Besucher, Eintragungen), die Conversion-Rate auswerten und als Lernregel speichern (Orientierung: Median über alle Branchen laut Unbounce ca. 6,6 %).
+12. **Foundation-Agent.** Vorgehen: `grundlagen/qualitaet-und-lernen.md`. Liefert der Nutzer später Zahlen (Besucher, Eintragungen), die Conversion-Rate auswerten und als Lernregel speichern (Orientierung: Median über alle Branchen laut Unbounce ca. 6,6 %, internationaler, überwiegend englischsprachiger Datensatz).
 
 ## Output-Format
 

@@ -4,7 +4,7 @@
 
 ## Vor jedem Auftrag lesen
 
-**Grundlagen** (Gilt für jeden Prozess.): [Einrichtung & Startcheck](grundlagen/einrichtung.md) · [Quality Check & Foundation-Agent](grundlagen/qualitaet-und-lernen.md) · [Thema, Muster & Verständlichkeit](grundlagen/themen-und-verstaendlichkeit.md)
+**Grundlagen** (Gilt für jeden Prozess.): [Deutschland-Standards](grundlagen/deutschland.md) · [Einrichtung & Startcheck](grundlagen/einrichtung.md) · [Quality Check & Foundation-Agent](grundlagen/qualitaet-und-lernen.md) · [Thema, Muster & Verständlichkeit](grundlagen/themen-und-verstaendlichkeit.md) · [US-Modus (englischer Content)](grundlagen/us-markt.md)
 
 **Marke** (Vor jedem Auftrag lesen. Vom Nutzer gepflegt.): [Angebot](marke/angebot.md) · [Beispiele](marke/beispiele.md) · [Design](marke/design.md) · [Regeln & Limits](marke/regeln.md) · [Tonalität](marke/tonalitaet.md) · [Zielgruppe](marke/zielgruppe.md)
 

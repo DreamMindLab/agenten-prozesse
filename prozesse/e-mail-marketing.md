@@ -41,6 +41,7 @@ Warum Sequenzen: Automatisierte Strecken bringen einen überproportionalen Teil 
    - **Abmeldung:** Abmeldelink in jeder Mail und One-Click-Abmeldung (List-Unsubscribe-Header). Das übernehmen die gängigen Tools, trotzdem prüfen.
    - **Einwilligung:** Anmeldung mit **Double-Opt-In** (in Deutschland der praktisch einzige belastbare Nachweis der Einwilligung).
    - **Impressum** im Footer jeder Mail.
+   - **AVV** mit dem E-Mail-Tool abgeschlossen (die Liste enthält personenbezogene Daten; `grundlagen/deutschland.md`, Abschnitt 5).
    - **Absender:** echter Personenname + Marke (z. B. „Jan von DreamMindLab“), Antworten an eine gelesene Adresse.
 3. **Ziel der Sequenz in einem Satz.** „Nach der Sequenz hat der Kontakt <Ergebnis/Handlung>.“ (z. B. „einen Erstgespräch-Termin gebucht“).
 4. **Kundensprache und Einwände** aus `prozesse/copywriting.md`, Schritte 3–5. Die Bewusstseinsstufe **steigt** im Verlauf der Sequenz: Die erste Mail spricht Problem- oder Lösungsbewusste an, die letzten Mails Angebotsbewusste.
@@ -98,6 +99,7 @@ Voraussetzungen:
 SPF/DKIM/DMARC: <ok / fehlt: …>
 Double-Opt-In: <ok / fehlt / unbekannt>
 Abmeldung + Impressum: <ok / fehlt>
+AVV mit E-Mail-Tool: <ok / fehlt / unbekannt>
 
 Mail 1 (<Zeitpunkt>): <Ziel>
 Betreff: <A> / <B> / <C>

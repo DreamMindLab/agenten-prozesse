@@ -4,7 +4,7 @@ kategorie: Social Media
 icon: sparkles
 beschreibung: Instagram-Reel aus eigener Aufnahme, Avatar des Nutzers oder komplett KI-produziert, recycelbar für TikTok.
 status: fertig
-version: 3
+version: 4
 reihenfolge: 12
 stichworte: Reel, Instagram Reel, TikTok, Short, Kurzvideo, Kurzvideo-Skript, Faceless Reel, Talking Head, KI-Avatar, Avatar-Video
 ---
@@ -32,8 +32,9 @@ Rein KI-generierte Inhalte erreichen im Schnitt weniger als menschlich geprägte
 - **Thema / Kernaussage** und **Anlass** („Warum jetzt?“, z. B. eine Beobachtung, eine Kundenfrage, eine Neuigkeit), vom Nutzer. Fehlt beides: Vorschläge nach Schritt 3, der Nutzer wählt.
 - **Produktionsweg:** A, B oder C (siehe oben). Nicht angegeben: Rohvideo dabei → A; Avatar eingerichtet → B; sonst C.
 - **Referenz (optional):** Link zu einem Reel, dessen Aufbau als Vorlage dienen soll, auch aus einer anderen Branche.
+- **Regie-Notizen (optional, Weg A und B):** was an welcher Stelle erscheinen soll, z. B. „Bei ‚drei Fehler‘ die Punkte groß einblenden“ (`grundlagen/video-schnitt.md`, Abschnitt 2).
 - **Nur C, Tonspur:** KI-Stimme oder nur Text auf dem Bild. Standard: KI-Stimme, falls ein ElevenLabs-Key vorhanden ist, sonst Text.
-- Aus dem Repo, immer lesen: `grundlagen/themen-und-verstaendlichkeit.md` und alle Dateien in `marke/`, vor allem `zielgruppe.md` (Persona für Schritt 8) und `regeln.md` (Budget).
+- Aus dem Repo, immer lesen: `grundlagen/themen-und-verstaendlichkeit.md`, `grundlagen/video-schnitt.md` und alle Dateien in `marke/`, vor allem `zielgruppe.md` (Persona für Schritt 8) und `regeln.md` (Budget).
 - Aus deinem Gedächtnis: gespeicherte Regeln zu diesem Prozess, Zahlen früherer Reels (Schritt 15), Zustimmung zu Avatar/Stimmklon.
 
 ## Werkzeuge
@@ -41,7 +42,7 @@ Rein KI-generierte Inhalte erreichen im Schnitt weniger als menschlich geprägte
 Einrichtung und Keys: `grundlagen/einrichtung.md`. Fehlt das HyperFrames-Kit, installiere es selbst, bevor du startest.
 
 - **HyperFrames** (HTML/CSS/GSAP → Video, `https://hyperframes.heygen.com`), am besten über das **hyperframes-student-kit** (`https://github.com/nateherkai/hyperframes-student-kit`): Komposition aus Clips, Text-Overlays, Motion Graphics und Untertiteln. Befehle: `npx hyperframes lint`, `preview`, `render`. Skills `short-form-edit`, `cut-silences`, `cut-mistakes`.
-- **Weg A:** `video-use` (`https://github.com/browser-use/video-use`) oder die Kit-Skills `cut-silences` / `cut-mistakes` zum Schneiden von Rohmaterial.
+- **Weg A:** Kit-Skills `cut-silences` / `cut-mistakes` mit lokaler Transkription (Whisper auf Deutsch, `grundlagen/video-schnitt.md`, Abschnitt 1); `video-use` (`https://github.com/browser-use/video-use`) nur als Ausweichlösung.
 - **Weg B:** **HeyGen API** (Avatar-Video des Nutzers, kostenpflichtig, nur nach Freigabe) und **ElevenLabs** (Stimmklon des Nutzers).
 - **Weg C:** **Higgsfield API** (`https://docs.higgsfield.ai`): Bild- und Videogenerierung. Ablauf: Modell-Endpunkt mit Prompt aufrufen → `request_id` → Status abfragen, bis fertig → Datei-URL laden. Abrechnung pro Generierung (Videos pro Sekunde). Erfahrungswert aus unabhängigen Tests: nur etwa **jede 4. Videogenerierung ist brauchbar**. Versuche und Budget entsprechend planen.
 - **ElevenLabs:** KI-Stimme bzw. Stimmklon und wortgenaue Zeitstempel für Untertitel.
@@ -79,7 +80,7 @@ Einrichtung und Keys: `grundlagen/einrichtung.md`. Fehlt das HyperFrames-Kit, in
    - **Weg A:** Jetzt Skript bzw. Stichpunkte und das gewählte Opening an den Nutzer schicken (Format unten), mit Aufnahmetipps: Handy hochkant, Kamera auf Augenhöhe, Licht von vorn, Mikrofon nah, erster Satz ist der Hook (kein „Hallo“), Versprecher einfach wiederholen, nicht neu starten. Weiter, sobald das Rohvideo da ist.
 9. **Produktion nach Weg.**
    - **A: Eigene Aufnahme.**
-     - Rohvideo transkribieren, Pausen und Versprecher entfernen (`cut-silences`, `cut-mistakes` oder `video-use`). Bei mehreren Anläufen den besten Take je Satz nehmen.
+     - Rohvideo lokal transkribieren (`grundlagen/video-schnitt.md`, Abschnitt 1), Pausen und Versprecher entfernen (`cut-silences`, dann `cut-mistakes`; `video-use` nur als Ausweichlösung). Bei mehreren Anläufen den besten Take je Satz nehmen.
      - Transkript des Schnitts gegen das Skript abgleichen: Hook in den ersten 3 Sekunden? Payoff vollständig? **Keine Aussage durch Kürzen sinnentstellen**, keine Wörter hinzuerfinden.
      - Wo der Nutzer etwas erklärt, das man zeigen kann: Motion Graphics oder Text-Overlays statt Standbild.
    - **B: Avatar des Nutzers.**
@@ -91,14 +92,15 @@ Einrichtung und Keys: `grundlagen/einrichtung.md`. Fehlt das HyperFrames-Kit, in
      - **Kosten schätzen:** Szenen × Sekunden × Preis × ca. 3 Versuche. Über Budget: Szenen reduzieren oder durch Motion Graphics ersetzen. Reicht das nicht, per Telegram fragen.
      - **Szenen generieren (Higgsfield),** 9:16. Jede Szene prüfen: passt zur Aussage, keine Artefakte (Hände, Gesichter, verzerrte Objekte), kein Text im Bild. Max. 3 Versuche pro Szene, danach durch Motion Graphics ersetzen. Kosten mitschreiben.
      - **Tonspur:** KI-Stimme (ElevenLabs, darf keine echte Person imitieren) mit Wort-Zeitstempeln, oder ohne Stimme: Text-Overlays tragen die ganze Aussage und stehen lange genug (max. ca. 15 Zeichen pro Sekunde).
-   - **Musik (alle Wege):** Trend-Audio fügt der Nutzer beim Hochladen in der Instagram-App hinzu (Musik aus der Instagram-Bibliothek lässt sich nicht vorab einbauen). Falls im Video selbst Musik nötig ist: nur lizenzfreie.
+   - **Musik und Soundeffekte (alle Wege):** Trend-Audio fügt der Nutzer beim Hochladen in der Instagram-App hinzu (Musik aus der Instagram-Bibliothek lässt sich nicht vorab einbauen). Musik im Video selbst und Soundeffekte an den Beats nur mit Lizenz, Menge laut Videostil (`grundlagen/video-schnitt.md`, Abschnitt 5).
 10. **Schnitt in HyperFrames**, Komposition 1080×1920.
+    - Zuerst den **Beat-Plan** nach `grundlagen/video-schnitt.md`, Abschnitt 2 (Regie-Notizen des Nutzers haben Vorrang). Stil nach Abschnitt 4, Material nach Abschnitt 5: eigenes vor Motion Graphics vor KI, kein fremdes Logo als Blickfang.
     - Clips nach Skript anordnen, Gesamtdauer = Tonspur (mit `ffprobe` messen).
     - Untertitel wortgenau zur Stimme, im mittleren Bildbereich, max. 42 Zeichen pro Zeile. Oben ca. 250 px und unten ca. 350 px freihalten, dort liegen die Instagram-Bedienelemente. Bei A und B das Gesicht nicht verdecken.
     - Text-Overlays und Motion Graphics im Markendesign.
     - Das erste Bild (Frame 0) muss sofort verständlich sein, kein schwarzer Einstieg.
     - `npx hyperframes lint`, dann Entwurf rendern (`--quality draft`).
-11. **Entwurf prüfen.** Einzelbilder bei 0 s, 1 s, 3 s und an jedem Schnitt ansehen: kein schwarzes Bild, keine Sprünge, Untertitel synchron und nicht verdeckt. Dann final rendern (MP4, H.264, 1080×1920).
+11. **Entwurf prüfen** nach `grundlagen/video-schnitt.md`, Abschnitt 6 (max. 3 Runden). Einzelbilder bei 0 s, 1 s, 3 s, an jedem Schnitt und an jedem Beat ansehen: kein schwarzes Bild, keine Sprünge, Untertitel synchron und nicht verdeckt. Dann final rendern (MP4, H.264, 1080×1920).
 12. **Cover und Caption.**
     - **Cover:** Frame oder eigenes Bild mit der Hauptfrage als Text. Text mittig halten, weil das Profilraster das Cover beschneidet.
     - **Caption:** 1–2 Sätze mit Keywords, nach denen die Zielgruppe sucht, dann CTA und 3–5 Hashtags.
@@ -116,7 +118,10 @@ Einrichtung und Keys: `grundlagen/einrichtung.md`. Fehlt das HyperFrames-Kit, in
     - [ ] Mindestens alle 3 Sekunden ändert sich etwas im Bild (Liste der Wechsel mit Timecodes).
     - [ ] Untertitel synchron (Stichproben an 3 Stellen), vollständig und nicht von Instagram-Bedienelementen verdeckt.
     - [ ] **A:** keine Aussage durch den Schnitt sinnentstellt, keine hörbaren Schnittkanten. **B:** Lippen synchron, Zustimmung liegt vor. **C:** kein Text, kein Logo, keine echte Person im KI-Material. Alle Wege: keine sichtbaren KI-Artefakte.
-    - [ ] Einheitlicher Look über alle Szenen.
+    - [ ] Einheitlicher Look über alle Szenen, passend zum Videostil (`marke/design.md`).
+    - [ ] Jede Regie-Notiz des Nutzers umgesetzt oder im Output begründet; Beats sitzen am geplanten Wort (Stichproben an 3 Beats).
+    - [ ] Weg A: Transkript auf Deutsch (lokal, kein `.en`-Modell); keine hörbaren Füllwörter oder abgeschnittenen Silben an Schnittstellen.
+    - [ ] Keine fremden Logos, Fotos oder Clips als Blickfang; Musik und Soundeffekte mit dokumentierter Lizenz (`grundlagen/deutschland.md`, Abschnitt 7).
     - [ ] 1080×1920, 15–30 s (Abweichung begründet), Ton ohne Knacken oder Übersteuerung.
     - [ ] Kosten im Budget aus `marke/regeln.md`.
     - [ ] KI-Kennzeichnung vermerkt: Avatar, Stimmklon, KI-Stimme oder realistische KI-Szenen → kennzeichnen (Instagram: „KI-Info“-Label beim Hochladen). Bei B immer.
@@ -151,6 +156,8 @@ Beim Hochladen:
 Warum dieses Thema jetzt: <Anlass bzw. Beleg>
 Muster-Vorlage: <Referenz + übernommenes Prinzip / „keine“>
 Skript: <Skript mit Timecodes>
+Beat-Plan: <Liste nach grundlagen/video-schnitt.md, Abschnitt 2; nicht umgesetzte Regie-Notizen mit Grund>
+Musik/Soundeffekte: <keine / Quelle + Lizenz>
 Alternative Openings: <die 2 anderen aus Schritt 6>
 Quality Check: <bestanden in Runde X / offen: Kriterium + Grund>
 

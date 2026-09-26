@@ -2,6 +2,31 @@
 
 ## Notizen (manuell)
 
+### 2026-09-26 (2) — Videoschnitt nach Nate Herks Video „Opus 5.5 Just Changed Video Editing Forever“ (Branch claude/nifty-cray-ipu2s4)
+
+**Stand:** Jan hat das Transkript des Videos geschickt (US-Kontext). Abgleich mit Reel, YouTube, Verkaufsvideo und Podcast: Nates fünf Schritte (transkribieren, schneiden, Beats planen, Skills pflegen, selbst prüfen) waren größtenteils schon drin, weil die Prozesse sein `hyperframes-student-kit` nutzen. Fünf Lücken geschlossen. **Noch nicht nach `main` gemergt** (Jans Freigabe offen), Vorschau nicht neu veröffentlicht, nicht mit Hermes erprobt.
+
+**Neu:** `grundlagen/video-schnitt.md` mit Abschnitt 1 Transkription lokal auf Deutsch, 2 Beat-Plan mit Regie-Notizen, 3 Kit-Skill-Zuordnung, 4 Videostil aus Vorbild, 5 Material und Ton, 6 Selbstprüfung (max. 3 Runden, Ton des Entwurfs neu transkribieren und vergleichen).
+
+**Geändert:**
+- `grundlagen/deutschland.md`: neuer Abschnitt 7 (fremde Marken, Logos, Fotos, Screenshots, Musik; § 23 MarkenG, §§ 51, 72 UrhG, § 22 KUG); Abschnitt 5: Stimmen Dritter lokal transkribieren.
+- `grundlagen/einrichtung.md`: Kit vor jedem Videoauftrag `git pull`, neue Skills, Whisper-Hinweise, `video-use` nur Ausweichlösung (schickt Audio an ElevenLabs).
+- `marke/design.md`: neuer Abschnitt „Videostil“ (leere Felder).
+- Reel v4, YouTube v3, Verkaufsvideo v2, Podcast v2: Verweise, Input „Regie-Notizen“, Beat-Plan, Prüfpunkte, Output-Zeilen. Keine Schritte eingefügt, Nummern unverändert.
+
+**Wichtigster Befund:** Laut Kit-Doku **übersetzen** Whisper-Modelle mit `.en` deutsche Sprache ins Englische; `small.en` ist der Standard in den Kit-Beispielen, `edit-video` nutzt standardmäßig ElevenLabs. Beides ist jetzt übersteuert (`--model medium --language de`).
+
+**Verworfen:** „One-Shot“ als Anspruch (Nate räumt selbst Nacharbeit ein; das Video ist auch Werbung für seine Community); US-Tempo und Show-Effekte als Regel; Event-Recap und Showreel als eigene Prozesse; fremde Logos und Produktbilder als Blickfang (in DE riskant); Kie.ai als Werkzeug (Higgsfield bleibt).
+
+**Landminen:**
+- Kit-Skills ändern sich laufend (Stand Kit-Commit vom 25. 9. 2026). Abschnitt 3 nennt deshalb einen Ausweg („nächstliegenden Skill nehmen und vermerken“).
+- `DESIGN.ais-example.md` und `assets/AIS …` im Kit sind Nates Marke; Abschnitt 3 verbietet sie.
+- Whisper-Qualität auf Deutsch (Füllwörter werden oft weggelassen) nicht getestet; ElevenLabs Scribe bleibt als Ausweichlösung nur für Aufnahmen, auf denen nur Jan spricht.
+- Abschnitt 7 in `deutschland.md` ist Einordnung, keine Rechtsberatung; Logo-Nutzung ist der unsicherste Punkt.
+- In dieser Session hat der Berechtigungsfilter Änderungen an `prozesse/` und `marke/` zunächst blockiert (vermutlich wegen der Regel „Ändere dieses Repo nicht“ in `AGENTS.md`, die für Hermes gilt). Nach Jans ausdrücklicher Wiederholung ging es.
+
+**Nächster Schritt:** unverändert: Hermes „Positionierung“ geben. Für Video: beim ersten Reel Weg A prüfen, ob Whisper `medium` für Jans Aufnahmen reicht, und ein Vorbild-Video für den Videostil schicken.
+
 ### 2026-09-26 — Deutschland-Anpassung, US-Modus, Dan-Koe-Methoden, zwei neue Prozesse (main · 10ddc59)
 
 **Stand:** 22 Prozesse fertig. `main` und `claude/stoic-albattani-syybqn` sind gleich (Fast-Forward). Drei Arbeitspakete an einem Tag:

@@ -4,7 +4,7 @@ kategorie: Video & Audio
 icon: mic
 beschreibung: Sprechfertige Episode: Skript oder Interview-Leitfaden, Vertonung (eigene Stimme oder Stimmklon), Shownotes, Clips.
 status: fertig
-version: 1
+version: 2
 reihenfolge: 51
 stichworte: Podcast, Podcast-Folge, Episode, Audio, Vertonung, Stimmklon, Interview, Shownotes, Video-Podcast
 ---
@@ -29,14 +29,15 @@ Was die Daten sagen:
   - Stimmen **anderer Personen** (Gäste, Prominente) werden **nie** geklont.
 - **Interview:** Name und Hintergrund des Gastes, Aufnahme (Datei) nach dem Gespräch.
 - **Veröffentlichung:** Podcast-Hoster (RSS, z. B. für Spotify/Apple) und YouTube-Kanal, falls vorhanden (aus `marke/regeln.md`).
-- Aus dem Repo, immer lesen: alle Dateien in `marke/`
+- Aus dem Repo, immer lesen: alle Dateien in `marke/`, `grundlagen/video-schnitt.md`
 - Aus deinem Gedächtnis: gespeicherte Regeln, bisherige Episoden (Themen, Gäste, Zahlen).
 - **Optional, nur wenn der Nutzer es anspricht** (z. B. „interview mich dazu“, „nur Gliederung, ich schreibe selbst“): erst Interview und Gliederung nach `grundlagen/langform-interview.md` (nur Solo-Episoden), dann an der dort genannten Stelle weiter. Nicht von dir aus anbieten; ohne diesen Wunsch läuft der Prozess wie unten beschrieben.
 
 ## Werkzeuge
 
-- ElevenLabs (Stimmklon, Vertonung, Transkription mit Zeitstempeln)
-- HyperFrames-Kit (Video-Version mit Grafiken/Untertiteln, Clips mit `short-form-edit`), `video-use` (Schnitt von Aufnahmen)
+- ElevenLabs (Stimmklon, Vertonung)
+- Transkription lokal mit Whisper über das HyperFrames-Kit (`grundlagen/video-schnitt.md`, Abschnitt 1), bei Gästen immer lokal
+- HyperFrames-Kit (Schnitt mit `cut-silences`/`cut-mistakes`, Video-Version mit Grafiken/Untertiteln, Clips mit `short-form-edit`); `video-use` nur als Ausweichlösung
 - ffmpeg (Audio-Pegel, Formate)
 - Einrichtung und Keys: `grundlagen/einrichtung.md`. Fehlende kostenlose Werkzeuge selbst installieren.
 
@@ -56,10 +57,10 @@ Was die Daten sagen:
    - **Interview:** Recherche zum Gast (bisherige Auftritte, damit nicht dieselben Fragen kommen). Leitfaden: Einstieg mit der spannendsten Geschichte des Gastes statt Lebenslauf, dann 8–12 offene Fragen mit Nachfragen nach **konkreten Beispielen** („Wie genau …?“, „Was ist dann passiert?“), zum Schluss: Was sollen die Hörer als Erstes tun? Wo findet man den Gast?
 6. **Vertonung bzw. Aufnahme.**
    - **Einwilligung:** Den Gast vor der Aufnahme um Einwilligung in Aufnahme, Transkription und Veröffentlichung bitten und das dokumentieren (§ 201 StGB, DSGVO; `grundlagen/deutschland.md`, Abschnitt 5). Gesponserte Teile als „Werbung“ ansagen und in den Shownotes kennzeichnen (Abschnitt 4).
-   - **A / Interview:** Aufnahmetipps an den Nutzer (ruhiger Raum, Mikrofon nah, möglichst Video mitaufnehmen, bei Remote-Interviews jede Seite einzeln aufnehmen lassen). Danach Aufnahme schneiden (`video-use` bzw. `cut-silences`, `cut-mistakes`): Versprecher, lange Pausen, Störungen raus; **Aussagen des Gastes nicht sinnentstellend kürzen**.
+   - **A / Interview:** Aufnahmetipps an den Nutzer (ruhiger Raum, Mikrofon nah, möglichst Video mitaufnehmen, bei Remote-Interviews jede Seite einzeln aufnehmen lassen). Danach lokal transkribieren (`grundlagen/video-schnitt.md`, Abschnitt 1; Stimme des Gastes nie ohne AVV an einen Cloud-Dienst) und schneiden (`cut-silences`, `cut-mistakes`): Versprecher, lange Pausen, Störungen raus; **Aussagen des Gastes nicht sinnentstellend kürzen**.
    - **B (Stimmklon):** Skript mit dem Klon des Nutzers vertonen, abschnittsweise. Jeden Abschnitt anhören bzw. transkribieren und mit dem Skript abgleichen (falsche Betonung, verschluckte Wörter → neu erzeugen).
    - **Ton:** gleichmäßige Lautstärke (Richtwert ca. −16 LUFS für Podcasts), keine Übersteuerung, kurze Intro-/Outro-Musik nur lizenzfrei.
-7. **Video-Version** (wenn möglich). Bei Aufnahme mit Kamera: Video schneiden. Ohne Kamera: HyperFrames-Video mit Titel, Kapitelanzeigen, Kernaussagen als Text und Untertiteln (16:9). Ein Standbild für die ganze Folge funktioniert auf YouTube schlecht.
+7. **Video-Version** (wenn möglich). Bei Aufnahme mit Kamera: Video schneiden. Ohne Kamera: HyperFrames-Video mit Titel, Kapitelanzeigen, Kernaussagen als Text und Untertiteln (16:9). Ein Standbild für die ganze Folge funktioniert auf YouTube schlecht. Grafiken, Stil und Prüfung nach `grundlagen/video-schnitt.md`, Abschnitte 2–6.
 8. **Shownotes und Kapitel.**
    - **Shownotes:** 2–3 Sätze, worum es geht und was man mitnimmt (die ersten Zeilen werden in den Apps angezeigt). Danach Stichpunkte der Themen, erwähnte Links und Quellen, Links zum Gast, CTA.
    - **Kapitel** mit Zeitmarken (für Podcast-Apps und YouTube; YouTube: erste Marke 0:00, mind. 3 Kapitel, je ≥ 10 Sek.).
@@ -73,7 +74,7 @@ Was die Daten sagen:
     - [ ] Der Satz aus Schritt 3 ist nach dem Hören erfüllt; ein CTA.
     - [ ] Stimmklon nur mit dokumentierter Zustimmung und nur die Stimme des Nutzers; keine anderen Stimmen geklont.
     - [ ] Vertonung B: Audio mit Skript abgeglichen, keine falschen Wörter oder Betonungsfehler; Kennzeichnung vorhanden.
-    - [ ] Interview: Aussagen des Gastes im Sinn unverändert.
+    - [ ] Interview: Aussagen des Gastes im Sinn unverändert; Aufnahme lokal auf Deutsch transkribiert (kein `.en`-Modell) bzw. AVV liegt vor.
     - [ ] Ton gleichmäßig (ca. −16 LUFS), keine Übersteuerung, Musik lizenzfrei.
     - [ ] Titel ≤ ca. 60 Zeichen (per Skript gezählt); Shownotes mit Kernaussage in den ersten Zeilen; Kapitel korrekt.
     - [ ] Video-Version vorhanden (oder begründet, warum nicht); 3–5 Clips mit eigenem Hook.

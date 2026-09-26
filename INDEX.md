@@ -14,7 +14,7 @@
 |---|---|---|---|
 | [Social-Media-Post](prozesse/social-media-post.md) | Einzelpost für Instagram oder LinkedIn: Hook, ein Gedanke, CTA. | Instagram-Post, LinkedIn-Post, Posting, Caption, Textpost, Bildpost | fertig v3 |
 | [Karussell-Post](prozesse/karussell-post.md) | Mehrseitiges Karussell für Instagram und LinkedIn (PDF): Hook, zweiter Hook, Mehrwert, CTA. | Carousel, Slides, Swipe-Post, Dokument-Post, PDF-Post, LinkedIn-Karussell | fertig v3 |
-| [Reel / Kurzvideo](prozesse/reel-kurzvideo.md) | Instagram-Reel aus eigener Aufnahme, Avatar des Nutzers oder komplett KI-produziert, recycelbar für TikTok. | Reel, Instagram Reel, TikTok, Short, Kurzvideo, Kurzvideo-Skript, Faceless Reel, Talking Head, KI-Avatar, Avatar-Video | fertig v3 |
+| [Reel / Kurzvideo](prozesse/reel-kurzvideo.md) | Instagram-Reel aus eigener Aufnahme, Avatar des Nutzers oder komplett KI-produziert, recycelbar für TikTok. | Reel, Instagram Reel, TikTok, Short, Kurzvideo, Kurzvideo-Skript, Faceless Reel, Talking Head, KI-Avatar, Avatar-Video | fertig v4 |
 
 ## Text & Copy
 
@@ -39,14 +39,14 @@
 |---|---|---|---|
 | [Ad-Texte (Meta/Google)](prozesse/ad-texte.md) | Anzeigentexte für Meta (Facebook/Instagram) und Google-Suchanzeigen: verschiedene Ansätze, richtlinienkonform, mit Zeichenlimits. | Anzeige, Meta Ads, Facebook Ads, Instagram Ads, Google Ads, Suchanzeige, Werbetext, Anzeigentext, Ad Copy, RSA | fertig v1 |
 | [Ad-Creative (Bild)](prozesse/ad-creative-bild.md) | Werbebilder für Meta-Anzeigen: ein eigenes Bildkonzept pro Ansatz, in allen Formaten, sicher lesbar. | Werbebild, Creative, Anzeigenbild, Banner, Static Ad, Bildanzeige, Ad-Grafik, Meta Creative | fertig v1 |
-| [Verkaufsvideo](prozesse/verkaufsvideo.md) | Skript und Produktion für Pitch-Video (VSL), kurzes Verkaufsvideo für Ads oder Testimonial-Schnitt. | VSL, Video Sales Letter, Pitch-Video, Verkaufsvideo, Testimonial-Video, Kundenstimme, Sales Video, Video-Anzeige | fertig v1 |
+| [Verkaufsvideo](prozesse/verkaufsvideo.md) | Skript und Produktion für Pitch-Video (VSL), kurzes Verkaufsvideo für Ads oder Testimonial-Schnitt. | VSL, Video Sales Letter, Pitch-Video, Verkaufsvideo, Testimonial-Video, Kundenstimme, Sales Video, Video-Anzeige | fertig v2 |
 
 ## Video & Audio
 
 | Prozess | Wofür | Stichworte | Status |
 |---|---|---|---|
-| [YouTube-Video](prozesse/youtube-video.md) | Vollständige Produktion eines YouTube-Videos: Titel und Thumbnail zuerst, Skript, Schnitt, Beschreibung, Kapitel, Shorts. | YouTube, YouTube-Video, Thumbnail, Video-Skript, Long-Form, YouTube-Titel, Kapitel, Tutorial-Video | fertig v2 |
-| [Podcast-Episode](prozesse/podcast-episode.md) | Sprechfertige Episode: Skript oder Interview-Leitfaden, Vertonung (eigene Stimme oder Stimmklon), Shownotes, Clips. | Podcast, Podcast-Folge, Episode, Audio, Vertonung, Stimmklon, Interview, Shownotes, Video-Podcast | fertig v1 |
+| [YouTube-Video](prozesse/youtube-video.md) | Vollständige Produktion eines YouTube-Videos: Titel und Thumbnail zuerst, Skript, Schnitt, Beschreibung, Kapitel, Shorts. | YouTube, YouTube-Video, Thumbnail, Video-Skript, Long-Form, YouTube-Titel, Kapitel, Tutorial-Video | fertig v3 |
+| [Podcast-Episode](prozesse/podcast-episode.md) | Sprechfertige Episode: Skript oder Interview-Leitfaden, Vertonung (eigene Stimme oder Stimmklon), Shownotes, Clips. | Podcast, Podcast-Folge, Episode, Audio, Vertonung, Stimmklon, Interview, Shownotes, Video-Podcast | fertig v2 |
 
 ## Strategie & Recherche
 

@@ -4,7 +4,7 @@ kategorie: Werbung
 icon: video
 beschreibung: Skript und Produktion für Pitch-Video (VSL), kurzes Verkaufsvideo für Ads oder Testimonial-Schnitt.
 status: fertig
-version: 1
+version: 2
 reihenfolge: 42
 stichworte: VSL, Video Sales Letter, Pitch-Video, Verkaufsvideo, Testimonial-Video, Kundenstimme, Sales Video, Video-Anzeige
 ---
@@ -29,7 +29,8 @@ Zur Länge: Laut einer Vidyard-Auswertung von 850 B2B-Verkaufsvideos (2025) hatt
 - **Beweise:** echte Ergebnisse, Kundenstimmen, Zahlen.
 - **Testimonial:** die Rohaufnahmen des Kunden **und** seine Einwilligung zur Nutzung in Werbung.
 - **Stimme:** neutrale KI-Stimme, Stimmklon des **Nutzers selbst** (nur mit seiner ausdrücklichen Zustimmung) oder eigene Aufnahme.
-- Aus dem Repo, immer lesen: alle Dateien in `marke/`
+- **Regie-Notizen (optional):** was an welcher Stelle erscheinen soll (`grundlagen/video-schnitt.md`, Abschnitt 2).
+- Aus dem Repo, immer lesen: alle Dateien in `marke/`, `grundlagen/video-schnitt.md`
 - Aus deinem Gedächtnis: gespeicherte Regeln zu diesem Prozess.
 
 ## Werkzeuge
@@ -37,7 +38,7 @@ Zur Länge: Laut einer Vidyard-Auswertung von 850 B2B-Verkaufsvideos (2025) hatt
 - Copy: `prozesse/copywriting.md` (Schritte 3–9)
 - HyperFrames-Kit (animierte Texte, Grafiken, Untertitel, Rendern). Skill `edit-video` für längere Videos, `short-form-edit` für kurze.
 - ElevenLabs (Stimme), Higgsfield (B-Roll-Szenen, sparsam)
-- Für Testimonials aus Rohmaterial: HyperFrames-Kit (`cut-silences`, `cut-mistakes`) oder `video-use` (`https://github.com/browser-use/video-use`)
+- Für Aufnahmen und Testimonials: lokale Transkription mit Whisper (`grundlagen/video-schnitt.md`, Abschnitt 1), dann HyperFrames-Kit (`cut-silences`, `cut-mistakes`). `video-use` (`https://github.com/browser-use/video-use`) nur als Ausweichlösung und nie für Testimonials ohne AVV mit ElevenLabs (es schickt das Audio dorthin).
 - Einrichtung und Keys: `grundlagen/einrichtung.md`. Fehlende kostenlose Werkzeuge selbst installieren.
 
 ## Schritt-für-Schritt
@@ -63,10 +64,11 @@ Zur Länge: Laut einer Vidyard-Auswertung von 850 B2B-Verkaufsvideos (2025) hatt
 5. **Skript prüfen, bevor produziert wird.** Laut lesen (Startwert 120–140 gesprochene Wörter pro Minute bzw. gemessenes Tempo, `grundlagen/deutschland.md`, Abschnitt 1): Stimmt die Länge? Gibt es Stellen ohne neuen Gedanken (kürzen)? Kommt das Angebot vor dem Punkt, an dem die meisten abspringen (bei langen Videos: Angebot spätestens angedeutet, bevor die Hälfte erreicht ist)?
 6. **Produktion.**
    - **Pitch/VSL ohne Aufnahme:** Stimme erzeugen (ElevenLabs), Wort-Zeitstempel holen. In HyperFrames: Kernsätze als animierte Texte, Zahlen und Abläufe als Grafiken, Untertitel. B-Roll über Higgsfield nur, wo ein Bild die Aussage wirklich trägt (Budget aus `marke/regeln.md`). Format nach Einsatzort: 16:9 für Verkaufsseite, 9:16 oder 4:5 für Anzeigen.
-   - **Mit Aufnahme des Nutzers:** Ihm das Skript und Aufnahmetipps schicken (ruhiger Ort, Licht von vorne, Handy quer für 16:9). Danach schneiden mit `edit-video` bzw. `video-use`: Pausen und Versprecher raus, Grafiken und Untertitel rein.
+   - **Mit Aufnahme des Nutzers:** Ihm das Skript und Aufnahmetipps schicken (ruhiger Ort, Licht von vorne, Handy quer für 16:9). Danach lokal transkribieren (`grundlagen/video-schnitt.md`, Abschnitt 1) und schneiden mit `edit-video`: Pausen und Versprecher raus, Grafiken und Untertitel rein.
    - **Kurzes Verkaufsvideo:** nach `prozesse/reel-kurzvideo.md`, Schritte 5–10.
-   - **Testimonial:** Rohmaterial schneiden (`cut-silences`, `cut-mistakes`), Untertitel, Namenseinblendung.
-7. **Entwurf prüfen.** Einzelbilder am Anfang, an jedem Phasenwechsel und am CTA ansehen; Ton durchhören lassen, falls möglich. Untertitel synchron und vollständig? Keine Artefakte in KI-Material?
+   - **Testimonial:** Rohmaterial **lokal** transkribieren (Stimme eines Dritten, `grundlagen/video-schnitt.md`, Abschnitt 1), schneiden (`cut-silences`, `cut-mistakes`), Untertitel, Namenseinblendung.
+   - **Alle Typen:** Grafiken nach Beat-Plan (`grundlagen/video-schnitt.md`, Abschnitt 2; Regie-Notizen haben Vorrang), Stil nach Abschnitt 4, Material und Ton nach Abschnitt 5. In Werbung besonders wichtig: keine fremden Logos oder Produktbilder als Blickfang (`grundlagen/deutschland.md`, Abschnitt 7).
+7. **Entwurf prüfen** nach `grundlagen/video-schnitt.md`, Abschnitt 6 (max. 3 Runden). Einzelbilder am Anfang, an jedem Phasenwechsel, an Beats und am CTA ansehen; Ton über ein neues Transkript des Entwurfs gegenprüfen. Untertitel synchron und vollständig? Keine Artefakte in KI-Material?
 8. **Final rendern** (MP4, H.264). Bei VSL zusätzlich ein Vorschaubild (Thumbnail) mit dem Versprechen als Text.
 9. **Quality Check (Loop).** Vorgehen: `grundlagen/qualitaet-und-lernen.md`. Geprüft wird das **fertige Video**:
    - [ ] Die ersten 30 Sek. (VSL) bzw. 3 Sek. (kurz) machen klar, für wen das Video ist und warum man weiterschauen sollte.
@@ -79,6 +81,8 @@ Zur Länge: Laut einer Vidyard-Auswertung von 850 B2B-Verkaufsvideos (2025) hatt
    - [ ] Keine KI-Person, die als Kunde oder als echter Mensch auftritt; KI-Stimme/KI-Szenen zur Kennzeichnung markiert.
    - [ ] Länge passt zu Typ und Preis (Begründung); keine Passage ohne neuen Gedanken.
    - [ ] Untertitel synchron und vollständig; Format passt zum Einsatzort.
+   - [ ] Aufnahmen und Testimonials lokal auf Deutsch transkribiert (kein `.en`-Modell) bzw. AVV liegt vor; Regie-Notizen umgesetzt oder begründet.
+   - [ ] Keine fremden Logos, Fotos oder Clips als Blickfang; Musik und Soundeffekte mit dokumentierter Lizenz (`grundlagen/deutschland.md`, Abschnitt 7).
    - [ ] Die Copy-Kriterien aus `prozesse/copywriting.md` (Schritt 10) sind erfüllt.
    - [ ] Harte Kriterien aus `grundlagen/qualitaet-und-lernen.md` erfüllt.
 10. **Foundation-Agent.** Vorgehen: `grundlagen/qualitaet-und-lernen.md`. Zusätzlich: Liefert der Nutzer Zuschauerdaten (Absprungkurve), die Stelle mit dem größten Abbruch benennen und als Prozess-Vorschlag oder Skript-Änderung melden.
@@ -98,6 +102,7 @@ Skript: <Skript mit Phasen und Zeitmarken>
 Diagnose: Verlangen <…> | Bewusstsein <Stufe> | Marktreife <Stufe>
 
 KI-Kennzeichnung nötig: <ja/nein, warum>
+Musik/Soundeffekte: <keine / Quelle + Lizenz>
 Offene Punkte: <z. B. echte Kundenstimme fehlt, Garantie unklar>
 Quality Check: <bestanden in Runde X / offen: Kriterium + Grund>
 ```

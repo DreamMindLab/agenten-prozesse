@@ -4,7 +4,7 @@ kategorie: Video & Audio
 icon: play
 beschreibung: Vollständige Produktion eines YouTube-Videos: Titel und Thumbnail zuerst, Skript, Schnitt, Beschreibung, Kapitel, Shorts.
 status: fertig
-version: 2
+version: 3
 reihenfolge: 50
 stichworte: YouTube, YouTube-Video, Thumbnail, Video-Skript, Long-Form, YouTube-Titel, Kapitel, Tutorial-Video
 ---
@@ -25,14 +25,16 @@ Worauf es ankommt:
 - **Produktionsweg:** Nutzer nimmt selbst auf (Pfad A) oder Video ohne Gesicht mit KI-Stimme, Bildschirmaufnahmen und Grafiken (Pfad B).
 - **Eigenes Material:** Beispiele, Kundenfälle, Bildschirmaufnahmen, Meinung. Ohne eigenes Material wird das Video austauschbar.
 - **Kanal:** Zugang zum YouTube-Studio (für Entwurf-Upload) oder Lieferung als Dateien.
-- Aus dem Repo, immer lesen: alle Dateien in `marke/`, `grundlagen/themen-und-verstaendlichkeit.md`
+- **Regie-Notizen (optional):** was an welcher Stelle erscheinen soll (`grundlagen/video-schnitt.md`, Abschnitt 2).
+- Aus dem Repo, immer lesen: alle Dateien in `marke/`, `grundlagen/themen-und-verstaendlichkeit.md`, `grundlagen/video-schnitt.md`
 - Aus deinem Gedächtnis: gespeicherte Regeln, bisherige Videos mit CTR, AVD, AVP.
 - **Optional, nur wenn der Nutzer es anspricht** (z. B. „interview mich dazu“, „nur Gliederung, ich schreibe selbst“): erst Interview und Gliederung nach `grundlagen/langform-interview.md`, dann an der dort genannten Stelle weiter. Nicht von dir aus anbieten; ohne diesen Wunsch läuft der Prozess wie unten beschrieben.
 
 ## Werkzeuge
 
-- HyperFrames-Kit: `edit-video` (lange Videos), `short-form-edit` (Shorts), Motion Graphics, Untertitel
-- `video-use` (Schnitt von Aufnahmen), ElevenLabs (Stimme, Pfad B), Higgsfield (B-Roll, sparsam)
+- HyperFrames-Kit: `edit-video` (lange Videos), `hyperframes-video-beats` und `video-storytelling` (Grafik-Beats), `short-form-edit` (Shorts), Untertitel; Zuordnung in `grundlagen/video-schnitt.md`, Abschnitt 3
+- Lokale Transkription mit Whisper (Pfad A, `grundlagen/video-schnitt.md`, Abschnitt 1); `video-use` nur als Ausweichlösung
+- ElevenLabs (Stimme, Pfad B), Higgsfield (B-Roll, sparsam)
 - Playwright + Chromium (Thumbnails als HTML/CSS → PNG)
 - Einrichtung und Keys: `grundlagen/einrichtung.md`. Fehlende kostenlose Werkzeuge selbst installieren.
 
@@ -56,10 +58,11 @@ Worauf es ankommt:
    - Länge: so lang, wie der Inhalt trägt. Orientierung an den erfolgreichen Videos zum Thema (Schritt 2).
    - **Verständlichkeits-Check** nach Baustein 4 (Langformat), bevor das Skript an den Nutzer geht bzw. vertont wird: Persona-Test, Fachbegriffe beim ersten Auftreten erklärt, jeder abstrakte Punkt mit Beispiel.
 5. **Produktion.**
-   - **Pfad A (Nutzer nimmt auf):** Skript und Aufnahmetipps schicken (ruhiger Raum, Licht von vorne, Ansteckmikrofon, Kamera auf Augenhöhe, 16:9). Danach schneiden mit `edit-video` bzw. `video-use`: Pausen und Versprecher raus, Bildschirmaufnahmen und Grafiken einbauen.
+   - **Pfad A (Nutzer nimmt auf):** Skript und Aufnahmetipps schicken (ruhiger Raum, Licht von vorne, Ansteckmikrofon, Kamera auf Augenhöhe, 16:9). Danach lokal transkribieren (`grundlagen/video-schnitt.md`, Abschnitt 1) und schneiden mit `edit-video`: Pausen und Versprecher raus, Bildschirmaufnahmen und Grafiken einbauen.
    - **Pfad B (ohne Gesicht):** Stimme mit ElevenLabs, Wort-Zeitstempel. Bildschirmaufnahmen, animierte Grafiken und Texte in HyperFrames; B-Roll über Higgsfield nur wo nötig (Budget aus `marke/regeln.md`).
+   - **Beat-Plan** vor dem Einbau der Grafiken (`grundlagen/video-schnitt.md`, Abschnitt 2; Regie-Notizen des Nutzers haben Vorrang), Stil nach Abschnitt 4, Material und Ton nach Abschnitt 5.
    - Alle 16:9, 1920×1080 oder höher. Untertitel aus dem Skript/Transkript.
-   - Entwurf rendern, Einzelbilder am Anfang, an jedem Kapitelwechsel und am Ende prüfen, dann final rendern.
+   - Entwurf rendern und selbst prüfen nach `grundlagen/video-schnitt.md`, Abschnitt 6 (Einzelbilder am Anfang, an jedem Kapitelwechsel, an Beats und am Ende; max. 3 Runden), dann final rendern.
 6. **Thumbnails bauen.** Die 3 Konzepte als HTML/CSS → PNG (1280×720), Foto/Screenshot einsetzen. Auf ca. 160 px verkleinert prüfen: lesbar, eindeutig?
 7. **Beschreibung, Kapitel, Untertitel.**
    - **Beschreibung:** Die ersten 1–2 Sätze sind im Suchergebnis sichtbar: worum es geht und was man mitnimmt, mit dem Hauptbegriff. Danach kurze Zusammenfassung, Links (Angebot, Lead-Magnet, erwähnte Quellen), ggf. Hinweis auf bezahlte Partnerschaften.
@@ -81,6 +84,8 @@ Worauf es ankommt:
     - [ ] Eigenes Material ist eingebaut (Stellen nennen).
     - [ ] Kapitel ab 0:00, mindestens 3, je ≥ 10 Sek.; Beschreibung mit Kernaussage in den ersten 2 Sätzen.
     - [ ] Untertitel korrekt und synchron; Ton sauber.
+    - [ ] Regie-Notizen umgesetzt oder im Output begründet; Pfad A: Transkript auf Deutsch (lokal, kein `.en`-Modell).
+    - [ ] Keine fremden Logos, Fotos oder Clips als Blickfang; fremde Screenshots nur als Zitat mit Quelle; Musik und Soundeffekte mit dokumentierter Lizenz (`grundlagen/deutschland.md`, Abschnitt 7).
     - [ ] 3–5 Shorts mit eigenem Hook, verknüpft mit dem Video.
     - [ ] Keine KI-Person, die als echter Mensch auftritt; Kennzeichnung korrekt gesetzt bzw. vermerkt.
     - [ ] Als privat/Entwurf hochgeladen oder als Dateien geliefert, **nicht veröffentlicht**.
@@ -104,6 +109,8 @@ Beschreibung:
 <Text inkl. Kapitel>
 
 Untertitel: <SRT im Anhang>
+Beat-Plan: <Datei im Anhang; nicht umgesetzte Regie-Notizen mit Grund>
+Musik/Soundeffekte: <keine / Quelle + Lizenz>
 Test & Compare: <vorbereitet / manuell einrichten>
 Kennzeichnung synthetischer Inhalte: <ja/nein, warum>
 Quality Check: <bestanden in Runde X / offen: Kriterium + Grund>

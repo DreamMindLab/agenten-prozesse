@@ -57,7 +57,7 @@ Das Kit wird laufend erweitert. Vor jedem Videoauftrag im Kit-Ordner `git pull` 
 
 ## Abschnitt 4: Videostil aus einem Vorbild
 
-Damit der Nutzer seine Wünsche nicht bei jedem Video wiederholt, steht sein Videostil in `marke/design.md`, Abschnitt **„Videostil“**. Er gilt für alle Videos. Fehlt der Abschnitt noch, schickst du ihn beim ersten Mal komplett zum Einfügen, mit diesen Zeilen: Tempo, Bewegung und Übergänge, Grafik-Karten (Stil aus `style-library` oder eigener), Untertitel (Schrift, Größe, Hervorhebung), Soundeffekte (keine / wenige / viele), Musik, Gestaltungsfreiheit (nur Beat-Plan / kleine Ergänzungen / frei), Vorbild-Videos, Nicht verwenden.
+Damit der Nutzer seine Wünsche nicht bei jedem Video wiederholt, steht sein Videostil in `marke/design.md`, Abschnitt **„Videostil“**. Er gilt für alle Videos. „Leer“ heißt hier: Die Zeilen im Abschnitt sind nicht ausgefüllt.
 
 - **Leer und der Nutzer schickt ein Vorbild-Video** (auch aus einer anderen Branche): Vorbild ansehen (Einzelbilder alle 1–2 Sekunden, Transkript) und aufschreiben, **warum** es wirkt: Tempo (Wechsel pro Sekunde), Bewegung (Zooms, Kamerafahrten), Übergänge, Grafik-Karten, Schrift und Untertitel, Soundeffekte, Musik, wie viel Bild der Sprecher bekommt. Daraus einen fertigen Text für den Abschnitt „Videostil“ formulieren, in den Farben und Schriften des Nutzers (nicht des Vorbilds), und ihn schicken: „Zum Einfügen in `marke/design.md`, Abschnitt Videostil.“ Du änderst das Repo nicht selbst. Übernommen wird nur das Prinzip, nie Material, Logos oder Musik des Vorbilds.
 - **Leer und kein Vorbild:** schlicht arbeiten (Markenfarben, ruhige Übergänge, gut lesbare Untertitel) und im Output einmal den Tipp geben, ein Vorbild zu schicken.
